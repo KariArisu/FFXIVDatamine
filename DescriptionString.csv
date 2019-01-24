@@ -35,7 +35,7 @@ int32,str
 31,"Doman mahjong is a game for four players. The following guide covers the basic rules."
 32,"2. What is Doman Mahjong?"
 33,"In Doman mahjong, players <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>race to complete a winning hand of 14 tiles, with points awarded for speed and difficulty of the hand<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Players begin with 13 tiles and draw a new tile each turn. They must then choose a tile to discard; either the new tile or one of the tiles in their hand. The player to the right then takes a turn, and the process is repeated until the end of the hand.
+Players begin with 13 tiles and draw a new tile each turn. They must then choose a tile to discard: either the new tile or one of the tiles in their hand. The player to the right then takes a turn, and the process is repeated until the end of the hand.
 
 The first player to complete a winning hand is awarded points. A total of eight hands are played, and the player who finishes with the most points is declared the winner.
 Here is an example of a winning hand:"
@@ -133,7 +133,7 @@ Only number tiles from one suit."
 "
 68,"9. Riichi Yaku"
 69,"A special condition known as “riichi” makes it easier to form a yaku."
-70,"The hand in the diagram only requires a 3 or a 6 to form a winning hand.
+70,"The hand in the diagram only requiresa 3 or a 6 of Dots to form a winning hand.
 When a player is one tile away from a winning hand, riichi may be declared."
 71,"When the hand is ready for declaring riichi, the player will have the option to do so before discarding a tile. In the case shown in the diagram, if the declaring player receives a 3 or a 6, whether the tile is drawn by the player or discarded by another player, a winning hand can be called.
 After declaring riichi, that player can no longer put drawn tiles into their hand. Any tiles drawn will automatically be discarded until a tile that completes the winning hand is obtained. However, a winning hand achieved through riichi is a yaku in itself. Therefore, the player does not need to have formed any other yaku to complete a winning hand."
@@ -168,8 +168,7 @@ If you have a pair of matching tiles, when another player discards a tile that c
 Calling chi allows you to claim a number tile discarded by another player and complete a straight. However, it can only be called for the player whose turn comes before yours."
 83,"Although pon and chi allow you to form a winning hand more quickly, there are some drawbacks."
 84,"■ Drawback 1: Revealing Your Hand
-Using pon or chi to form a triplet will cause it to be revealed to the other players. In addition, you can no longer use those tiles for any other melds.
-This can lead to missing opportunities to form better hands as a result of having those tiles locked into a triplet."
+Using pon or chi to form a triplet or straight will cause it to be revealed to the other players. In addition, you can no longer use those tiles for any other melds.This can lead to missing opportunities to form better hands as a result of having those tiles locked into a triplet or straight."
 85,"■ Drawback 2: Preventing Riichi
 It is not possible to declare riichi after using pon or chi.
 Due to being unable to form a riichi yaku, you must find a way to form a different yaku. There are also certain yaku that can only be formed on the condition that you have not used pon or chi, so these will also become unavailable. In some cases, pon and chi will limit your ability to score points."
@@ -209,7 +208,7 @@ The higher your rank, the more points are lost when finishing 4th.
 Only players ranked 1st dan or higher can register. After registering as a solo player, you will be matched against other players.
 Ratings are affected as follows:
 　1st: +60 points　2nd: +15 points　3rd: No change
-　4th: -30pt
+　4th: -30 points
 The higher your rank, the more points are lost when finishing 4th.
 
 ■ Four-player Mahjong (Kuitan enabled)
@@ -228,14 +227,14 @@ You must form a party of four players to begin the match. Ratings and ranks are 
 "
 103,"■ Chat
 ・During a four-player mahjong game, you may chat to the other players.
-・Chat can be toggled on and off using the button in the lower-right of the screen. Turning chat off will prevent you from sending and receiving messages. On-screen icons indicate whether the other players are participating in the chat.
+・Chat can be toggled on and off using the button in the lower right of the screen. Turning chat off will prevent you from sending and receiving messages. On-screen icons indicate whether the other players are participating in the chat.
 "
 104,"■ Rating and Rank
 ・Matches played in “Novice Mahjong (Ranked)” and “Advanced Mahjong (Ranked)” will affect your rating and rank.
 ・Your rating starts at 1,500, and will increase or decrease according to your finishing position in each match.
 ・Although you cannot be demoted while in the lower ranks, progressing to the higher ranks puts you at risk of demotion should you perform poorly.
 ・Ratings and ranks are calculated only according to the rating of your opponents and your finishing position in the game.
-(The number of points with which you end a game is taken into consideration.)
+(The number of points with which you end a game is not taken into consideration.)
 ・Your mahjong rating and rank can be viewed in the Gold Saucer menu, under Mahjong.
 "
 105,"■ Abandoning a Match
@@ -247,7 +246,7 @@ You must form a party of four players to begin the match. Ratings and ranks are 
 106,"Navigating the Screen"
 107,"Understanding the UI"
 108,"1. Shows the 13 tiles in your hand. When you draw a tile, it is shown as the 14th tile, to the right of your hand. When your turn comes, select a tile to discard it."
-109,"2. When you are in a position to call riichi, tsumo, ron, pon, chi, or kan, a prompt will appear. In the case of pon, chi, and kan, this prompt can be ignored.
+109,"2. When you are in a position to call riichi, tsumo, ron, pon, chi, or kan, a prompt will appear. In the case of pon, chi, and kan, this prompt can be hidden.
 To hide these prompts, set Display Calls to Off. However, this option defaults to On at the start of a new hand.
 
 "

@@ -7873,7 +7873,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 7869,"Aymeric",0,"Aymeric",0,0,1,0,1
 7870,"Kan-E-Senna",0,"Kan-E-Senna",0,0,1,0,1
 7871,"Schola centurion",0,"Schola centurions",0,0,1,0,0
-7872,"Schola lacquerius",0,"Schola laquearii",0,0,1,0,0
+7872,"Schola laquearius",0,"Schola laquearii",0,0,1,0,0
 7873,"Schola secutor",0,"Schola secutores",0,0,1,0,0
 7874,"Schola eques",0,"Schola equites",0,0,1,0,0
 7875,"Schola signifer",0,"Schola signiferi",0,0,1,0,0

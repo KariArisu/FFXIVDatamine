@@ -65,19 +65,21 @@ USAGE:
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>set ""blue mage action"" on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Set the specified blue mage
-　　action as an active action in
-　　the current set.
+　　Removes the specified blue
+　　mage action from the list
+　　of active actions in the
+　　current set.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow> set ""blue mage action"" off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Removes the specified blue mage
 　　action from the list of active
 　　actions in the current set.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>preset [active set 1-5]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Load the specified set of active
-　　actions.
+　　Load the specified set of
+　　active actions.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Remove all active actions from
-　　the current active action set.
+　　Remove all active actions
+　　from the current active
+　　action set.
 
 Opens the Blue Magic Spellbook when no subcommand is specified.
 

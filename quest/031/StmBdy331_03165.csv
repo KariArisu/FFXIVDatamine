@@ -65,7 +65,7 @@ int32,str,str
 59,"TEXT_STMBDY331_03165_GENBU_100_056","The last of our quartet is perhaps the most formidable among us, for in battle he commands a great host of shiki. You will see this yourself soon enough, but for now we must wait patiently..."
 60,"TEXT_STMBDY331_03165_SEIRYU_000_057","(-???-)Nay, Genbu. You need wait no longer."
 61,"TEXT_STMBDY331_03165_GENBU_000_058","You are come sooner than expected, comrade. I trust our messenger informed you of the dire circumstances."
-62,"TEXT_STMBDY331_03165_GENBU_000_059","Then you know what must be done. This warrior, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, will face you in battle, as he did Suzaku and Byakko before you."
+62,"TEXT_STMBDY331_03165_GENBU_000_059","Then you know what must be done. This warrior, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, will face you in battle, as <If(PlayerParameter(4))>she<Else/>he</If> did Suzaku and Byakko before you."
 63,"TEXT_STMBDY331_03165_SEIRYU_000_060","...Very well. But not here, for this is a temple, not a battlefield."
 64,"TEXT_STMBDY331_03165_SEIRYU_000_061","To the east of Hingashi is an island I have claimed as my own. There we may wreak havoc to our hearts' content. 'Tis far from this place, but a warrior such as you would not balk at lengthy swim, I trust."
 65,"TEXT_STMBDY331_03165_GENBU_000_062","Perhaps not, but it would needlessly tire <If(PlayerParameter(4))>her<Else/>him</If> before the trial. I will use my command of the flowing waters to speed <If(PlayerParameter(4))>her<Else/>his</If> way."
