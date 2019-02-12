@@ -196,7 +196,7 @@ int32,str,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTime
 192,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,0,0,0,0,0,0
 193,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,0,0,0,0,0,0
 194,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,0,0,0,0,0,0
-195,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,0,0,0,0,0,0
+195,"Fist Pump",6278,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,57,596,64379,8146,8147,234
 196,"Reprimand",6277,6276,0,0,0,0,0,False,False,False,2,51,False,True,False,False,11015,597,64380,8148,8149,235
 197,"Senor Sabotender",6250,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,58,598,64381,8150,8151,236
 198,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,0,0,0,0,0,0

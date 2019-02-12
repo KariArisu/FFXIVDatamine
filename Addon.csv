@@ -120,9 +120,9 @@ int32,str
 116,"Log out and exit the game?"
 117,"Return to your home point?"
 118,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”?"
+<Highlight>ObjectParameter(56)</Highlight>?"
 119,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”? 
+<Highlight>ObjectParameter(56)</Highlight>? 
 
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※You may be unable to re-enter ongoing battles.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 120,"Join <Highlight>StringParameter(1)</Highlight>'s party?"
@@ -196,11 +196,11 @@ Current Gil: <Format(IntegerParameter(1),FF022C)/>"
 192,""
 193,"Role-play"
 194,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”?"
+<Highlight>ObjectParameter(56)</Highlight>?"
 195,"Exit the game?"
 196,"Return to <SheetEn(PlaceName,2,<Sheet(Aetheryte,IntegerParameter(1),8)/>,2,1)/>?"
 197,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”?"
+<Highlight>ObjectParameter(56)</Highlight>?"
 198,"<Highlight>StringParameter(3)</Highlight>
 <If(IntegerParameter(1))> <Value>IntegerParameter(2)</Value>m <Else/><Value>IntegerParameter(2)</Value>s</If>"
 199,"<Highlight>StringParameter(1)</Highlight> wishes to teleport you to <Switch(IntegerParameter(2))><Case(1)>New Gridania</Case><Case(2)>Bentbranch Meadows</Case><Case(3)>the Hawthorne Hut</Case><Case(4)>Quarrymill</Case><Case(5)>Camp Tranquil</Case><Case(6)>Fallgourd</Case></Switch>."
@@ -9549,6 +9549,10 @@ High Score
 11313,"Confirm"
 11314,"Cancel"
 11315,"Deleted Action"
+11316,"Supplies: Gobcrate"
+11317,"Supplies: Gobtank"
+11318,"Supplies: Main Ceruleum Tank"
+11319,"Supplies: Gobbiejuice"
 11320,"A"
 11321,"B"
 11322,"C"
@@ -9582,20 +9586,25 @@ High Score
 11350,"Falcons"
 11351,"Ravens"
 11352,"Sorted by <Highlight>StringParameter(1)</Highlight>"
-11353,"Time remaining in Astragalos: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
+11353,"Time remaining in Rival Wings: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
 11354,"Falcons win!"
 11355,"Ravens win!"
 11356,"Victory for <Highlight>StringParameter(1)</Highlight>!"
 11357,"Alliance"
 11358,"Ceruleum"
+11359,"Readying forces for <If(Equal(IntegerParameter(1),0))>northern<Else/>southern</If> deployment."
 11360,"K: The number of targets KO'd"
 11361,"D: The number of times KO'd"
 11362,"A: The number of KOs assisted"
+11363,"Forces deployed from the <If(Equal(IntegerParameter(1),0))>north<Else/>south</If>!"
 11364,"Tower 1"
 11365,"Tower 2"
 11366,"Core"
+11367,"Ceruleum engine deployed."
 11368,"Promotion Qualifier Available"
 11369,"<If(Equal(IntegerParameter(1),0))>Until Promotion:<Else/>Until Qualifier:</If>"
+11370,"A gobtank has emerged near the core.
+Adrenaline, ceruleum, and Soaring effects are increased for all team members."
 11371,"Team"
 11372,"<Switch(IntegerParameter(1))><Case(1)>Falcon Tower</Case><Case(2)>Raven Tower</Case></Switch> <Value>IntegerParameter(3)</Value>
 Integrity: <Value>IntegerParameter(2)</Value>%"
@@ -9603,12 +9612,22 @@ Integrity: <Value>IntegerParameter(2)</Value>%"
 Integrity: <Value>IntegerParameter(2)</Value>%"
 11374,"Power Generator
 <Switch(IntegerParameter(1))><Case(1)>Claimed by Falcons</Case><Case(2)>Claimed by Ravens</Case><Case(3)>Unclaimed</Case></Switch>"
+11375,"The goblin mercenary <Switch(IntegerParameter(1))><Case(1)>is idle.</Case><Case(2)>is
+engaged in battle.</Case><Case(3)>is
+awaiting deployment (<Value>IntegerParameter(2)</Value>:<TwoDigitValue>IntegerParameter(3)</TwoDigitValue>).</Case></Switch>"
+11376,"The station is
+<Switch(IntegerParameter(1))><Case(1)>under Falcon control</Case><Case(2)>under Raven control</Case><Case(3)>unclaimed</Case><Case(4)>readying an engine for departure (<Value>IntegerParameter(2)</Value>:<TwoDigitValue>IntegerParameter(3)</TwoDigitValue>)</Case></Switch>."
+11377,"Allied with the Ravens"
 11378,"Select machina to mount.
 ※Only one member per party may mount machina."
 11379,"CE"
 11380,"Remaining Uses: <Value>IntegerParameter(1)</Value>"
 11381,"※Uses shared across alliance."
 11382,"Mount"
+11383,"A gobtank has emerged near the core.
+Soaring effect is increased for all team members."
+11384,"Ceruleum and Soaring effects are increased for all team members."
+11385,"Adrenaline and Soaring effects are increased for all team members."
 11386,"Unable to mount machina."
 11387,"Another party member has already mounted."
 11388,"Ceruleum is depleted."
@@ -9622,6 +9641,8 @@ This number will increase upon losing towers.</Case></Switch>"
 11395,"Total Victories:"
 11396,"Weekly Matches:"
 11397,"Weekly Victories:"
+11398,"Allied with the Falcons"
+11399,"Enemy engaged in the <If(Equal(IntegerParameter(1),0))>north<Else/>south</If>!"
 11400,"Abharamu's Lure"
 11401,""
 11402,"Treasure Claimed"
@@ -9804,7 +9825,7 @@ Donate the items for a gratuity of <Format(IntegerParameter(1),FF022C)/>?"
 11619,"Party Seeker On"
 11620,"Party Seeker Off"
 11621,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”? 
+<Highlight>ObjectParameter(56)</Highlight>? 
 
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※You will automatically return 10 minutes after KO.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11622,"MA"
@@ -9875,6 +9896,7 @@ Activate a logos action to convert <If(GreaterThan(IntegerParameter(1),1))>the t
 ""<Sheet(Action,IntegerParameter(1),0)/>""<If(GreaterThan(IntegerParameter(2),0))> and “<Sheet(Action,IntegerParameter(2),0)/>”<Else/></If>"
 11684,"Exploring Dungeon"
 11685,"Prioritize By"
+11686,"+<Value>IntegerParameter(1)</Value>"
 11687,"Set magia board aspect to offensive."
 11688,"Set magia board aspect to defensive."
 11689,"Chain"
@@ -10082,6 +10104,8 @@ Failing to reply in the allotted time will also render a vote “No.”"
 11888,"Registration Period"
 11889,"Registration Period"
 11890,"<Highlight>StringParameter(1)</Highlight>, <If(GreaterThanOrEqualTo(IntegerParameter(5),25))>～<Value>IntegerParameter(6)</Value>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue><Else/><If(GreaterThanOrEqualTo(IntegerParameter(6),25))><Value>IntegerParameter(5)</Value>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>～<Else/><Value>IntegerParameter(5)</Value>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>～<Value>IntegerParameter(6)</Value>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue></If> <If(GreaterThanOrEqualTo(IntegerParameter(1),12))>p.m.<Else/>a.m.</If><If(GreaterThanOrEqualTo(IntegerParameter(2),12))>p.m.<Else/>a.m.</If></If>"
+11892,"The goblin mercenary is
+readying for deployment."
 11900,"Apply Glamour"
 11901,"Apply Glamour to Right Finger"
 11902,"Apply Glamour to Left Finger"

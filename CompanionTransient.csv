@@ -1631,8 +1631,16 @@ mouths make for an
 uneasy combination.
    - Hunter-scholar","Foul Mouth","Reduces ATK by all enemies within range by 50%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",50,35,2,False,False,True,True,False,4
-318,"","","","","",0,0,0,False,False,False,False,False,0
-319,"","","","","",0,0,0,False,False,False,False,False,0
+318,"Summon your Conditional Virtue minion.","From a mass of elementally charged aetherial flesh sloughed off the Eurekan horror Absolute Virtue did rise this uncanny facsimilie, identical to its progenitor in every way─every way, that is except size and, well, absoluteness.","Men measure virtue
+in many ways.
+   - Yayaroku","Last Virtue Standing","Increases caster ATK by 10 and DEF by 5 for every 5% of HP lost.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",90,55,4,False,True,False,True,False,3
+319,"Summon your yukinko snowflake minion.","The yukinko's woven headdress serves not only to protect the creature from the elements, but spare it the embarrassment of having its nakedness exposed unto the world─not that any sane man would dare peek under the straw,
+lest he risk eternal
+damnation.","It is the enemy that weighs
+on me─snow, rather than fire.
+   - Martiallais","Snozzle","Delivers an attack with a potency of 70 to all enemies within range while reducing movement speed by 50%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",30,50,2,False,True,False,False,False,1
 320,"","","","","",0,0,0,False,False,False,False,False,0
 321,"Summon your wind-up weapon minion. Somewhat buggy.","Scaled-down replicas of armored weapons have long been mass-produced by the Garlean Imperial Army in an effort to train new recruits in the proper methods of magitek deployment and repair.","Be on your guard─
 he's known to be armed!
