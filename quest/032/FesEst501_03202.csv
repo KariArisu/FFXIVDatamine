@@ -77,7 +77,7 @@ int32,str,str
 70,"TEXT_FESEST501_03202_NONOTTA_000_062","Oh! I almost forgot the most important part. Three spriggans have been dispatched to various places nearby, and each one will give you a different clue."
 71,"TEXT_FESEST501_03202_RIGGY_000_063",""
 72,"TEXT_FESEST501_03202_NONOTTA_000_064","And finally, I've prepared a special egg hunter's costume for you, Jihli! You should wear it to help you get into the spirit of Hatching–tide!"
-73,"TEXT_FESEST501_03202_JIHLIALIAPOH_100_064","Oh my, it does convey a...unique sort of zeal for egg-hunting, at the very least."
+73,"TEXT_FESEST501_03202_JIHLIALIAPOH_100_064","Oh my, it does convey a...unique sort of zeal for egg hunting, at the very least."
 74,"TEXT_FESEST501_03202_JIHLIALIAPOH_100_065","So, how do I look?"
 75,"TEXT_FESEST501_03202_NONOTTA_200_065","Simply splendid, Jihli!"
 76,"TEXT_FESEST501_03202_NONOTTA_300_065","Don't worry, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. There's one for you, too!"

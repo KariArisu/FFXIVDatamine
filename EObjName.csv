@@ -9073,6 +9073,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 2009601,"goal",0,"goals",0,0,1,0,0
 2009602,"",0,"",0,0,1,0,0
 2009603,"Mark XIV Thermocoil Boilmaster",0,"Mark XIV Thermocoil Boilmasters",0,0,1,0,0
+2009604,"destination",0,"destinations",0,0,1,0,0
+2009605,"destination",0,"destinations",0,0,1,0,0
+2009606,"destination",0,"destinations",0,0,1,0,0
+2009607,"destination",0,"destinations",0,0,1,0,0
 2009608,"destination",0,"destinations",0,0,1,0,0
 2009609,"",0,"",0,0,1,0,0
 2009610,"",0,"",0,0,1,0,0
@@ -9113,6 +9117,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 2009646,"Mark II crystal forge",0,"Mark II crystal forges",0,0,1,0,0
 2009647,"mnemeworks station",0,"mnemeworks stations",0,0,1,0,0
 2009650,"",0,"",0,0,1,0,0
+2009652,"entrance",0,"entrances",0,1,1,0,0
 2009653,"",0,"",0,0,1,0,0
 2009654,"",0,"",0,0,1,0,0
 2009655,"",0,"",0,0,1,0,0
@@ -9121,7 +9126,14 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 2009658,"exit",0,"exits",0,1,1,0,0
 2009659,"",0,"",0,0,1,0,0
 2009660,"",0,"",0,0,1,0,0
+2009661,"destination",0,"destinations",0,0,1,0,0
+2009662,"destination",0,"destinations",0,0,1,0,0
 2009663,"destination",0,"destinations",0,0,1,0,0
+2009664,"destination",0,"destinations",0,0,1,0,0
+2009665,"",0,"",0,0,1,0,0
+2009666,"",0,"",0,0,1,0,0
+2009667,"",0,"",0,0,1,0,0
+2009668,"",0,"",0,0,1,0,0
 2009669,"novice mahjong table",0,"novice mahjong tables",0,0,1,0,0
 2009670,"destination",0,"destinations",0,0,1,0,0
 2009671,"destination",0,"destinations",0,0,1,0,0

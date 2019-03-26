@@ -192,4 +192,4 @@ int32,byte,HousingItemCategory,byte,uint32,HousingLayoutLimit,CustomTalk,Item,bi
 131267,183,17,0,0,0,0,23898,False,False,True,0,0,0,False
 131268,187,17,0,0,0,0,23899,False,False,True,0,0,0,False
 131269,184,17,0,0,0,0,24536,False,False,True,0,0,0,False
-131270,185,17,0,0,0,0,24537,False,False,True,0,0,0,False
+131270,185,17,0,0,0,0,24537,False,False,True,5,0,0,False

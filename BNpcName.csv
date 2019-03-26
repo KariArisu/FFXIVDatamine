@@ -7894,12 +7894,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 7890,"Raven tank",0,"Raven tanks",0,0,1,0,0
 7891,"Falcon mercenary",0,"Falcon mercenaries",0,0,1,0,0
 7892,"Raven mercenary",0,"Raven mercenaries",0,0,1,0,0
-7893,"",0,"",0,0,0,0,0
-7894,"",0,"",0,0,0,0,0
-7895,"",0,"",0,0,0,0,0
-7896,"",0,"",0,0,0,0,0
-7897,"",0,"",0,0,0,0,0
-7898,"",0,"",0,0,0,0,0
+7893,"Garuda",0,"Garuda",0,0,1,1,1
+7894,"turbulence",0,"turbulences",0,0,1,0,0
+7895,"Iseultalon",0,"Iseultalon",0,0,1,1,1
+7896,"Noctis",0,"Noctis",0,0,1,0,1
+7897,"magitek trooper",0,"magitek troopers",0,0,1,0,0
+7898,"MA-X",0,"MA-Xs",0,0,1,0,0
 7899,"the Thunder God",0,"Thunder Gods",0,0,1,0,1
 7900,"ephemeral knight",0,"ephemeral knights",0,1,1,0,0
 7901,"icewolf",0,"icewolves",0,1,1,0,0

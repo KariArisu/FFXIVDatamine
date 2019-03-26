@@ -12023,7 +12023,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 9648,""
 9649,""
 9650,""
-9651,"Reduces target's damage taken by 25%.
+9651,"Reduces damage taken by a party member or self by 25%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Protect<UIGlow>01</UIGlow><UIForeground>01</UIForeground> recast time by a percentage corresponding to the number of healing <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lilies<UIGlow>01</UIGlow><UIForeground>01</UIForeground> stacked at time of action execution (at which time the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lilies<UIGlow>01</UIGlow><UIForeground>01</UIForeground> are removed)
 
@@ -17195,7 +17195,7 @@ Cannot be executed if currently afflicted with <UIForeground>F201FA</UIForegroun
 14594,""
 14595,""
 14596,""
-14597,""
+14597,"Move instantly to the target while delivering a physical attack. Potency increases with initial distance from target."
 14598,""
 14599,""
 14600,""
@@ -17438,9 +17438,12 @@ Cannot be executed if currently afflicted with <UIForeground>F201FA</UIForegroun
 14837,""
 14838,""
 14839,""
-14840,""
-14841,""
-14842,""
+14840,"Delivers an attack with a potency of 180."
+14841,"Delivers an attack with a potency of 100.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Damage over time
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
+14842,"Rushes target and delivers an attack with a potency of 100."
 14843,""
 14844,""
 14845,""
@@ -17973,7 +17976,9 @@ Cannot be executed if currently afflicted with <UIForeground>F201FA</UIForegroun
 15372,""
 15373,""
 15374,""
-15375,""
+15375,"Instantly restores own HP.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 500
+Cure potency varies with current attack power."
 15376,""
 15377,""
 15378,""

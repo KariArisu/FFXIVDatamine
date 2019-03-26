@@ -4035,6 +4035,15 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
+595,2,1,2,0,0,"/gratuity","","USAGE:
+　/gratuity [subcommand]
+
+→Humbly scatter gold coins at the feet of your admirers.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","/makeithail",293,0
 596,2,1,2,0,0,"/fistpump","","USAGE:
 　/fistpump [subcommand]
 
@@ -4057,6 +4066,17 @@ Both text and motion will be displayed when no subcommand is specified.","","/yo
 　/sabotender [subcommand]
 
 →Do your finest impression of the Manderville Gold Saucer's mascot Senor Sabotender.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+599,2,1,2,0,0,"/mandervillemambo","/mmambo","ALIASES:
+　/mandervillemambo, /mmambo
+USAGE:
+　/mmambo [subcommand]
+
+→Perform the Manderville Mambo.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.

@@ -22,13 +22,13 @@ int32,str,byte,WorldDCGroupType,bit&01
 33,"Twintania",5,0,False
 34,"Brynhildr",3,5,True
 35,"Famfrit",3,5,True
-36,"Lich",5,6,True
+36,"Lich",5,7,True
 37,"Mateus",3,4,True
 38,"Shemhazai",3,0,True
 39,"Omega",5,6,True
 40,"Jenova",3,4,True
 41,"Zalera",3,4,True
-42,"Zodiark",5,6,True
+42,"Zodiark",5,7,True
 43,"Alexander",1,2,True
 44,"Anima",1,3,True
 45,"Carbuncle",1,1,True
@@ -42,7 +42,7 @@ int32,str,byte,WorldDCGroupType,bit&01
 53,"Exodus",3,5,True
 54,"Faerie",3,4,True
 55,"Lamia",3,5,True
-56,"Phoenix",5,6,True
+56,"Phoenix",5,7,True
 57,"Siren",3,4,True
 58,"Garuda",1,1,True
 59,"Ifrit",1,2,True
@@ -52,8 +52,8 @@ int32,str,byte,WorldDCGroupType,bit&01
 63,"Gilgamesh",3,4,True
 64,"Leviathan",3,5,True
 65,"Midgardsormr",3,4,True
-66,"Odin",5,6,True
-67,"Shiva",5,6,True
+66,"Odin",5,7,True
+67,"Shiva",5,7,True
 68,"Atomos",1,1,True
 69,"Bahamut",1,2,True
 70,"Chocobo",1,3,True
