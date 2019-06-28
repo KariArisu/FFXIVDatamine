@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10
-#,Singular,Adjective,Plural,PossessivePronoun,StartsWithVowel,,Pronoun,Article,Title,Map,
-int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
+#,Singular,Adjective,Plural,PossessivePronoun,StartsWithVowel,,Pronoun,Article,Title,,
+int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1000000,"",0,"",0,0,1,0,0,"",3,False
 1000001,"",0,"",0,0,0,0,0,"",0,False
 1000002,"",0,"",0,0,0,0,0,"",0,False
@@ -9434,9 +9434,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1009430,"Dour Meadow",0,"Dour Meadow",0,0,1,0,1,"",4,False
 1009431,"",0,"",0,0,1,0,0,"",4,False
 1009432,"Vannes",0,"Vannes",0,0,1,0,1,"",4,False
-1009433,"",0,"",0,0,0,0,0,"",0,False
-1009434,"",0,"",0,0,0,0,0,"",0,False
-1009435,"",0,"",0,0,0,0,0,"",0,False
+1009433,"itinerant moogle",0,"itinerant moogles",0,1,1,0,0,"",3,True
+1009434,"itinerant moogle",0,"itinerant moogles",0,1,1,0,0,"",3,True
+1009435,"itinerant moogle",0,"itinerant moogles",0,1,1,0,0,"",3,True
 1009436,"Coultenet the Cultured",0,"Coultenet the Cultured",0,0,1,0,1,"",2,False
 1009437,"",0,"",0,0,1,0,0,"",3,False
 1009438,"",0,"",0,0,1,0,0,"",3,False

@@ -2325,6 +2325,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002498,"gilded tourmaline egg",0,"gilded tourmaline eggs",0,0,1,0,0,False,"Gilded Tourmaline Egg",21309,0,1,1,68739,0,0,0
 2002499,"crinkled cartograph",0,"crinkled cartographs",0,0,1,0,0,False,"Crinkled Cartograph",26151,3140,1,1,68740,0,0,0
 2002500,"gilded topaz egg",0,"gilded topaz eggs",0,0,1,0,0,False,"Gilded Topaz Egg",21310,0,1,1,68740,0,0,0
+2002503,"seemingly special treasure map",0,"seemingly special treasure maps",0,0,1,0,0,False,"Seemingly Special Treasure Map",26151,1,1,2,0,0,0,0
+2002504,"seemingly special thief's map",0,"seemingly special thief's maps",0,0,1,0,0,False,"Seemingly Special Thief's Map",26151,1,1,2,0,0,0,0
 2002505,"flower crown",0,"flower crowns",0,0,1,0,0,False,"Flower Crown",47925,0,2,1,68744,0,0,0
 2002506,"flower crown",0,"flower crowns",0,0,1,0,0,False,"Flower Crown",47925,0,1,1,68745,0,0,0
 2002507,"ceremony invitation",0,"ceremony invitations",0,0,1,0,0,False,"Ceremony Invitation",26187,0,3,1,68741,0,0,0

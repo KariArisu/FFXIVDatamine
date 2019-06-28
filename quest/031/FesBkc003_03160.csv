@@ -3,14 +3,14 @@
 int32,str,str
 0,"TEXT_FESBKC003_03160_SEQ_00","Noctis feels the need to unwind.
 ※This quest is available for a limited time only."
-1,"TEXT_FESBKC003_03160_SEQ_01","Wishing to make the most of his time in Eorzea, Noctis declares that he will go fishing. He asks you to join him before heading off in the direction of the Jadeite Flood in the Central Shroud.
+1,"TEXT_FESBKC003_03160_SEQ_01","Wishing to make the most of his time in Eorzea, Noctis declares that he will go fishing. He asks you to join him before heading off in the direction of the Jadeite Thick in the Central Shroud.
 
 ※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
 2,"TEXT_FESBKC003_03160_SEQ_02","To the tranquil susurration of the forest, Noctis reveals to you his worry that he may never find his way home. Brief though it was, the fishing session helps to lift his spirits, and he finds his determination anew. You then turn your steps back to Gridania to rejoin Kipih, but not before taking something called a “photo” together as a memento."
 3,"TEXT_FESBKC003_03160_SEQ_03","You and Noctis return to the city to find Kipih in a flustered state. Apparently, magitek troopers have also appeared in Ixali territory, their presence alarming the beastmen and spurring them to summon forth their goddess, Garuda. Upon hearing the name, Noctis reveals that he vanquished a being by the same name back in his world, and is confident that the feat can be repeated here. While Kipih sets out to secure a loan of Cid's airship to bear you to the Howling Eye, Noct bestows upon you his power─the ability to warp. Once your preparations are in order, you may proceed to the Carline Canopy, where Kipih will be waiting."
 4,"TEXT_FESBKC003_03160_SEQ_04","Arriving at the Howling Eye, you come face-to-face not with the Lady of the Vortex, but a creature bearing an uncanny resemblance to her. Recognizing Noctis as the Chosen King, the Garuda-like being proceeds to make trial of him─together with you as his comrade."
 5,"TEXT_FESBKC003_03160_SEQ_05","At the end of a turbulent struggle, you and Noctis emerge triumphant and are declared worthy. The divinity then opens a portal through which Noctis may return home, but not before Cid and Kipih make their entry with the newly repaired Regalia. Saying his farewells, Noctis climbs into his vehicle and prepares to speed off. In that instant, amidst the blinding light of the portal, you catch a glimpse of a mysterious woman dressed all in white. And then Noctis is gone."
-6,"TEXT_FESBKC003_03160_SEQ_06","Kipih wonders if the woman in the light was Noctis's fiancée, but the truth may never be known. Thanking you for your assistance, she sets off to pen her story, leaving you and Cid to wish Noctis well in your hearts, wheresover the long road may lead him..."
+6,"TEXT_FESBKC003_03160_SEQ_06","Kipih wonders if the woman in the light was Noctis's fiancée, but the truth may never be known. Thanking you for your assistance, she sets off to pen her story, leaving you and Cid to wish Noctis well in your hearts, wheresoever the long road may lead him..."
 7,"TEXT_FESBKC003_03160_SEQ_07",""
 8,"TEXT_FESBKC003_03160_SEQ_08",""
 9,"TEXT_FESBKC003_03160_SEQ_09",""
@@ -103,7 +103,7 @@ int32,str,str
 96,"TEXT_FESBKC003_03160_FF15GARUDA_000_064","(-Garuda-like Being-)Clamorous creatures... Why have they summoned me? And what strange land is this?"
 97,"TEXT_FESBKC003_03160_FF15GARUDA_000_065","(-Garuda-like Being-)Ahhh, the Chosen King, Noctis. So that is the way of it."
 98,"TEXT_FESBKC003_03160_FF15GARUDA_000_066","(-Garuda-like Being-)Yours was the presence that drew me hither."
-99,"TEXT_FESBKC003_03160_FF15GARUDA_000_067","(-Garuda-like Being-)Very well. Take up your weapon, King of Lucis, and face me. We shall see if you are worthy of my power."
+99,"TEXT_FESBKC003_03160_FF15GARUDA_000_067","(-Garuda-like Being-)Very well. Take up your weapon, Chosen King, and face me. We shall see if you are worthy of my power."
 100,"TEXT_FESBKC003_03160_NOCTIS_000_068","You pack a serious punch, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'm impressed."
 101,"TEXT_FESBKC003_03160_FF15GARUDA_000_069","The Crystal has chosen well indeed. I acknowledge your strength, Noctis. Yours and your companion's both."
 102,"TEXT_FESBKC003_03160_NOCTIS_000_070","Man, what is it with gods and trials? Do you always have to be so skeptical?"

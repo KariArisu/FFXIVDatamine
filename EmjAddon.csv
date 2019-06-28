@@ -1,5 +1,5 @@
 ﻿key,0
-#,
+#,Text
 int32,str
 0,""
 1,"× <Value>IntegerParameter(1)</Value>"
@@ -85,10 +85,10 @@ You will be counted as having finished in fourth place."
 80,""
 81,""
 82,""
-83,"+ <Value>IntegerParameter(1)</Value>"
-84,"- <Value>IntegerParameter(1)</Value>"
-85,"▲ <Value>IntegerParameter(1)</Value>"
-86,"▼ <Value>IntegerParameter(1)</Value>"
+83,"+<Value>IntegerParameter(1)</Value>"
+84,"-<Value>IntegerParameter(1)</Value>"
+85,"▲<Value>IntegerParameter(1)</Value>"
+86,"▼<Value>IntegerParameter(1)</Value>"
 87,"<Gui(11)/> Support Features"
 88,"Pass"
 89,"Discard"
