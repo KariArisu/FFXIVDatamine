@@ -1,131 +1,131 @@
 ﻿key,0
 #,
 int32,str
-0,Keeping It Cool
-1,Iron Chef
-2,Walkabout
-3,Dragonrider
-4,Whiteout
-5,Starving Artist
-6,Modern Rustler
-7,Up the Wildstyle
-8,Summertime Blues
-9,Till Sea Swallows All
-10,High Society
-11,A Brave New World
-12,Keeping It Cool
-13,Iron Chef
-14,Walkabout
-15,Goldest Cup on the Saucer
-16,Loose Cannon
-17,Everybody Dance
-18,Dreams of Skalla
-19,Dragonrider
-20,Whiteout
-21,Starving Artist
-22,Modern Rustler
-23,Fitness Anytime
-24,Up the Wildstyle
-25,Summertime Blues
-26,Airship Pilot
-27,Weekend Warrior
-28,Modish Mage
-29,I'm So Handy
-30,In the Shadows
-31,The Silent Hero
-32,A Hard Bargain
-33,A Royal Pain
-34,The 48th Ronin
-35,Always Knock Twice
-36,Beachcomber
-37,Revolution Gown
-38,Stylish Steward
-39,Moonfire Inferno
-40,Plague of the Skies
-41,Lounging About
-42,Manor Monster
-43,Salt of the City-state
-44,Fall Lineup
-45,The Good Shepherd
-46,Autumntime Sadness
-47,Intellichic
-48,Straight As
-49,Adventurer of Yore
-50,Far Eastern Fury
-51,Dawn Dandy
-52,Working the Ironworks
-53,Onion in the Streets
-54,Weekend Knights
-55,Surly Scout
-56,The Sorcerer's Apprentice
-57,Beyond the Coil
-58,Piece de Resistance
-59,When the Curtains Fall
-60,Wild, yet Sophisticated
-61,Panther on the Mind
-62,Sunken Wolf
-63,Letters from the New World
-64,Anthropology Major
-65,Outdoorsman
-66,Adventurer Debonair
-67,Tattered Traveler
-68,The Cunning Cutpurse
-69,Monk of Intrigue
-70,Outlands Outlaw
-71,Chivalrous Raptor
-72,Leopard Punch
-73,Tribal Warrior
-74,Around the House
-75,Questing the Shore
-76,The Conqueror
-77,To Serve and Protect
-78,Seas of Adventure
-79,The Only Good Chimera
-80,Cool Breeze
-81,Blood on the Beach
-82,Knights of the Square
-83,The Far East Coast
-84,Breaking Rules
-85,Learning to Dance
-86,Back to the Future
-87,Tempered
-88,Ul'dahn Nights
-89,Garlond Says
-90,The King Am I
-91,Far Eastern Fashionista
-92,Old World Meets New
-93,Keeping an Eye on Work
-94,Aiming Light
-95,Lominsan Respite
-96,To the Practice Grounds
-97,Hero of the Steppe
-98,Free to Knight
-99,Fighting Light
-100,Exalted Explorer
-101,Dashing Duelist
-102,Holiday Handgunner
-103,Quickshot Corsair
-104,The Mask of Judgment
-105,A Knight in Leopard's Mail
-106,Safari
-107,The Scales of War
-108,Silk for the Road
-109,Mischievous Mage
-110,Masquerade
-111,(Not Quite) Ready for Battle
-112,Shadow Scout
-113,Academia
-114,Bronco Bilaud
-115,Snappy Socialite
-116,Chocoback Rider
-117,Wasteland Liberator
-118,Wild 'n Mild
-119,Fur-de-lis
-120,Tribal Dance
-121,Going Gown
-122,Go West, Young Man
-123,Near Eastern
-124,Macho Libre
-125,The Marvelous Mage
-126,Draped to Chill
-127,Nobly Skallic
+0,"Keeping It Cool"
+1,"Iron Chef"
+2,"Walkabout"
+3,"Dragonrider"
+4,"Whiteout"
+5,"Starving Artist"
+6,"Modern Rustler"
+7,"Up the Wildstyle"
+8,"Summertime Blues"
+9,"Till Sea Swallows All"
+10,"High Society"
+11,"A Brave New World"
+12,"Keeping It Cool"
+13,"Iron Chef"
+14,"Walkabout"
+15,"Goldest Cup on the Saucer"
+16,"Loose Cannon"
+17,"Everybody Dance"
+18,"Dreams of Skalla"
+19,"Dragonrider"
+20,"Whiteout"
+21,"Starving Artist"
+22,"Modern Rustler"
+23,"Fitness Anytime"
+24,"Up the Wildstyle"
+25,"Summertime Blues"
+26,"Airship Pilot"
+27,"Weekend Warrior"
+28,"Modish Mage"
+29,"I'm So Handy"
+30,"In the Shadows"
+31,"The Silent Hero"
+32,"A Hard Bargain"
+33,"A Royal Pain"
+34,"The 48th Ronin"
+35,"Always Knock Twice"
+36,"Beachcomber"
+37,"Revolution Gown"
+38,"Stylish Steward"
+39,"Moonfire Inferno"
+40,"Plague of the Skies"
+41,"Lounging About"
+42,"Manor Monster"
+43,"Salt of the City-state"
+44,"Fall Lineup"
+45,"The Good Shepherd"
+46,"Autumntime Sadness"
+47,"Intellichic"
+48,"Straight As"
+49,"Adventurer of Yore"
+50,"Far Eastern Fury"
+51,"Dawn Dandy"
+52,"Working the Ironworks"
+53,"Onion in the Streets"
+54,"Weekend Knights"
+55,"Surly Scout"
+56,"The Sorcerer's Apprentice"
+57,"Beyond the Coil"
+58,"Piece de Resistance"
+59,"When the Curtains Fall"
+60,"Wild, yet Sophisticated"
+61,"Panther on the Mind"
+62,"Sunken Wolf"
+63,"Letters from the New World"
+64,"Anthropology Major"
+65,"Outdoorsman"
+66,"Adventurer Debonair"
+67,"Tattered Traveler"
+68,"The Cunning Cutpurse"
+69,"Monk of Intrigue"
+70,"Outlands Outlaw"
+71,"Chivalrous Raptor"
+72,"Leopard Punch"
+73,"Tribal Warrior"
+74,"Around the House"
+75,"Questing the Shore"
+76,"The Conqueror"
+77,"To Serve and Protect"
+78,"Seas of Adventure"
+79,"The Only Good Chimera"
+80,"Cool Breeze"
+81,"Blood on the Beach"
+82,"Knights of the Square"
+83,"The Far East Coast"
+84,"Breaking Rules"
+85,"Learning to Dance"
+86,"Back to the Future"
+87,"Tempered"
+88,"Ul'dahn Nights"
+89,"Garlond Says"
+90,"The King Am I"
+91,"Far Eastern Fashionista"
+92,"Old World Meets New"
+93,"Keeping an Eye on Work"
+94,"Aiming Light"
+95,"Lominsan Respite"
+96,"To the Practice Grounds"
+97,"Hero of the Steppe"
+98,"Free to Knight"
+99,"Fighting Light"
+100,"Exalted Explorer"
+101,"Dashing Duelist"
+102,"Holiday Handgunner"
+103,"Quickshot Corsair"
+104,"The Mask of Judgment"
+105,"A Knight in Leopard's Mail"
+106,"Safari"
+107,"The Scales of War"
+108,"Silk for the Road"
+109,"Mischievous Mage"
+110,"Masquerade"
+111,"(Not Quite) Ready for Battle"
+112,"Shadow Scout"
+113,"Academia"
+114,"Bronco Bilaud"
+115,"Snappy Socialite"
+116,"Chocoback Rider"
+117,"Wasteland Liberator"
+118,"Wild 'n Mild"
+119,"Fur-de-lis"
+120,"Tribal Dance"
+121,"Going Gown"
+122,"Go West, Young Man"
+123,"Near Eastern"
+124,"Macho Libre"
+125,"The Marvelous Mage"
+126,"Draped to Chill"
+127,"Nobly Skallic"

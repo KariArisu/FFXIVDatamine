@@ -1,11 +1,11 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11
 #,,,,,,Command,ShortCommand,Description,Alias,ShortAlias,,
 int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,uint16,uint32
-1,1,0,0,0,0,/record,,USAGE:
+1,1,0,0,0,0,"/record","","USAGE:
 　/record
 
-→Opens and closes the Duty Recorder interface.,/record,,32,0
-2,2,1,0,0,0,/recordready,,USAGE:
+→Opens and closes the Duty Recorder interface.","/record","",32,0
+2,2,1,0,0,0,"/recordready","","USAGE:
 　/recordready [subcommand]
 
 →Opens and closes the Duty Recorder interface.
@@ -23,30 +23,30 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,uint16,uint32
 　　duty will function as both a
 　　ready check and countdown.
 
-Opens the Duty Recorder interface when no subcommand is specified.,/recordready,,0,0
-3,1,0,0,0,0,/pvpteamcmd,,USAGE:
+Opens the Duty Recorder interface when no subcommand is specified.","/recordready","",0,0
+3,1,0,0,0,0,"/pvpteamcmd","","USAGE:
 　/pvpteamcmd
 
-→Opens and closes the PvP team menu.,,,0,0
-4,1,0,0,0,0,/saddlebag,,USAGE:
+→Opens and closes the PvP team menu.","","",0,0
+4,1,0,0,0,0,"/saddlebag","","USAGE:
 　/saddlebag
 
-→Opens and closes your chocobo saddlebag.,/saddlebag,,0,0
-5,1,0,0,0,0,/magiaright,,USAGE:
+→Opens and closes your chocobo saddlebag.","/saddlebag","",0,0
+5,1,0,0,0,0,"/magiaright","","USAGE:
 　/magiaright
 
-→Spins your magia board clockwise.,,,0,0
-6,1,0,0,0,0,/magialeft,,USAGE:
+→Spins your magia board clockwise.","","",0,0
+6,1,0,0,0,0,"/magialeft","","USAGE:
 　/magialeft
 
-→Spins your magia board counterclockwise.,,,0,0
-7,1,0,0,0,0,/cwlinkshellcmd,/cwlcmd,ALIASES:
+→Spins your magia board counterclockwise.","","",0,0
+7,1,0,0,0,0,"/cwlinkshellcmd","/cwlcmd","ALIASES:
 　/cwlinkshellcmd, /cwlcmd
 USAGE:
 　/cwlinkshellcmd
 
-→Opens and closes the Cross-world Linkshell window.,/cwlinkshellcmd,/cwlcmd,0,0
-8,3,1,17,0,0,/quickchat,/qchat,ALIASES:
+→Opens and closes the Cross-world Linkshell window.","/cwlinkshellcmd","/cwlcmd",0,0
+8,3,1,17,0,0,"/quickchat","/qchat","ALIASES:
 　/quickchat, /qchat
 USAGE:
 　/quickchat [quick chat message]
@@ -57,8 +57,8 @@ USAGE:
 　/quickchat Charge <t>
 　(Sends the Quick Chat message
 　""Charge"" using a specified
-　target.),/quickchat,/qchat,509,0
-9,4,3,2,18,2,/bluespellbook,,USAGE:
+　target.)","/quickchat","/qchat",509,0
+9,4,3,2,18,2,"/bluespellbook","","USAGE:
 　/bluespellbook [subcommand]
 
 →Open and register active actions in the Blue Magic Spellbook.
@@ -91,8 +91,8 @@ Opens the Blue Magic Spellbook when no subcommand is specified.
 　action in the current set.
 
 　/bluespellbook preset 2
-　(Loads active set 2.),,,36,0
-10,2,1,2,0,0,/magiaattack,,USAGE:
+　(Loads active set 2.)","","",36,0
+10,2,1,2,0,0,"/magiaattack","","USAGE:
 　/magiaattack [placeholder]
 
 →Spin the magia board to match the elemental weakness of the specified target. If no target is specified, matches based on current target.
@@ -100,8 +100,8 @@ Opens the Blue Magic Spellbook when no subcommand is specified.
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,0,0
-11,2,1,2,0,0,/magiadefense,,USAGE:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",0,0
+11,2,1,2,0,0,"/magiadefense","","USAGE:
 　/magiadefense [placeholder]
 
 →Spin the magia board to match the elemental affinity of the specified target. If no target is specified, matches based on current target.
@@ -109,8 +109,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.,,,0,0
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,0,0
-12,2,1,2,0,0,/magiaauto,,USAGE:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",0,0
+12,2,1,2,0,0,"/magiaauto","","USAGE:
 　/magiaauto [subcommand]
 
 →Set the magia board to automatically spin based on your current target.
@@ -127,56 +127,56 @@ A full list of placeholders can be found on the Lodestone Play Guide.,,,0,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Disable automatic spinning.
 
-Toggle between attack, defense, and off when no subcommand is specified.,,,0,0
-13,1,0,0,0,0,/cwlinkshell1,/cwl1,ALIASES:
+Toggle between attack, defense, and off when no subcommand is specified.","","",0,0
+13,1,0,0,0,0,"/cwlinkshell1","/cwl1","ALIASES:
 　/cwlinkshell1, /cwl1
 USAGE:
 　/cwlinkshell1 [message]
 
-→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 1, regardless of their location. Typing /cwlinkshell1 or /cwl1 without a message switches the default chat mode to [Cross-world Linkshell 1].,,,509,0
-14,1,0,0,0,0,/cwlinkshell2,/cwl2,ALIASES:
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 1, regardless of their location. Typing /cwlinkshell1 or /cwl1 without a message switches the default chat mode to [Cross-world Linkshell 1].","","",509,0
+14,1,0,0,0,0,"/cwlinkshell2","/cwl2","ALIASES:
 　/cwlinkshell2, /cwl2
 USAGE:
 　/cwlinkshell2 [message]
 
-→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 2, regardless of their location. Typing /cwlinkshell2 or /cwl2 without a message switches the default chat mode to [Cross-world Linkshell 2].,,,509,0
-15,1,0,0,0,0,/cwlinkshell3,/cwl3,ALIASES:
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 2, regardless of their location. Typing /cwlinkshell2 or /cwl2 without a message switches the default chat mode to [Cross-world Linkshell 2].","","",509,0
+15,1,0,0,0,0,"/cwlinkshell3","/cwl3","ALIASES:
 　/cwlinkshell3, /cwl3
 USAGE:
 　/cwlinkshell3 [message]
 
-→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 3, regardless of their location. Typing /cwlinkshell3 or /cwl3 without a message switches the default chat mode to [Cross-world Linkshell 3].,,,509,0
-16,1,0,0,0,0,/cwlinkshell4,/cwl4,ALIASES:
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 3, regardless of their location. Typing /cwlinkshell3 or /cwl3 without a message switches the default chat mode to [Cross-world Linkshell 3].","","",509,0
+16,1,0,0,0,0,"/cwlinkshell4","/cwl4","ALIASES:
 　/cwlinkshell4, /cwl4
 USAGE:
 　/cwlinkshell4 [message]
 
-→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 4, regardless of their location. Typing /cwlinkshell4 or /cwl4 without a message switches the default chat mode to [Cross-world Linkshell 4].,,,509,0
-17,1,0,0,0,0,/cwlinkshell5,/cwl5,ALIASES:
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 4, regardless of their location. Typing /cwlinkshell4 or /cwl4 without a message switches the default chat mode to [Cross-world Linkshell 4].","","",509,0
+17,1,0,0,0,0,"/cwlinkshell5","/cwl5","ALIASES:
 　/cwlinkshell5, /cwl5
 USAGE:
 　/cwlinkshell5 [message]
 
-→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 5, regardless of their location. Typing /cwlinkshell5 or /cwl5 without a message switches the default chat mode to [Cross-world Linkshell 5].,,,509,0
-18,1,0,0,0,0,/cwlinkshell6,/cwl6,ALIASES:
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 5, regardless of their location. Typing /cwlinkshell5 or /cwl5 without a message switches the default chat mode to [Cross-world Linkshell 5].","","",509,0
+18,1,0,0,0,0,"/cwlinkshell6","/cwl6","ALIASES:
 　/cwlinkshell6, /cwl6
 USAGE:
 　/cwlinkshell6 [message]
 
-→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 6, regardless of their location. Typing /cwlinkshell6 or /cwl6 without a message switches the default chat mode to [Cross-world Linkshell 6].,,,509,0
-19,1,0,0,0,0,/cwlinkshell7,/cwl7,ALIASES:
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 6, regardless of their location. Typing /cwlinkshell6 or /cwl6 without a message switches the default chat mode to [Cross-world Linkshell 6].","","",509,0
+19,1,0,0,0,0,"/cwlinkshell7","/cwl7","ALIASES:
 　/cwlinkshell7, /cwl7
 USAGE:
 　/cwlinkshell7 [message]
 
-→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 7, regardless of their location. Typing /cwlinkshell7 or /cwl7 without a message switches the default chat mode to [Cross-world Linkshell 7].,,,509,0
-20,1,0,0,0,0,/cwlinkshell8,/cwl8,ALIASES:
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 7, regardless of their location. Typing /cwlinkshell7 or /cwl7 without a message switches the default chat mode to [Cross-world Linkshell 7].","","",509,0
+20,1,0,0,0,0,"/cwlinkshell8","/cwl8","ALIASES:
 　/cwlinkshell8, /cwl8
 USAGE:
 　/cwlinkshell8 [message]
 
-→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 8, regardless of their location. Typing /cwlinkshell8 or /cwl8 without a message switches the default chat mode to [Cross-world Linkshell 8].,,,509,0
-91,1,0,0,0,0,/pvpteam,/pt,ALIASES:
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 8, regardless of their location. Typing /cwlinkshell8 or /cwl8 without a message switches the default chat mode to [Cross-world Linkshell 8].","","",509,0
+91,1,0,0,0,0,"/pvpteam","/pt","ALIASES:
 　/pvpteam, /pt
 USAGE:
 　/pvpteam [message]
@@ -190,14 +190,14 @@ USAGE:
 
 　/pvpteam
 　(Switches the default chat
-　mode to [PvP Team].),,,509,0
-92,1,0,0,0,0,/cwlinkshell,/cwl,ALIASES:
+　mode to [PvP Team].)","","",509,0
+92,1,0,0,0,0,"/cwlinkshell","/cwl","ALIASES:
 　/cwlinkshell, /cwl
 USAGE:
 　/cwlinkshell [message]
 
-→Sends a message to all members of your active cross-world linkshell, regardless of their location. Typing /cwlinkshell or /cwl without a message switches the default chat mode to your active cross-world linkshell channel.,,,509,0
-101,1,0,0,0,0,/beginner,/b,ALIASES:
+→Sends a message to all members of your active cross-world linkshell, regardless of their location. Typing /cwlinkshell or /cwl without a message switches the default chat mode to your active cross-world linkshell channel.","","",509,0
+101,1,0,0,0,0,"/beginner","/b","ALIASES:
 　/novice, /n
 USAGE:
 　/novice [message]
@@ -211,20 +211,20 @@ USAGE:
 
 　/novice
 　(Switches the default chat
-　mode to [Novice Network].),/novice,/n,509,0
-102,1,0,0,0,0,/say,/s,ALIASES:
+　mode to [Novice Network].)","/novice","/n",509,0
+102,1,0,0,0,0,"/say","/s","ALIASES:
 　/say, /s
 USAGE:
 　/say [message]
 
-→Sends a message to all PCs within a small radius. The message will not be displayed if a PC has deselected [Say] in the chat filter. Typing /say or /s without a message switches the default chat mode to [Say].,,,511,0
-103,1,0,0,0,0,/shout,/sh,ALIASES:
+→Sends a message to all PCs within a small radius. The message will not be displayed if a PC has deselected [Say] in the chat filter. Typing /say or /s without a message switches the default chat mode to [Say].","","",511,0
+103,1,0,0,0,0,"/shout","/sh","ALIASES:
 　/shout, /sh
 USAGE:
 　/shout [message]
 
-→Sends a message to all PCs in the same area. The message will not be displayed if a PC has deselected [Shout] in the chat filter.,,,509,0
-104,3,0,0,0,0,/tell,/t,ALIASES:
+→Sends a message to all PCs in the same area. The message will not be displayed if a PC has deselected [Shout] in the chat filter.","","",509,0
+104,3,0,0,0,0,"/tell","/t","ALIASES:
 　/tell, /t
 USAGE:
 　/tell [PC name]@[World name] [message]
@@ -235,106 +235,106 @@ USAGE:
 　/tell [PC name]@Bahamut Hello
 　(Sends the message ""Hello"" to
 　[PC name] on the World
-　Bahamut.),,,509,0
-105,1,0,0,0,0,/party,/p,ALIASES:
+　Bahamut.)","","",509,0
+105,1,0,0,0,0,"/party","/p","ALIASES:
 　/party, /p
 USAGE:
 　/party [message]
 
-→Sends a message to all members of your current party, regardless of their location. The message will not be displayed if a PC has deselected [Party] in the chat filter. Typing /party or /p without a message switches the default chat mode to [Party].,,,509,0
-106,1,0,0,0,0,/linkshell,/l,ALIASES:
+→Sends a message to all members of your current party, regardless of their location. The message will not be displayed if a PC has deselected [Party] in the chat filter. Typing /party or /p without a message switches the default chat mode to [Party].","","",509,0
+106,1,0,0,0,0,"/linkshell","/l","ALIASES:
 　/linkshell, /l
 USAGE:
 　/linkshell [message]
 
-→Sends a message to all members of your active linkshell, regardless of their location. Typing /linkshell or /l without a message switches the default chat mode to [Linkshell].,,,509,0
-107,1,0,0,0,0,/linkshell1,/l1,ALIASES:
+→Sends a message to all members of your active linkshell, regardless of their location. Typing /linkshell or /l without a message switches the default chat mode to [Linkshell].","","",509,0
+107,1,0,0,0,0,"/linkshell1","/l1","ALIASES:
 　/linkshell1, /l1
 USAGE:
 　/linkshell1 [message]
 
-→Sends a message to all members of the linkshell you have registered in linkshell slot 1, regardless of their location.,,,509,0
-108,1,0,0,0,0,/linkshell2,/l2,ALIASES:
+→Sends a message to all members of the linkshell you have registered in linkshell slot 1, regardless of their location.","","",509,0
+108,1,0,0,0,0,"/linkshell2","/l2","ALIASES:
 　/linkshell2, /l2
 USAGE:
 　/linkshell2 [message]
 
-→Sends a message to all members of the linkshell you have registered in linkshell slot 2, regardless of their location.,,,509,0
-109,1,0,0,0,0,/linkshell3,/l3,ALIASES:
+→Sends a message to all members of the linkshell you have registered in linkshell slot 2, regardless of their location.","","",509,0
+109,1,0,0,0,0,"/linkshell3","/l3","ALIASES:
 　/linkshell3, /l3
 USAGE:
 　/linkshell3 [message]
 
-→Sends a message to all members of the linkshell you have registered in linkshell slot 3, regardless of their location.,,,509,0
-110,1,0,0,0,0,/linkshell4,/l4,ALIASES:
+→Sends a message to all members of the linkshell you have registered in linkshell slot 3, regardless of their location.","","",509,0
+110,1,0,0,0,0,"/linkshell4","/l4","ALIASES:
 　/linkshell4, /l4
 USAGE:
 　/linkshell4 [message]
 
-→Sends a message to all members of the linkshell you have registered in linkshell slot 4, regardless of their location.,,,509,0
-111,1,0,0,0,0,/linkshell5,/l5,ALIASES:
+→Sends a message to all members of the linkshell you have registered in linkshell slot 4, regardless of their location.","","",509,0
+111,1,0,0,0,0,"/linkshell5","/l5","ALIASES:
 　/linkshell5, /l5
 USAGE:
 　/linkshell5 [message]
 
-→Sends a message to all members of the linkshell you have registered in linkshell slot 5, regardless of their location.,,,509,0
-112,1,0,0,0,0,/linkshell6,/l6,ALIASES:
+→Sends a message to all members of the linkshell you have registered in linkshell slot 5, regardless of their location.","","",509,0
+112,1,0,0,0,0,"/linkshell6","/l6","ALIASES:
 　/linkshell6, /l6
 USAGE:
 　/linkshell6 [message]
 
-→Sends a message to all members of the linkshell you have registered in linkshell slot 6, regardless of their location.,,,509,0
-113,1,0,0,0,0,/linkshell7,/l7,ALIASES:
+→Sends a message to all members of the linkshell you have registered in linkshell slot 6, regardless of their location.","","",509,0
+113,1,0,0,0,0,"/linkshell7","/l7","ALIASES:
 　/linkshell7, /l7
 USAGE:
 　/linkshell7 [message]
 
-→Sends a message to all members of the linkshell you have registered in linkshell slot 7, regardless of their location.,,,509,0
-114,1,0,0,0,0,/linkshell8,/l8,ALIASES:
+→Sends a message to all members of the linkshell you have registered in linkshell slot 7, regardless of their location.","","",509,0
+114,1,0,0,0,0,"/linkshell8","/l8","ALIASES:
 　/linkshell8, /l8
 USAGE:
 　/linkshell8 [message]
 
-→Sends a message to all members of the linkshell you have registered in linkshell slot 8, regardless of their location.,,,509,0
-115,1,0,0,0,0,/freecompany,/fc,ALIASES:
+→Sends a message to all members of the linkshell you have registered in linkshell slot 8, regardless of their location.","","",509,0
+115,1,0,0,0,0,"/freecompany","/fc","ALIASES:
 　/freecompany, /fc
 USAGE:
 　/freecompany [message]
 
-→Sends a message to all members of your free company, regardless of their location. Typing /freecompany or /fc without a message switches the default chat mode to [Free Company].,,,509,0
-116,1,0,0,0,0,/echo,/e,ALIASES:
+→Sends a message to all members of your free company, regardless of their location. Typing /freecompany or /fc without a message switches the default chat mode to [Free Company].","","",509,0
+116,1,0,0,0,0,"/echo","/e","ALIASES:
 　/echo, /e
 USAGE:
 　/echo [message]
 
-→Displays a message that only you can see.,,,509,0
-117,1,0,0,0,0,/yell,/y,ALIASES:
+→Displays a message that only you can see.","","",509,0
+117,1,0,0,0,0,"/yell","/y","ALIASES:
 　/yell, /y
 USAGE:
 　/yell [message]
 
-→Sends a message to all PCs within a large radius. The message will not be displayed if a PC has deselected [Yell] in the chat filter. Typing /yell or /y without a message switches the default chat mode to [Yell].,,,509,0
-118,1,0,0,0,0,/reply,/r,ALIASES:
+→Sends a message to all PCs within a large radius. The message will not be displayed if a PC has deselected [Yell] in the chat filter. Typing /yell or /y without a message switches the default chat mode to [Yell].","","",509,0
+118,1,0,0,0,0,"/reply","/r","ALIASES:
 　/reply, /r
 USAGE:
 　/r [message]
 
-→Sends a message to the last player from whom you received a /tell.,,,509,0
-119,1,0,0,0,0,/alliance,/a,ALIASES:
+→Sends a message to the last player from whom you received a /tell.","","",509,0
+119,1,0,0,0,0,"/alliance","/a","ALIASES:
 　/alliance, /a
 USAGE:
 　/alliance [message]
 
-→Sends a message to all members of your current alliance, regardless of their location. The message will not be displayed if a PC has deselected [Alliance] in the chat filter. Typing /alliance or /a without a message switches the default chat mode to [Alliance].,,,509,0
-121,1,0,0,0,0,/join,,USAGE:
+→Sends a message to all members of your current alliance, regardless of their location. The message will not be displayed if a PC has deselected [Alliance] in the chat filter. Typing /alliance or /a without a message switches the default chat mode to [Alliance].","","",509,0
+121,1,0,0,0,0,"/join","","USAGE:
 　/join
 
-→Accepts a party invite.,,,4,0
-122,1,0,0,0,0,/decline,,USAGE:
+→Accepts a party invite.","","",4,0
+122,1,0,0,0,0,"/decline","","USAGE:
 　/decline
 
-→Declines a party invite.,,,4,0
-123,2,0,0,0,0,/invite,,USAGE:
+→Declines a party invite.","","",4,0
+123,2,0,0,0,0,"/invite","","USAGE:
 　/invite [placeholder]
 
 →Invites the specified PC to your party. Invites current target when no PC is specified.
@@ -342,8 +342,8 @@ USAGE:
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of Placeholders can be found on the Lodestone Play Guide.,,,4,0
-124,2,0,0,0,0,/kick,,USAGE:
+A full list of Placeholders can be found on the Lodestone Play Guide.","","",4,0
+124,2,0,0,0,0,"/kick","","USAGE:
 　/kick [placeholder]
 
 →Kicks the specified PC from your party. Kicks current target when no PC is specified.
@@ -351,8 +351,8 @@ A full list of Placeholders can be found on the Lodestone Play Guide.,,,4,0
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,4,0
-125,2,0,0,0,0,/leader,,USAGE:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",4,0
+125,2,0,0,0,0,"/leader","","USAGE:
 　/leader [placeholder]
 
 →Promotes the specified PC to party leader. Promotes current target when no PC is specified.
@@ -360,12 +360,12 @@ A full list of placeholders can be found on the Lodestone Play Guide.,,,4,0
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,4,0
-126,2,0,0,0,0,/leave,,USAGE:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",4,0
+126,2,0,0,0,0,"/leave","","USAGE:
 　/leave
 
-→Leave your current party.,,,4,0
-131,2,0,0,0,0,/check,/c,ALIASES:
+→Leave your current party.","","",4,0
+131,2,0,0,0,0,"/check","/c","ALIASES:
 　/check, /c
 USAGE:
 　/check [placeholder]
@@ -375,8 +375,8 @@ USAGE:
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,160,0
-132,2,0,0,0,0,/trade,,USAGE:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",160,0
+132,2,0,0,0,0,"/trade","","USAGE:
 　/trade [placeholder]
 
 →Initiates a trade with the specified PC. Initiates a trade with your current target when no PC is specified.
@@ -384,8 +384,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.,,,160,0
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,32,0
-133,2,1,2,0,0,/automove,,USAGE:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",32,0
+133,2,1,2,0,0,"/automove","","USAGE:
 　/automove [subcommand]
 
 →Begin moving in the current direction you are facing.
@@ -394,12 +394,12 @@ A full list of placeholders can be found on the Lodestone Play Guide.,,,32,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Initiate automove.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Cancel automove.
 
-Toggle between on and off when no subcommand is specified.,,,36,0
-134,2,0,0,0,0,/follow,,USAGE:
+Toggle between on and off when no subcommand is specified.","","",36,0
+134,2,0,0,0,0,"/follow","","USAGE:
 　/follow
 
-→Automatically follow a specified PC. Follow current target when no PC is specified.,,,36,0
-136,2,0,0,0,0,/meldrequest,,USAGE:
+→Automatically follow a specified PC. Follow current target when no PC is specified.","","",36,0
+136,2,0,0,0,0,"/meldrequest","","USAGE:
 　/meldrequest [placeholder]
 
 →Sends a materia meld request to the specified PC. Sends request to current target when no PC is specified.
@@ -407,58 +407,58 @@ Toggle between on and off when no subcommand is specified.,,,36,0
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,32,0
-141,1,0,0,0,0,/character,/gear,ALIASES:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",32,0
+141,1,0,0,0,0,"/character","/gear","ALIASES:
 　/character, /gear
 USAGE:
 　/character
 
-→Opens and closes the Character interface.,,,32,0
-142,1,0,0,0,0,/journal,,USAGE:
+→Opens and closes the Character interface.","","",32,0
+142,1,0,0,0,0,"/journal","","USAGE:
 　/journal
 
-→Opens and closes the quest journal.,,,32,0
-143,1,0,0,0,0,/dutyfinder,/dfinder,ALIASES:
+→Opens and closes the quest journal.","","",32,0
+143,1,0,0,0,0,"/dutyfinder","/dfinder","ALIASES:
 　/dutyfinder, /finder
 USAGE:
 　/dutyfinder
 
-→Opens and closes the Duty Finder.,/dutyfinder,/finder,288,0
-144,1,0,0,0,0,/armourychest,/armoury,ALIASES:
+→Opens and closes the Duty Finder.","/dutyfinder","/finder",288,0
+144,1,0,0,0,0,"/armourychest","/armoury","ALIASES:
 　/armourychest, /armoury
 USAGE: 
 　/armourychest
 
-→Opens and closes your Armoury Chest.,,,32,0
-145,1,0,0,0,0,/huntinglog,/hlog,ALIASES:
+→Opens and closes your Armoury Chest.","","",32,0
+145,1,0,0,0,0,"/huntinglog","/hlog","ALIASES:
 　/huntinglog, /hlog
 USAGE:
 　/huntinglog
 
-→Opens and closes the hunting log.,,,32,0
-146,1,0,0,0,0,/craftinglog,/clog,ALIASES:
+→Opens and closes the hunting log.","","",32,0
+146,1,0,0,0,0,"/craftinglog","/clog","ALIASES:
 　/craftinglog, /clog
 USAGE:
 　/craftinglog
 
-→Opens and closes the crafting log.,,,0,0
-147,1,0,0,0,0,/gatheringlog,/glog,ALIASES:
+→Opens and closes the crafting log.","","",0,0
+147,1,0,0,0,0,"/gatheringlog","/glog","ALIASES:
 　/gatheringlog, /glog
 USAGE:
 　/gatheringlog
 
-→Opens and closes the gathering log.,,,0,0
-148,1,0,0,0,0,/fishinglog,/flog,ALIASES:
+→Opens and closes the gathering log.","","",0,0
+148,1,0,0,0,0,"/fishinglog","/flog","ALIASES:
 　/fishinglog, /flog
 USAGE:
 　/fishinglog
 
-→Opens and closes the fishing log.,,,32,0
-149,1,0,0,0,0,/achievements,,USAGE:
+→Opens and closes the fishing log.","","",32,0
+149,1,0,0,0,0,"/achievements","","USAGE:
 　/achievements
 
-→Opens the list of in-game FINAL FANTASY XIV achievements.,,,32,0
-150,3,1,2,0,0,/partycmd,/pcmd,ALIASES:
+→Opens the list of in-game FINAL FANTASY XIV achievements.","","",32,0
+150,3,1,2,0,0,"/partycmd","/pcmd","ALIASES:
 　/partycmd, /pcmd
 USAGE:
 　/partycmd [subcommand]
@@ -484,8 +484,8 @@ Opens and closes the Party menu when no subcommand is specified.
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,32,0
-151,3,1,2,0,0,/friendlist,/flist,ALIASES:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",32,0
+151,3,1,2,0,0,"/friendlist","/flist","ALIASES:
 　/friendlist, /flist
 USAGE:
 　/friendlist [subcommand]
@@ -510,8 +510,8 @@ Opens and closes friend list when no subcommand is specified.
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,128,0
-152,3,1,2,0,0,/blacklist,/blist,ALIASES:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",128,0
+152,3,1,2,0,0,"/blacklist","/blist","ALIASES:
 　/blacklist, /blist
 USAGE:
 　/blacklist [subcommand]
@@ -530,8 +530,8 @@ Opens and closes blacklist when no subcommand is specified.
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,0,0
-153,20,0,0,0,0,/search,/sea,ALIASES:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",0,0
+153,20,0,0,0,0,"/search","/sea","ALIASES:
 　/search, /sea
 USAGE:
 　/search [condition]
@@ -593,16 +593,16 @@ Searches current language if none is specified.
 　/sea GLA 20-30 ""La Noscea""
 　(Searches for all gladiators in
 　La Noscea between levels 20
-　and 30.),,,0,0
-154,1,0,0,0,0,/map,,USAGE:
+　and 30.)","","",0,0
+154,1,0,0,0,0,"/map","","USAGE:
 　/map
 
-→Opens and closes the current area map.,,,104,0
-155,1,0,0,0,0,/teleport,,USAGE:
+→Opens and closes the current area map.","","",104,0
+155,1,0,0,0,0,"/teleport","","USAGE:
 　/teleport
 
-→Opens the Teleport interface.,,,0,0
-156,3,1,2,0,0,/marking,/mk,ALIASES:
+→Opens the Teleport interface.","","",0,0
+156,3,1,2,0,0,"/marking","/mk","ALIASES:
 　/enemysign, /marking, /mk
 USAGE:
 　/enemysign [sign type] [placeholder]
@@ -629,82 +629,82 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 >>Example:
 　/marking attack2 <t>
 　(Assigns ""Target to Attack 2""
-　to target.),/enemysign,,32,0
-157,1,0,0,0,0,/actionlist,/alist,ALIASES:
+　to target.)","/enemysign","",32,0
+157,1,0,0,0,0,"/actionlist","/alist","ALIASES:
 　/actionlist, /alist
 USAGE:
 　/actionlist
 
-→Opens and closes the Actions & Traits interface.,,,32,0
-158,1,0,0,0,0,/timers,,USAGE:
+→Opens and closes the Actions & Traits interface.","","",32,0
+158,1,0,0,0,0,"/timers","","USAGE:
 　/timers
 
-→Opens and closes the Timers interface.,,,32,0
-159,1,0,0,0,0,/recommended,,USAGE:
+→Opens and closes the Timers interface.","","",32,0
+159,1,0,0,0,0,"/recommended","","USAGE:
 　/recommended
 
-→Opens and closes the Recommendations list.,,,32,0
-160,2,1,0,0,0,/inventory,/bag,ALIASES:
+→Opens and closes the Recommendations list.","","",32,0
+160,2,1,0,0,0,"/inventory","/bag","ALIASES:
 　/inventory, /bag
 USAGE:
 　/inventory
 
-→Opens and closes your inventory.,,,32,0
-161,3,1,2,0,0,/freecompanycmd,/fccmd,ALIASES:
+→Opens and closes your inventory.","","",32,0
+161,3,1,2,0,0,"/freecompanycmd","/fccmd","ALIASES:
 　/freecompanycmd, /fccmd
 USAGE:
 　/freecompanycmd
 
-→Opens and closes the free company interface.,,,0,0
-162,4,2,0,2,0,/linkshellcmd,/lcmd,ALIASES:
+→Opens and closes the free company interface.","","",0,0
+162,4,2,0,2,0,"/linkshellcmd","/lcmd","ALIASES:
 　/linkshellcmd, /lcmd
 USAGE:
 　/linkshellcmd
 
-→Opens and closes the linkshell menu.,,,128,0
-163,1,0,0,0,0,/return,,USAGE:
+→Opens and closes the linkshell menu.","","",128,0
+163,1,0,0,0,0,"/return","","USAGE:
 　/return
 
-→Return to your current home point.,,,32,0
-164,1,0,0,0,0,/emotelist,/elist,ALIASES:
+→Return to your current home point.","","",32,0
+164,1,0,0,0,0,"/emotelist","/elist","ALIASES:
 　/emotelist, /elist
 USAGE:
 　/emotelist
 
-→Opens and closes the list of available emotes.,,,33,0
-165,1,0,0,0,0,/activehelp,,USAGE:
+→Opens and closes the list of available emotes.","","",33,0
+165,1,0,0,0,0,"/activehelp","","USAGE:
 　/activehelp
 
-→Opens and closes the Active Help interface.,/activehelp,,32,0
-166,1,0,0,0,0,/supportdesk,/support,ALIASES:
+→Opens and closes the Active Help interface.","/activehelp","",32,0
+166,1,0,0,0,0,"/supportdesk","/support","ALIASES:
 　/supportdesk, /support
 USAGE:
 　/supportdesk
 
-→Opens and closes the Support Desk interface.,,,32,0
-167,1,0,0,0,0,/characterconfig,/cconfig,ALIASES:
+→Opens and closes the Support Desk interface.","","",32,0
+167,1,0,0,0,0,"/characterconfig","/cconfig","ALIASES:
 　/characterconfig, /cconfig
 USAGE:
 　/characterconfig
 
-→Opens and closes the Character Configuration interface.,,,32,0
-168,1,0,0,0,0,/systemconfig,/sconfig,ALIASES:
+→Opens and closes the Character Configuration interface.","","",32,0
+168,1,0,0,0,0,"/systemconfig","/sconfig","ALIASES:
 　/systemconfig, /sconfig
 USAGE:
 　/systemconfig
 
-→Opens and closes the System Configuration interface.,,,32,0
-169,1,0,0,0,0,/keybind,/keyconfig,ALIASES:
+→Opens and closes the System Configuration interface.","","",32,0
+169,1,0,0,0,0,"/keybind","/keyconfig","ALIASES:
 　/keybind, /keyconfig
 USAGE:
 　/keybind
 
-→Opens and closes the Keybind interface.,,,32,0
-170,1,0,0,0,0,/macros,,USAGE:
+→Opens and closes the Keybind interface.","","",32,0
+170,1,0,0,0,0,"/macros","","USAGE:
 　/macros
 
-→Opens and closes the user macro editor.,,,32,0
-171,2,0,0,0,0,/hudlayout,,USAGE:
+→Opens and closes the user macro editor.","","",32,0
+171,2,0,0,0,0,"/hudlayout","","USAGE:
 　/hudlayout [subcommand]
 
 →Opens and closes the HUD layout editor.
@@ -717,40 +717,40 @@ Opens the HUD layout editor if no subcommand is specified.
 
 >>Example:
 　 /hudlayout 3
-　 (Switches to layout 3.),,,32,0
-172,1,0,0,0,0,/logout,,USAGE:
+　 (Switches to layout 3.)","","",32,0
+172,1,0,0,0,0,"/logout","","USAGE:
 　/logout
 
-→Begins the logout process.,,,32,0
-173,1,0,0,0,0,/shutdown,,USAGE:
+→Begins the logout process.","","",32,0
+173,1,0,0,0,0,"/shutdown","","USAGE:
 　/shutdown
 
-→Log out and close the game.,,,32,0
-174,1,0,0,0,0,/partysort,/psort,ALIASES:
+→Log out and close the game.","","",32,0
+174,1,0,0,0,0,"/partysort","/psort","ALIASES:
 　/partysort, /psort
 USAGE:
 　/partysort
 
-→Sort the party list in the specified order.,,,36,0
-175,1,0,0,0,0,/readycheck,/rcheck,ALIASES:
+→Sort the party list in the specified order.","","",36,0
+175,1,0,0,0,0,"/readycheck","/rcheck","ALIASES:
 　/readycheck, /rcheck
 USAGE:
 　/readycheck
 
-→Initiate ready check.,,,32,0
-176,1,0,0,0,0,/ready,/rd,ALIASES:
+→Initiate ready check.","","",32,0
+176,1,0,0,0,0,"/ready","/rd","ALIASES:
 　/ready, /rd
 USAGE:
 　/ready
 
-→Indicate that you are ready when a ready check has been initiated.,/ready,/rd,36,0
-177,1,0,0,0,0,/notready,/nr,ALIASES:
+→Indicate that you are ready when a ready check has been initiated.","/ready","/rd",36,0
+177,1,0,0,0,0,"/notready","/nr","ALIASES:
 　/hold, /hd
 USAGE:
 　/hold
 
-→Indicate that you are not ready when a ready check has been initiated.,/hold,/hd,36,0
-178,3,1,2,0,0,/waymark,/wmark,ALIASES:
+→Indicate that you are not ready when a ready check has been initiated.","/hold","/hd",36,0
+178,3,1,2,0,0,"/waymark","/wmark","ALIASES:
 　/waymark, /wmark
 USAGE:
 　/wmark [subcommand] [placeholder]
@@ -788,104 +788,104 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 
 　/waymark A <t>
 　(Places waymark A at the
-　selected target's location.),/waymark,/wmark,32,0
-179,1,0,0,0,0,/fishguide,/fg,ALIASES:
+　selected target's location.)","/waymark","/wmark",32,0
+179,1,0,0,0,0,"/fishguide","/fg","ALIASES:
 　/fishguide, /fg
 USAGE:
 　/fishguide
 
-→Opens and closes the Fish Guide interface.,,,32,0
-180,1,0,0,0,0,/housing,/hou,ALIASES:
+→Opens and closes the Fish Guide interface.","","",32,0
+180,1,0,0,0,0,"/housing","/hou","ALIASES:
 　/housing, /hou
 USAGE:
 　/housing
 
-→Opens and closes the Housing interface.,,,32,0
-181,1,0,0,0,0,/minionguide,,USAGE:
+→Opens and closes the Housing interface.","","",32,0
+181,1,0,0,0,0,"/minionguide","","USAGE:
 　/minionguide
 
-→Opens and closes the Minion Guide interface. If the PC is playing Lord of Verminion, the command will open the Battle List.,/minionguide,,48,0
-182,1,0,0,0,0,/mountguide,,USAGE:
+→Opens and closes the Minion Guide interface. If the PC is playing Lord of Verminion, the command will open the Battle List.","/minionguide","",48,0
+182,1,0,0,0,0,"/mountguide","","USAGE:
 　/mountguide
 
-→Opens and closes the Mount Guide interface.,/mountguide,,32,0
-183,1,0,0,0,0,/partyfinder,/pfinder,ALIASES:
+→Opens and closes the Mount Guide interface.","/mountguide","",32,0
+183,1,0,0,0,0,"/partyfinder","/pfinder","ALIASES:
 　/partyfinder, /pfinder
 USAGE:
 　/partyfinder
 
-→Opens and closes the Party Finder interface.,,,0,0
-184,1,0,0,0,0,/pvpprofile,/pvppro,ALIASES:
+→Opens and closes the Party Finder interface.","","",0,0
+184,1,0,0,0,0,"/pvpprofile","/pvppro","ALIASES:
 　/pvpprofile, /pvpp
 USAGE:
 　/pvpprofile
 
-→Opens and closes the PvP Profile interface.,/pvpprofile,/pvpp,0,0
-185,1,0,0,0,0,/companion,/comp,ALIASES:
+→Opens and closes the PvP Profile interface.","/pvpprofile","/pvpp",0,0
+185,1,0,0,0,0,"/companion","/comp","ALIASES:
 　/companion, /comp
 USAGE:
 　/companion
 
-→Opens and closes the Companion interface.,/companion,/comp,32,0
-186,1,0,0,0,0,/keyitem,/kitem,ALIASES:
+→Opens and closes the Companion interface.","/companion","/comp",32,0
+186,1,0,0,0,0,"/keyitem","/kitem","ALIASES:
 　/keyitem, /kitem
 USAGE:
 　/keyitem
 
-→Opens and closes the Key Item interface.,/keyitem,/kitem,32,0
-187,1,0,0,0,0,/challengelog,,USAGE:
+→Opens and closes the Key Item interface.","/keyitem","/kitem",32,0
+187,1,0,0,0,0,"/challengelog","","USAGE:
 　/challengelog
 
-→Opens and closes the Challenge Log interface.,,,32,0
-188,1,0,0,0,0,/sightseeinglog,,USAGE:
+→Opens and closes the Challenge Log interface.","","",32,0
+188,1,0,0,0,0,"/sightseeinglog","","USAGE:
 　/sightseeinglog
 
-→Opens and closes the Sightseeing Log interface.,,,32,0
-189,1,0,0,0,0,/goldsaucer,/saucer,ALIASES:
+→Opens and closes the Sightseeing Log interface.","","",32,0
+189,1,0,0,0,0,"/goldsaucer","/saucer","ALIASES:
 　/goldsaucer, /saucer
 USAGE:
 　/goldsaucer
 
-→Opens and closes the Gold Saucer interface.,,,32,0
-190,1,0,0,0,0,/currency,,USAGE:
+→Opens and closes the Gold Saucer interface.","","",32,0
+190,1,0,0,0,0,"/currency","","USAGE:
 　/currency
 
-→Opens and closes the Currency interface.,,,32,0
-191,1,0,0,0,0,/aethercurrent,/acurrent,ALIASES:
+→Opens and closes the Currency interface.","","",32,0
+191,1,0,0,0,0,"/aethercurrent","/acurrent","ALIASES:
 　/aethercurrent, /acurrent
 USAGE:
 　/aethercurrent
 
-→Opens and closes the Aether Currents interface.,,,32,0
-192,1,0,0,0,0,/logcolor,/lcolor,ALIASES:
+→Opens and closes the Aether Currents interface.","","",32,0
+192,1,0,0,0,0,"/logcolor","/lcolor","ALIASES:
 　/logcolor, /lcolor
 USAGE:
 　/logcolor
 
-→Opens and closes the Log Text Color interface.,,,32,0
-193,1,0,0,0,0,/playguide,/pguide,ALIASES:
+→Opens and closes the Log Text Color interface.","","",32,0
+193,1,0,0,0,0,"/playguide","/pguide","ALIASES:
 　/playguide, /pguide
 USAGE:
 　/playguide
 
-→Opens and closes the Playguide interface.,,,32,0
-194,1,0,0,0,0,/generaldutykey,/gdutykey,ALIASES:
+→Opens and closes the Playguide interface.","","",32,0
+194,1,0,0,0,0,"/generaldutykey","/gdutykey","ALIASES:
 　/generaldutykey, /gdutykey
 USAGE:
 　/generaldutykey
 
-→Activates the General Duty key. When near a FATE, this will level sync the player.,/generaldutykey,/gdutykey,40,0
-195,1,0,0,0,0,/raidfinder,/rfinder,ALIASES:
+→Activates the General Duty key. When near a FATE, this will level sync the player.","/generaldutykey","/gdutykey",40,0
+195,1,0,0,0,0,"/raidfinder","/rfinder","ALIASES:
 　/raidfinder, /rfinder
 USAGE:
 　/raidfinder
 
-→Opens and closes the Raid Finder interface.,,,0,0
-196,1,0,0,0,0,/orchestrion,,USAGE:
+→Opens and closes the Raid Finder interface.","","",0,0
+196,1,0,0,0,0,"/orchestrion","","USAGE:
 　/orchestrion
 
-→Opens and closes the orchestrion list.,,,32,0
-197,2,1,0,0,0,/countdown,/cd,ALIASES:
+→Opens and closes the orchestrion list.","","",32,0
+197,2,1,0,0,0,"/countdown","/cd","ALIASES:
 　/countdown, /cd
 USAGE:
 　/cd [subcommand]
@@ -907,24 +907,24 @@ Opens the countdown interface when no subcommand is specified.
 >>Example:
 　/countdown 10
 　Initiates a countdown starting
-　at ten seconds.,,,32,0
-198,1,0,0,0,0,/contactlist,,USAGE:
+　at ten seconds.","","",32,0
+198,1,0,0,0,0,"/contactlist","","USAGE:
 　/contactlist
 
-→Opens and closes the contact list.,,,32,0
-199,1,0,0,0,0,/mountspeed,,USAGE:
+→Opens and closes the contact list.","","",32,0
+199,1,0,0,0,0,"/mountspeed","","USAGE:
 　/mountspeed
 
-→Opens and closes the ground mount speed interface.,,,32,0
-201,2,1,1,0,0,/?,,USAGE:
+→Opens and closes the ground mount speed interface.","","",32,0
+201,2,1,1,0,0,"/?","","USAGE:
 　/? [text command]
 
-→Gives a detailed explanation of the specified text command.,,,189,0
-202,2,1,0,0,0,/wait,,USAGE:
+→Gives a detailed explanation of the specified text command.","","",189,0
+202,2,1,0,0,0,"/wait","","USAGE:
 　/wait [wait time]
 
-→A macro command for adjusting the pause between commands. A wait time amount of 1 equals one second. The maximum wait time allowed is 60. If the wait time amount is over 60, it will be counted as 60.,,,181,0
-204,2,1,2,0,0,/legacymark,/lmark,ALIASES:
+→A macro command for adjusting the pause between commands. A wait time amount of 1 equals one second. The maximum wait time allowed is 60. If the wait time amount is over 60, it will be counted as 60.","","",181,0
+204,2,1,2,0,0,"/legacymark","/lmark","ALIASES:
 　/legacymark, /lmark
 USAGE:
 　/legacymark [subcommand]
@@ -935,8 +935,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Show mark.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>     Hide mark.
 
-Toggle between shown and hidden when no subcommand is specified.,,,60,0
-206,2,1,2,0,0,/gcsalute,,USAGE:
+Toggle between shown and hidden when no subcommand is specified.","","",60,0
+206,2,1,2,0,0,"/gcsalute","","USAGE:
 　/gcsalute [subcommand]
 
 →Perform the official salute of the Grand Company to which you belong.
@@ -944,8 +944,8 @@ Toggle between shown and hidden when no subcommand is specified.,,,60,0
 >>Subcommands:
  　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-207,3,3,0,2,7,/macroicon,/micon,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+207,3,3,0,2,7,"/macroicon","/micon","ALIASES:
 　/macroicon, /micon
 USAGE:
 　/micon ""icon name"" [category]
@@ -1016,13 +1016,13 @@ USAGE:
 　　Quick Chat message,
 　　its icon will be displayed.
 
-Category defaults to action when none is specified.,,,36,0
-208,2,1,3,0,0,/recast,,USAGE:
+Category defaults to action when none is specified.","","",36,0
+208,2,1,3,0,0,"/recast","","USAGE:
 　/recast ""action name""
 
 →Displays time remaining until the specified action can be used again.
-,,,36,0
-209,4,1,2,0,0,/gearset,/gs,ALIASES:
+","","",36,0
+209,4,1,2,0,0,"/gearset","/gs","ALIASES:
 　/gearset, /gs
 USAGE:
 　/gearset [subcommand]
@@ -1045,8 +1045,8 @@ Gear set list will be displayed when no subcommand is specified.
 >>Example:
 　/gearset change 1 1
 　(Equip gear in slot 1 and
-　cast glamour from plate 1.),,,32,0
-210,4,2,2,2,0,/itemsort,/isort,ALIASES:
+　cast glamour from plate 1.)","","",32,0
+210,4,2,2,2,0,"/itemsort","/isort","ALIASES:
 　　/itemsort, /isort
 USAGE:
 　　/itemsort [subcommand]
@@ -1098,28 +1098,28 @@ Defaults to ascending if order is not specified. Cannot be used if one of the co
 
 　/itemsort execute mh
 　(Sorts main arms based on
-　the above conditions.) ,,,36,0
-211,2,1,2,0,0,/random,,USAGE:
+　the above conditions.) ","","",36,0
+211,2,1,2,0,0,"/random","","USAGE:
 　/random
 
-→Displays within a /say radius a random number between 0 and 999.,,,36,0
-212,1,0,0,0,0,/instance,,USAGE:
+→Displays within a /say radius a random number between 0 and 999.","","",36,0
+212,1,0,0,0,0,"/instance","","USAGE:
 　/instance
 
-　　　　→Displays whether or not your character is currently in an instanced area.,,,60,0
-213,1,0,0,0,0,/cleartellhistory,/cth,ALIASES:
+　　　　→Displays whether or not your character is currently in an instanced area.","","",60,0
+213,1,0,0,0,0,"/cleartellhistory","/cth","ALIASES:
 　/cleartellhistory, /cth
 USAGE:
 　/cleartellhistory
 
-→Deletes all record of previous /tell messages.,,,60,0
-214,1,0,0,0,0,/macrolock,/mlock,ALIASES:
+→Deletes all record of previous /tell messages.","","",60,0
+214,1,0,0,0,0,"/macrolock","/mlock","ALIASES:
 　/macrolock, /mlock
 USAGE:
 　/macrolock
 
-→Prevents the execution of any additional macros until all steps following /macrolock have been executed.,,,36,0
-215,2,1,2,0,0,/macroerror,/merror,ALIASES:
+→Prevents the execution of any additional macros until all steps following /macrolock have been executed.","","",36,0
+215,2,1,2,0,0,"/macroerror","/merror","ALIASES:
 　/macroerror, /merror
 USAGE:
 　/macroerror [subcommand]
@@ -1130,26 +1130,26 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>   Displays error message.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>   Hides error message.
 
-Toggle between on and off when no subcommand is specified.,,,36,0
-216,1,0,0,0,0,/clearlog,/cl,ALIASES:
+Toggle between on and off when no subcommand is specified.","","",36,0
+216,1,0,0,0,0,"/clearlog","/cl","ALIASES:
 　/clearlog, /cl
 USAGE:
 　/clearlog
 
-→Delete all past messages from your entire chat log.,,,509,0
-217,0,0,0,0,0,/macrocancel,/mcancel,ALIASES:
+→Delete all past messages from your entire chat log.","","",509,0
+217,0,0,0,0,0,"/macrocancel","/mcancel","ALIASES:
 　/macrocancel, /mcancel
 USAGE:
 　/macrocancel
 
-→Cancel the currently executed macro. Cannot be used in a macro.,,,165,0
-218,1,0,0,0,0,/playtime,/ptime,ALIASES:
+→Cancel the currently executed macro. Cannot be used in a macro.","","",165,0
+218,1,0,0,0,0,"/playtime","/ptime","ALIASES:
 　/playtime, /ptime
 USAGE:
 　/playtime
 
-→Displays your cumulative FINAL FANTASY XIV play time.,,,60,0
-219,1,0,0,0,0,/grouppose,/gpose,ALIASES:
+→Displays your cumulative FINAL FANTASY XIV play time.","","",60,0
+219,1,0,0,0,0,"/grouppose","/gpose","ALIASES:
 　/grouppose, /gpose
 USAGE:
 　/gpose
@@ -1179,8 +1179,8 @@ USAGE:
  　<CommandIcon(20)/>, W, A, S, D, Q, E
 
 　Reset frame composition
-　<Gui(16)/>, Z,,,32,0
-220,2,0,0,0,0,/itemsearch,/isearch,ALIASES:
+　<Gui(16)/>, Z","","",32,0
+220,2,0,0,0,0,"/itemsearch","/isearch","ALIASES:
 　/itemsearch, /isearch
 USAGE:
 　/isearch [item name]
@@ -1191,8 +1191,8 @@ USAGE:
 　/itemsearch ""Potion""
 　(Searches your inventory for
 　items containing the word
-　Potion.),,,32,3000
-221,2,0,0,0,0,/idlingcamera,/icam,ALIASES:
+　Potion.)","","",32,3000
+221,2,0,0,0,0,"/idlingcamera","/icam","ALIASES:
 　/idlingcamera, /icam
 USAGE:
 　/icam [placeholder]
@@ -1218,8 +1218,8 @@ USAGE:
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,40,0
-223,2,1,2,0,0,/duelswitch,,USAGE:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",40,0
+223,2,1,2,0,0,"/duelswitch","","USAGE:
 　/duelswitch [subcommand]
 
 →Allow or automatically deny challenges to duel from other players.
@@ -1230,8 +1230,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.,,,40,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Allow players to challenge you to duel.
 
-Toggles between on and off when no subcommand is specified.,,,4,0
-224,2,1,2,0,0,/beginnerchannelinvitation,/bchannelinvitation,ALIASES:
+Toggles between on and off when no subcommand is specified.","","",4,0
+224,2,1,2,0,0,"/beginnerchannelinvitation","/bchannelinvitation","ALIASES:
 　/novicenetworkinvitation, /nnetworkinvitation
 USAGE:
 　/novicenetworkinvitation [subcommand]
@@ -1244,14 +1244,14 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Automatically refuse invitations to the Novice Network.
 
-Toggles between on and off when no subcommand is specified.,/novicenetworkinvitation,/nnetworkinvitation,189,1000
-225,1,0,0,0,0,/beginnerchannelleave,/bchannelleave,ALIASES:
+Toggles between on and off when no subcommand is specified.","/novicenetworkinvitation","/nnetworkinvitation",189,1000
+225,1,0,0,0,0,"/beginnerchannelleave","/bchannelleave","ALIASES:
 　/novicenetworkleave, /nnetworkleave
 USAGE:
 　/novicenetworkleave
 
-→Leave the Novice Network.,/novicenetworkleave,/nnetworkleave,189,1000
-226,3,2,7,15,0,/egiglamour,,USAGE:
+→Leave the Novice Network.","/novicenetworkleave","/nnetworkleave",189,1000
+226,3,2,7,15,0,"/egiglamour","","USAGE:
 　/egiglamour ""egi name"" ""glamour""
 
 →Alter the appearance of your egi. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.
@@ -1272,8 +1272,8 @@ The glamour will be removed when no glamour is specified.
 　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
 　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
 
-　/egiglamour ""Garuda-Egi""　(Remove the glamour from Garuda-Egi.),/egiglamour,,36,0
-227,3,1,2,0,0,/title,,USAGE:
+　/egiglamour ""Garuda-Egi""　(Remove the glamour from Garuda-Egi.)","/egiglamour","",36,0
+227,3,1,2,0,0,"/title","","USAGE:
 　/title [subcommand]
 
 →Change your currently selected title.
@@ -1287,8 +1287,8 @@ The glamour will be removed when no glamour is specified.
 A random title will be set when none is specified.
 
 >>Example:
-　/title set ""The Heart of the Party""　(Set title as ""The Heart of the Party.""),,,36,1000
-228,2,1,2,0,0,/bahamutsize,,USAGE:
+　/title set ""The Heart of the Party""　(Set title as ""The Heart of the Party."")","","",36,1000
+228,2,1,2,0,0,"/bahamutsize","","USAGE:
 　/bahamutsize [subcommand]
 
 →Changes your Demi-Bahamut display settings. These settings will not apply to other players.
@@ -1301,8 +1301,8 @@ A random title will be set when none is specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>small<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set Demi-Bahamut size to small.
 
-Toggles between small, medium, and large when no subcommand is specified.,,,36,0
-229,6,3,2,2,2,/alarm,,USAGE:
+Toggles between small, medium, and large when no subcommand is specified.","","",36,0
+229,6,3,2,2,2,"/alarm","","USAGE:
 　/alarm ""name"" [clock type] [repeat] [time] [reminder]
 
 →Set an alarm for a specified time using local, server, or Eorzea time.
@@ -1341,8 +1341,8 @@ Opens the alarm interface when no subcommands are specified.
 　/alarm Party lt rp 30
 　(Sets the ""Party"" alarm as
 　an hourly alarm, 30 minutes
-　past the hour in local time.),,,32,0
-231,2,1,2,0,0,/busy,,USAGE:
+　past the hour in local time.)","","",32,0
+231,2,1,2,0,0,"/busy","","USAGE:
 　/busy [subcommand]
 
 →Set your online status to Busy/Online.
@@ -1351,8 +1351,8 @@ Opens the alarm interface when no subcommands are specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Set your status to Busy.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Set your status to Online.
 
-Toggle between Busy and Online when no subcommand is specified.,,,36,0
-232,2,1,2,0,0,/away,/afk,ALIASES:
+Toggle between Busy and Online when no subcommand is specified.","","",36,0
+232,2,1,2,0,0,"/away","/afk","ALIASES:
 　/away, /afk
 USAGE:
 　/away [subcommand]
@@ -1363,8 +1363,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>     Set your status to Away.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>     Set your status to Online.
 
-Toggle between Away and Online when no subcommand is specified.,,,36,0
-233,1,0,0,0,0,/lookingforparty,/lfp,ALIASES:
+Toggle between Away and Online when no subcommand is specified.","","",36,0
+233,1,0,0,0,0,"/lookingforparty","/lfp","ALIASES:
 　/lookingforparty, /lfp
 USAGE:
 　/lfp [subcommand] [class]
@@ -1388,8 +1388,8 @@ Toggle between Looking for Party and Online when no subcommand is specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WHM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SMN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>NIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AST<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SAM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RDM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-Multiple classes/jobs─or none at all─may be specified.,,,36,0
-234,2,1,2,0,0,/lookingformeld,/lfm,ALIASES:
+Multiple classes/jobs─or none at all─may be specified.","","",36,0
+234,2,1,2,0,0,"/lookingformeld","/lfm","ALIASES:
 　/lookingtomeld, /ltm
 USAGE:
 　/lookingtomeld [subcommand]
@@ -1403,14 +1403,14 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set your status to Online.
 
-Toggle between Looking to Meld Materia and Online when no subcommand is specified.,/lookingtomeld,/ltm,36,0
-235,1,0,0,0,0,/searchcomment,/scomment,ALIASES:
+Toggle between Looking to Meld Materia and Online when no subcommand is specified.","/lookingtomeld","/ltm",36,0
+235,1,0,0,0,0,"/searchcomment","/scomment","ALIASES:
 　/searchcomment, /scomment
 USAGE:
 　/searchcomment [comment]
 
-→Change your search comment.,,,36,0
-236,2,1,2,0,0,/beginnerstatus,/bstatus,ALIASES:
+→Change your search comment.","","",36,0
+236,2,1,2,0,0,"/beginnerstatus","/bstatus","ALIASES:
 　/nastatus, /nas
 USAGE:
 　/nastatus [subcommand]
@@ -1423,8 +1423,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Turns off New Adventurer status.
 
-Toggle the New Adventurer status on/off if no subcommand is specified.,/nastatus,/nas,36,1000
-237,2,1,2,0,0,/beginnerchannel,/bchannel,ALIASES:
+Toggle the New Adventurer status on/off if no subcommand is specified.","/nastatus","/nas",36,1000
+237,2,1,2,0,0,"/beginnerchannel","/bchannel","ALIASES:
 　/novicenetwork, /nnetwork
 USAGE:
 　/nnetwork [subcommand]
@@ -1437,12 +1437,12 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground> 
 　　Turn off auto-join and leave the Novice Network.
 
-Toggle auto-join on and off if no subcommand is specified.,/novicenetwork,/nnetwork,36,1000
-238,1,0,0,0,0,/returnerstatusoff,,USAGE:
+Toggle auto-join on and off if no subcommand is specified.","/novicenetwork","/nnetwork",36,1000
+238,1,0,0,0,0,"/returnerstatusoff","","USAGE:
 　/returnerstatusoff
 
-→Remove the Returner status.,/returnerstatusoff,,36,1000
-239,2,1,2,0,0,/roleplaying,,USAGE:
+→Remove the Returner status.","/returnerstatusoff","",36,1000
+239,2,1,2,0,0,"/roleplaying","","USAGE:
 　/roleplaying [subcommand]
 
 →Set your online status to Role-playing.
@@ -1451,8 +1451,8 @@ Toggle auto-join on and off if no subcommand is specified.,/novicenetwork,/nnetw
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Set your status to Role-playing.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Set your status to Online.
 
-Toggle between Role-playing and Online when no subcommand is specified.,,,36,0
-251,3,1,3,0,0,/action,/ac,ALIASES:
+Toggle between Role-playing and Online when no subcommand is specified.","","",36,0
+251,3,1,3,0,0,"/action","/ac","ALIASES:
 　/action, /ac
 USAGE:
 　/action ""action name"" [placeholder]
@@ -1471,8 +1471,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 
 　/action ""Cure"" <2>
 　(Executes cure on second
-　player in party list.),,,36,0
-252,2,1,2,0,0,/battlemode,/bm,ALIASES:
+　player in party list.)","","",36,0
+252,2,1,2,0,0,"/battlemode","/bm","ALIASES:
 　/battlemode, /bm
 USAGE:
 　/battlemode [subcommand]
@@ -1483,8 +1483,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Switch to active mode.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Switch to passive mode.
 
-Toggle between active and passive mode when no subcommand is specified.,,,36,0
-253,2,0,0,0,0,/target,/ta,ALIASES:
+Toggle between active and passive mode when no subcommand is specified.","","",36,0
+253,2,0,0,0,0,"/target","/ta","ALIASES:
 　/target, /ta
 USAGE:
 　/target [placeholder]
@@ -1499,32 +1499,32 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 >>Example:
 　/target <2>
 　(Targets second player
-　in player list.),,,36,0
-254,1,0,0,0,0,/targetpc,/tpc,ALIASES:
+　in player list.)","","",36,0
+254,1,0,0,0,0,"/targetpc","/tpc","ALIASES:
 　/targetpc, /tpc
 USAGE:
 　/targetpc
 
-→Targets the closest PC within a certain radius.,,,36,0
-255,1,0,0,0,0,/targetnpc,/tnpc,ALIASES:
+→Targets the closest PC within a certain radius.","","",36,0
+255,1,0,0,0,0,"/targetnpc","/tnpc","ALIASES:
 　/targetnpc, /tnpc
 USAGE:
 　/targetnpc
 
-→Targets the closest NPC within a certain radius.,,,36,0
-256,1,0,0,0,0,/targetenemy,/tenemy,ALIASES:
+→Targets the closest NPC within a certain radius.","","",36,0
+256,1,0,0,0,0,"/targetenemy","/tenemy","ALIASES:
 　/targetenemy, /tenemy
 USAGE:
 　/targetenemy
 
-→Targets the closest enemy within a certain radius.,,,36,0
-257,1,0,0,0,0,/battletarget,/bt,ALIASES:
+→Targets the closest enemy within a certain radius.","","",36,0
+257,1,0,0,0,0,"/battletarget","/bt","ALIASES:
 　/battletarget, /bt
 USAGE:
 　/battletarget
 
-→Targets the closest enemy within a certain radius that is attacking you.,,,36,0
-258,2,0,0,0,0,/assist,/as,ALIASES:
+→Targets the closest enemy within a certain radius that is attacking you.","","",36,0
+258,2,0,0,0,0,"/assist","/as","ALIASES:
 　/assist, /as
 USAGE:
 　/assist [placeholder]
@@ -1534,36 +1534,36 @@ USAGE:
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.,,,36,0
-259,1,0,0,0,0,/facetarget,/ft,ALIASES:
+A full list of placeholders can be found on the Lodestone Play Guide.","","",36,0
+259,1,0,0,0,0,"/facetarget","/ft","ALIASES:
 　/facetarget, /ft
 USAGE:
 　/facetarget
 
-→Immediately turns your PC in the direction of your current target.,,,36,0
-260,1,0,0,0,0,/nexttarget,/nt,ALIASES:
+→Immediately turns your PC in the direction of your current target.","","",36,0
+260,1,0,0,0,0,"/nexttarget","/nt","ALIASES:
 　/nexttarget, /nt
 USAGE:
 　/nexttarget
 
-→Toggle clockwise through on-screen enemies.,,,36,0
-261,1,0,0,0,0,/previoustarget,,USAGE:
+→Toggle clockwise through on-screen enemies.","","",36,0
+261,1,0,0,0,0,"/previoustarget","","USAGE:
 　/previoustarget
 
-→Toggle counterclockwise through on-screen enemies.,,,36,0
-262,1,0,0,0,0,/targetlasttarget,/tlt,ALIASES:
+→Toggle counterclockwise through on-screen enemies.","","",36,0
+262,1,0,0,0,0,"/targetlasttarget","/tlt","ALIASES:
 　/targetlasttarget, /tlt
 USAGE:
 　/targetlasttarget
 
-→Re-target your last target.,,,36,0
-263,1,0,0,0,0,/targetlastenemy,/tle,ALIASES:
+→Re-target your last target.","","",36,0
+263,1,0,0,0,0,"/targetlastenemy","/tle","ALIASES:
 　/targetlastenemy, /tle
 USAGE:
 　/targetlastenemy
 
-→Re-target the last enemy you targeted.,,,36,0
-264,2,1,2,0,0,/lockon,/lo,ALIASES:
+→Re-target the last enemy you targeted.","","",36,0
+264,2,1,2,0,0,"/lockon","/lo","ALIASES:
 　/lockon, /lo
 USAGE:
 　/lockon [subcommand]
@@ -1574,8 +1574,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>     Enable lock-on.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Disable lock-on.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-265,2,0,0,0,0,/focustarget,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+265,2,0,0,0,0,"/focustarget","","USAGE:
 　/focustarget [placeholder]
 
 →Makes the specified PC your focus target. Makes current target your focus target when none specified.
@@ -1588,8 +1588,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 >>Example:
 　/focustarget <t>
 　(Makes current target
-　your focus target.),,,36,0
-267,3,1,5,0,0,/petaction,/pac,ALIASES:
+　your focus target.)","","",36,0
+267,3,1,5,0,0,"/petaction","/pac","ALIASES:
 　/petaction, /pac
 USAGE:
 　/pac ""pet action name"" [placeholder]
@@ -1604,8 +1604,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 >>Example:
  　/pac ""Crimson Cyclone"" <t>
 　(Executes Crimson Cyclone
-　on current target.),,,36,0
-268,2,1,6,0,0,/companionaction,/cac,ALIASES:
+　on current target.)","","",36,0
+268,2,1,6,0,0,"/companionaction","/cac","ALIASES:
 　/companionaction, /cac
 USAGE:
 　/cac ""companion action name""
@@ -1615,14 +1615,14 @@ USAGE:
 >>Example:
 　/cac ""free stance""
 　(Companion will enter
-　free stance.),/companionaction,/cac,36,0
-269,1,0,0,0,0,/facecamera,/fcam,ALIASES:
+　free stance.)","/companionaction","/cac",36,0
+269,1,0,0,0,0,"/facecamera","/fcam","ALIASES:
 　/facecamera, /fcam
 USAGE:
 　/facecamera
 
-→Gaze continuously at the camera. Execute command again to cancel.,,,36,0
-270,2,1,2,0,0,/levelsync,/lsync,ALIASES:
+→Gaze continuously at the camera. Execute command again to cancel.","","",36,0
+270,2,1,2,0,0,"/levelsync","/lsync","ALIASES:
 　/levelsync, /lsync
 USAGE:
 　/levelsync [subcommand]
@@ -1633,8 +1633,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>     Start level sync.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    End level sync.
 
-Toggle between on and off when no subcommand is specified.,,,36,0
-271,2,1,9,0,0,/mount,,USAGE:
+Toggle between on and off when no subcommand is specified.","","",36,0
+271,2,1,9,0,0,"/mount","","USAGE:
 　/mount ""mount name""
 
 →Summon or dismiss the specified mount. Mount name is not necessary when dismissing.
@@ -1642,8 +1642,8 @@ Toggle between on and off when no subcommand is specified.,,,36,0
 >>Example:
 　/mount ""Company Chocobo""
 　(Summons or dismisses your
-　company chocobo.),,,36,0
-272,3,2,3,2,0,/additionalaction,/aaction,ALIASES:
+　company chocobo.)","","",36,0
+272,3,2,3,2,0,"/additionalaction","/aaction","ALIASES:
 　/additionalaction, /aaction
 USAGE:
 　/aaction ""action name"" [subcommand]
@@ -1662,8 +1662,8 @@ Toggle between on and off when no subcommand is specified.
 　(Sets Rumination as an additional action.)
 
 　/aaction clear
-　(Removes all role actions.),,,36,1000
-273,3,1,10,0,0,/generalaction,/gaction,ALIASES:
+　(Removes all role actions.)","","",36,1000
+273,3,1,10,0,0,"/generalaction","/gaction","ALIASES:
 　/generalaction, /gaction
 USAGE:
 　/gaction ""action name"" [placeholder]
@@ -1686,8 +1686,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 
 　/gaction “Duty Action I” <t>
 　(Executes a duty-specific action
-　on the specified target.),,,36,0
-274,2,1,8,0,0,/minion,,USAGE:
+　on the specified target.)","","",36,0
+274,2,1,8,0,0,"/minion","","USAGE:
 　/minion ""minion name""
 
 →Summon or dismiss the specified minion. Minion name is not necessary when dismissing.
@@ -1695,16 +1695,16 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 >>Example:
 　/minion ""wayward hatchling""
 　(Summons or dismisses the
-　wayward hatchling minion.),,,36,0
-275,2,0,0,0,0,/statusoff,,USAGE:
+　wayward hatchling minion.)","","",36,0
+275,2,0,0,0,0,"/statusoff","","USAGE:
 　/statusoff ""status""
 
 →Removes designated beneficial status.
 
 >>Example:
 　/statusoff ""Bloodbath""
-　(Removes Bloodbath.),,,36,0
-276,3,0,0,0,0,/addpvpaction,/apa,ALIASES:
+　(Removes Bloodbath.)","","",36,0
+276,3,0,0,0,0,"/addpvpaction","/apa","ALIASES:
 　/addpvpaction, /apa
 USAGE:
 　/apa ""action name 1"" ""action name 2""
@@ -1714,8 +1714,8 @@ USAGE:
 >>Example:
 　/addpvpaction ""Purify"" ""Bolt""
 　(Sets Purify and Bolt as
-　additional PvP actions.),,,36,1000
-277,3,1,16,0,0,/pvpaction,/pvpac,ALIASES:
+　additional PvP actions.)","","",36,1000
+277,3,1,16,0,0,"/pvpaction","/pvpac","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
 　/pvpaction ""action name"" [placeholder]
@@ -1730,8 +1730,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 >>Example:
 　/pvpaction ""Fell Cleave"" <t>
 　(Executes Fell Cleave
-　on current target.),,,4,0
-279,3,1,18,0,0,/blueaction,,USAGE:
+　on current target.)","","",4,0
+279,3,1,18,0,0,"/blueaction","","USAGE:
 　/blueaction “blue mage action” [placeholder]
 
 →Uses the specified blue magic action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed on the specified target. If no target is specified, then you will enter ground targeting mode.
@@ -1745,8 +1745,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　/blueaction “Water Cannon” <t>
 　(Executes Water Cannon on
 　the specified target.)
-,,,36,0
-301,2,1,2,0,0,/autolockon,,USAGE:
+","","",36,0
+301,2,1,2,0,0,"/autolockon","","USAGE:
 　/autolockon [subcommand]
 
 →Automatically lock on target when initiating auto-attack.
@@ -1755,8 +1755,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>   Enable auto-lock on.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>   Disable auto-lock on.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-302,2,1,2,0,0,/autofacetarget,,USAGE: 
+Toggle between on/off when no subcommand is specified.","","",36,0
+302,2,1,2,0,0,"/autofacetarget","","USAGE: 
 　/autofacetarget [subcommand]
 
 →Automatically face target when using action.
@@ -1765,8 +1765,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>       Enable auto-face.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>       Disable auto-face.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-303,2,1,2,0,0,/targetring,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+303,2,1,2,0,0,"/targetring","","USAGE:
 　/targetring [subcommand]
 
 →Hide/display target ring.
@@ -1775,8 +1775,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Display target ring.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Hide target ring.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-304,2,1,2,0,0,/targetline,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+304,2,1,2,0,0,"/targetline","","USAGE:
 　/targetline [subcommand]
 
 →Hide/display target lines.
@@ -1785,8 +1785,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Display target lines.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Hide target lines.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-305,2,1,2,0,0,/linkline,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+305,2,1,2,0,0,"/linkline","","USAGE:
 　/aggroline [subcommand]
 
 →Hide/display aggro lines.
@@ -1795,8 +1795,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Display aggro lines.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Hide aggro lines.
 
-Toggle between on/off when no subcommand is specified.,/aggroline,,36,0
-306,2,1,2,0,0,/autotarget,,USAGE:
+Toggle between on/off when no subcommand is specified.","/aggroline","",36,0
+306,2,1,2,0,0,"/autotarget","","USAGE:
 　/autotarget [subcommand]
 
 →Enable auto-target when no target specified.
@@ -1805,8 +1805,8 @@ Toggle between on/off when no subcommand is specified.,/aggroline,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable auto-target.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable auto-target.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-307,2,1,2,0,0,/displayhead,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+307,2,1,2,0,0,"/displayhead","","USAGE:
 　/displayhead [subcommand]
 
 →Hide/display headgear.
@@ -1815,8 +1815,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Display headgear.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Hide headgear.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-308,2,1,2,0,0,/displayarms,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+308,2,1,2,0,0,"/displayarms","","USAGE:
 　/displayarms [subcommand]
 
 →Hide/display main and off hand weapons when sheathed.
@@ -1825,8 +1825,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Display arms.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Hide arms.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-309,2,1,2,0,0,/autosheathe,/ashathe,ALIASES:
+Toggle between on/off when no subcommand is specified.","","",36,0
+309,2,1,2,0,0,"/autosheathe","/ashathe","ALIASES:
 　/autosheathe, /asheathe
 USAGE:
 　/autosheathe [subcommand]
@@ -1837,8 +1837,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable auto-sheathe.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable auto-sheathe.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-310,2,1,2,0,0,/targetself,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+310,2,1,2,0,0,"/targetself","","USAGE:
 　/targetself [subcommand]
 
 →Enable/disable clicking on self.
@@ -1847,8 +1847,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable clicking on self.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable clicking on self.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-311,2,1,2,0,0,/groundclick,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+311,2,1,2,0,0,"/groundclick","","USAGE:
 　/groundclick [subcommand]
 
 →Enable clicking on field to remove target.
@@ -1857,8 +1857,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable ground clicking.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable ground clicking.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-312,4,3,2,2,2,/chatlog,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+312,4,3,2,2,2,"/chatlog","","USAGE:
 　/chatlog [subcommand]
 
 →Configure log window settings.
@@ -1915,8 +1915,8 @@ Toggle between on/off when no subcommand is specified.,,,36,0
 　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>l1-8<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Linkshell 1-8
 　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>new<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Novice Network
 　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>pvpteam<UIGlow>01</UIGlow><UIForeground>01</UIForeground> PvP Team
-　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cwl<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Cross-world Linkshell,,,36,0
-313,3,2,2,2,0,/battleeffect,,ALIASES:
+　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cwl<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Cross-world Linkshell","","",36,0
+313,3,2,2,2,0,"/battleeffect","","ALIASES:
 　/battleeffect, /bfx
 USAGE:
 　/bfx [subcommand] [setting]
@@ -1939,8 +1939,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>simple <UIGlow>01</UIGlow><UIForeground>01</UIForeground>   Show limited effects.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>          Hide all effects.
 
-Toggles between all and off when no setting is specified.,/battleeffect,/bfx,228,0
-314,3,2,4,2,0,/hud,,USAGE:
+Toggles between all and off when no setting is specified.","/battleeffect","/bfx",228,0
+314,3,2,4,2,0,"/hud","","USAGE:
 　/hud [UI element] [subcommand]
 
 →Toggle on/off various UI elements.
@@ -2015,8 +2015,8 @@ Toggles between all and off when no setting is specified.,/battleeffect,/bfx,228
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>        Show element.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>        Hide element.
 
-Toggle between on/off when no subcommand is specified.,,,32,0
-315,6,3,2,3,7,/hotbar,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",32,0
+315,6,3,2,3,7,"/hotbar","","USAGE:
 　/hotbar [subcommand]
 
 →Edit and configure hotbar settings. Only available in PvE areas.
@@ -2074,8 +2074,8 @@ Toggle between on/off when no subcommand is specified.,,,32,0
 
 　/hotbar change 2
 　(Replaces hotbar [#1] with
-　hotbar [#2].),,,36,0
-316,6,3,2,3,7,/crosshotbar,/chotbar,ALIASES:
+　hotbar [#2].)","","",36,0
+316,6,3,2,3,7,"/crosshotbar","/chotbar","ALIASES:
 　/crosshotbar, /chotbar
 USAGE:
 　/crosshotbar [subcommand]
@@ -2142,16 +2142,16 @@ USAGE:
 　<Gui(14)/>＋<Gui(8)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LAR (LA3) <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<Gui(15)/>＋<Gui(8)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RAR (RA3)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<Gui(14)/>＋<Gui(9)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LAD (LA4) <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<Gui(15)/>＋<Gui(9)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RAD (RA4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,,/chotbar,36,0
-317,1,0,0,0,0,/hudreset,,USAGE:
+　<Gui(15)/>＋<Gui(9)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RAD (RA4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","","/chotbar",36,0
+317,1,0,0,0,0,"/hudreset","","USAGE:
 　/hudreset
 
-→Reverts the current HUD layout, size, and transparency to the default settings.,,,32,0
-318,1,0,0,0,0,/uireset,,USAGE:
+→Reverts the current HUD layout, size, and transparency to the default settings.","","",32,0
+318,1,0,0,0,0,"/uireset","","USAGE:
 　/uireset
 
-→Reverts all HUD layouts to the default setting, and returns all windows to their default positions, sizes, and transparencies.,,,32,0
-319,2,1,0,0,0,/uiscale,,USAGE:
+→Reverts all HUD layouts to the default setting, and returns all windows to their default positions, sizes, and transparencies.","","",32,0
+319,2,1,0,0,0,"/uiscale","","USAGE:
 　/uiscale [subcommand]
 
 →Resize current HUD elements and windows.
@@ -2167,8 +2167,8 @@ USAGE:
 　default size.)
 　/uiscale reset
 　(Restores all HUD elements
-　to their default size.),,,32,0
-320,2,1,2,0,0,/actionerror,/aerror,ALIASES:
+　to their default size.)","","",32,0
+320,2,1,2,0,0,"/actionerror","/aerror","ALIASES:
 　/actionerror, /aerror
 USAGE:
 　/actionerror [subcommand]
@@ -2179,8 +2179,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable messages.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable messages.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-321,2,1,2,0,0,/recasterror,/rerror,ALIASES:
+Toggle between on/off when no subcommand is specified.","","",36,0
+321,2,1,2,0,0,"/recasterror","/rerror","ALIASES:
 　/recasterror, /rerror
 USAGE:
 　/recasterror [subcommand]
@@ -2191,12 +2191,12 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable messages.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable messages.
 
-Toggle between on/off when no subcommand is specified.,,,36,0
-322,1,0,0,0,0,//eventReset,,USAGE:
+Toggle between on/off when no subcommand is specified.","","",36,0
+322,1,0,0,0,0,"//eventReset","","USAGE:
 　/eventReset
 
-→Resets all in-game settings to default to prepare for a ""real event."",,,32,0
-323,2,1,2,0,0,/crosshotbartype,/chotbartype,ALIASES:
+→Resets all in-game settings to default to prepare for a ""real event.""","","",32,0
+323,2,1,2,0,0,"/crosshotbartype","/chotbartype","ALIASES:
 　/crosshotbartype, /chotbartype
 USAGE:
 　/chotbartype [subcommand]
@@ -2207,8 +2207,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>hold <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable Hold type.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>toggle <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable Toggle type.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>mix <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable Mixed type.
-,,,36,0
-324,2,1,2,0,0,/crosshotbardisplay,/chotbardisplay,ALIASES:
+","","",36,0
+324,2,1,2,0,0,"/crosshotbardisplay","/chotbardisplay","ALIASES:
 　/crosshotbardisplay, /chotbardisplay
 USAGE:
 　/chotbardisplay [subcommand]
@@ -2219,8 +2219,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>　　Display cross hotbar.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>　　Hide cross hotbar.
 
-Toggle between on and off when no subcommand is specified.,,,36,0
-325,6,3,2,16,7,/pvphotbar,,USAGE:
+Toggle between on and off when no subcommand is specified.","","",36,0
+325,6,3,2,16,7,"/pvphotbar","","USAGE:
 　/pvphotbar [subcommand]
 
 →Edit and configure hotbar settings. This command can only be used with the PvP hotbar.
@@ -2275,8 +2275,8 @@ Toggle between on and off when no subcommand is specified.,,,36,0
 
 　/pvphotbar change 2
 　(Replaces PvP hotbar [#1]
-　with PvP hotbar [#2].) ,,,36,0
-326,6,3,2,16,7,/pvpcrosshotbar,/pvpchotbar,ALIASES:
+　with PvP hotbar [#2].) ","","",36,0
+326,6,3,2,16,7,"/pvpcrosshotbar","/pvpchotbar","ALIASES:
 　/pvpcrosshotbar, /pvpchotbar
 USAGE:
 　/pvpcrosshotbar [subcommand]
@@ -2341,8 +2341,8 @@ USAGE:
 　<Gui(14)/>＋<Gui(8)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LAR (LA3) <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<Gui(15)/>＋<Gui(8)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RAR (RA3)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<Gui(14)/>＋<Gui(9)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LAD (LA4) <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<Gui(15)/>＋<Gui(9)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RAD (RA4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,,/pvpchotbar,36,0
-327,2,1,2,0,0,/emotelog,,USAGE:
+　<Gui(15)/>＋<Gui(9)/>  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RAD (RA4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","","/pvpchotbar",36,0
+327,2,1,2,0,0,"/emotelog","","USAGE:
 　/emotelog [subcommand]
 
 →Toggle the display of log messages when using emotes.
@@ -2353,8 +2353,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Disable the display of log messages when using emotes.
 
-Toggles the display of log messages on and off when no subcommand is specified.,,,36,0
-328,2,0,0,0,0,/jobhudmode,,USAGE:
+Toggles the display of log messages on and off when no subcommand is specified.","","",36,0
+328,2,0,0,0,0,"/jobhudmode","","USAGE:
 　/jobhudmode [subcommand]
 
 →Toggle job gauges between normal and simple mode.
@@ -2365,8 +2365,8 @@ Toggles the display of log messages on and off when no subcommand is specified.,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Toggle second job gauge between normal and simple mode.
 
-Toggles all active job gauges when no subcommand is specified.,,,36,0
-329,2,0,0,0,0,/mastervolume,,USAGE:
+Toggles all active job gauges when no subcommand is specified.","","",36,0
+329,2,0,0,0,0,"/mastervolume","","USAGE:
 　/mastervolume [subcommand]
 
 →Adjust master volume settings.
@@ -2376,8 +2376,8 @@ Toggles all active job gauges when no subcommand is specified.,,,36,0
 　　Set master volume to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles mute on and off when no subcommand is specified.,,,228,0
-330,2,0,0,0,0,/bgm,,USAGE:
+Toggles mute on and off when no subcommand is specified.","","",228,0
+330,2,0,0,0,0,"/bgm","","USAGE:
 　/bgm [subcommand]
 
 →Adjust BGM volume settings.
@@ -2387,8 +2387,8 @@ Toggles mute on and off when no subcommand is specified.,,,228,0
 　　Set BGM to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles BGM on and off when no subcommand is specified.,,,228,0
-331,2,0,0,0,0,/soundeffects,,USAGE:
+Toggles BGM on and off when no subcommand is specified.","","",228,0
+331,2,0,0,0,0,"/soundeffects","","USAGE:
 　/soundeffects [subcommand]
 
 →Adjust sound effects volume settings.
@@ -2398,8 +2398,8 @@ Toggles BGM on and off when no subcommand is specified.,,,228,0
 　　Set sound effects to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles sound effects on and off when no subcommand is specified.,,,228,0
-332,2,0,0,0,0,/voice,,USAGE:
+Toggles sound effects on and off when no subcommand is specified.","","",228,0
+332,2,0,0,0,0,"/voice","","USAGE:
 　/voice [subcommand]
 
 →Adjust voice volume settings.
@@ -2409,8 +2409,8 @@ Toggles sound effects on and off when no subcommand is specified.,,,228,0
 　　Set voice to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles voice on and off when no subcommand is specified.,,,228,0
-333,2,0,0,0,0,/systemsounds,,USAGE:
+Toggles voice on and off when no subcommand is specified.","","",228,0
+333,2,0,0,0,0,"/systemsounds","","USAGE:
 　/systemsounds [subcommand]
 
 →Adjust system sounds volume settings.
@@ -2420,8 +2420,8 @@ Toggles voice on and off when no subcommand is specified.,,,228,0
 　　Set system sounds to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles system sounds on and off when no subcommand is specified.,,,228,0
-334,2,0,0,0,0,/ambientsounds,,USAGE:
+Toggles system sounds on and off when no subcommand is specified.","","",228,0
+334,2,0,0,0,0,"/ambientsounds","","USAGE:
 　/ambientsounds [subcommand]
 
 →Adjust ambient sounds volume settings.
@@ -2431,8 +2431,8 @@ Toggles system sounds on and off when no subcommand is specified.,,,228,0
 　　Set ambient sounds to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles ambient sounds on and off when no subcommand is specified.,,,228,0
-335,2,0,0,0,0,/soundeffectsself,,USAGE:
+Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
+335,2,0,0,0,0,"/soundeffectsself","","USAGE:
 　/soundeffectsself [subcommand]
 
 →Adjust player effects volume settings for self.
@@ -2440,8 +2440,8 @@ Toggles ambient sounds on and off when no subcommand is specified.,,,228,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[volume number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set player effects for self to the specified volume level.
-　　Levels available: 0-100.,,,228,0
-336,2,0,0,0,0,/soundeffectsparty,,USAGE:
+　　Levels available: 0-100.","","",228,0
+336,2,0,0,0,0,"/soundeffectsparty","","USAGE:
 　/soundeffectsparty [subcommand]
 
 →Adjust player effects volume settings for your party.
@@ -2449,8 +2449,8 @@ Toggles ambient sounds on and off when no subcommand is specified.,,,228,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[volume number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set player effects for your party to the specified volume level.
-　　Levels available: 0-100.,,,228,0
-337,2,0,0,0,0,/soundeffectsother,,USAGE:
+　　Levels available: 0-100.","","",228,0
+337,2,0,0,0,0,"/soundeffectsother","","USAGE:
 　/soundeffectsother [subcommand]
 
 →Adjust player effects volume settings for other PCs.
@@ -2459,12 +2459,12 @@ Toggles ambient sounds on and off when no subcommand is specified.,,,228,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[volume number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set player effects for other PCs to the specified volume level.
 　　Levels available: 0-100.
-,,,228,0
-338,2,0,0,0,0,/systemsoundsspeaker,,USAGE:
+","","",228,0
+338,2,0,0,0,0,"/systemsoundsspeaker","","USAGE:
 　/systemsoundsspeaker [subcommand]
 
-→Adjust system volume settings for speakers (for PlayStation®4.),,,228,0
-339,2,0,0,0,0,/tiltcamera,,USAGE:
+→Adjust system volume settings for speakers (for PlayStation®4.)","","",228,0
+339,2,0,0,0,0,"/tiltcamera","","USAGE:
 　/tiltcamera [subcommand]
 
 →Adjust 3rd person camera angle settings.
@@ -2472,8 +2472,8 @@ Toggles ambient sounds on and off when no subcommand is specified.,,,228,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[angle number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set 3rd person camera angle to the specified setting.
-　　Settings available: 0-100.,,,36,0
-340,2,1,2,0,0,/mountbgm,,USAGE:
+　　Settings available: 0-100.","","",36,0
+340,2,1,2,0,0,"/mountbgm","","USAGE:
 　/mountbgm [subcommand]
 
 →Toggle the ""Play music when mounted"" setting on and off.
@@ -2482,8 +2482,8 @@ Toggles ambient sounds on and off when no subcommand is specified.,,,228,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Turn on music when mounted.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Turn off music when mounted.
 
-Toggle between on and off when no subcommand is specified.,,,100,0
-341,2,0,0,0,0,/performsounds,,USAGE:
+Toggle between on and off when no subcommand is specified.","","",100,0
+341,2,0,0,0,0,"/performsounds","","USAGE:
 　/performsounds [subcommand]
 
 →Adjust the volume settings for performance actions.
@@ -2493,14 +2493,14 @@ Toggle between on and off when no subcommand is specified.,,,100,0
 　　Set performance actions to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles system sounds on and off when no subcommand is specified.,,,228,0
-401,1,0,0,0,0,/emote,/em,ALIASES:
+Toggles system sounds on and off when no subcommand is specified.","","",228,0
+401,1,0,0,0,0,"/emote","/em","ALIASES:
 　/emote, /em
 USAGE:
 　/emote [message]
 
-→Sends your PC name and the message as an emote within a [Say] radius. This message will not be displayed if a PC has their <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Custom Emotes<UIGlow>01</UIGlow><UIForeground>01</UIForeground> chat filter turned on.,,,292,0
-402,2,1,2,0,0,/surprised,,USAGE:
+→Sends your PC name and the message as an emote within a [Say] radius. This message will not be displayed if a PC has their <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Custom Emotes<UIGlow>01</UIGlow><UIForeground>01</UIForeground> chat filter turned on.","","",292,0
+402,2,1,2,0,0,"/surprised","","USAGE:
 　/surprised [subcommand]
 
 →Act surprised.
@@ -2508,8 +2508,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-403,2,1,2,0,0,/angry,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+403,2,1,2,0,0,"/angry","","USAGE:
 　/angry [subcommand]
 
 →Be angry.
@@ -2517,8 +2517,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-404,2,1,2,0,0,/furious,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+404,2,1,2,0,0,"/furious","","USAGE:
 　/furious [subcommand]
 
 →Be furious.
@@ -2526,8 +2526,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-405,2,1,2,0,0,/blush,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+405,2,1,2,0,0,"/blush","","USAGE:
 　/blush [subcommand]
 
 →Blush with embarrassment.
@@ -2535,8 +2535,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-406,2,1,2,0,0,/bow,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+406,2,1,2,0,0,"/bow","","USAGE:
 　/bow [subcommand]
 
 →Perform a bow.
@@ -2544,8 +2544,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-407,2,1,2,0,0,/cheer,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+407,2,1,2,0,0,"/cheer","","USAGE:
 　/cheer [subcommand]
 
 →Cheer enthusiastically.
@@ -2553,8 +2553,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-408,2,1,2,0,0,/clap,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+408,2,1,2,0,0,"/clap","","USAGE:
 　/clap [subcommand]
 
 →Applaud.
@@ -2562,8 +2562,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-409,2,1,2,0,0,/beckon,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+409,2,1,2,0,0,"/beckon","","USAGE:
 　/beckon [subcommand]
 
 →Make a beckoning motion.
@@ -2571,8 +2571,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-410,2,1,2,0,0,/comfort,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+410,2,1,2,0,0,"/comfort","","USAGE:
 　/comfort [subcommand]
 
 →Make a consoling gesture.
@@ -2580,8 +2580,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-411,2,1,2,0,0,/cry,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+411,2,1,2,0,0,"/cry","","USAGE:
 　/cry [subcommand]
 
 →Break into tears.
@@ -2589,8 +2589,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-412,2,1,2,0,0,/dance,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+412,2,1,2,0,0,"/dance","","USAGE:
 　/dance [subcommand]
 
 →Start dancing.
@@ -2598,8 +2598,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-413,2,1,2,0,0,/doubt,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+413,2,1,2,0,0,"/doubt","","USAGE:
 　/doubt [subcommand]
 
 →Appear doubtful.
@@ -2607,8 +2607,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-414,2,1,2,0,0,/doze,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+414,2,1,2,0,0,"/doze","","USAGE:
 　/doze [subcommand]
 
 →Start dozing off. If a bed is nearby, your character will sleep in it.
@@ -2616,8 +2616,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-415,2,1,2,0,0,/fume,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+415,2,1,2,0,0,"/fume","","USAGE:
 　/fume [subcommand]
 
 →Express annoyance.
@@ -2625,8 +2625,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-416,2,1,2,0,0,/goodbye,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+416,2,1,2,0,0,"/goodbye","","USAGE:
 　/goodbye [subcommand]
 
 →Bid farewell.
@@ -2634,8 +2634,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-417,2,1,2,0,0,/wave,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+417,2,1,2,0,0,"/wave","","USAGE:
 　/wave [subcommand]
 
 →Wave your hand.
@@ -2643,8 +2643,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-418,2,1,2,0,0,/huh,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+418,2,1,2,0,0,"/huh","","USAGE:
 　/huh [subcommand]
 
 →Act bemused.
@@ -2652,8 +2652,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-419,2,1,2,0,0,/joy,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+419,2,1,2,0,0,"/joy","","USAGE:
 　/joy [subcommand]
 
 →Express joy.
@@ -2661,8 +2661,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-420,2,1,2,0,0,/kneel,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+420,2,1,2,0,0,"/kneel","","USAGE:
 　/kneel [subcommand]
 
 →Kneel in respect.
@@ -2670,8 +2670,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-421,2,1,2,0,0,/chuckle,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+421,2,1,2,0,0,"/chuckle","","USAGE:
 　/chuckle [subcommand]
 
 →Chuckle in amusement.
@@ -2679,8 +2679,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-422,2,1,2,0,0,/laugh,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+422,2,1,2,0,0,"/laugh","","USAGE:
 　/laugh [subcommand]
 
 →Burst out laughing.
@@ -2688,8 +2688,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-423,2,1,2,0,0,/lookout,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+423,2,1,2,0,0,"/lookout","","USAGE:
 　/lookout [subcommand]
 
 →Scan the area.
@@ -2697,8 +2697,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-424,2,1,2,0,0,/me,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+424,2,1,2,0,0,"/me","","USAGE:
 　/me [subcommand]
 
 →Motion to yourself.
@@ -2706,8 +2706,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-425,2,1,2,0,0,/no,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+425,2,1,2,0,0,"/no","","USAGE:
 　/no [subcommand]
 
 →Disagree.
@@ -2715,8 +2715,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-426,2,1,2,0,0,/deny,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+426,2,1,2,0,0,"/deny","","USAGE:
 　/deny [subcommand]
 
 →Strongly disagree.
@@ -2724,8 +2724,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-427,2,1,2,0,0,/panic,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+427,2,1,2,0,0,"/panic","","USAGE:
 　/panic [subcommand]
 
 →Start to panic.
@@ -2733,8 +2733,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-428,2,1,2,0,0,/point,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+428,2,1,2,0,0,"/point","","USAGE:
 　/point [subcommand]
 
 →Point at something.
@@ -2742,8 +2742,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-429,2,1,2,0,0,/poke,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+429,2,1,2,0,0,"/poke","","USAGE:
 　/poke [subcommand]
 
 →Make a poking gesture.
@@ -2751,8 +2751,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-430,2,1,2,0,0,/congratulate,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+430,2,1,2,0,0,"/congratulate","","USAGE:
 　/congratulate [subcommand]
 
 →Offer congratulations.
@@ -2760,8 +2760,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-431,2,1,2,0,0,/psych,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+431,2,1,2,0,0,"/psych","","USAGE:
 　/psych [subcommand]
 
 →Psych yourself up.
@@ -2769,8 +2769,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-432,2,1,2,0,0,/salute,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+432,2,1,2,0,0,"/salute","","USAGE:
 　/salute [subcommand]
 
 →Perform a salute.
@@ -2778,8 +2778,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-433,2,1,2,0,0,/shocked,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+433,2,1,2,0,0,"/shocked","","USAGE:
 　/shocked [subcommand]
 
 →Act shocked.
@@ -2787,8 +2787,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-434,2,1,2,0,0,/shrug,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+434,2,1,2,0,0,"/shrug","","USAGE:
 　/shrug [subcommand]
 
 →Shrug.
@@ -2796,8 +2796,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-435,2,1,2,0,0,/rally,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+435,2,1,2,0,0,"/rally","","USAGE:
 　/rally [subcommand]
 
 →Give encouragement.
@@ -2805,8 +2805,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-436,2,1,2,0,0,/soothe,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+436,2,1,2,0,0,"/soothe","","USAGE:
 　/soothe [subcommand]
 
 →Make a comforting gesture.
@@ -2814,8 +2814,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-437,2,1,2,0,0,/stagger,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+437,2,1,2,0,0,"/stagger","","USAGE:
 　/stagger [subcommand]
 
 →Stagger for a moment.
@@ -2823,8 +2823,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-438,2,1,2,0,0,/stretch,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+438,2,1,2,0,0,"/stretch","","USAGE:
 　/stretch [subcommand]
 
 →Stretch.
@@ -2832,8 +2832,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-439,2,1,2,0,0,/sulk,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+439,2,1,2,0,0,"/sulk","","USAGE:
 　/sulk [subcommand]
 
 →Wallow in self-pity.
@@ -2841,8 +2841,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-440,2,1,2,0,0,/think,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+440,2,1,2,0,0,"/think","","USAGE:
 　/think [subcommand]
 
 →Become lost in thought.
@@ -2850,8 +2850,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-441,2,1,2,0,0,/upset,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+441,2,1,2,0,0,"/upset","","USAGE:
 　/upset [subcommand]
 
 →Express disgust.
@@ -2859,8 +2859,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-442,2,1,2,0,0,/welcome,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+442,2,1,2,0,0,"/welcome","","USAGE:
 　/welcome [subcommand]
 
 →Make a welcoming gesture.
@@ -2868,8 +2868,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-443,2,1,2,0,0,/yes,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+443,2,1,2,0,0,"/yes","","USAGE:
 　/yes [subcommand]
 
 →Nod in approval.
@@ -2877,8 +2877,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-444,2,1,2,0,0,/thumbsup,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+444,2,1,2,0,0,"/thumbsup","","USAGE:
 　/thumbsup [subcommand]
 
 →Strongly agree.
@@ -2886,8 +2886,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-445,2,1,2,0,0,/examineself,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+445,2,1,2,0,0,"/examineself","","USAGE:
 　/examineself [subcommand]
 
 →Admire yourself.
@@ -2895,8 +2895,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-446,2,1,2,0,0,/pose,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+446,2,1,2,0,0,"/pose","","USAGE:
 　/pose [subcommand]
 
 →Strike a pose.
@@ -2904,8 +2904,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-447,2,1,2,0,0,/blowkiss,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+447,2,1,2,0,0,"/blowkiss","","USAGE:
 　/blowkiss [subcommand]
 
 →Throw an airborne smooch in someone's general direction.
@@ -2913,8 +2913,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-448,2,1,2,0,0,/grovel,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+448,2,1,2,0,0,"/grovel","","USAGE:
 　/grovel [subcommand]
 
 →Fall to your knees in unworthiness.
@@ -2922,8 +2922,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-449,2,1,2,0,0,/happy,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+449,2,1,2,0,0,"/happy","","USAGE:
 　/happy [subcommand]
 
 →Display extreme happiness.
@@ -2931,8 +2931,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-450,2,1,2,0,0,/disappointed,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+450,2,1,2,0,0,"/disappointed","","USAGE:
 　/disappointed [subcommand]
 
 →Convey utter disappointment.
@@ -2940,26 +2940,26 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-451,1,0,0,0,0,/lounge,/sit,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+451,1,0,0,0,0,"/lounge","/sit","ALIASES:
 　/sit, /lounge
 USAGE:
 　/sit
 
 →Assume a sitting position.
 
-Certain emotes have special sitting equivalents. Also sits your character in a chair if the chair is nearby.,/sit,/lounge,37,0
-453,1,0,0,0,0,/groundsit,,USAGE:
+Certain emotes have special sitting equivalents. Also sits your character in a chair if the chair is nearby.","/sit","/lounge",37,0
+453,1,0,0,0,0,"/groundsit","","USAGE:
 　/groundsit
 
 →Assume a sitting position.
 
-Certain emotes have special sitting equivalents. Does not sit your character in a chair even if the chair is nearby.,,,37,0
-455,2,1,2,0,0,/airquotes,,USAGE:
+Certain emotes have special sitting equivalents. Does not sit your character in a chair even if the chair is nearby.","","",37,0
+455,2,1,2,0,0,"/airquotes","","USAGE:
 　/airquotes
 
-→Make air quotes with your fingers for added sarcasm, emphasis, etc. No system message is displayed with this emote.,,,293,0
-456,2,1,2,0,0,/gcsalute,,USAGE:
+→Make air quotes with your fingers for added sarcasm, emphasis, etc. No system message is displayed with this emote.","","",293,0
+456,2,1,2,0,0,"/gcsalute","","USAGE:
 　/gcsalute [subcommand]
 
 →Perform an official Maelstrom salute.
@@ -2967,8 +2967,8 @@ Certain emotes have special sitting equivalents. Does not sit your character in 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-457,2,1,2,0,0,/gcsalute,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+457,2,1,2,0,0,"/gcsalute","","USAGE:
 　/gcsalute [subcommand]
 
 →Perform an official Order of the Twin Adder salute.
@@ -2976,8 +2976,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-458,2,1,2,0,0,/gcsalute,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+458,2,1,2,0,0,"/gcsalute","","USAGE:
 　/gcsalute [subcommand]
 
 →Perform an official Immortal Flames salute.
@@ -2985,8 +2985,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-459,2,1,2,0,0,/pray,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+459,2,1,2,0,0,"/pray","","USAGE:
 　/pray [subcommand]
 
 →Offer solemn words of prayer to the Twelve or whatever gods it is you keep.
@@ -2994,8 +2994,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-460,2,1,2,0,0,/imperialsalute,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+460,2,1,2,0,0,"/imperialsalute","","USAGE:
 　/imperialsalute [subcommand]
 
 →Perform an Imperial Garlean Army salute.
@@ -3003,14 +3003,14 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-461,2,1,2,0,0,/visor,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+461,2,1,2,0,0,"/visor","","USAGE:
 　/visor
 
 →Open/close helm visor. This function can also be used to toggle on/off helms that light up.
 
-No system message is displayed with this emote.,,,301,0
-463,2,1,2,0,0,/megaflare,,USAGE:
+No system message is displayed with this emote.","","",301,0
+463,2,1,2,0,0,"/megaflare","","USAGE:
 　/megaflare [subcommand]
 
 →Cast Megaflare.
@@ -3018,8 +3018,8 @@ No system message is displayed with this emote.,,,301,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-464,2,1,2,0,0,/crimsonlotus,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+464,2,1,2,0,0,"/crimsonlotus","","USAGE:
 　/crimsonlotus [subcommand]
 
 →Practice the art of the crimson lotus.
@@ -3027,8 +3027,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-465,2,1,2,0,0,/charmed,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+465,2,1,2,0,0,"/charmed","","USAGE:
 　/charmed [subcommand]
 
 →Fall into a lovestruck trance.
@@ -3036,8 +3036,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-466,2,1,2,0,0,/cheeron,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+466,2,1,2,0,0,"/cheeron","","USAGE:
 　/cheeron [subcommand]
 
 →Wave your hands enthusiastically.
@@ -3045,8 +3045,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-467,2,1,2,0,0,/cheerwave,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+467,2,1,2,0,0,"/cheerwave","","USAGE:
 　/cheerwave [subcommand]
 
 →Wave your hand in the air like you just don't care.
@@ -3054,8 +3054,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/cheerwave,/hiphophurray,293,0
-468,2,1,2,0,0,/cheerjump,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","/cheerwave","/hiphophurray",293,0
+468,2,1,2,0,0,"/cheerjump","","USAGE:
 　/cheerjump [subcommand]
 
 →Jump and cheer enthusiastically.
@@ -3063,8 +3063,8 @@ Both text and motion will be displayed when no subcommand is specified.,/cheerwa
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/cheerjump,/jumparound,293,0
-469,2,1,2,0,0,/straightface,/straight,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/cheerjump","/jumparound",293,0
+469,2,1,2,0,0,"/straightface","/straight","ALIASES:
 　/straightface, /straight
 USAGE:
 　/straight [subcommand]
@@ -3075,8 +3075,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified.,,,293,0
-470,2,1,2,0,0,/smile,,USAGE:
+Both text and expression will be displayed when no subcommand is specified.","","",293,0
+470,2,1,2,0,0,"/smile","","USAGE:
 　/smile [subcommand]
 
 →Beam with happiness.
@@ -3085,8 +3085,8 @@ Both text and expression will be displayed when no subcommand is specified.,,,29
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-471,2,1,2,0,0,/grin,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+471,2,1,2,0,0,"/grin","","USAGE:
 　/grin [subcommand]
 
 →Beam with delight.
@@ -3095,8 +3095,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-472,2,1,2,0,0,/smirk,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+472,2,1,2,0,0,"/smirk","","USAGE:
 　/smirk [subcommand]
 
 →Smirk wryly.
@@ -3105,8 +3105,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-473,2,1,2,0,0,/taunt,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+473,2,1,2,0,0,"/taunt","","USAGE:
 　/taunt [subcommand]
 
 →Put on a taunting grin.
@@ -3115,8 +3115,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-474,2,1,2,0,0,/shuteyes,/shut,ALIASES:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+474,2,1,2,0,0,"/shuteyes","/shut","ALIASES:
 　/shuteyes, /shut
 USAGE:
 /shuteyes [subcommand]
@@ -3127,8 +3127,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-475,2,1,2,0,0,/sad,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+475,2,1,2,0,0,"/sad","","USAGE:
 　/sad [subcommand]
 
 →Frown.
@@ -3137,8 +3137,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-476,2,1,2,0,0,/scared,/fear,ALIASES:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+476,2,1,2,0,0,"/scared","/fear","ALIASES:
 　/scared, /fear
 USAGE:
 　/scared [subcommand]
@@ -3149,8 +3149,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-477,2,1,2,0,0,/amazed,/awe,ALIASES:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+477,2,1,2,0,0,"/amazed","/awe","ALIASES:
 　/amazed, /awe
 USAGE:
 　/amazed [subcommand]
@@ -3161,8 +3161,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-478,2,1,2,0,0,/ouch,/ow,ALIASES:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+478,2,1,2,0,0,"/ouch","/ow","ALIASES:
 　/ouch, /ow
 USAGE:
 　/ouch [subcommand]
@@ -3173,8 +3173,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-479,2,1,2,0,0,/annoyed,/annoy,ALIASES:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+479,2,1,2,0,0,"/annoyed","/annoy","ALIASES:
 　/annoyed, /annoy
 USAGE:
 　/annoyed [subcommand]
@@ -3185,8 +3185,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-480,2,1,2,0,0,/alert,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+480,2,1,2,0,0,"/alert","","USAGE:
 　/alert [subcommand]
 
 →Sense something amiss.
@@ -3195,8 +3195,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-481,2,1,2,0,0,/worried,/worry,ALIASES:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+481,2,1,2,0,0,"/worried","/worry","ALIASES:
 　/worried, /worry
 USAGE:
 　/worried [subcommand]
@@ -3207,8 +3207,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-482,2,1,2,0,0,/biggrin,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+482,2,1,2,0,0,"/biggrin","","USAGE:
 　/biggrin [subcommand]
 
 →Break into a broad smile.
@@ -3217,8 +3217,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-483,2,1,2,0,0,/reflect,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+483,2,1,2,0,0,"/reflect","","USAGE:
 　/reflect [subcommand]
 
 →Close your eyes and gather your thoughts.
@@ -3227,8 +3227,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-484,2,1,2,0,0,/furrow,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+484,2,1,2,0,0,"/furrow","","USAGE:
 　/furrow [subcommand]
 
 →Furrow your eyebrows.
@@ -3237,8 +3237,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-485,2,1,2,0,0,/scoff,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+485,2,1,2,0,0,"/scoff","","USAGE:
 　/scoff [subcommand]
 
 →Smile wryly.
@@ -3247,8 +3247,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-486,2,1,2,0,0,/throw,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+486,2,1,2,0,0,"/throw","","USAGE:
 　/throw
 
 →Throw an object.
@@ -3256,14 +3256,14 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-491,2,1,2,0,0,/changepose,/cpose,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+491,2,1,2,0,0,"/changepose","/cpose","ALIASES:
 　/changepose, /cpose
 USAGE:
 　/changepose
 
-→Assume the next pose in a series of idle stances.,,,37,0
-502,2,1,2,0,0,/stepdance,/sdance,ALIASES:
+→Assume the next pose in a series of idle stances.","","",37,0
+502,2,1,2,0,0,"/stepdance","/sdance","ALIASES:
 　/stepdance, /sdance
 USAGE:
 　/stepdance [subcommand]
@@ -3273,8 +3273,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-503,2,1,2,0,0,/harvestdance,/hdance,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+503,2,1,2,0,0,"/harvestdance","/hdance","ALIASES:
 　/harvestdance, /hdance
 USAGE:
 　/harvestdance [subcommand]
@@ -3284,8 +3284,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-504,2,1,2,0,0,/balldance,/bdance,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+504,2,1,2,0,0,"/balldance","/bdance","ALIASES:
 　/balldance, /bdance
 USAGE:
 　/balldance [subcommand]
@@ -3295,8 +3295,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-505,2,1,2,0,0,/mandervilledance,/mdance,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+505,2,1,2,0,0,"/mandervilledance","/mdance","ALIASES:
 　/mandervilledance, /mdance
 USAGE:
 　/mdance [subcommand]
@@ -3306,8 +3306,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-506,2,1,2,0,0,/stroke,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+506,2,1,2,0,0,"/stroke","","USAGE:
 　/pet [subcommand]
 
 →Take the love within your heart and focus it into your hand.
@@ -3315,8 +3315,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/pet,,293,0
-507,2,1,2,0,0,/handover,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","/pet","",293,0
+507,2,1,2,0,0,"/handover","","USAGE:
 　/handover [subcommand]
 
 →Extend your hand in a giving gesture.
@@ -3324,8 +3324,8 @@ Both text and motion will be displayed when no subcommand is specified.,/pet,,29
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-510,2,1,2,0,0,/bombdance,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+510,2,1,2,0,0,"/bombdance","","USAGE:
 　/bombdance [subcommand]
 
 →Perform a bomb dance.
@@ -3333,8 +3333,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-511,2,1,2,0,0,/hurray,,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+511,2,1,2,0,0,"/hurray","","ALIASES:
 　/huzzah, /hurray
 USAGE:
 　/huzzah [subcommand]
@@ -3344,8 +3344,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/huzzah,,293,0
-512,2,1,2,0,0,/slap,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","/huzzah","",293,0
+512,2,1,2,0,0,"/slap","","USAGE:
 　/slap [subcommand]
 
 →Let your hand do the talking.
@@ -3353,8 +3353,8 @@ Both text and motion will be displayed when no subcommand is specified.,/huzzah,
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-513,2,1,2,0,0,/hug,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+513,2,1,2,0,0,"/hug","","USAGE:
 　/hug [subcommand]
 
 →Give a warm hug.
@@ -3362,8 +3362,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-514,2,1,2,0,0,/embrace,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+514,2,1,2,0,0,"/embrace","","USAGE:
 　/embrace [subcommand]
 
 →Perform a loving embrace.
@@ -3371,8 +3371,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-515,2,1,2,0,0,/hildibrand,/hildy,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+515,2,1,2,0,0,"/hildibrand","/hildy","ALIASES:
 　/hildibrand, /hildy
 USAGE:
 　/hildy [subcommand]
@@ -3382,8 +3382,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-516,2,1,2,0,0,/fistbump,/fist,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+516,2,1,2,0,0,"/fistbump","/fist","ALIASES:
 　/fistbump, /brofist
 USAGE:
 　/fistbump [subcommand]
@@ -3393,8 +3393,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/fistbump,/brofist,293,0
-519,2,1,2,0,0,/thavdance,/tdance,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/fistbump","/brofist",293,0
+519,2,1,2,0,0,"/thavdance","/tdance","ALIASES:
 　/thavdance, /tdance
 USAGE:
 　/tdance [subcommand]
@@ -3404,8 +3404,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-520,2,1,2,0,0,/golddance,/gdance,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+520,2,1,2,0,0,"/golddance","/gdance","ALIASES:
 　/golddance, /gdance
 USAGE:
 　/gdance [subcommand]
@@ -3415,8 +3415,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-521,2,1,2,0,0,/sundance,,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+521,2,1,2,0,0,"/sundance","","ALIASES:
 　/sundropdance, /sundance
 USAGE:
 　/sundance [subcommand]
@@ -3426,8 +3426,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/sundropdance,,293,0
-522,2,1,2,0,0,/battlestance,/bstance,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/sundropdance","",293,0
+522,2,1,2,0,0,"/battlestance","/bstance","ALIASES:
 　/battlestance, /bstance
 USAGE:
 　/bstance [subcommand]
@@ -3437,8 +3437,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-523,2,1,2,0,0,/victorypose,/vpose,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+523,2,1,2,0,0,"/victorypose","/vpose","ALIASES:
 　/victorypose, /vpose
 USAGE:
 　/vpose [subcommand]
@@ -3448,8 +3448,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-524,2,1,2,0,0,/backflip,/bflip,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+524,2,1,2,0,0,"/backflip","/bflip","ALIASES:
 　/backflip, /bflip
 USAGE:
 　/bflip [subcommand]
@@ -3459,8 +3459,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-525,2,1,2,0,0,/easterngreeting,/egreeting,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+525,2,1,2,0,0,"/easterngreeting","/egreeting","ALIASES:
 　/easterngreeting, /egreeting
 USAGE:
 　/egreeting [subcommand]
@@ -3470,8 +3470,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-526,2,1,2,0,0,/eureka,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+526,2,1,2,0,0,"/eureka","","USAGE:
 　/eureka [subcommand]
 
 →Experience a brief moment of enlightenment.
@@ -3479,8 +3479,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-527,2,1,2,0,0,/mogdance,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+527,2,1,2,0,0,"/mogdance","","USAGE:
 　/mogdance [subcommand]
 
 →Perform the moogle dance.
@@ -3488,8 +3488,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-528,2,1,2,0,0,/haurchefant,/hknight,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+528,2,1,2,0,0,"/haurchefant","/hknight","ALIASES:
 　/haurchefant, /hknight
 USAGE:
 　/haurchefant [subcommand]
@@ -3499,8 +3499,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-529,2,1,2,0,0,/easternstretch,/estretch,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+529,2,1,2,0,0,"/easternstretch","/estretch","ALIASES:
 　/easternstretch, /estretch
 USAGE:
 　/estretch [subcommand]
@@ -3510,8 +3510,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/easternstretch,,293,0
-530,2,1,2,0,0,/easterndance,/edance,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/easternstretch","",293,0
+530,2,1,2,0,0,"/easterndance","/edance","ALIASES:
 　/easterndance, /edance
 USAGE:
 　/edance [subcommand]
@@ -3521,8 +3521,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-531,2,1,2,0,0,/rangerpose1r,/rpose1r,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+531,2,1,2,0,0,"/rangerpose1r","/rpose1r","ALIASES:
 　/redrangerposea, /rrpa
 USAGE:
 　/rrpa [subcommand]
@@ -3532,8 +3532,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/redrangerposea,/rrpa,293,0
-532,2,1,2,0,0,/rangerpose2r,/rpose2r,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/redrangerposea","/rrpa",293,0
+532,2,1,2,0,0,"/rangerpose2r","/rpose2r","ALIASES:
 　/blackrangerposea, /brpa
 USAGE:
 　/brpa [subcommand]
@@ -3543,8 +3543,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/blackrangerposea,/brpa,293,0
-533,2,1,2,0,0,/rangerpose3r,/rpose3r,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/blackrangerposea","/brpa",293,0
+533,2,1,2,0,0,"/rangerpose3r","/rpose3r","ALIASES:
 　/yellowrangerposea, /yrpa
 USAGE:
 　/yrpa [subcommand]
@@ -3554,8 +3554,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/yellowrangerposea,/yrpa,293,0
-534,2,1,2,0,0,/wink,/rightwink,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/yellowrangerposea","/yrpa",293,0
+534,2,1,2,0,0,"/wink","/rightwink","ALIASES:
 　/rightwink, /wink
 USAGE:
 　/rightwink [subcommand]
@@ -3566,8 +3566,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,/rightwink,/wink,293,0
-535,2,1,2,0,0,/rangerpose1l,/rpose1l,ALIASES:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","/rightwink","/wink",293,0
+535,2,1,2,0,0,"/rangerpose1l","/rpose1l","ALIASES:
 　/redrangerposeb, /rrpb
 USAGE:
 　/rrpb [subcommand]
@@ -3577,8 +3577,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/redrangerposeb,/rrpb,293,0
-536,2,1,2,0,0,/rangerpose2l,/rpose2l,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/redrangerposeb","/rrpb",293,0
+536,2,1,2,0,0,"/rangerpose2l","/rpose2l","ALIASES:
 　/blackrangerposeb, /brpb
 USAGE:
 　/brpb [subcommand]
@@ -3588,8 +3588,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/blackrangerposeb,/brpb,293,0
-537,2,1,2,0,0,/rangerpose3l,/rpose3l,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","/blackrangerposeb","/brpb",293,0
+537,2,1,2,0,0,"/rangerpose3l","/rpose3l","ALIASES:
 　/yellowrangerposeb, /yrpb
 USAGE:
 　/yrpb [subcommand]
@@ -3599,8 +3599,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,/yellowrangerposeb,/yrpb,293,0
-538,2,1,2,0,0,/facepalm,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","/yellowrangerposeb","/yrpb",293,0
+538,2,1,2,0,0,"/facepalm","","USAGE:
 　/facepalm [subcommand]
 
 →Bury your head into your hands in frustration.
@@ -3608,8 +3608,8 @@ Both text and motion will be displayed when no subcommand is specified.,/yellowr
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-539,2,1,2,0,0,/zantetsuken,/ztk,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+539,2,1,2,0,0,"/zantetsuken","/ztk","ALIASES:
 　/zantetsuken, /ztk
 USAGE:
 　/zantetsuken [subcommand]
@@ -3619,8 +3619,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-540,2,1,2,0,0,/flex,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+540,2,1,2,0,0,"/flex","","USAGE:
 　/flex [subcommand]
 
 →Flex your muscles.
@@ -3628,8 +3628,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-541,2,1,2,0,0,/respect,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+541,2,1,2,0,0,"/respect","","USAGE:
 　/respect [subcommand]
 
 →Offer up a silent prayer.
@@ -3637,8 +3637,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-542,2,1,2,0,0,/sneer,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+542,2,1,2,0,0,"/sneer","","USAGE:
 　/sneer [subcommand]
 
 →Sneer contemptuously.
@@ -3647,8 +3647,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-543,2,1,2,0,0,/prettyplease,/pplease,ALIASES:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+543,2,1,2,0,0,"/prettyplease","/pplease","ALIASES:
 　/prettyplease, /pplease
 USAGE:
 　/prettyplease [subcommand]
@@ -3658,8 +3658,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-544,2,1,2,0,0,/playdead,/pdead,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+544,2,1,2,0,0,"/playdead","/pdead","ALIASES:
 　/playdead, /pdead
 USAGE:
 　/playdead [subcommand]
@@ -3669,8 +3669,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-545,2,1,2,0,0,/iceheart,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+545,2,1,2,0,0,"/iceheart","","USAGE:
 　/iceheart [subcommand]
 
 →Envelop yourself in diamond dust.
@@ -3678,8 +3678,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-546,2,1,2,0,0,/moonlift,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+546,2,1,2,0,0,"/moonlift","","USAGE:
 　/moonlift [subcommand]
 
 →Perform the moonlift dance.
@@ -3687,8 +3687,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-547,2,1,2,0,0,/dote,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+547,2,1,2,0,0,"/dote","","USAGE:
 　/dote [subcommand]
 
 →Throw a heartfelt kiss at your beloved.
@@ -3696,8 +3696,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-549,2,1,2,0,0,/spectacles,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+549,2,1,2,0,0,"/spectacles","","USAGE:
 　/spectacles [subcommand]
 
 →Adjust your spectacles.
@@ -3705,8 +3705,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-550,2,1,2,0,0,/songbird,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+550,2,1,2,0,0,"/songbird","","USAGE:
 　/songbird [subcommand]
 
 →Perform the Songbird's special dance.
@@ -3714,16 +3714,16 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-551,2,1,2,0,0,/waterfloat,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+551,2,1,2,0,0,"/waterfloat","","USAGE:
 　/waterfloat
 
-→Perform a back float in water. No system message is displayed with this emote.,,,293,0
-552,2,1,2,0,0,/waterflip,,USAGE:
+→Perform a back float in water. No system message is displayed with this emote.","","",293,0
+552,2,1,2,0,0,"/waterflip","","USAGE:
 　/waterflip
 
-→Perform a somersault underwater. No system message is displayed with this emote.,,,293,0
-553,2,1,2,0,0,/puckerup,,USAGE:
+→Perform a somersault underwater. No system message is displayed with this emote.","","",293,0
+553,2,1,2,0,0,"/puckerup","","USAGE:
 　/puckerup [subcommand]
 
 →Close your eyes and pucker your lips.
@@ -3732,8 +3732,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-554,2,1,2,0,0,/powerup,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+554,2,1,2,0,0,"/powerup","","USAGE:
 　/powerup [subcommand]
 
 →Put your true strength on display.
@@ -3741,8 +3741,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-555,2,1,2,0,0,/easternbow,/ebow,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+555,2,1,2,0,0,"/easternbow","/ebow","USAGE:
 　/easternbow [subcommand]
 
 →Perform a bow in the Far Eastern fashion.
@@ -3750,8 +3750,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-556,2,1,2,0,0,/squats,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+556,2,1,2,0,0,"/squats","","USAGE:
 　/squats [subcommand]
 
 →Do a set of squats.
@@ -3759,8 +3759,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-557,2,1,2,0,0,/pushups,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+557,2,1,2,0,0,"/pushups","","USAGE:
 　/pushups [subcommand]
 
 →Do a set of push-ups.
@@ -3768,8 +3768,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-558,2,1,2,0,0,/situps,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+558,2,1,2,0,0,"/situps","","USAGE:
 　/situps [subcommand]
 
 →Do a set of sit-ups.
@@ -3777,8 +3777,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-559,2,1,2,0,0,/breathcontrol,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+559,2,1,2,0,0,"/breathcontrol","","USAGE:
 　/breathcontrol [subcommand]
 
 →Take a breath and relax.
@@ -3786,8 +3786,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-560,2,1,2,0,0,/converse,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+560,2,1,2,0,0,"/converse","","USAGE:
 　/converse [subcommand]
 
 →Strike up a conversation.
@@ -3795,8 +3795,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-561,2,1,2,0,0,/concentrate,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+561,2,1,2,0,0,"/concentrate","","USAGE:
 　/concentrate [subcommand]
 
 →Knit your brows in thought.
@@ -3805,8 +3805,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-562,2,1,2,0,0,/disturbed,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+562,2,1,2,0,0,"/disturbed","","USAGE:
 　/disturbed [subcommand]
 
 →Twist your face in confusion.
@@ -3815,8 +3815,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-563,2,1,2,0,0,/simper,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+563,2,1,2,0,0,"/simper","","USAGE:
 　/simper [subcommand]
 
 →Give a lazy smile.
@@ -3825,8 +3825,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-564,2,1,2,0,0,/beam,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+564,2,1,2,0,0,"/beam","","USAGE:
 　/beam [subcommand]
 
 →Grin from ear to ear.
@@ -3835,8 +3835,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-565,2,1,2,0,0,/attention,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+565,2,1,2,0,0,"/attention","","USAGE:
 　/attention [subcommand]
 
 →Stand at attention.
@@ -3844,8 +3844,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-566,2,1,2,0,0,/atease,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+566,2,1,2,0,0,"/atease","","USAGE:
 　/atease [subcommand]
 
 →Stand relaxed with your feet apart.
@@ -3853,8 +3853,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-567,2,1,2,0,0,/box,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+567,2,1,2,0,0,"/box","","USAGE:
 　/box [subcommand]
 
 →Put up your dukes.
@@ -3862,8 +3862,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-568,2,1,2,0,0,/ritualprayer,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+568,2,1,2,0,0,"/ritualprayer","","USAGE:
 　/ritualprayer [subcommand]
 
 →Offer a prayer to the gods.
@@ -3871,8 +3871,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-570,2,1,2,0,0,/tremble,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+570,2,1,2,0,0,"/tremble","","USAGE:
 　/tremble [subcommand]
 
 →Tremble with fear.
@@ -3880,8 +3880,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-571,2,1,2,0,0,/winded,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+571,2,1,2,0,0,"/winded","","USAGE:
 　/winded [subcommand]
 
 →Fall to one knee, exhausted.
@@ -3889,8 +3889,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-572,2,1,2,0,0,/aback,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+572,2,1,2,0,0,"/aback","","USAGE:
 　/aback [subcommand]
 
 →Act taken aback.
@@ -3898,8 +3898,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-573,2,1,2,0,0,/greet,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+573,2,1,2,0,0,"/greet","","USAGE:
 　/greet [subcommand]
 
 →Wave your hand in greeting.
@@ -3907,8 +3907,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-574,2,1,2,0,0,/boxstep,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+574,2,1,2,0,0,"/boxstep","","USAGE:
 　/boxstep [subcommand]
 
 →Perform a box step dance.
@@ -3916,8 +3916,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,/2legit,293,0
-575,2,1,2,0,0,/sidestep,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","/2legit",293,0
+575,2,1,2,0,0,"/sidestep","","USAGE:
 　/sidestep [subcommand]
 
 →Perform a side step dance.
@@ -3925,8 +3925,8 @@ Both text and motion will be displayed when no subcommand is specified.,,/2legit
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-576,2,1,2,0,0,/ultima,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+576,2,1,2,0,0,"/ultima","","USAGE:
 　/ultima [subcommand]
 
 →Unleash the savage might of Ultima!
@@ -3934,8 +3934,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-577,2,1,2,0,0,/yoldance,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+577,2,1,2,0,0,"/yoldance","","USAGE:
 　/yoldance [subcommand]
 
 →Perform the yol dance.
@@ -3943,8 +3943,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-579,2,1,2,0,0,/splash,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+579,2,1,2,0,0,"/splash","","USAGE:
 　/splash [subcommand]
 
 →Splash playfully when in water.
@@ -3952,8 +3952,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-581,2,1,2,0,0,/sweat,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+581,2,1,2,0,0,"/sweat","","USAGE:
 　/sweat [subcommand]
 
 →Wipe the sweat from your brow.
@@ -3961,8 +3961,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,/tillyoubleed,293,0
-582,2,1,2,0,0,/shiver,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","/tillyoubleed",293,0
+582,2,1,2,0,0,"/shiver","","USAGE:
 　/shiver [subcommand]
 
 →Tremble from the cold.
@@ -3970,8 +3970,8 @@ Both text and motion will be displayed when no subcommand is specified.,,/tillyo
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-583,2,1,2,0,0,/elucidate,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+583,2,1,2,0,0,"/elucidate","","USAGE:
 　/elucidate [subcommand]
 
 →Explain yourself to any who will listen.
@@ -3979,8 +3979,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-584,2,1,2,0,0,/ponder,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+584,2,1,2,0,0,"/ponder","","USAGE:
 　/ponder [subcommand]
 
 →Lose yourself in thought.
@@ -3988,8 +3988,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,/makeyougohmmm,293,0
-585,2,1,2,0,0,/leftwink,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","/makeyougohmmm",293,0
+585,2,1,2,0,0,"/leftwink","","USAGE:
 　/leftwink [subcommand]
 
 →Perform the wink emote with your left eye.
@@ -3998,8 +3998,8 @@ Both text and motion will be displayed when no subcommand is specified.,,/makeyo
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display expression only.
 
-Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.,,,293,0
-586,2,1,2,0,0,/getfantasy,,USAGE:
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+586,2,1,2,0,0,"/getfantasy","","USAGE:
 　/getfantasy [subcommand]
 
 →Perform the Get Fantasy dance.
@@ -4007,8 +4007,8 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-587,2,1,2,0,0,/popotostep,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+587,2,1,2,0,0,"/popotostep","","USAGE:
 　/popotostep [subcommand]
 
 →Perform the popoto step.
@@ -4016,8 +4016,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-588,2,1,2,0,0,/hum,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+588,2,1,2,0,0,"/hum","","USAGE:
 　/hum [subcommand]
 
 →Swing your arms and hum a merry tune.
@@ -4025,8 +4025,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-589,2,1,2,0,0,/confirm,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+589,2,1,2,0,0,"/confirm","","USAGE:
 　/confirm [subcommand]
 
 →Make sure that all is as it should be.
@@ -4034,8 +4034,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-590,2,1,2,0,0,/scheme,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+590,2,1,2,0,0,"/scheme","","USAGE:
 　/scheme [subcommand]
 
 →Spin a web of lies and deceit.
@@ -4043,8 +4043,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-591,2,1,2,0,0,/endure,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+591,2,1,2,0,0,"/endure","","USAGE:
 　/endure [subcommand]
 
 →Grit your teeth and bear all that comes your way.
@@ -4052,8 +4052,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-592,2,1,2,0,0,/tomestone,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+592,2,1,2,0,0,"/tomestone","","USAGE:
 　/tomestone [subcommand]
 
 →Lovingly tap your tomestone.
@@ -4061,8 +4061,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-595,2,1,2,0,0,/gratuity,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+595,2,1,2,0,0,"/gratuity","","USAGE:
 　/gratuity [subcommand]
 
 →Humbly scatter gold coins at the feet of your admirers.
@@ -4070,8 +4070,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,/makeithail,293,0
-596,2,1,2,0,0,/fistpump,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","/makeithail",293,0
+596,2,1,2,0,0,"/fistpump","","USAGE:
 　/fistpump [subcommand]
 
 →Express an unbridled satisfaction at the crushing defeat of your enemies via a swift pumping motion of your arms.
@@ -4079,8 +4079,8 @@ Both text and motion will be displayed when no subcommand is specified.,,/makeit
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-597,2,1,2,0,0,/reprimand,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+597,2,1,2,0,0,"/reprimand","","USAGE:
 　/reprimand [subcommand]
 
 →Let that special someone know what's for.
@@ -4088,8 +4088,8 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,/youknowyourname,293,0
-598,2,1,2,0,0,/sabotender,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","/youknowyourname",293,0
+598,2,1,2,0,0,"/sabotender","","USAGE:
 　/sabotender [subcommand]
 
 →Do your finest impression of the Manderville Gold Saucer's mascot Senor Sabotender.
@@ -4097,8 +4097,8 @@ Both text and motion will be displayed when no subcommand is specified.,,/youkno
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-599,2,1,2,0,0,/mandervillemambo,/mmambo,ALIASES:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+599,2,1,2,0,0,"/mandervillemambo","/mmambo","ALIASES:
 　/mandervillemambo, /mmambo
 USAGE:
 　/mmambo [subcommand]
@@ -4108,8 +4108,8 @@ USAGE:
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
-600,2,1,2,0,0,/laliho,,USAGE:
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+600,2,1,2,0,0,"/laliho","","USAGE:
 　/laliho [subcommand]
 
 →Perform a traditional dwarven greeting.
@@ -4117,4 +4117,4 @@ Both text and motion will be displayed when no subcommand is specified.,,,293,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.,,,293,0
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
