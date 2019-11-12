@@ -1,5 +1,5 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
-#,,Model,BNpcName,BNpcCustomize,NpcEquip,,Action[0],,Action[1],,Action[2],,Action[3],,Action[4],Action[5],,,RPParameter,Speed,Scale,IsPvP,IsEvent,PlayerCamera,StartVFX,EndVFX,,,,,,
+#,,Model,BNpcName,BNpcCustomize,NpcEquip,ExHotbarEnableConfig,Action[0],,Action[1],,Action[2],,Action[3],,Action[4],Action[5],,,RPParameter,Speed,Scale,IsPvP,IsEvent,PlayerCamera,StartVFX,EndVFX,,,,,,
 int32,byte,ModelChara,BNpcName,BNpcCustomize,NpcEquip,bool,Action,bool,Action,bool,Action,bool,Action,bool,Action,Action,bit&01,bit&02,RPParameter,single,single,bit&04,bit&08,bit&10,VFX,VFX,uint16,uint16,uint32,sbyte,uint16,byte
 0,0,0,0,0,0,False,0,False,0,False,0,False,0,False,0,0,False,False,0,0,1,False,False,True,False,False,0,0,0,0,0,0
 1,1,639,0,0,0,False,0,False,0,False,0,False,0,False,0,0,False,False,0,0,1,False,False,True,False,False,76,76,0,0,0,0
@@ -370,7 +370,7 @@ int32,byte,ModelChara,BNpcName,BNpcCustomize,NpcEquip,bool,Action,bool,Action,bo
 366,0,0,0,0,0,False,0,False,0,False,0,False,0,False,0,0,False,False,0,0,0,False,False,False,False,False,0,0,0,0,0,0
 367,3,0,0,749,1984,True,26,False,18775,False,19218,False,0,False,0,0,True,False,0,0,1.1,False,False,True,True,True,0,0,18771,30,7630,9
 368,3,0,0,749,1983,False,18776,False,18777,False,18778,False,18780,False,18781,0,True,False,0,0,1.1,False,False,True,True,True,0,0,18771,0,7630,10
-369,0,0,0,0,0,False,0,False,0,False,0,False,0,False,0,0,False,False,0,0,0,False,False,False,False,False,0,0,0,0,0,0
+369,1,2808,0,0,0,False,0,False,0,False,0,False,0,False,0,0,False,False,0,0,1,False,False,True,False,False,0,0,0,0,0,0
 370,0,0,0,0,0,False,0,False,0,False,0,False,0,False,0,0,False,False,0,0,0,False,False,False,False,False,0,0,0,0,0,0
 371,0,0,0,0,0,False,0,False,0,False,0,False,0,False,0,0,False,False,0,0,0,False,False,False,False,False,0,0,0,0,0,0
 372,0,0,0,0,0,False,0,False,0,False,0,False,0,False,0,0,False,False,0,0,0,False,False,False,False,False,0,0,0,0,0,0
