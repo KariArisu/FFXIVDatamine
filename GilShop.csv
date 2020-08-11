@@ -833,10 +833,10 @@ int32,str,Image,Quest,DefaultTalk,DefaultTalk,bit&01
 263013,"Purchase Paintings (The First)",0,69140,0,0,True
 263014,"Purchase Items",0,0,0,0,True
 263015,"Purchase Items",0,0,0,0,True
-263016,"",0,0,0,0,False
+263016,"Purchase Items",0,0,0,0,True
 263017,"Purchase Tools",0,69330,0,0,True
 263018,"Purchase Gear",0,69330,0,0,True
 263019,"Purchase Items",0,69330,0,0,True
 263020,"",0,0,0,0,True
-263021,"",0,0,0,0,False
-263022,"",0,0,0,0,False
+263021,"Purchase Items",0,69384,0,0,True
+263022,"Purchase Skysteel Prototypes",0,69384,0,0,True
