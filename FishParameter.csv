@@ -934,8 +934,8 @@ From <Emphasis>O'er Westward Seas</Emphasis>
 922,"Despite how unappetizing this weed may appear at a glance, enterprising souls have discovered that once it is dried and ground into a fine seasoning, it brings out the flavor of almost any meal. Animals have taken a liking to it as well, and a sprinkling of it in a bucket of feed will have them devouring even the most unpalatable mixture.",30490,355,0,False,False,6,401,0,True,False,False
 923,"Fans of dishes made with this meaty fish will swear that it is more savory than beef or mutton. The trick to catching them is to aim for the fastest specimens, for they are always the most well-fed among their schools, reaching prodigious sizes by virtue of always being the first served.",30491,370,0,False,False,1,613,0,True,False,False
 924,"The ink sacs of this bivalve mollusk have long been favored for the vibrant colors of the prints they produce. Other parts of the wavekin have been used for less scrupulous purposes; the pearls in particular are sold as counterfeit linkpearls, and many have been left mumbling into an inert mineral, wondering why their allies have abandoned them.",30492,380,0,False,False,2,399,0,True,False,False
-925,"",0,0,0,False,False,0,0,0,False,False,False
-926,"",0,0,0,False,False,0,0,0,False,False,False
+925,"Aptly named for their resemblance to plum blossom petals, these vividly colored bivalves have long been used not only for decoration, but also in the construction of various tools.",31129,460,0,False,True,3,614,0,True,False,False
+926,"An exotic fish best known for its glimmering gold scales, though they are often marred with the blood of their kin. Combative by nature, Allagan hunters are known to devour one another, and this cannibalistic behavior is said to be the source of their scales' resilience and lustrous sheen.",31134,460,0,False,True,8,402,0,True,False,False
 927,"",0,0,0,False,False,0,0,0,False,False,False
 928,"",0,0,0,False,False,0,0,0,False,False,False
 929,"",0,0,0,False,False,0,0,0,False,False,False
@@ -1135,29 +1135,29 @@ From <Emphasis>O'er Westward Seas</Emphasis>
 1123,"",30011,435,0,False,False,26,401,0,False,False,True
 1124,"",30012,435,0,False,False,26,401,0,False,False,True
 1125,"",30013,435,0,False,False,26,401,0,False,False,True
-1126,"",0,0,0,False,False,0,0,0,False,False,False
-1127,"",0,0,0,False,False,0,0,0,False,False,False
-1128,"",0,0,0,False,False,0,0,0,False,False,False
-1129,"",0,0,0,False,False,0,0,0,False,False,False
-1130,"",0,0,0,False,False,0,0,0,False,False,False
-1131,"",0,0,0,False,False,0,0,0,False,False,False
-1132,"",0,0,0,False,False,0,0,0,False,False,False
-1133,"",0,0,0,False,False,0,0,0,False,False,False
-1134,"",0,0,0,False,False,0,0,0,False,False,False
-1135,"",0,0,0,False,False,0,0,0,False,False,False
-1136,"",0,0,0,False,False,0,0,0,False,False,False
-1137,"",0,0,0,False,False,0,0,0,False,False,False
-1138,"",0,0,0,False,False,0,0,0,False,False,False
-1139,"",0,0,0,False,False,0,0,0,False,False,False
-1140,"",0,0,0,False,False,0,0,0,False,False,False
-1141,"",0,0,0,False,False,0,0,0,False,False,False
-1142,"",0,0,0,False,False,0,0,0,False,False,False
-1143,"",0,0,0,False,False,0,0,0,False,False,False
-1144,"",0,0,0,False,False,0,0,0,False,False,False
-1145,"",0,0,0,False,False,0,0,0,False,False,False
-1146,"",0,0,0,False,False,0,0,0,False,False,False
-1147,"",0,0,0,False,False,0,0,0,False,False,False
-1148,"",0,0,0,False,False,0,0,0,False,False,False
-1149,"",0,0,0,False,False,0,0,0,False,False,False
-1150,"",0,0,0,False,False,0,0,0,False,False,False
-1151,"",0,0,0,False,False,0,0,0,False,False,False
+1126,"",31578,10,0,False,False,26,401,0,False,False,False
+1127,"",31579,10,0,False,False,26,401,0,False,False,False
+1128,"",31580,10,0,False,False,26,401,0,False,False,False
+1129,"",31581,10,0,False,False,26,401,0,False,False,False
+1130,"",31582,150,0,False,False,26,401,0,False,False,False
+1131,"",31583,150,0,False,False,26,401,0,False,False,False
+1132,"",31584,150,0,False,False,26,401,0,False,False,False
+1133,"",31585,150,0,False,False,26,401,0,False,False,False
+1134,"",31586,150,0,False,False,26,401,0,False,False,False
+1135,"",31587,150,0,False,False,26,401,0,False,False,False
+1136,"",31588,150,0,False,False,26,401,0,False,False,False
+1137,"",31589,150,0,False,False,26,401,0,False,False,False
+1138,"",31590,430,0,False,False,26,401,0,False,False,False
+1139,"",31591,430,0,False,False,26,401,0,False,False,False
+1140,"",31592,430,0,False,False,26,401,0,False,False,False
+1141,"",31593,430,0,False,False,26,401,0,False,False,False
+1142,"",31594,430,0,False,False,26,401,0,False,False,False
+1143,"",31595,430,0,False,False,26,401,0,False,False,False
+1144,"",31596,445,0,False,False,26,401,0,False,False,False
+1145,"",31597,445,0,False,False,26,401,0,False,False,False
+1146,"",31598,445,0,False,False,26,401,0,False,False,False
+1147,"",31599,445,0,False,False,26,401,0,False,False,False
+1148,"",31600,445,0,False,False,26,401,0,False,False,True
+1149,"",31601,445,0,False,False,26,401,0,False,False,True
+1150,"",31602,445,0,False,False,26,401,0,False,False,True
+1151,"",31603,445,0,False,False,26,401,0,False,False,True

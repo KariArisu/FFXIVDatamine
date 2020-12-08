@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6
-#,,,,,,,
-int32,int32,int32,int32,uint16,bit&01,bit&02,str
+#,StampIcon,,Category,,,,Name
+int32,Image,int32,GroupPoseStampCategory,uint16,bit&01,bit&02,str
 0,0,0,0,0,False,False,"None"
 1,120021,2,10,200,False,False,"Duty Commenced"
 2,120022,2,10,201,False,False,"Duty Complete"
