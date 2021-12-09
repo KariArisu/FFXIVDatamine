@@ -1,5 +1,5 @@
 ﻿key,0
-#,
+#,Param
 int32,str
 0,"on"
 1,"on"
@@ -471,6 +471,12 @@ int32,str
 467,"saddlebag"
 468,"rightsaddlebag"
 469,"rightsaddlebag"
+470,"gton"
+471,"gton"
+472,"gtoff"
+473,"gtoff"
+474,"enemypc"
+475,"enemypc"
 1000,"<t>"
 1001,"<target>"
 1002,"<tt>"

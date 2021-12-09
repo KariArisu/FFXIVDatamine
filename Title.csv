@@ -551,29 +551,76 @@ int32,str,str,bit&01,uint16
 547,"Saint of the Firmament","Saint of the Firmament",True,10001
 548,"Beatus of the Firmament","Beata of the Firmament",True,10011
 549,"Writer of Histories","Writer of Histories",True,1617
-550,"","",False,0
-551,"","",False,0
-552,"","",False,0
+550,"Of the Truest Blue","Of the Truest Blue",False,1618
+551,"Blue Ranger","Blue Ranger",True,1619
+552,"The Azure and Omega","The Azure and Omega",False,1620
 553,"Balloon Catcher","Balloon Catcher",True,1621
 554,"Deadliest Catcher","Deadliest Catcher",True,1622
 555,"Manta Maniac","Manta Maniac",True,1623
 556,"World-class Troller","World-class Troller",True,1624
-557,"","",False,0
-558,"","",False,0
+557,"Saint of the Firmament","Saint of the Firmament",True,10002
+558,"Beatus of the Firmament","Beata of the Firmament",True,10012
 559,"Tournament Leader","Tournament Leader",True,1625
 560,"Secret Finder","Secret Finder",True,1626
 561,"Secret Keeper","Secret Keeper",True,1627
 562,"Gaolbreaker","Gaolbreaker",True,1628
 563,"Master of the Sea","Master of the Sea",True,1629
-564,"","",False,0
-565,"","",False,0
-566,"","",False,0
-567,"","",False,0
-568,"","",False,0
-569,"","",False,0
-570,"","",False,0
-571,"","",False,0
-572,"","",False,0
-573,"","",False,0
-574,"","",False,0
-575,"","",False,0
+564,"Delubrum Delver","Delubrum Delver",True,1630
+565,"The Risensung Carpenter","The Risensung Carpenter",False,1631
+566,"The Risensung Blacksmith","The Risensung Blacksmith",False,1632
+567,"The Risensung Armorer","The Risensung Armorer",False,1633
+568,"The Risensung Goldsmith","The Risensung Goldsmith",False,1634
+569,"The Risensung Leatherworker","The Risensung Leatherworker",False,1635
+570,"The Risensung Weaver","The Risensung Weaver",False,1636
+571,"The Risensung Alchemist","The Risensung Alchemist",False,1637
+572,"The Risensung Culinarian","The Risensung Culinarian",False,1638
+573,"The Risensung Miner","The Risensung Miner",False,1639
+574,"The Risensung Botanist","The Risensung Botanist",False,1640
+575,"The Risensung Fisher","The Risensung Fisher",False,1641
+576,"Jack of All Cards","Jack of All Cards",True,1642
+577,"Speed Demon","Speed Demon",True,1643
+578,"The Indefatigable","The Indefatigable",False,1644
+579,"Lord of Far Waters","Lady of Far Waters",True,1645
+580,"Big Fish","Big Fish",True,1646
+581,"Charlemend's Angel","Charlemend's Angel",True,1647
+582,"Lifesaver","Lifesaver",True,1648
+583,"Dawn Treader","Dawn Treader",True,1649
+584,"Witness to the Dark Apocalypse","Witness to the Dark Apocalypse",True,1650
+585,"Dalriada Raider","Dalriada Raider",True,1651
+586,"The Hypertuned","The Hypertuned",False,1652
+587,"Commander Conqueror","Commander Conqueror",True,1653
+588,"Lyon Tamer","Lyon Tamer",True,1654
+589,"Hero of Zadnor","Hero of Zadnor",True,1655
+590,"Gunnhildr's Blade","Gunnhildr's Blade",True,1656
+591,"The Emblazoned","The Emblazoned",False,1657
+592,"Queen's Elect","Queen's Elect",True,1658
+593,"At War's Horizon","At War's Horizon",True,1659
+594,"At Magic's Horizon","At Magic's Horizon",True,1660
+595,"At Art's Horizon","At Art's Horizon",True,1661
+596,"At Land's Horizon","At Land's Horizon",True,1662
+597,"Magus Resister","Magus Resister",True,1663
+598,"Moonwalker","Moonwalker",True,1664
+599,"Lightingway","Lightingway",True,1665
+600,"Vrtra's Valiant","Vrtra's Valiant",True,1666
+601,"Elpiphoros","Elpiphoros",True,1667
+602,"Hope's Legacy","Hope's Legacy",True,1668
+603,"Endwalker","Endwalker",True,1669
+604,"Lemures","Lemures",True,1670
+605,"The Sagacious","The Sagacious",False,1671
+606,"Erudite Smith","Erudite Smith",True,1672
+607,"Erudite Artisan","Erudite Artisan",True,1673
+608,"Erudite Apothecary","Erudite Apothecary",True,1674
+609,"Erudite Seeker","Erudite Seeker",True,1675
+610,"Erudite Angler","Erudite Angler",True,1676
+611,"Honorary Academic","Honorary Academic",True,1677
+612,"The Seventh Dawn","The Seventh Dawn",False,1678
+613,"Of Unbreakable Oath","Of Unbreakable Oath",False,1679
+614,"Of Unbreakable Steel","Of Unbreakable Steel",False,1680
+615,"Of Unbreakable Principle","Of Unbreakable Principle",False,1681
+616,"Of Unbreakable Lealty","Of Unbreakable Lealty",False,1682
+617,"Gleaning Machine","Gleaning Machine",True,1683
+618,"The Keen","The Keen",False,1684
+619,"The Excruciatingly Excited","The Excruciatingly Excited",False,1685
+620,"On the Hype Tron","On the Hype Tron",False,1686
+621,"Lunaire Riche","Lunaire Riche",True,1687
+622,"Patron of the Fates","Patron of the Fates",True,1688

@@ -19,7 +19,7 @@ int32,str
 15,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(8)/> Execute Action"
 16,"<CommandIcon(10)/> Subcommands"
 17,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom  <CommandIcon(8)/> Toggle Map"
-18,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(13)/> Toggle Floor  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom  <CommandIcon(8)/> Toggle Map"
+18,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>＋<CommandIcon(10)/> Toggle Floor  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom  <CommandIcon(8)/> Toggle Map"
 19,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 20,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 21,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
@@ -38,7 +38,7 @@ int32,str
 34,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 35,"<CommandIcon(11)/> Reload List  <CommandIcon(10)/> Subcommands  <CommandIcon(8)/> View Details"
 36,"<CommandIcon(11)/> Search"
-37,"<CommandIcon(11)/> Cycle Between Roles  <CommandIcon(8)/> Specify Class/Job"
+37,"<CommandIcon(10)/><CommandIcon(11)/> Cycle Between Roles  <CommandIcon(8)/> Specify Class/Job"
 38,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Exchange"
 39,"<CommandIcon(10)/> Subcommand"
 40,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Confirm  <CommandIcon(9)/> Close"
@@ -73,7 +73,7 @@ int32,str
 69,"<CommandIcon(8)/> Register in Additional Actions"
 70,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Select"
 71,"<CommandIcon(8)/> Change Gear  <CommandIcon(10)/> Subcommands  <CommandIcon(12)/><CommandIcon(13)/> Change Category"
-72,"<CommandIcon(10)/> Subcommands  <CommandIcon(1)/>Select Log<If(PlayerParameter(75))><Switch(PlayerParameter(75))><Case(1)></Case><Case(2)>  <CommandIcon(2)/> Toggle Tabs</Case></Switch><Else/>  <CommandIcon(2)/> Toggle Tabs</If>  <CommandIcon(11)/> Expand Log"
+72,"<CommandIcon(10)/> Subcommands  <CommandIcon(1)/> Select Log  <CommandIcon(2)/> Toggle Tabs  <CommandIcon(11)/> Expand Log"
 73,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Chat Input  <CommandIcon(11)/> Expand Log"
 74,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Chat Input  <CommandIcon(11)/> Restore Log Size"
 75,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <CommandIcon(13)/> Auto-translate<If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/><Indent/></If>"
@@ -135,7 +135,7 @@ int32,str
 131,"<CommandIcon(8)/> Display Locations"
 132,"<CommandIcon(23)/> Scroll Map"
 133,"<CommandIcon(23)/> Scroll Map  <CommandIcon(8)/> Fish Guide"
-134,"<CommandIcon(1)/>Select Log<If(PlayerParameter(75))><Switch(PlayerParameter(75))><Case(1)></Case><Case(2)>  <CommandIcon(2)/> Toggle Tabs</Case></Switch><Else/>  <CommandIcon(2)/> Toggle Tabs</If>  <CommandIcon(11)/> Expand Log"
+134,"<CommandIcon(1)/> Select Log  <CommandIcon(2)/> Toggle Tabs  <CommandIcon(11)/> Expand Log"
 135,"<CommandIcon(1)/> Select Log  <CommandIcon(11)/> Restore Log Size"
 136,"<CommandIcon(11)/> Select Item to Deposit"
 137,"<CommandIcon(10)/> Undo Changes"
@@ -145,16 +145,16 @@ int32,str
 141,"<CommandIcon(20)/> Move <CommandIcon(25)/> Rotate <CommandIcon(12)/>＋<CommandIcon(24)/> Zoom In/Out"
 142,"<CommandIcon(10)/> Gear Subcommands  <CommandIcon(20)/> Move <CommandIcon(25)/> Rotate  <CommandIcon(12)/>＋<CommandIcon(24)/> Zoom In/Out"
 143,"<CommandIcon(10)/> Set to Hotbar"
-144,"<CommandIcon(10)/> Subcommands  <CommandIcon(1)/> Select Log<If(PlayerParameter(75))><Switch(PlayerParameter(75))><Case(1)></Case><Case(2)>  <CommandIcon(2)/> Toggle Tabs</Case></Switch><Else/>  <CommandIcon(2)/> Toggle Tabs</If>"
+144,"<CommandIcon(10)/> Subcommands  <CommandIcon(1)/> Select Log  <CommandIcon(2)/> Toggle Tabs"
 145,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Back"
-146,"<CommandIcon(1)/> Select Log<If(PlayerParameter(75))><Switch(PlayerParameter(75))><Case(1)></Case><Case(2)>  <CommandIcon(2)/> Toggle Tabs</Case></Switch><Else/>  <CommandIcon(2)/> Toggle Tabs</If>"
+146,"<CommandIcon(1)/> Select Log  <CommandIcon(2)/> Toggle Tabs"
 147,"<CommandIcon(12)/><CommandIcon(13)/> Cycle Tab"
 148,"<CommandIcon(9)/> Chat Input  <CommandIcon(11)/> Expand Log"
 149,"<CommandIcon(9)/> Chat Input  <CommandIcon(11)/> Restore Log Size"
 150,"<CommandIcon(23)/> Scroll   <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom In/Out"
 151,"<CommandIcon(10)/> Subcommands"
 152,"<CommandIcon(9)/> Back"
-153,"<CommandIcon(1)/> Select Log<If(PlayerParameter(75))><Switch(PlayerParameter(75))><Case(1)></Case><Case(2)>  <CommandIcon(2)/> Toggle Tabs</Case></Switch><Else/>  <CommandIcon(2)/> Toggle Tabs</If>"
+153,"<CommandIcon(1)/> Select Log  <CommandIcon(2)/> Toggle Tabs"
 154,"<CommandIcon(12)/><CommandIcon(13)/> Select Class"
 155,"<CommandIcon(12)/><CommandIcon(13)/> Select Category  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Synthesize"
 156,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Synthesize"
@@ -165,7 +165,7 @@ int32,str
 161,"<CommandIcon(10)/> Subcommands"
 162,"<CommandIcon(10)/> Gear Subcommands  <CommandIcon(20)/> Move  <CommandIcon(25)/> Rotate  <CommandIcon(12)/>+<CommandIcon(24)/> Zoom In/Out"
 163,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom In/Out <CommandIcon(12)/>+<CommandIcon(13)/> Map Link"
-164,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(13)/> Toggle Floor  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom In/Out <CommandIcon(12)/>+<CommandIcon(13)/> Map Link"
+164,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>＋<CommandIcon(10)/> Toggle Floor  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom In/Out <CommandIcon(12)/>+<CommandIcon(13)/> Map Link"
 165,"<CommandIcon(11)/> Select Random Number"
 166,"<CommandIcon(10)/> Subcommands"
 167,"<CommandIcon(10)/> Subcommands"
@@ -174,8 +174,9 @@ int32,str
 170,"<CommandIcon(11)/> Display Rules"
 171,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Select Item"
 172,"<CommandIcon(9)/> Target Close Button"
-173,"lua 5.1.4 / MIT License
-
+173,"––––––––––––
+lua 5.1.4 / MIT License
+––––––––––––
 Copyright (C) 1994-2008 Lua.org, PUC-Rio.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
@@ -185,8 +186,9 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+––––––––––––
 rsa-md5 / RSA Data Security License
-
+––––––––––––
 Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.
 
 License to copy and use this software is granted provided that it is identified as the “RSA Data Security, Inc. MD5 Message-Digest Algorithm” in all material mentioning or referencing this software or this function.
@@ -198,6 +200,7 @@ RSA Data Security, Inc. makes no representations concerning either the merchanta
 These notices must be retained in any copies of any part of this documentation and/or software. 
 
 
+––––––––––––
 SHA-1 (Internet Society)
 ––––––––––––
 Copyright (C) The Internet Society (2001). All Rights Reserved.
@@ -213,6 +216,7 @@ Acknowledgement
 Funding for the RFC Editor function is currently provided by the Internet Society.
 
 
+––––––––
 zstream.h (zlib)
 ––––––––
 Copyright (c) 1997
@@ -222,7 +226,13 @@ Fantoftvegen 38, 5036 BERGEN, Norway
 http://www.cmr.no
 
 Permission to use, copy, modify, distribute and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. Christian Michelsen Research AS makes no representations about the suitability of this software for any purpose. It is provided “as is” without express or implied warranty.
-–––––––––––––––––––––––––––––––––––––––-"
+
+
+–––
+LIBRARY FOR DUALSHOCK®4 & DualSense™ WIRELESS CONTROLLER
+–––
+“DUALSHOCK” and “DualSense” are registered trademarks or trademarks of Sony Interactive Entertainment Inc.
+Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 Sony Interactive Entertainment Inc."
 174,"<CommandIcon(12)/><CommandIcon(13)/> Select Category"
 175,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Phase  <CommandIcon(10)/> Subcommands"
 176,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Phase  <CommandIcon(10)/> Subcommands"
@@ -396,7 +406,7 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 222,"<CommandIcon(10)/> Subcommands"
 223,"<CommandIcon(23)/> Scroll  <CommandIcon(12)/>＋<CommandIcon(23)/> Zoom  <CommandIcon(13)/> Toggle Camera"
 224,"<CommandIcon(10)/> Subcommands"
-225,"<CommandIcon(10)/> Subcommands  <CommandIcon(12)/><CommandIcon(13)/> Select Environment"
+225,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Toggle Environment"
 226,"<CommandIcon(9)/> Close  <CommandIcon(24)/> Scroll"
 227,"<CommandIcon(12)/><CommandIcon(13)/> Select Category  <CommandIcon(8)/> Add  <CommandIcon(10)/> Subcommands"
 228,"<CommandIcon(10)/> Subcommands"
@@ -410,7 +420,7 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 236,"<CommandIcon(8)/> Register in Additional PvP Actions"
 237,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/>Select"
 238,"<CommandIcon(3)/><CommandIcon(4)/> Move <CommandIcon(8)/> Confirm"
-239,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(13)/> Toggle Floor  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom"
+239,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>＋<CommandIcon(10)/> Toggle Floor  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom"
 240,"<CommandIcon(8)/> Add PvP Trait"
 241,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 242,"<CommandIcon(9)/> Give Up"
@@ -556,22 +566,22 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 382,"<CommandIcon(23)/>"
 383,"<CommandIcon(24)/>"
 384,"<CommandIcon(25)/>"
-385,""
-386,""
-387,""
-388,""
-389,""
-390,""
-391,""
-392,""
-393,""
-394,""
-395,""
-396,""
-397,""
-398,""
+385,"<CommandIcon(11)/> Quick Scroll <CommandIcon(10)/> Subcommands"
+386,"<CommandIcon(5)/> History <CommandIcon(12)/> + <CommandIcon(13)/> Paste <CommandIcon(10)/> Delete <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/></If>"
+387,"<CommandIcon(8)/> Claim Rewards <CommandIcon(10)/> Subcommands"
+388,"<CommandIcon(10)/> Subcommands"
+389,"<CommandIcon(10)/> Subcommands"
+390,"<CommandIcon(12)/><CommandIcon(13)/> Select Class <CommandIcon(10)/> Subcommands"
+391,"<CommandIcon(12)/><CommandIcon(13)/> Select Class  <CommandIcon(8)/> Open Map"
+392,"<CommandIcon(5)/> Select Destination <CommandIcon(8)/> Teleport <CommandIcon(23)/> Navigate Map"
+393,"<CommandIcon(23)/> Scroll <CommandIcon(7)/> Return to List"
+394,"<CommandIcon(23)/> Scroll <CommandIcon(8)/> Teleport <CommandIcon(7)/> Return to List"
+395,"<CommandIcon(10)/> Cycle Between Roles <CommandIcon(8)/> Specify Class/Job  <CommandIcon(11)/> Execute Search"
+396,"<CommandIcon(10)/> Select/Deselect All  <CommandIcon(11)/> Execute Search"
+397,"<CommandIcon(10)/> Toggle Role or Single Class/Job"
+398,"<CommandIcon(10)/> Toggle Area or Region"
 399,""
-400,""
+400,"<CommandIcon(23)/> Scroll <CommandIcon(11)/> Switch Type <CommandIcon(12)/>＋<CommandIcon(10)/> Toggle Floor <CommandIcon(12)/>＋<CommandIcon(23)/> Zoom <CommandIcon(8)/> Teleport"
 1000,"Report could not be sent.
 Please try again."
 1001,"<UIForeground>F20202</UIForeground>Duty Record Playback<UIForeground>01</UIForeground>

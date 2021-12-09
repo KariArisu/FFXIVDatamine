@@ -1,6 +1,6 @@
 ﻿key,0,1
-#,,
-int32,int32,str
+#,Image,Description
+int32,Image,str
 0,0,""
 1,86801,"<UIForeground>08</UIForeground><UIGlow>04</UIGlow>「南方ボズヤ戦線」は、独自ルールや専用システムが多数盛り込まれたコンテンツです！
 下記の特徴を理解し、ガレマール帝国第IV軍団との戦いに勝利しましょう！！<UIGlow>01</UIGlow><UIForeground>01</UIForeground>

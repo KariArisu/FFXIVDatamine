@@ -37,7 +37,7 @@ int32,str,bit&01
 33,"GuildLeveHistory",True
 35,"Config",True
 36,"AOZNotebook",True
-38,"AOZNotebookPresetList",False
+38,"EmoteStatusHelp",True
 39,"AOZContentBriefing",True
 40,"AOZContentResult",True
 41,"Request",True
@@ -138,8 +138,8 @@ int32,str,bit&01
 140,"MYCWarResultNotebook",True
 141,"Buddy",True
 142,"BuddyEquipList",True
-143,"MYCItemBag",False
-144,"MYCActionSelect",False
+143,"FishRelease",True
+144,"MYCWeaponAdjust2",True
 145,"WebLauncher",True
 146,"FreeCompanyChest",True
 147,"FreeCompanyExchange",True
@@ -160,6 +160,11 @@ int32,str,bit&01
 162,"HWDMonument",True
 163,"MYCWeaponAdjust",True
 164,"SynthesisCondition",True
+165,"PcSearchSelectLocation",True
+166,"PcSearchSelectClass",True
+167,"Mobhunt5",True
+168,"TeleportSetting",True
+169,"SharlayanCraftworksSupply",True
 172,"BuddyInspect",True
 175,"AllianceMemberList",True
 176,"ColorantColoring",True
