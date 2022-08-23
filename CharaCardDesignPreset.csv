@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9
-#,,,,,,,,,,
-int32,uint16,byte,byte,uint16,uint16,uint16,uint16,uint16,uint16,str
+#,BasePlate,TopBorder,BottomBorder,Backing,PatternOverlay,PortraitFrame,PlateFrame,Accent,SortKey,Name
+int32,CharaCardBase,CharaCardHeader,CharaCardHeader,CharaCardDecoration,CharaCardDecoration,CharaCardDecoration,CharaCardDecoration,CharaCardDecoration,uint16,str
 0,0,0,0,0,0,0,0,0,0,"Custom"
 1,2,1,0,11,1,0,0,0,1,"Basic"
 2,3,3,3,11,2,0,0,0,2,"Modern"

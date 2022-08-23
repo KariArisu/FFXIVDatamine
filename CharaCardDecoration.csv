@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5
-#,,,,,,
-int32,byte,int32,byte,uint16,uint16,str
+#,Category,Image,,UnlockCondition,SortKey,Name
+int32,byte,Image,byte,BannerCondition,uint16,str
 0,0,0,0,1,0,"None"
 1,2,194002,0,1,1,"Glossy"
 2,2,194003,0,1,6,"Squares"

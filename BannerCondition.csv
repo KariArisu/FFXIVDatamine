@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8
-#,,,,,,,,,
-int32,byte,uint32,byte,uint32,uint32,uint32,byte,uint32,bit&01
+#,UnlockType1,UnlockCriteria1,UnlockType2,UnlockCriteria2,UnlockCriteria3,UnlockCriteria4,HasPrerequisite,Prerequisite,
+int32,byte,Row,byte,Row,Row,Row,byte,Quest,bit&01
 0,0,0,0,0,0,0,0,0,False
 1,10,0,1,0,0,0,0,0,False
 2,5,81,4,1011039,5581045,22497,1,65970,False

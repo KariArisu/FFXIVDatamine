@@ -943,7 +943,7 @@ int32,str,Image,Quest,DefaultTalk,DefaultTalk,bit&01
 263123,"Purchase Gardening Items",0,0,0,0,True
 263124,"",0,0,0,0,False
 263125,"アイテムの購入",0,0,0,0,True
-263126,"",0,0,0,0,False
+263126,"Purchase Items",0,70081,0,0,True
 263127,"",0,0,0,0,False
 263128,"",0,0,0,0,False
 263129,"",0,0,0,0,False
@@ -958,4 +958,4 @@ int32,str,Image,Quest,DefaultTalk,DefaultTalk,bit&01
 263138,"Repurchase Dancer Gear",0,0,0,0,True
 263139,"Repurchase Reaper Gear",0,0,0,0,True
 263140,"Repurchase Sage Gear",0,0,0,0,True
-263141,"",0,0,0,0,False
+263141,"Purchase Items",0,0,0,0,True
