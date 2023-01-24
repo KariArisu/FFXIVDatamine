@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13
-#,Text,Item,GatheringItemLevel,,IsHidden,,FishingRecordType,TerritoryType,GatheringSubCategory,IsInLog,TimeRestricted,WeatherRestricted,,
-int32,str,Row,GatheringItemLevelConvertTable,byte,bit&01,bit&02,FishingRecordType,TerritoryType,GatheringSubCategory,uint16,bit&04,bit&08,bit&10,uint32
+#,Text,Item,GatheringItemLevel,,IsHidden,,FishingRecordType,,FishingSpot,GatheringSubCategory,IsInLog,TimeRestricted,WeatherRestricted,
+int32,str,Row,GatheringItemLevelConvertTable,byte,bit&01,bit&02,FishingRecordType,int32,FishingSpot,GatheringSubCategory,bit&04,bit&08,bit&10,uint32
 0,"",0,0,0,False,False,0,0,0,0,True,False,False,0
 1,"This dark green variety of seaweed found in all five of Eorzea's seas has been known to grow up to a malm (1760 yalms) in length.",4776,4,0,False,False,0,0,36,0,True,False,False,0
 2,"A brown-carapaced freshwater crustacean commonly found in the rivers and lakes of Aldenard. So eager are crayfish to grasp at anything that may happen by, fishers boast that they need not even bait their lines to catch the creatures.",4925,2,0,False,False,2,0,2,0,True,False,False,0
