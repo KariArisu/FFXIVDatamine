@@ -288,7 +288,7 @@ A Rival Wings team consists of 6 light parties, for a total of 24 participants.
 A match lasts for 15 minutes.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Retaliation■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Incapacitated players will be returned to their landing point, where they will be allowed to rejoin combat after a short delay. Furthermore, players will be invulnerable so long as they remain at their landing point. This effect will be lost upon returning to the battlefield.
+Incapacitated players will be returned to their landing point, where they will be allowed to rejoin combat after a short delay. Furthermore, players will be invulnerable so long as they remain at their landing point. This effect will persist for a brief period after returning to the battlefield.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Mounts■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Players are free to use mounts during Rival Wings campaigns. However, players taking damage while mounted will be afflicted with the Limp status effect.
@@ -1004,8 +1004,7 @@ The remnants of that mad plan still litter the frozen lowlands, as well as other
 299,"Similarly to Seal Rock (Seize), the first alliance to accumulate the required amount of data will be declared the winner, and the remaining alliances will be ranked according to their respective ratings. Data is accumulated by:
 
 　1. Defeating enemy players
-　2. Occupying Allagan tomeliths
-　3. Destroying icebound tomeliths
+　2. Destroying icebound tomeliths
 
 In the event that none of the three alliances accumulates the required amount of data within the time limit, victory will be awarded to the alliance with the most data."
 300,"Occupying Allagan Tomeliths"
@@ -1014,7 +1013,7 @@ In the event that none of the three alliances accumulates the required amount of
 303,"The data from icebound tomeliths can be collected by attacking them, and once they are destroyed, data will be rewarded to each Grand Company based on the amount of damage inflicted.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Activating Icebound Tomeliths■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a fixed amount of time. Icebound tomeliths that have been destroyed will not reactivate. As time passes, more icebound tomeliths will activate, and the order in which they do so differs in every campaign. In some cases, several tomeliths may activate at the beginning of the campaign, while in others, they will activate at a steady pace. Regardless of the timing and frequency, all tomeliths on the map will be active by the end of the campaign.
+Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a short period of time. Any icebound tomeliths destroyed during the course of the campaign will regenerate in an inactive state after a fixed amount of time.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Icebound Tomelith■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Active icebound tomeliths will be either large or small, with large tomeliths containing more data."
@@ -1056,6 +1055,8 @@ Up to 24 players may join an Ocean Fishing voyage, solo or in parties of up to e
 
 ■How to Participate
 Speak with Dryskthota at the ferry docks to register as a crew member and board the <Emphasis>Endeavor</Emphasis>. Registration periods last for 15 minutes and occur every two hours (Earth time). If registering as a party, the party leader must register. The ship will depart when 24 crew members have been assembled or the registration period has ended, even if there are fewer than 24 crew members. Registration times may be viewed from the Sailing Schedule.
+
+Progressing through the main scenario will give access to an additional route known as the Ruby route. Details on how to  unlock this route can be found from the Sailing Schedule.
 
 ■Rewards
 By meeting certain conditions while fishing during the voyage, players will receive achievements that reward special titles, mounts, and minions. Fishers who are level 50 or above and have completed the requisite quest may also receive gatherers' scrips as rewards."
@@ -1849,17 +1850,17 @@ Losing or winning a casual match has no effect on riser or tier.
 Loss or victory in these competitive matches affects participants' risers and tiers. Thus, when playing a ranked match, you will be matched with players of similar tier and riser to your own.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Custom Matches■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Custom matches allow participants to customize their group, arena, and other match settings. Members may be recruited via the Party Finder. The results of a custom match will not be reflected on Player PvP profiles, count toward achievements, or affect risers or tiers. Additonally, PvP EXP, Series EXP, Wolf Marks, and similar rewards cannot be earned during custom matches.
+Custom matches allow participants to customize their group, arena, and other match settings. Members may be recruited via the Party Finder. The results of a custom match will not be reflected on Player PvP profiles, count toward achievements, or affect risers or tiers. Additionally, PvP EXP, Series EXP, Wolf Marks, and similar rewards cannot be earned during custom matches.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Arenas■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Both casual and ranked matches are held in a variety of different arenas. The staging ground currently in play rotates periodically according to Earth time."
 589,"Risers and Tiers"
 590,"A player's riser and tier indicate their demonstrated skill in ranked Crystalline Conflict matches."
 591,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Tier■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Each player will rate in one of six tiers─Bronze, Silver, Gold, Platinum, Diamond, or Crystal. Once they have attained a particular tier, a player will never drop down to a lower tier during that season.
+Each player will rate in one of six tiers─Bronze, Silver, Gold, Platinum, Diamond, or Crystal. Players ranked in or below the Platinum tier will never drop down to a lower tier during that season. However, it is possible to drop to a lower tier from the Diamond or Crystal tiers.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Riser■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The sub-levels within each tier are called “risers.” The number of risers varies per tier, with three risers each for Bronze and Silver, four for Gold and Platinum, and five within the Diamond tier. Unlike tiers, it is possible to drop down to a lower riser.
+The sub-levels within each tier are called “risers.” The number of risers varies per tier, with three risers each for Bronze and Silver, four for Gold and Platinum, and five within the Diamond tier. Regardless of tier placement, it is always possible for players to drop down to a lower riser.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Rising Stars■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 When you win a ranked match, you will gain one Rising Star. Similarly, a loss will remove one Star. Once you have earned the maximum three Rising Stars in one riser, an additional win will allow you to move up a riser. Winning three or more matches in a row while in the Bronze, Silver, Gold, Platinum, or Diamond tier will apply a streak bonus, netting you two Rising Stars per win.
@@ -1882,7 +1883,7 @@ If neither team reaches the goal by the time limit, and progress for both teams 
 
 ・Should the teams have equal progress scores upon the commencement of overtime, you must beat the opposing team's progress score during overtime to win."
 595,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■The Tactical Crystal■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The all-important object placed at the arena's centerpoint is called the “tactical crystal.” It will remain bound until the first 30 seconds of the match have passed."
+The all-important object placed at the arena's centerpoint is called the “tactical crystal.” It will remain bound until the first 20 seconds of the match have passed."
 596,"Once the tactical crystal is unbound, a ring will appear at its base. Should one team be fully in control of this ring─with no members of the opposing team present within its bounds─that team will be able to move the crystal.
 
 The crystal can only be moved along the crystal line─a dedicated path within the arena. It will move faster when:
@@ -2082,7 +2083,7 @@ Once you possess all necessary materials, select Renovate to begin the process.
 Renovation is performed by a talented team of mammets and will be completed after a predetermined period of time. Finalize renovation by accessing the logboard in front of your upgraded structure after the mammets have finished their work.
 
 You may check the logboard during renovation to confirm current progress and estimated time of completion. You may also continue using workshops and granaries as usual, even while they are being renovated."
-694,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You may customize a facility so that it reflects a previous appearance.<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Access the logboard and select “Change facility apperance.” to view what options are currently available.
+694,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You may customize a facility so that it reflects a previous appearance.<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Access the logboard and select “Change facility appearance.” to view what options are currently available.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Changes made to facility appearance will not affect functionality or gameplay.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 695,"Facility appearance customization does not take any time to complete and will be reflected immediately."
 696,"Landmarks are special structures that can only be built on specific plots of land. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>The construction of landmarks has a variety of effects on your island experience.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -2092,6 +2093,9 @@ Landmarks are constructed in the same way as other facilities.
 
 ■Moving a Landmark
 Landmarks may be moved to a different location in the same way as other facilities. However, they are restricted to specific plots of land.
+
+■Rotating a Landmark
+Landmarks may be rotated in 90 degree increments.
 
 ■Landmark Reconstruction
 A constructed landmark may be replaced with a different landmark by accessing its logboard and selecting “Reconstruct landmark.”"
@@ -2375,7 +2379,7 @@ Constructing landmarks and renovating your granaries will increase the amount of
 Free-range Minions menu and get started."
 742,"■Release the Minions!
 The Free-range Minions menu displays the current population of released minions in each available area. After selecting your desired area, press Select Minions and let loose your tiny friends via subcommand.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You can release one of each minion, up to a maximum of 40 minions.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You can release one of each minion, up to a starting maximum of 40 minions. You will be able to release more minions as your island development progresses.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 Please note that your minions are enjoying this island paradise as much as you are, and may therefore seem different than they do when accompanying you on your journeys.
 
@@ -2499,7 +2503,7 @@ Please note that after using Fantasia, your adventurer plate will become tempora
 Choose the portrait you wish to apply the copied settings to, and select the subcommand “Import Settings.” A pop-up window will appear.
 
 ■Choose the Source Portrait
-From the drop-down menu, select the portrait whose settings you wish to copy. A preview of the applied changes will be displayed. If you are satisfied with the image, select “Confirm” and the settings will be copied and imported to the target portrait.
+From the dropdown menu, select the portrait whose settings you wish to copy. A preview of the applied changes will be displayed. If you are satisfied with the image, select “Confirm” and the settings will be copied and imported to the target portrait.
 
 ■Copying Poses
 If pose settings of the source portrait are incompatible with the target portrait, pose/camera settings will revert to default."
@@ -2736,27 +2740,49 @@ Pomanders cannot be taken outside of the deep dungeon. When in a matched party, 
 858,"Players may find magicite in treasure coffers in Heaven–on–High. These items are shared between all party members and, when used, affect all enemies on the current floor in a variety of ways.
 
 Magicite cannot be taken outside of the deep dungeon. When in a matched party, it will be reset each time you enter the dungeon."
-859,""
-860,""
-861,""
-862,""
-863,""
-864,""
-865,""
-866,""
-867,""
-868,""
-869,""
-870,""
-871,""
-872,""
-873,""
-874,""
-875,""
-876,""
-877,""
-878,""
-879,""
+859,"Eureka Orthos"
+860,"Entry"
+861,"You may enter Eureka Orthos solo or in a party of up to four players. When speaking with Khatun, you will be given the option to enter with a fixed party or a matched party via the matching system.
+
+To create a fixed party, the party leader must speak with Khatun after forming a party of up to four players. Please note that all party members must have at least one unused save slot."
+862,"Leveling Up"
+863,"Players who enter from floor 1 will start at level 81 regardless of their current class or job level. Players who enter from floor 21, however, will start at level 90.
+
+If your job or class level is below 90 upon entering the deep dungeon, experience points will be rewarded based on progress."
+864,"Precautions"
+865,"It is possible to receive a score for your performance in Eureka Orthos. In order to do so, you must enter with a fixed party.
+
+A fixed party is also required to challenge floor 31 and beyond. Moreover, your Party KO count must be zero. Please note that the Party KO count will also increase in the event your party abandons the duty."
+866,"It is possible to reset your progression in Eureka Orthos, allowing you to re-enter the tower starting from floor 1 or floor 21. Your level will be reset to 81 if resetting to floor 1 and level 90 if resetting to floor 21. Although floor progression and character level will be reset, aetherpool arm and gear strength will remain unchanged. Please note, however, that data cannot be restored once deleted."
+867,"It is possible to convert fixed party save data to matched party save data, allowing you to be matched automatically with other players via the matching system. Please note that all special items (protomanders and demiclones) will be lost upon converting your data.
+
+Once saved data from a fixed party is converted, it can only be used when selecting matched party. It cannot be restored to its original state."
+868,"Although players can no longer enter as a fixed party after converting their saved data, it is still possible to create preformed parties as long as the party is formed before entering Eureka Orthos. The progression of all party members must be identical when doing so. Any open party slots will be filled automatically via the matching system.
+
+Please note that a matched party cannot be used to challenge floors beyond floor 30."
+869,"Orthos Aetherpool Gear"
+870,"About Orthos Aetherpool Gear"
+871,"Players must use Orthos aetherpool armor and arms in place of normal gear when inside Eureka Orthos. They will be equipped automatically upon entering, and can then be strengthened as you progress through the dungeon."
+872,"Upgrading Aetherpool Gear"
+873,"Orthos aetherpool gear can be enhanced by accessing silver coffers. These coffers are found randomly on each floor and after defeating certain enemies.
+
+The maximum strength of Orthos aetherpool gear may be restricted depending on your class or job level and current progression in the tower. This can be confirmed when viewing the Character Info window.
+
+Aetherpool gear enhancements will not carry over from one deep dungeon to another."
+874,"Gear Restrictions"
+875,"Under certain circumstances, you may be unable to join a matched party due to insufficient gear strength. In such cases, it may be necessary to resume your exploration of Eureka Orthos from floor 1 to ensure your Orthos aetherpool gear is of sufficient strength."
+876,"Protomanders and Demiclones"
+877,"Players will, on occasion, obtain protomanders from treasure coffers in Eureka Orthos. These items are similar to the pomanders found in the Palace of the Dead, and can be used by all party members once acquired. They have various effects such as revealing the entirety of a map or increasing the number of treasure coffers on a given floor. Effective use of these items will help ensure the situation is always to your advantage.
+
+Protomanders that affect the map cannot be overwritten with the same item when their effect is already in play. Please note, however, that they will still be consumed upon use.
+
+Protomanders cannot be taken outside of the deep dungeon. When in a matched party, they will be reset each time you enter the dungeon."
+878,"About Demiclones"
+879,"Players will, on occasion, obtain tomestones from treasure coffers in Eureka Orthos, which can be used to generate demiclones. These items can be used by all party members once acquired.
+
+Demiclones will follow and fight alongside the player who generated them. Each demiclone has unique strengths, so choose carefully to turn the tides in your favor.
+
+Tomestones cannot be taken outside of the deep dungeon. When in a matched party, they will be reset each time you enter the dungeon."
 880,"Applying to Adventurer Plate"
 881,"You may apply gear set portraits to your adventurer plate.
 ※You must equip the corresponding gear set to apply its portrait.
@@ -2773,8 +2799,8 @@ Furthermore, you may also import and apply adventurer plate portrait settings to
 1. Select the gear set portrait to which you would like to apply the settings.
 2. Choose “Import Settings from Adventurer Plate” from the subcommand menu.
 3. After reviewing the confirmation window, select “Confirm.”"
-882,""
-883,""
+882,"Players who have not progressed to the same floor cannot enter Eureka Orthos together as a party. Those on earlier floors must use the matching system on their own. Once all players have reached the same floor, they can proceed together until floor 30 by forming a party and choosing to enter as a matched party."
+883,"About Protomanders"
 884,"When exploring Heaven–on–High, players will, on occasion, find pieces of the Accursed Hoard─treasure sealed by powerful magicks. Once found, players must remain stationary in the treasure's location for a fixed period of time to unearth the coffer."
 885,"Though it is not difficult to unearth pieces of the Accursed Hoard, its location cannot be discerned with the naked eye alone.
 
@@ -2784,17 +2810,21 @@ Players must make use of a certain pomander in order to sense the presence of hi
 
 Please note that you cannot earn credit for previous floors when starting from floor 51. Starting from floor 1 will ensure the highest score possible."
 888,"Your highest score from the deep dungeon will be saved and can be viewed at any time by speaking with Kyusei. Scores that exceed a certain threshold will be made viewable on the rankings page of the Lodestone."
-889,""
-890,""
-891,""
-892,""
-893,""
+889,"When exploring Eureka Orthos, players will, on occasion, find pieces of the Accursed Hoard─treasure sealed by powerful magicks. Once found, players must remain stationary in the treasure's location for a fixed period of time to unearth the coffer."
+890,"Though it is not difficult to unearth pieces of the Accursed Hoard, its location cannot be discerned with the naked eye alone.
+
+Players must make use of a certain protomander in order to sense the presence of hidden pieces of the Accursed Hoard."
+891,"Pieces of the Accursed Hoard found in Eureka Orthos will be moved to your inventory upon saving your progress and exiting the dungeon. To ascertain the true value of this treasure, you must speak with Valeroine at the Eight Sentinels to have it properly appraised."
+892,"When entering the deep dungeon as a fixed party, you will receive scores based on a number of factors such as highest floor reached and number of enemies slain. You will be assigned separate scores for both individual and team performance.
+
+Please note that you cannot earn credit for previous floors when starting from floor 21. Starting from floor 1 will ensure the highest score possible."
+893,"Your highest score from the deep dungeon will be saved and can be viewed at any time by speaking with Khatun. Scores that exceed a certain threshold will be made viewable on the rankings page of the Lodestone."
 894,"The Clockwork Castletown"
 895,"Turn the tricks and traps of this Far Eastern labyrinth to your advantage─if you can. What surprises lurk within its glamour-woven walls?"
 896,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Trick Floors■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Standing upon a trick floor for too long will trigger a Tatami Twist, launching the unwitting loiterer into the air and inflicting damage. If your Guard is active, it will be depleted by the effort of staying upright."
 897,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Trick Door■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless."
+Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless, and players may discover that passage is denied entirely whilst executing certain actions."
 898,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Pneumatic Parades■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 When a pneumatic parade begins, the clockwork onmyoji and clockwork yojimbo will join the fray. These puppets travel a predetermined path through the arena and unleash their unique attacks upon arriving in the vicinity of the centerpoint, checkpoints, and goals.
 
@@ -2803,3 +2833,512 @@ While the clockwork yojimbo will obliterate its surroundings with strong physica
 　・Increased damage taken"
 899,"During the midst of the parade, infamous soy sauce mogul Kageyama will make his grand appearance upon a stage outside the arena, and shower combatants with glimmering coin. Players who get their hands on a pile of gold will enjoy the following effect:
 　・A boost to the limit gauge"
+900,"Island Sanctuary Furnishings"
+901,"Furnishing Glamours"
+902,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Furnishings may be placed on your island sanctuary as glamours, allowing you to further personalize your tropical hideaway.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+903,"■Placing Furnishing Glamours
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>The furnishings that appear on your island are glamours of furnishing items you own.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Select “Manage Furnishings” from the islekeep's index to place, color, or preview available furnishings."
+904,"You only need to possess one of any given furnishing item to place it as many times as you'd like on your island─within reason, of course.
+
+There is a limit to the number of furnishing items allowed on your island at once. This number will increase as island development progresses.
+
+Glamours may be placed in areas designated for furnishing. However, some existing furnishing items are not compatible with glamours and therefore cannot be placed anywhere on your island.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You do not need prisms to place furnishing glamours, and furnishing items will remain in your inventory even after you have placed them as glamours. However, please note that placing a glamour will bind the furnishing item to you, preventing future trade or sale to other players.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+■Registering Glamours
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Island prisms may be used to register furnishing glamours.<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Registered glamours may be placed as many times as desired via the Registered Glamours list, which can be toggled to from the Furnishing Glamours window.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You may register up to 120 furnishing glamours.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+You can register a furnishing glamour in the following ways:
+①Via the subcommand of the item while managing island furnishings
+②Via the subcommand of the glamour in your Placed Glamours list
+③Via the prompt when placing a glamour
+④Via the prompt when removing a glamour
+
+■Coloring Glamours
+Furnishing glamours may be painted by selecting “Manage Furnishings” from the islekeep's index, followed by “Color Furnishing Glamours.”
+
+As with regular furnishings, dye is required to change the color of furnishing glamours."
+905,"Fashion Accessory Basics"
+906,"Types of Fashion Accessories"
+907,"Hotbar Settings"
+908,"Accessory Display Conditions"
+909,"Auto-umbrella"
+910,"Looking to add that extra bit of flair to your favorite glamour? Why not try a fashion accessory on for size?"
+911,"To add a fashion accessory to your collection, use the corresponding item in your inventory. To equip your new accessory or assign it to the hotbar for later use, open the Fashion Accessories window from the Character section of the main menu.
+
+You may stow your current accessory via the “Use” subcommand in the Fashion Accessories menu, or by selecting “Put Away” on the pet hotbar.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Fashion accessories are unavailable in dungeons and certain other areas. <UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+912,"Many types of fashion accessories can be found throughout the realm, including colorful parasols and umbrellas, stylish knapsacks, and wings of all shapes and sizes.
+
+Some accessories come with unique actions─for example, equipping an umbrella or parasol will allow you to perform an umbrella dance."
+913,"The world of fashion is ever-changing, and new innovations may give rise to more types of accessories in the future. Keep an eye out for the latest trends!"
+914,"The pet hotbar will appear when a fashion accessory is equipped, allowing you to easily change poses and perform unique actions.
+
+By default, the pet hotbar automatically replaces a hotbar or cross hotbar. You may disable this function from the Hotbar Settings tab of the Character Configuration menu.
+
+■Disable Automatic Hotbar Replacement
+From the Character Configuration menu, select the Hotbar Settings tab. Uncheck “Automatically replace hotbar 1 when a fashion accessory is equipped.”"
+915,"Fashion accessories will remain equipped while you speak with NPCs, engage in battle, and ride mounts.
+
+Some accessories may disappear for a short time while performing certain actions, but they will remain equipped.
+
+For example, if a parasol is equipped, riding a mount will temporarily hide it, but the parasol will display again once you have dismounted."
+916,"Afeared of being soaked by a sudden downpour? Keep your favorite umbrella or parasol at the ready with the auto-umbrella feature!
+
+Simply open the Fashion Accessories window under Character in the main menu, then select “Enable Auto-umbrella” from the subcommands of your preferred umbrella or parasol. The accessory you selected will be brought out the moment the rain begins, and put away once the weather clears up or you find shelter.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※You may only set one auto-umbrella at a time.
+※The auto-umbrella function is disabled in certain areas.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+917,"Fashion Accessories"
+918,"■Disable Automatic Cross Hotbar Replacement
+From the Character Configuration menu, select the Hotbar Settings tab. Uncheck “Automatically replace cross hotbar with pet hotbar.”"
+919,"Gear Set Basics"
+920,"Purpose of Gear Sets"
+921,"A <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>gear set<UIGlow>01</UIGlow><UIForeground>01</UIForeground> allows you to register and save your current equipment.
+
+Numerous gear sets can be registered to make efficient use of the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Armoury system<UIGlow>01</UIGlow><UIForeground>01</UIForeground>─by registering gear sets with different weapons or tools equipped to your main hand, you may switch between classes and jobs instantly without the need to manually equip each piece of gear.
+
+If you unlock a new class or job, you may find it helpful to register a gear set for it."
+922,"Making the Most of Gear Sets"
+923,"Using Gear Sets"
+924,"Firstly, let's create a gear set using the items you currently have equipped.
+
+■How to Register a Gear Set
+1. Open Character from the main menu, then select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gear Set List button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> on the top right.
+2. A new window will be displayed. Select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>plus button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> found in the top left corner.
+3. Your current equipment will now be registered as a new gear set.
+
+■How to Equip a Gear Set
+1. Open Gear Set List and select the desired gear set.
+2. Confirm your selection with the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Equip Set button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> at the bottom of the window.
+
+An “E” icon next to a gear set indicates your currently equipped selection."
+925,""
+926,"Useful Commands"
+927,"The gear set list includes many useful subcommands which can allow you to quickly check the equipment in a set, rename a set, or reorder the list itself."
+928,"■Display Set
+Display the equipment registered to the gear set in a slot-specific list.
+
+■Preview
+View your character wearing the selected gear set."
+929,"Updating Gear Sets"
+930,"Changes to your equipment can easily be reflected to your currently selected gear set.
+
+■How to Update Gear Sets
+1. Open Character from the main menu.
+2. Press the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Update Gear Set button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the top right corner.
+
+Remember to update your gear sets whenever you upgrade your equipment or make changes to materia!"
+931,"■Reassign Set Number
+Directly assign a gear set number. Using an existing gear set number will result in the two sets swapping numbers.
+
+■Move Set Up/Down
+Shift a gear set to the number above or below it on the list.
+※Deleted set numbers will be skipped.
+
+Make use of these commands to assign a convenient number or order to the gear sets you use most often."
+932,"■Link to Glamour Plate
+You can change the outward appearance of gear sets by linking them to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour plates<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Furthermore, by registering the same equipment as multiple gear sets, each set can be linked a different glamour plate, allowing you to switch looks to match your current mood at the touch of a button!
+
+After linking a gear set, the glamour plate's number will be displayed to the right of the list. Please note that glamour plates can only be applied to equipment while within areas that classify as sanctuaries.
+
+■Remove Glamour Plate Link
+Links to glamour plates can be removed with the gear set subcommand. Existing links must also be removed before you will be able to assign a different glamour plate.
+
+■Creating Glamour Plates
+Read the section in this guide entitled “Customizing Ensembles” to learn more about creating glamour plates."
+933,""
+934,"■Change Set Name
+Your current class or job will become the default name for a newly registered set. You can use the subcommand to change this name freely, a function which comes in especially useful when creating multiple sets for the same class/job.
+
+■Delete Set
+Remove unwanted sets from the list. The numbers assigned to these sets will also be removed."
+935,""
+936,"Customizing Ensembles"
+937,""
+938,"A Picture of You"
+939,"Fashion Functionality"
+940,"While much of the equipment in FINAL FANTASY XIV provides advantages in battle, certain pieces are worn purely for the sake of fashion. Mix and match your favorite fashion items to create a style all your own!
+
+A special sidequest will unlock customization options allowing you to use these favored pieces to change the appearance of other equipment. Combined with the flexibility of gear sets, you control how you wish to look as you forge ahead on your adventures.
+
+The Glamour Guide can be accessed via the interface for each of these customization features, offering a detailed explanation of the various options available to create a style all your own."
+941,""
+942,""
+943,""
+944,""
+945,""
+946,""
+947,""
+948,""
+949,""
+950,""
+951,""
+952,"Portraits"
+953,"Including options such as poses, expressions, camera angles, and picture frames, the portrait feature gives you the tools to create the perfect snapshot of your character.
+
+The portrait you compose will be displayed at a variety of times, including the commencement of dungeons and awarding player commendations, as well as the start of competitive matches such as Crystalline Conflict PvP and Doman mahjong in the Gold Saucer.
+
+To create a portrait, open Character from the main menu, and select Portraits. You can also open the portrait interface via the Edit Portrait subcommand in the gear set list.
+
+One portrait can be saved to each gear set. The portrait linked to your currently equipped gear set will be displayed as your instant portrait.
+
+For more information on how to edit your portraits, press the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>? button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> found at the bottom of the Portraits interface to access the corresponding guide."
+954,""
+955,""
+956,"Display Set"
+957,"Reordering Gear Sets"
+958,"Link to Glamour Plate"
+959,"Managing Gear Sets"
+960,"Other Useful Features"
+961,"Moogle Treasure Trove"
+962,"Event Overview"
+963,"The <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moogle Treasure Trove<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is a special event held at irregular intervals. Complete objectives during the event to obtain <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>irregular tomestones<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which can be traded to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>itinerant moogles<UIGlow>01</UIGlow><UIForeground>01</UIForeground> for a variety of rare items."
+964,"Event Schedule"
+965,"The Moogle Treasure Trove is held for a set duration, which can be viewed from the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mogpendium<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. From this menu, select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Access Special Site<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to view a detailed schedule.
+
+An icon will appear above itinerant moogles while the event is underway."
+966,"Irregular Tomestones"
+967,"Obtaining Tomestones"
+968,"Irregular tomestones can be obtained by completing objectives during the Moogle Treasure Trove event, and can be exchanged for various rewards.
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※The types of irregular tomestones available will change each time the event is held.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+969,"Itinerant Moogles"
+970,"Speak with itinerant moogles to exchange irregular tomestones for a variety of items.
+
+Itinerant moogles can be found near the aetheryte plaza in the following locations:
+
+Limsa Lominsa Lower Decks
+New Gridania
+Ul'dah - Steps of Nald"
+971,"Objectives"
+972,"Categories"
+973,"The objectives for the Moogle Treasure Trove can be confirmed from the Mogpendium.
+Objectives are divided into the following four categories:
+
+1. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Standard objectives<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which can be completed repeatedly.
+2. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weekly objectives<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which can be completed once a week.
+3. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Minimog challenges<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which can be completed once a week.
+4. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ultimog challenges<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which can only be completed once per event period.
+
+Non-repeatable objectives provide greater quantities of tomestones, so prioritize them to get the items you want.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Irregular tomestones will not be awarded when using adventurer squadrons or the Duty Support system.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Irregular tomestone rewards are only available to unrestricted parties if the “Level Sync” option is applied.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+974,"Standard Objectives"
+975,"Standard objectives can be completed an unlimited number of times during the event period, and irregular tomestones are collected automatically when the objective is complete.
+
+Not every objective will give the same quantity of tomestones, so check the Mogpendium before choosing which to undertake."
+976,"Weekly Objectives"
+977,"A weekly objective is assigned to each player every week, and provides an opportunity to obtain a large number of tomestones.
+Tomestone rewards for weekly objectives can be collected from the Mogpendium.
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Tomestone rewards must be collected before they expire.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Objectives will change weekly, so make sure to complete them before time runs out."
+978,"Minimog Challenges"
+979,"Minimog challenges can be completed once per week, and their rewards can be collected from the Mogpendium.
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Players can complete either of the two available challenges per week.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Tomestone rewards must be collected before they expire.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Challenges will change weekly, so make sure to complete them before time runs out."
+980,"Ultimog Challenges"
+981,"Ultimog challenges can only be completed once per event period, and their rewards can be collected from the Mogpendium.
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Tomestone rewards must be collected before they expire.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+982,"Configuration Settings"
+983,"Crystalline Conflict settings can be adjusted via the Character Configuration menu. Open UI Settings, navigate to the HUD tab, and select or deselect options under the Crystalline Conflict (PvP) heading to best suit your style of play.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Progress Gauge■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Enabling “Display affiliated team on left side of Progress Gauge.” will configure the Progress Gauge to always display your current team─Astra or Umbra─on the left. Changes to this setting made during a match will be reflected upon commencement of the next match.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Map■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Enabling “Display affiliated team on left side of map.” will configure the map to always display your current team's base on the left. Changes to this setting made during a match will be reflected upon commencement of the next match.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Countdown■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Select “Display final countdown.” to show a countdown timer for the final ten seconds of the match."
+984,"The Red Sands"
+985,"No effort was spared in reproducing the desert's deadly perils for this staging ground. Those bold souls that master both sun and sand will be the first to claim victory."
+986,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Shifting Sands■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Ride the shifting sands to travel swiftly to a specific location on the field."
+987,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Sandpits■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The crystal line intersects with these ringlike nests at checkpoints. Clearing any such checkpoint with the tactical crystal in tow will result in one of the following denizens emerging from within:
+
+・Red Sands Antlion
+The antlion will drag all players in range deep into the nest, rendering them immobile before erupting from the sands to deal massive damage.
+
+・Sabotender
+The sabotender will unleash 100,000 Needles upon all players in range. As the needles are split between affected players, the damage dealt to each player will change accordingly.
+
+・Acutender
+This rare and curious creature will unleash Therapeutic Needles upon all players in range, granting them a barrier effect. As the needles are split between affected players, the strength of the barrier granted to each player will change accordingly.
+
+* If the match proceeds into overtime, monsters will no longer emerge from the sandpits."
+988,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Oasis■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The arena's oasis area grants players within a special effect that regenerates HP over time. The effect will remain for a time after exiting the oasis. "
+989,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Heat Waves■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Heat waves atop the Red Sands will deal damage over time to all competitors. However, relief can be found at sandpits, from which balming geysers will erupt. Players standing in one of the small circular indicators on the ground will be soothed by sandpearl shrouds, granting the following effects:
+・HP recovery.
+・A boost to the limit gauge.
+
+While the geyser is erupting, no creatures will emerge from the sandpit. Nevertheless, caution is advised, as the force of the geyser will deal damage to and knock back any who approach its center."
+990,"Blunderville"
+991,"Blunderville HUD"
+992,"Overview"
+993,"Blunderville is a battle royale mode where up to 24 players vie against each other in a set of obstacle courses. Complete each of the three stages before your rivals and fight for your right to the victor's crown.
+
+The longer you remain in the running, the more rewards you'll earn, so keep your eyes on the prize as you race to be the last one standing!"
+994,"Participating"
+995,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Registering for a Show■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+You may speak with the Blunderville registrar to participate in a show.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Classes and Jobs■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+All jobs and classes, including limited jobs, may participate in Blunderville.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Solo Registration■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Solo challengers may speak with the Blunderville registrar to participate.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Party Registration■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The party leader must speak with the Blunderville registrar to join the show with their currently formed party. Parties can be registered regardless of size.
+
+Please note that your final rank will be calculated by personal progress rather than party progress.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Alliance Registration■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The alliance leader must speak with the Blunderville registrar to join the show with their currently formed alliance. You must have a full alliance of 24 players to participate."
+996,"Lobbyville"
+997,"Players who have registered for a show will be sent to wait in Lobbyville. The show will begin when 24 challengers have gathered, or after a set amount of time has passed since the first challenger entered Lobbyville.
+
+Rewards will be adjusted based on the number of challengers in each show."
+998,"Spectating"
+999,"Those who qualify for the next stage will enter spectator mode, where they may freely watch the remaining challengers compete. Please note that you will become invisible while spectating.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Spectating when Qualified■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Challengers who qualify for the next stage will remain in spectator mode until the next round begins.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Spectating when Eliminated■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Challengers who have been eliminated may remain in spectator mode until the end of the show. If you wish to leave spectator mode, you may do so at any time by selecting the Leave option from the Blunderville menu."
+1000,"Rewards"
+1001,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■MGF■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+MGF, or Manderville Gold Saucer Fame, is awarded to all Blunderville challengers after a show has concluded. MGF is calculated based on your final rank in the show.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Exchanging MGF■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+MGF can be exchanged in Blunderville Square for exclusive rewards.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Viewing Your MGF■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+You may view the MGF currently in your possession by speaking with the MGF trader. Up to 10,000 MGF can be held at a time."
+1002,"Overview"
+1003,"A special HUD layout will display in Blunderville and Blunderville Square, indicating your progress in the stage you are currently on. 
+
+The Blunderville HUD can only be adjusted in Blunderville and Blunderville Square. Select HUD Layout from the System menu, or unlock and adjust the HUD manually."
+1004,"HUD Guide"
+1005,"1. Indicates the stage's objective.
+
+2. Indicates the number of crystals successfully carried and the number of crystals needed to qualify for the next round in the Saucery Siege stage.
+
+3. Indicates the number of participants who have qualified for the next stage. In the Gold Swiveller stage, the number of eliminated players will also be displayed.
+
+4. Indicates time remaining to complete the stage."
+1006,"Spectator HUD Guide"
+1007,"1. Allows you to spectate from specific locations on the stage.
+
+2. Allows you to leave the show if you have already been eliminated.
+
+3. Indicates whether you have been qualified or eliminated from the stage."
+1008,"Ensemble Customization"
+1009,"Dyeing"
+1010,"Glamours"
+1011,"The Glamour Dresser"
+1012,"Glamour Plates"
+1013,"The Armoire"
+1014,"Facewear"
+1015,"Crests"
+1016,"Overview"
+1017,"Dyeing Gear"
+1018,"Dyeable and Undyeable Gear"
+1019,"Obtaining Dyes"
+1020,"The Dyeing Process"
+1021,"Reverting Gear Color"
+1022,"Requirements"
+1023,"Dyeing Retainer Gear"
+1024,"Overview"
+1025,"Casting Glamours"
+1026,"Glamoured Gear"
+1027,"Glamour Prisms"
+1028,"Dispelling Glamours"
+1029,"Limitations"
+1030,"Restricted Glamours"
+1031,"Making Gear Invisible"
+1032,"Benefits of Inn Rooms"
+1033,"Retainer Glamours"
+1034,"Adventurer Squadron Glamours"
+1035,"Overview"
+1036,"Creating Glamoured Items"
+1037,"Using Glamoured Items"
+1038,"What Are Glamour Plates?"
+1039,"Editing Glamour Plates"
+1040,"Projecting Ensembles"
+1041,"Using Glamour Plates"
+1042,"Linking with Gear Sets"
+1043,"Dispelling Glamours"
+1044,"Overview"
+1045,"Storable Gear"
+1046,"Storing Gear"
+1047,"Using Stored Gear"
+1048,"What Is Facewear?"
+1049,"What Are Crests?"
+1050,"Editing Crest Designs"
+1051,"Authorization"
+1052,"A variety of different features exist to help you find the perfect look for your character. This guide explains how each of these customization options function."
+1053,"Glamours are a means of projecting the appearance of one piece of equipment onto another.
+
+This is a reversible effect which can be redone any number of times.
+
+Casting glamours requires catalysts known as <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour prisms<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, with one prism being consumed per cast."
+1054,"To cast a glamour, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Character<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu and open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Actions & Traits<UIGlow>01</UIGlow><UIForeground>01</UIForeground> window, then select the Cast Glamour action under the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>General<UIGlow>01</UIGlow><UIForeground>01</UIForeground> tab. You can also use this action from the subcommand menu of the item you wish to glamour.
+
+From the Cast Glamour window, choose the base item, then select the glamour you wish to cast from the list of available items."
+1055,"The presence of a glamour is indicated by a symbol in the upper right corner of the item icon."
+1056,"Additionally, the item help window will display the name of the original item followed by the name of the glamoured item in alternating sequence."
+1057,"Glamour prisms can be purchased from the market board, obtained from Grand Company quartermasters, or crafted using recipes learned from glamour prism recipe tomes.
+
+Glamour prism recipe tomes can be purchased from Goberin in western Thanalan (X:12.1 Y:15.0) or Tataroga in Mor Dhona (X:22.1 Y:6.7) after completing the quest <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>“Absolutely Glamourous”<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in western Thanalan (X:12.6 Y:14.3)."
+1058,"Restoring a glamoured item to its original appearance requires the use of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour dispellers<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which are available for purchase from the market boards or certain vendors.
+
+From the Cast Glamour window, select the glamoured item on the left, then select Remove on the right. This action will consume a glamour dispeller."
+1059,"You will not be able to cast a glamour if:
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1. The base item's job level requirement is lower than that of the glamour cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Example: Level 100 gear cannot be glamoured onto gear equippable at levels 1 through 99.
+※Unaffected by item level (IL).
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2. The base item's class or role requirement is not compatible with that of the glamour cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Example: Tank-specific gear cannot be glamoured onto healer-specific gear.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3. The base item's gear category does not match that of the glamour cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Example: Gear that affects the body and head cannot be glamoured onto gear that only affects the body."
+1060,"Some glamours will only display as long as the character's level, class, race, and gender meet the requirements.
+Example: If a job-specific glamour is applied, the effect will no longer display when the character switches to a different job."
+1061,"Gear can be rendered invisible when glamoured with emperor's new items of the same gear category.
+
+These invisible items can be purchased from Goberin in western Thanalan (X:12.1 Y:15.0) or Tataroga in Mor Dhona (X:22.1 Y:6.7) after completing the quest <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>“Absolutely Glamourous”<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in western Thanalan (X:12.6 Y:14.3)."
+1062,"While visiting an inn room, items stored in the armoire and glamour dresser can be glamoured onto gear without needing to withdraw them. This action will not consume a glamour prism."
+1063,"While your retainer is summoned, select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cast Glamours<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the retainer menu to apply glamours to their equipment or any other gear in their possession. You may also use their gear to apply glamours to your own."
+1064,"You can also cast glamours onto your adventurer squadron members, provided they are at least level 51.
+
+Select the Outfit icon, then select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Apply Glamours<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. You may use the items stored in your armoire and glamour dresser as well as your inventory."
+1065,"Glamour dressers are available in inn rooms and Grand Company barracks, and can be used to store equipment as glamours, up to the dresser's maximum capacity.
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Some relic weapons cannot be stored.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+The initial deposit consumes one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour prism<UIGlow>01</UIGlow><UIForeground>01</UIForeground> per item, but stored gear can be projected onto your equipment as many times as you like at no cost.
+
+If you wish to equip a stored item directly, you may retrieve it from the glamour dresser to restore it to its original form."
+1066,"To determine whether a given item can be stored in the glamour dresser, navigate to the item help window. If the glamour dresser icon in the upper right corner is lit up, the item can be stored."
+1067,"Open the glamour dresser to access the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Glamour Creation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> window, browse different gear categories, and select an item from your inventory or Armoury Chest. Gear with condition below 100% cannot be stored.
+
+Placing an item into the glamour dresser will reset its spiritbond to 0%, as well as remove customization including glamours, crests, signatures, materia, and most aetherial bonuses. The item will also be bound to you upon removal.
+※Each item stored will cost one glamour prism.
+※Dyes applied to the item will not be reset."
+1068,"Once an item has been stored in the glamour dresser, select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Apply Glamour<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the subcommand menu to glamour your current equipment without spending a glamour prism.
+
+Alternatively, select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Edit Glamour Plates<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to bring up the Glamour Plate Creation window, where you can create full sets of glamoured attire that can be applied to your character all at once, using items stored in either the glamour dresser or the armoire."
+1069,"Created using the glamour dressers found inside inn rooms, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour plates<UIGlow>01</UIGlow><UIForeground>01</UIForeground> are a means of projecting an entire ensemble onto your gear.
+
+Glamours stored inside a glamour dresser or equipment stored inside an <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>armoire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> can be projected onto your gear, allowing you to concoct a unique look for your character.
+
+Ensembles saved to a glamour plate can be projected over and over again without consuming glamour prisms."
+1070,"Select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Edit Glamour Plates<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the glamour dresser window and choose the plate you wish to edit. You can now select a category (head, body, etc.) followed by a glamour stored in the dresser or an item stored in the armoire. Stored items and glamours are not removed after being added to a plate.
+
+One you are satisfied with your glamour plate, select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Save<UIGlow>01</UIGlow><UIForeground>01</UIForeground> button.
+
+Items added to glamour plates can also be dyed. This only affects the selected plate─the stored item will retain its original color.
+
+Should you wish to remove an item from a plate, select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Remove Item Image from Plate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※It is not necessary to add items to every category. Depending on the style you are trying to achieve, you can simply create a partially filled plate. "
+1071,"Select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Apply<UIGlow>01</UIGlow><UIForeground>01</UIForeground> button to project the saved ensemble onto your equipped gear. This process does not consume glamour prisms.
+
+※In the event a glamour plate cannot be fully applied, an “X” symbol will be displayed in the corresponding category icons."
+1072,"Glamour plates can be accessed and used at any time in cities, residential areas, and sanctuaries.
+
+Simply select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Glamour Plate<UIGlow>01</UIGlow><UIForeground>01</UIForeground> button above the character window to view and select a glamour. The window can also be accessed via the General section of the Actions & Traits menu."
+1073,"You can change the outward appearance of gear sets by linking them to glamour plates. Select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Link to Glamour Plate<UIGlow>01</UIGlow><UIForeground>01</UIForeground> subcommand from the gear set list to automatically apply the linked glamour plate when switching to the corresponding gear set.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※This feature does not function in instanced areas or outside of large settlements.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+1074,"Select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dispel Glamour<UIGlow>01</UIGlow><UIForeground>01</UIForeground> button in the upper right corner of the Plate Selection window to remove glamours from selected categories.
+
+This process consumes <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour dispellers<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+1075,"Available in inn rooms or placed as furnishings in player estates, armoires are used to store <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>artifact armor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>seasonal event costumes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>achievement rewards<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bonus items<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and other specific gear."
+1076,"To determine whether a given item can be stored in the armoire, navigate to the item help window. If the armoire icon in the upper right corner is lit up, the item can be stored."
+1077,"Gear with condition below 100% cannot be stored."
+1078,"Placing an item into the armoire will reset its spiritbond to 0%, as well as remove all customization. However, you may store and withdraw items at no cost."
+1079,"Once an item has been stored in the armoire, select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Apply Glamour<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the subcommand menu to glamour your current equipment without spending a glamour prism.
+
+Alternatively, items in the armoire can be added to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour plates<UIGlow>01</UIGlow><UIForeground>01</UIForeground> without needing to store them in the glamour dresser.
+
+Note that any dyes applied to the item will be reset. To preserve existing dyes or add new ones before applying glamours, it is recommended to store the item in the glamour dresser instead."
+1080,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crests<UIGlow>01</UIGlow><UIForeground>01</UIForeground> are sigils representing different free companies that can be applied to applicable gear. To apply a crest to your gear, speak with an <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>OIC officer of arms<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belonging to the Grand Company your free company is associated with. Crests can be removed at any time.
+
+An illuminated crest icon in the top right corner of the item help window indicates that the corresponding piece of gear can have a crest applied to it."
+1081,"Crest design consists of three basic elements:
+・The main emblem, or <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Charge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+・The basic shape, or <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Escutcheon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+・The basic pattern, or <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ordinary<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Use the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crest Customization<UIGlow>01</UIGlow><UIForeground>01</UIForeground> feature to devise a crest your free company can be proud of."
+1082,"To design and apply a crest, you must first have risen to a sufficient rank within your free company.
+
+・<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crest Customization<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (Rank 2) gives you the authorization to edit crest designs.
+・<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gear Customization<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (Rank 4) gives you the authorization to apply crests to personal gear.
+・<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crest Expansion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (Rank 7) unlocks a range of new crest designs."
+1083,"Facewear refers to a range of facial accessories that can add extra flourish to an ensemble. Unlike standard gear, facewear is purely decorative.
+
+Facewear is acquired by using the corresponding item. Once acquired, facewear can be worn or removed at any time. To do so, simply select Facewear via the Character tab in the Actions & Traits menu, or click the Facewear icon to the bottom left of the character window. This will display an overview of your registered items."
+1084,"Select an item of facewear to wear in the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Style<UIGlow>01</UIGlow><UIForeground>01</UIForeground> section, and customize it by choosing a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Color<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+1085,"You can change the color of gear and furnishing items through the use of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>dyes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, with one pot of dye consumed for each distinct section of an item.
+※Some items allow for two dye slots.
+
+Dyed items can be redyed and undyed any number of times."
+1086,"Dyeable items have circular symbols in the upper right corner of their icons."
+1087,"If the circle is empty, as shown on the left, no dye has been applied.
+
+If the circle is filled in, as shown in the center, the item has been dyed with the corresponding color.
+
+If there are no circles, as shown on the right, the item cannot be dyed."
+1088,"If an item has two dye slots, it will display two circles."
+1089,"There are many different colors of dyes. If you wish to apply the same color to both sections or multiple items, you will need to ensure you have enough dye for each.
+
+Both dyes and terebinth are available from vendors and the market boards, and can also be crafted by Disciples of the Hand from level 30 onwards."
+1090,"To use a dye, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Character<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu and open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Actions & Traits<UIGlow>01</UIGlow><UIForeground>01</UIForeground> window, then select the Dye action under the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>General<UIGlow>01</UIGlow><UIForeground>01</UIForeground> tab. You can also use this action from the subcommand menu of the item you wish to dye.
+
+From the Item Dyeing window, select the desired item from the list, then select the section you wish to dye."
+1091,"※For items with a single dye slot, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dye 1<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be the only option."
+1092,"Once you have selected a section, choose your desired color."
+1093,"Use the colored circles near the top to switch between color categories, then choose your desired dye from the colored squares beneath. Any colors not currently in your possession will be marked with an “X” icon.
+
+You may also use the subcommand menu to set <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>favored dyes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, enabling you to apply your preferred color scheme to multiple items with ease.
+
+Confirm your chosen color settings in the preview pane, then select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dye<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to begin the process."
+1094,"Should you wish to restore your gear to its original hue, a pot of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>terebinth<UIGlow>01</UIGlow><UIForeground>01</UIForeground> removes the dye from a single section of an item.
+
+To use terebinth, select the leftmost square located under the leftmost color category."
+1095,"Once terebinth has been set to the section you wish to undye, select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dye<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to begin the dye removal process."
+1096,"Some items cannot be dyed until you have fulfilled specific conditions, indicated by the lock symbol in the upper right corner."
+1097,"The requirements for these items can be reviewed at any time from the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Item Dyeing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> window. Once met, the lock icon will change to a circle."
+1098,"While your retainer is summoned, select <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dye Items<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the retainer menu to apply dyes to their equipment or any other gear in their possession."
+1099,"Eyewear Accessories"
+1100,"・<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>False Spectacles<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+・<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>False Shaded Spectacles<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+・<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>False Classic Spectacles<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+・<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rose-colored Spectacles<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+The items listed above were formerly Fashion Accessories, but are now classified as Facewear. Speak to a Calamity salvager to transfer these items from your acquired Fashion Accessories to your Facewear collection.
+
+Calamity salvagers can be found in the following locations:
+・Limsa Lominsa, Upper Decks
+・Ul'dah, Steps of Thal
+・Old Gridania
+"

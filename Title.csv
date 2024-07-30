@@ -662,12 +662,12 @@ int32,str,str,bit&01,uint16
 658,"Fiendslayer","Fiendslayer",True,1724
 659,"Leaf Whisperer","Leaf Whisperer",True,1725
 660,"Man-maker","Man-maker",True,1726
-661,"","",False,0
-662,"","",False,0
-663,"","",False,0
-664,"","",False,0
-665,"","",False,0
-666,"","",False,0
+661,"Duskfall","Duskfall",True,1727
+662,"True Steel","True Steel",True,1728
+663,"Once and Future King","Once and Future Queen",True,1729
+664,"The Accursed","The Accursed",False,1730
+665,"Sovereign Hero","Sovereign Hero",True,1731
+666,"Dreaming Worker","Dreaming Worker",True,1732
 667,"The Alpha Legend","The Alpha Legend",False,1733
 668,"Agonistes","Agonistes",True,1734
 669,"Gymnasiarch","Gymnasiarch",True,1735
@@ -678,3 +678,82 @@ int32,str,str,bit&01,uint16
 674,"Of the Final Conflict","Of the Final Conflict",False,1740
 675,"Of the Endless Conflict","Of the Endless Conflict",False,1741
 676,"Of the Rising Conflict","Of the Rising Conflict",False,1742
+677,"Throneshaker","Throneshaker",True,1743
+678,"Wolf of Easy Street","Wolf of Easy Street",True,1744
+679,"Doom of the Deep","Doom of the Deep",True,1745
+680,"Sea Comber","Sea Comber",True,1746
+681,"Squidzure Dragoon","Squidzure Dragoon",True,1747
+682,"Shrimp Mariner","Shrimp Mariner",True,1748
+683,"Of the Final Conflict","Of the Final Conflict",False,1749
+684,"Of the Endless Conflict","Of the Endless Conflict",False,1750
+685,"Of the Rising Conflict","Of the Rising Conflict",False,1751
+686,"Of the Final Conflict","Of the Final Conflict",False,1752
+687,"Of the Endless Conflict","Of the Endless Conflict",False,1753
+688,"Of the Rising Conflict","Of the Rising Conflict",False,1754
+689,"CCRC 2023 Champion","CCRC 2023 Champion",True,0
+690,"CCRC 2023 Finalist","CCRC 2023 Finalist",True,0
+691,"CCRC 2023 Ranker","CCRC 2023 Ranker",True,0
+692,"Glitterier than Goldor","Glitterier than Goldor",True,1755
+693,"Blueblazer","Blueblazer",True,1756
+694,"Forbidden Blue","Forbidden Blue",True,1757
+695,"Reincarnator","Reincarnator",True,1758
+696,"Ascendant Ascetic","Ascendant Ascetic",True,1759
+697,"Sparrow's Harmony","Sparrow's Harmony",True,1760
+698,"Force of Nature","Force of Nature",True,1761
+699,"Sleepless Scholar","Sleepless Scholar",True,1762
+700,"The Resourceful","The Resourceful",True,1763
+701,"The Mandervillous","The Mandervillous",True,1764
+702,"Of the Relentless Sledge","Of the Relentless Sledge",False,1765
+703,"Of the Keen Hatchet","Of the Keen Hatchet",False,1766
+704,"Of the Irresistible Lure","Of the Irresistible Lure",False,1767
+705,"Wavewalker","Wavewalker",True,1768
+706,"The Final Fish","The Final Fish",False,1769
+707,"Count of Monte Cowrie","Countess of Monte Cowrie",True,1770
+708,"King Bean","Queen Bean",True,1771
+709,"Embraced by Gods","Embraced by Gods",True,1772
+710,"Of the Twinned Star","Of the Twinned Star",False,1773
+711,"Wyrm Whisperer","Wyrm Whisperer",True,1774
+712,"Growing Light","Growing Light",True,1775
+713,"Sunchaser","Sunchaser",True,1776
+714,"Of the Final Conflict","Of the Final Conflict",False,1777
+715,"Of the Endless Conflict","Of the Endless Conflict",False,1778
+716,"Of the Rising Conflict","Of the Rising Conflict",False,1779
+717,"Of the Final Conflict","Of the Final Conflict",False,1780
+718,"Of the Endless Conflict","Of the Endless Conflict",False,1781
+719,"Of the Rising Conflict","Of the Rising Conflict",False,1782
+720,"Of the Final Conflict","Of the Final Conflict",False,1783
+721,"Of the Endless Conflict","Of the Endless Conflict",False,1784
+722,"Of the Rising Conflict","Of the Rising Conflict",False,1785
+723,"Epic Hero","Epic Hero",True,1786
+724,"The First's Foremost","The First's Foremost",False,1787
+725,"Arbiter of War","Arbiter of War",True,1788
+726,"Arbiter of Magic","Arbiter of Magic",True,1789
+727,"Arbiter of the Arts","Arbiter of the Arts",True,1790
+728,"Arbiter of the Land","Arbiter of the Land",True,1791
+729,"On the Trail","On the Trail",True,1792
+730,"Herald of Peace","Herald of Peace",True,1793
+731,"Sunforged","Sunforged",True,1794
+732,"Domebreaker","Domebreaker",True,1795
+733,"Knight of Alexandria","Knight of Alexandria",True,1796
+734,"Of the New Dawn","Of the New Dawn",False,1797
+735,"Twinfang","Twinfang",True,1798
+736,"Picto Perfect","Picto Perfect",True,1799
+737,"Of Countless Alloys","Of Countless Alloys",False,1800
+738,"Of Countless Crafts","Of Countless Crafts",False,1801
+739,"Of Countless Concoctions","Of Countless Concoctions",False,1802
+740,"Of Countless Treasures","Of Countless Treasures",False,1803
+741,"Of Countless Catches","Of Countless Catches",False,1804
+742,"Goldheart","Goldheart",True,1805
+743,"Of Untarnished Oath","Of Untarnished Oath",False,1806
+744,"Of Untarnished Steel","Of Untarnished Steel",False,1807
+745,"Of Untarnished Principle","Of Untarnished Principle",False,1808
+746,"Of Untarnished Lealty","Of Untarnished Lealty",False,1809
+747,"Of the Bright Plume","Of the Bright Plume",False,1810
+748,"Winged Death","Winged Death",True,1811
+749,"","",False,0
+750,"","",False,0
+751,"","",False,0
+752,"Practically Pelupelu","Practically Pelupelu",True,1815
+753,"Of the Final Conflict","Of the Final Conflict",False,1816
+754,"Of the Endless Conflict","Of the Endless Conflict",False,1817
+755,"Of the Rising Conflict","Of the Rising Conflict",False,1818

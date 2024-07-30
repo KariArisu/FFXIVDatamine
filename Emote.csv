@@ -12,7 +12,7 @@ int32,str,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTime
 8,"Beckon",697,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,5101,409,64008,107,207,0,1
 9,"Comfort",698,0,0,677,677,0,0,True,True,True,1,0,False,True,False,False,False,1007,410,64009,108,208,0,1
 10,"Cry",699,0,0,678,678,0,0,True,True,True,1,0,False,True,False,False,False,5002,411,64010,109,209,0,1
-11,"Dance",700,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,1013,412,64011,110,210,0,1
+11,"Dance",700,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,1040,412,64011,110,210,0,1
 12,"Doubt",702,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,5017,413,64012,111,211,0,1
 13,"Doze",703,0,657,646,679,0,0,True,True,True,1,0,False,True,False,False,False,5107,414,64013,112,212,0,1
 14,"Fume",704,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,5004,415,64014,113,213,0,1
@@ -47,7 +47,7 @@ int32,str,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTime
 43,"Thumbs Up",740,0,672,592,592,0,0,True,True,True,1,0,False,True,False,False,False,2001,444,64043,142,242,0,1
 44,"Examine Self",714,0,0,744,744,0,0,True,True,True,1,0,False,True,False,False,False,5106,445,64044,143,243,0,1
 45,"Pose",722,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,5099,446,64045,144,244,0,1
-46,"Blow Kiss",692,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,1011,447,64049,148,248,0,1
+46,"Blow Kiss",692,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,1020,447,64049,148,248,0,1
 47,"Grovel",701,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,5018,448,64051,150,250,0,1
 48,"Happy",709,0,0,684,684,0,0,True,True,True,1,0,False,True,False,False,False,1003,449,64052,151,251,0,1
 49,"Disappointed",718,0,668,747,747,0,0,True,True,True,1,0,False,True,False,False,False,5007,450,64053,152,252,0,1
@@ -147,7 +147,7 @@ int32,str,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTime
 143,"Play Dead",4799,4798,0,0,4799,0,0,False,True,True,2,21,False,True,False,False,False,11501,544,64331,8034,8035,330,1
 144,"Diamond Dust",4802,0,0,0,0,0,0,False,False,False,2,0,False,True,False,False,False,12002,545,64332,8036,8037,329,1
 145,"Moonlift Dance",4810,4809,0,0,0,0,0,False,False,False,2,22,False,True,False,False,False,10010,546,64333,8038,8039,332,1
-146,"Dote",4815,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,1012,547,64334,8040,8041,333,1
+146,"Dote",4815,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,1030,547,64334,8040,8041,333,1
 147,"Dote",4816,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,0,0,0,8040,8041,333,1
 148,"Spectacles",4676,0,0,4677,4677,0,0,True,True,True,1,0,False,True,False,False,False,6003,549,64335,8042,8043,334,1
 149,"Songbird",4818,4817,0,0,0,0,0,False,False,False,2,23,False,True,False,False,False,10019,550,64336,8044,8045,335,1
@@ -208,9 +208,9 @@ int32,str,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTime
 204,"Headache",6312,0,0,6313,6313,0,0,True,True,True,1,0,False,True,False,False,False,5023,605,64387,8162,8163,78,1
 205,"Snap",7348,0,0,7349,7349,0,0,True,True,True,1,0,False,True,False,False,False,3104,606,64389,8164,8165,68,1
 206,"Break Fast",7355,0,0,7356,7356,0,0,True,False,True,1,0,False,True,False,False,False,6040,607,64390,8166,8167,69,1
-207,"Read",7357,0,0,7358,7359,0,0,True,False,True,1,0,False,True,False,False,False,6060,608,64391,8168,8169,70,1
+207,"Read",7357,0,0,7358,7359,0,0,True,False,True,1,0,False,True,False,False,False,6070,608,64391,8168,8169,70,1
 208,"Insist",7353,0,6314,7354,7354,0,0,True,True,True,1,0,False,True,False,False,False,6021,609,64393,8170,8171,71,1
-209,"Consider",7350,0,7352,7351,7351,0,0,True,True,True,1,0,False,True,False,False,False,6061,610,64392,8172,8173,279,1
+209,"Consider",7350,0,7352,7351,7351,0,0,True,True,True,1,0,False,True,False,False,False,6072,610,64392,8172,8173,279,1
 210,"Wasshoi",7389,7388,0,0,0,0,0,False,False,False,2,56,False,True,False,False,False,10109,611,64394,8174,8175,271,1
 211,"Flower Shower",7390,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3105,612,64395,8176,8177,272,1
 212,"Flame Dance",7409,7408,0,0,0,0,0,False,False,False,2,57,False,True,False,False,False,10110,613,64396,8178,8179,273,1
@@ -240,7 +240,7 @@ int32,str,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTime
 236,"Content",8051,0,8051,8051,8051,8051,0,True,True,True,3,0,False,False,False,False,False,20006,637,64133,8221,8220,0,610
 237,"Sheathe Weapon",7344,0,0,0,0,0,0,True,True,True,1,0,False,True,False,False,True,8001,638,64422,8223,8222,430,610
 238,"Draw Weapon",7345,0,0,0,0,0,0,True,True,True,1,0,False,True,False,True,False,8000,639,64423,8225,8224,431,610
-239,"Drink Tea",8058,0,0,8064,8064,0,0,True,True,True,1,0,False,True,False,False,False,6047,640,64418,8227,8226,433,610
+239,"Drink Tea",8058,0,0,8064,8064,0,0,True,True,True,1,0,False,True,False,False,False,6048,640,64418,8227,8226,433,610
 240,"Determined",8060,0,0,8061,8061,0,0,True,True,True,1,0,False,True,False,False,False,2005,641,64419,8229,8228,432,610
 241,"Show Right",8070,8069,0,0,0,0,0,False,False,False,2,64,False,True,False,False,False,11507,642,64420,8231,8230,434,610
 242,"Show Left",8072,8071,0,0,0,0,0,False,False,False,2,65,False,True,False,False,False,11508,643,64421,8233,8232,434,610
@@ -250,21 +250,55 @@ int32,str,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTime
 246,"Wow",8075,0,0,8076,8076,0,0,True,True,True,1,0,False,True,False,False,False,3005,647,64425,8237,8236,438,625
 247,"Eat Pumpkin Cookie",8009,0,0,8010,8010,0,0,True,True,True,1,0,False,True,False,False,False,6045,648,64414,8243,8242,439,620
 248,"Spirit",8078,8077,0,0,0,0,0,False,False,False,2,66,False,True,False,False,False,11509,649,64426,8241,8240,440,620
-249,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+249,"Magic Trick",8080,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3111,650,64427,8245,8244,443,630
 250,"Little Ladies' Dance",8081,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,6010,651,64428,8247,8246,444,630
 251,"Linkpearl",8082,0,0,8083,8083,0,0,True,True,True,1,0,False,True,False,False,False,6103,652,64429,8249,8248,445,630
-252,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+252,"Ear Wiggle",8094,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3110,653,64430,8251,8250,70222,635
 253,"",8068,8067,0,0,0,0,0,False,False,False,4,0,False,False,False,False,False,0,0,0,0,0,0,1
 254,"",8002,8001,0,8002,0,0,0,False,False,False,4,2,False,False,False,False,False,0,0,0,0,0,0,1
 255,"",8004,8003,0,8004,0,0,0,False,False,False,4,2,False,False,False,False,False,0,0,0,0,0,0,1
 256,"Frighten",8102,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,5016,657,64431,8253,8252,450,630
-257,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-258,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-259,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-260,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-261,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-262,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-263,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-264,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-265,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
-266,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+257,"Advent of Light",8103,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,6200,658,64432,8255,8254,451,640
+258,"Jump for Joy 1",8096,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3113,659,64433,8257,8256,452,640
+259,"Jump for Joy 2",8097,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3114,660,64434,8259,8258,452,640
+260,"Jump for Joy 3",8098,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3115,661,64435,8261,8260,452,640
+261,"Jump for Joy 4",8099,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3116,662,64436,8263,8262,452,640
+262,"Jump for Joy 5",8100,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3117,663,64437,8265,8264,452,640
+263,"Hand to Heart",8092,0,0,8093,8093,0,0,True,True,True,1,0,False,True,False,False,False,1011,664,64438,8267,8266,453,640
+264,"Cheer On: Bright",8087,8086,0,0,0,0,0,False,False,False,2,67,False,True,False,False,False,10027,665,64439,8269,8268,454,640
+265,"Cheer Wave: Violet",8089,8088,0,0,0,0,0,False,False,False,2,68,False,True,False,False,False,10026,666,64440,8271,8270,455,640
+266,"Cheer Jump: Green",8091,8090,0,0,0,0,0,False,False,False,2,69,False,True,False,False,False,10025,667,64441,8273,8272,456,640
+267,"All Saints' Charm",8104,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3112,668,64442,8275,8274,457,640
+268,"",8105,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,0,0,64442,8275,8274,457,640
+269,"Lop Hop",8107,8106,0,0,0,0,0,False,False,False,2,70,False,True,False,False,False,10113,670,64443,8287,8286,458,650
+270,"Reference",8109,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,6071,671,64444,8277,8276,459,645
+271,"Eat Chicken",8113,0,0,8118,8118,0,0,True,True,True,1,0,False,True,False,False,False,6047,672,64445,8279,8278,469,650
+272,"Sundering",8131,8130,0,0,0,0,0,False,False,False,2,73,False,True,False,False,False,12007,673,64446,8281,8280,470,650
+273,"Slump",8111,8110,0,0,0,0,0,False,False,False,2,71,False,True,False,False,False,11016,674,64447,8283,8282,471,650
+274,"Love Heart",8115,8114,0,0,0,0,0,False,False,False,2,72,False,True,False,False,False,10114,675,64448,8285,8284,472,650
+275,"Humble Triumph",8116,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3119,676,64449,8289,8288,473,655
+276,"Victory Reveal",8112,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3118,677,64450,8291,8290,474,650
+277,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+278,"Uchiwasshoi",8117,0,0,0,0,0,0,False,False,False,1,0,False,True,False,False,False,3120,679,64452,8295,8294,484,700
+279,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+280,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+281,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+282,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+283,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+284,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+285,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+286,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+287,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+288,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+289,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+290,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+291,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+292,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+293,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+294,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+295,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+296,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+297,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+298,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+299,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
+300,"",0,0,0,0,0,0,0,False,False,False,0,0,False,False,False,False,False,0,0,0,0,0,0,0
