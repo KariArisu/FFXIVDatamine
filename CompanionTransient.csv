@@ -430,7 +430,7 @@ most call me Thancred.
 100,"Summon your model magitek bit minion. An exact 1:9 scale replica of a ceruleum-powered magitek bit (Ultima Weapon action figure not included).","This miracle of modern mechanics is actually a miracle of ancient Allagan mechanics reverse engineered and then modified with advanced Garlean magitek technology.","The Empire owes
 its might to magitek.
   - Yda","All-range Attack","Delivers an attack with a potency of 230 to all enemies within range.",50,75,2,True,False,False,False,False,1
-101,"Summon your puff of darkness minion. When standing nearby, prithee refrain from coughing, sneezing, waving, flailing, or performing any other means of wild gesticulation, lest the puff be lost for eternity.","When this automaton resembling one crafted by a goldsmith hanged for dabbling in the dark arts was discovered, it prompted authorities to exhume the recently buried body. This, however, only confirmed their worst fears─that the coffin was empty.","What I do not smother,
+101,"Summon your puff of Darkness minion. When standing nearby, prithee refrain from coughing, sneezing, waving, flailing, or performing any other means of wild gesticulation, lest the puff be lost for eternity.","When this automaton resembling one crafted by a goldsmith hanged for dabbling in the dark arts was discovered, it prompted authorities to exhume the recently buried body. This, however, only confirmed their worst fears─that the coffin was empty.","What I do not smother,
 I devour. What I cannot
 devour, I destroy.
   - The Cloud of Darkness","Nanoparticle Beam","Delivers an attack with a potency of 150 to all enemies within range while reducing DEF by 30%.
@@ -702,7 +702,7 @@ rogues are there!?
    - Quimperain","Hellfire","Delivers an attack with a potency of 90 to all enemies within range.",85,35,3,False,False,False,False,False,1
 169,"Summon your wind-up Garuda minion. Hopefully she will not HEEHEE haha HEEE!!! too loudly in your ear.","Understandably, many in Gridania opposed the manufacture of an automaton depicting the Ixal's chosen primal. However, since the publication of an article in <Emphasis>The Raven</Emphasis> espousing the puppet's efficacy as a good-luck charm, production can barely keep up with demand.","Heehee HAHA hahaha
 HEEHEE haha HEEEEEE!!!
-    - Garuda","Airy Blast","Reduces action points of all enemies within range by 50% of the maximum value.",50,25,4,True,False,False,False,False,4
+    - Garuda","Airy Blast","Reduces action points of all enemies within range by 30% of the maximum value.",50,25,4,True,False,False,False,False,4
 170,"Summon your wind-up Titan minion. Placing this puppet on an elevated surface may compel it to knock everything else to the ground.","The second in the Weavers' Guild's popular series of primal automata. The guild consulted with Trachtoum─a master axeman from the Company of Heroes─whose firsthand account of his battle against “Tidus” formed the basis of this true-to-life design.","Aye, we defeated him─in the
 end─but he took from us some
 of our very best.
@@ -1590,7 +1590,7 @@ shall not be denied.
 419,"Summon your 9S automaton minion. For when you need the company of a compact version of an advanced combat android dressed in a distinctive subculture style.","Recovered from the upper levels of the Tower, this diminutive automaton bears a resemblance to the android known as YoRHa No.9 Type S. What thoughts drove him and his kind, and to what end did they risk all in their fight? The answers to such questions may never be found...","Not a boy, an android.
    - 2P","Fleeting Tenderness","Delivers an attack with a potency of 120 to all enemies within range while increasing action party ATK by 20.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s",60,50,4,False,False,True,False,False,1
-420,"Summon your Rudy minion. Eager to help, though perhaps not suited to guiding sleighs.","Having served dutifully as one of the saint's little helpers, Rudy returned to his home deep in the mountains. But thanks to a Starlight miracle, a wandering saint succeeded in recreating a minion of the fellow so lifelike, it breathes.","Why, it's a Starlight miracle!
+420,"Summon your wind-up Rudy minion. Eager to help, though perhaps not suited to guiding sleighs.","Having served dutifully as one of the saint's little helpers, Rudy returned to his home deep in the mountains. But thanks to a Starlight miracle, a wandering saint succeeded in recreating a minion of the fellow so lifelike, it breathes.","Why, it's a Starlight miracle!
    - Amh Garanjy","Starlight Present","Delivers an attack with a potency of 150 to all enemies within range while reducing DEF by 30%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s",65,25,3,False,False,True,False,False,1
 421,"Summon your squirrel emperor minion. At once more powerful and adorable than a certain simian king.","Fond of mortal children, the auspice Rissai once transformed himself into a learned man and taught the young ones their letters. Like the real auspice, this self-created avatar goes wherever the winds of philanthropy and delicious sweets blow.","Thanks to predation by other rodents,
@@ -1886,7 +1886,8 @@ puppy you have!
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",45,40,4,False,True,False,False,False,4
 499,"Summon your pink Bean minion. Three, two, one...GO!","Little is known about these mysterious life-forms that suddenly appeared in the Gold Saucer apart from the fact that they love to race, and this specimen has apparently decided that it wants to race you without end. Rumor has it that underneath its rotund exterior is a skeleton that looks like a nightmarish amalgam of man and bird, but there is no ready way to determine the truth.","Let me guess. You've lost...no,
 broken...no, <Emphasis>traded for magical
-beans</Emphasis> the parts we need.   - Jessie","Eliminate","Knocks back all enemies within range.",40,55,3,False,True,True,False,False,9
+beans</Emphasis> the parts we need.
+   - Jessie","Eliminate","Knocks back all enemies within range.",40,55,3,False,True,True,False,False,9
 500,"Summon your Pegwin minion. You chased after it; now it chases after you.","Suddenly appearing in the Gold Saucer alongside the Beans, these winsome little automata love nothing more than being in the thick of a race and chased around like a prize. Rumor has it they were created by a friend of the Beans, who was inspired by a penguin they had witnessed somewhere out there.","My, what charming little toys.
    - Kan-E-Senna","Scurry","Disarms deployed enemy traps.",50,40,3,False,True,False,True,False,6
 501,"Summon your Hydaelyn idol minion. When you ask your mother if you can have Hydaelyn, but she says you already have Hydaelyn at home.","This automaton was inspired by Hydaelyn as She was depicted in an ancient cave mural. Held to be the will of the star and the embodiment of Light, She guided many a mortal soul in Her age-old conflict with Her bitter rival Zodiark, whom She divided into fourteen parts with─if the artist is to be believed─a mighty kick.","Please, Mother Hydaelyn!
@@ -1942,7 +1943,7 @@ the coeurl drug in!
 and a coyote is sure to come and bite
 you on the arse.
    - Thaffe","Howl of Glory","Removes all detrimental effects from all allies within range.",30,15,4,False,False,True,False,False,6
-515,"Summon your Rororrlo Teh minion. Caution: staring directly at its head may result in temporary blindness.","In the Yok Huy tongue, the name of this being means “a tiny little snow spirit that shines as if smiling in the moonlight.” They are born in the mountains of Urqopacha when the moon illuminates the snow, and when approximately four of them combine, they are said to become the larger Rorrloh Teh.","Now give me a Coerthan winter!
+515,"Summon your Rororrlo Teh minion. Caution: staring directly at its head may result in temporary blindness.","In the Yok Huy tongue, the name of this being means “a tiny little snow spirit that shines as if smiling in the moonlight.” They are born in the mountains of Urqopacha when the moon illuminates the snow, and when approximately four of them combine, they are said to become the larger Rorrlo Teh.","Now give me a Coerthan winter!
 Enough ice and snow to bury a behemoth!
    - Pipin","Powder Snow","Binds all enemies within range.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s",25,25,3,False,True,False,False,False,4
@@ -1981,7 +1982,7 @@ be ripped to shreds!
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",35,50,4,False,True,False,True,False,4
 525,"Summon your brushed-up Krile minion. She is not to be brushed off in the face of danger.","On the occasion of the anniversary of Eorzea's rebirth, the Adventurers' Guild commissioned a new mammet designed in Krile's likeness. With the hood of her pictomancer's attire drawn back to reveal her precious earring, she exudes a spirit of adventure and discovery.","I'm eager to put my
 pictomancy to the proof.
-   - Krile","Fancy Flourish","Reduces action points of all enemies within range by 50% of the maximum value.",50,35,2,False,False,False,True,False,4
+   - Krile","Fancy Flourish","Reduces action points of all enemies within range by 30% of the maximum value.",50,35,2,False,False,False,True,False,4
 526,"Summon your wind-up Zero minion. And thus she is returned.","A mammet inspired by a hero of the Thirteenth, who wandered alone for millennia after her world was consumed by Darkness. Sharing her taste in cuisine, the Hannish artisan responsible poured their heart into its creation and ensured accuracy in every detail, such as the scythe she wields from her days as an avatar.","I will let it burn,
 this fire in my breast.
    - Zero","Dark Scythe","Delivers 10 points of damage every second to all enemies within range.
@@ -1992,7 +1993,10 @@ this fire in my breast.
 528,"Summon your Nano Lord minion. The land probably won't tremble before his might.","A diminutive manifestation of the Shadow Lord, which arose from the core of his memories in the wake of battle. While the original Shadow Lord was a dreaded existence in the world of Vana'diel, where he led the Beastman Confederate in a war of conquest against the Enlightened Races, this entity thankfully appears to pose no danger.","Minions of the Shadow Lord!?
    - Iroha","Nano Slash","Increases action party DEF by 40.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",70,50,2,False,False,False,True,False,3
-529,"","","","","",0,0,0,False,False,False,False,False,0
+529,"Summon your uma-no-unicolt minion. Wishes to embark on a journey with one who is pure of heart.","On the occasion of the Heavensturn celebration, House Fortemps helped to secure the loan of this unicorn young to serve as the mascot for the visiting Far Eastern delegation. Though initially nervous to be away from home, the creature was able to find its stride at your side, and there it appears content to remain.","The unicorn must have
+sensed kinship in you.
+   - Braya","Blessed Bucking","Delivers an attack with a potency of 120 to all enemies within range while increasing action party ATK by 20.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s",65,35,3,False,True,False,False,False,1
 530,"Summon your Adamant Weapon minion. A diamond by any other name would shine as bright─at least when scale is accounted for.","Retrieved from an imperial base, this scale prototype of a warmachina appears to have been created for counter G-Warrior testing and carries no armaments. After completing their analysis, the Eorzean Alliance saw fit to bestow it upon members as a reward for exemplary service.","'Twould require a heart as hard as diamond
 to raise one's voice in anger to beings
 possessed of such profound...saccharinity.
@@ -2008,7 +2012,7 @@ who stands before you!
 533,"Summon your spinettesaurus minion. Small though it may be, never let it be said that it has no spine.","The young of a prehistoric reptile, this creature possesses protruding spines that are likened to a sail, which it uses to regulate body temperature and perform courtship displays. In contrast to its stunted forelimbs, it is blessed with powerful legs that allow it to move quickly and snatch up prey in its elongated jaws.","So long, spiny whatever-you-are.
    - Languid Lominsan","Prehistoric Ruler","Renders all allies within range immune to attacks by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>monsters<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s",25,60,3,False,False,True,False,False,3
-534,"Summon your wind-up Pelupelu minion. The perfect souvenir, if it does say so itself.","A series of this automaton was crafted by a potsworn goldsmith to serve as a promotional souvenir for the Pelupelu-run Turali Travel Agency. While the use of Kozama'uka lumber lends it a homespun appearance, it moves in a highly life-like manner thanks to the advanced mechanisms within.","The Pelupelu value the act of
+534,"Summon your wind-up Pelupelu minion. The perfect souvenir, if it does say so itself.","A series of this automaton was crafted by a potsworn goldsmith to serve as a promotional souvenir for the Pelupelu-run Turali Travel Agency. While the use of Kozama'uka lumber lends it a homespun appearance, it moves in a highly lifelike manner thanks to the advanced mechanisms within.","The Pelupelu value the act of
 spreading joy through trade.
    - Erenville","Coin Counting","Delivers 10% damage to the nearest enemy Arcana Stone.",35,50,1,False,False,True,False,False,8
 535,"Summon your tin soldier S3 minion. The toy with a body of tin and a heart of gold.","Boasting remarkably expressive movements despite its old-fashioned design, this tin soldier was brought to Limsa Lominsa on a vessel that plies the trade route west. According to the merchant who acquired it, such pieces were made in the likeness of a soldier of a bygone and faraway kingdom.","I shall have to examine one of
@@ -2028,19 +2032,165 @@ Was that Themis?
 locomotive engineering!
    - Shenza","Express Train","Doubles the amount of HP restored to allies stationed in Gates.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s",35,20,3,False,False,False,True,False,9
-540,"","","","","",0,0,0,False,False,False,False,False,0
-541,"","","","","",0,0,0,False,False,False,False,False,0
-542,"","","","","",0,0,0,False,False,False,False,False,0
-543,"","","","","",0,0,0,False,False,False,False,False,0
+540,"Summon your Psamathe minion. An entity born of the fire-wielding familiar Triton. That's the red one.","This peculiar entity appears to have manifested from Triton, the fire-wielding familiar that served among the collective of three that controlled the weather on the Occult Crescent. Though its intelligence has faded over the course of long years, in this diminutive state, it should largely be harmless.","You would be well advised to ask
+yourself: can I stand the heat?
+   - Charlys","Flame Fest","Delivers 5% damage to the nearest enemy Arcana Stone.",75,50,3,False,True,False,True,False,8
+541,"Summon your Naiad minion. An entity born of the ice-wielding familiar Nereid. That's the purple one.","This peculiar entity appears to have manifested from Nereid, the ice-wielding familiar that served among the collective of three that controlled the weather on the Occult Crescent. Though its sense of morality has faded over the course of long years, in this diminutive state, it should largely be harmless.","I have no doubt that it is capable
+of chilling victims to the bone!
+   - The Impresario","Snow Fest","Grants 10 action points to all allies within range who do not have similar actions.",50,65,2,False,False,True,True,False,3
+542,"Summon your Deimos minion. An entity born of the poison-wielding familiar Phobos. That's the green one.","This peculiar entity appears to have manifested from Phobos, the poison-wielding familiar that served among the collective of three that controlled the weather on the Occult Crescent. Though its sense of propriety has faded over the course of long years, in this diminutive state, it should largely be harmless.","Well, of course they'll be poisoned!
+How else would I gauge the efficacy
+of your work?
+   - Severian","Poison Fest","Delivers an attack with a potency of 120 and knocks back all enemies within range.",80,60,3,False,True,True,False,False,1
+543,"Summon your boon baboon minion. May sound like a generous creature, but don't expect any favors.","The male of this species of baboon is identifiable by the luxurious growth of fur around its shoulders, which gives the impression of a mantle. In stark contrast, its buttocks are completely bare, with plump, red cheeks on display for all and sundry to see. In certain parts of the Far East, baboons are regarded fondly by avid readers due to their cry resembling the local name of a popular work of fantasy.","This clearing is currently as bare
+as a white baboon's buttocks.
+   - Felicitous Furball","Gummy Grin","Reduces HP of enemy Shield by 70%. No effect if Shield is already inoperable.",20,60,1,False,True,True,False,False,8
 544,"Summon your clockwork oppressor. Painted a rugged shade of green, this miniature machina is a scale replica of the full-size model deployed in military training exercises.","An Ironworks machina enthusiast has replicated the Astragalos oppressor in tiny, toylike form. On account of its considerable bulk and heft, however, it failed to find willing merchants for distribution, and was ultimately repurposed as an allied training trophy.","We shall cast down the oppressors!
    - Chalteaufite","Detonating Trap","Sets a trap that, when triggered, delivers an attack with a potency of 260 to all enemies within range.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Activation Delay:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",30,85,1,False,False,False,True,False,2
-545,"","","","","",0,0,0,False,False,False,False,False,0
-546,"","","","","",0,0,0,False,False,False,False,False,0
-547,"","","","","",0,0,0,False,False,False,False,False,0
-548,"","","","","",0,0,0,False,False,False,False,False,0
+545,"Summon your Ja Tiika leafkin minion. What lies beneath its glowing blue leaves is best left a mystery.","Among the blue leafkin that inhabit Yak T'el, this particular creature is friendly to men, and dwelled near a settlement in the Ja Tiika Heartland. While superstition persists that that their kind are Mamool Ja who have been cursed, some believe that they are in fact pure souls who were reborn as guardians of the forest.","Have you heard of blue leafkin?
+   - Prudent Hunter","Blue Leaf","Inflicts a weakness to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>monsters<UIGlow>01</UIGlow><UIForeground>01</UIForeground> on all enemies within range.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",65,60,2,False,False,True,False,False,4
+546,"Summon your Gulool Ja Ja minion. It watches your progress with great interest.","Designed in the likeness of Gulool Ja Ja, this mammet was created to commemorate the seventieth anniversary of his ascension as Dawnservant. It would seem that those Mamool Ja who journeyed to Eorzea brought these units with them with the intent of impressing upon the locals the glory of their kind.","Gulool Ja Ja, mightiest
+of the blessed...arise!
+   - Zereel Ja","Dawnservant's Decree","Increases ATK of all allies within range by 20 (40 if the ally is a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>poppet<UIGlow>01</UIGlow><UIForeground>01</UIForeground>).
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",50,50,3,False,False,True,False,False,3
+547,"Summon your micro rover minion. Won't be moving mountains, but can handle pebbles with aplomb.","This miniaturized model of a utility vehicle used in the Cosmic Exploration Initiative was produced for the amusement of young children. While it faithfully incorporates all the functions of the original machine and can perform various tasks, it lacks the power to move anything beyond pebbles.","Looking for a ride on
+the burrow's best rover?
+   - Drivingway","Forced Removal","Reduces action points of all enemies within range by 50% of the maximum value.",40,55,3,False,False,False,True,False,4
+548,"Summon your tipping tortoise minion. Would be a generous tipper if its coins were real.","This tortoise possessed of a gleaming golden shell appears to be the offspring of the trade tortoise, the creature that sought to peddle cursed artifacts on the Occult Crescent. On account of its tender age, however, it is not yet permitted to handle legal tender, and must make do with imitation coins.","I'd almost forgotten what it was like to
+feel the weight of coins in my pocket...
+   - Eismon","Great Wealth","Reduces movement speed of all enemies within range by 70%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s",10,90,1,False,False,False,True,False,4
 549,"Summon your royal hound minion. As loyal as it is royal.","This bright-eyed canine is believed to be descended from hounds that were once bred by the royal family of Alexandria for hunting foxes and deer. Fiercely loyal by nature, it had long sought a worthy master to serve, and appears to have found one in you.","You've got the nose of a bloodhound.
    - Midnight Dew","Tail Wag","Renders all allies within range immune to attacks by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>monsters<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",40,50,4,False,True,False,False,False,3
-550,"","","","","",0,0,0,False,False,False,False,False,0
-551,"","","","","",0,0,0,False,False,False,False,False,0
+550,"Summon your Skallic uolosapa minion. A winsome bird with pure white feathers and a pink beak.","In ages past, the uolosapa was brought from the south sea isles to the nation of Skalla, where it quickly gained popularity as a pet. In the course of being bred in captivity, a specimen emerged that possessed pure white feathers, the descendants of which have been treated as a variety unto themselves to this day.","I seem to have made
+a feathered friend.
+   - Fufucha","Relentless Pecking","Delivers an attack with a potency of 230 to all enemies within range.",30,30,1,False,False,False,False,True,1
+551,"Summon your Seikret fledgling minion. Dreams of the day it attains rugged good looks and colorful feathers.","The fluffy young of a Seikret, a beast of burden native to a faraway world. While full-grown creatures look imposing with their sharp countenance and bright plumage, chicks are plump and white in contrast, and cut a winsome figure scrambling after their masters as they train to become fully fledged mounts.","Is that a hint of melancholy I detect in thy
+voice? Something akin to a pining mother
+bird whose chicks have flown the nest...
+   - Urianger","Full Tilt","Reduces DEF of all enemies within range by 50%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",80,70,4,False,True,True,False,False,4
+552,"Summon your Vigorwasp minion. Rest assured it won't dump its sac of nectar on you.","Thought to have arrived from another world, this variety of wasp is unique for hoarding nectar in an impressively large sac on its abdomen. In its native land, it primarily harvests the nectar of Vitalilies, whose healing properties make the creature sought after among seasoned hunters out in the wilds.","So many ideas, like a swarm of
+wasps...making the mind race.
+   - Lost Chirurgeon","Honey Drop","Restores 100 HP to all allies within range (150 if the ally is a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>critter<UIGlow>01</UIGlow><UIForeground>01</UIForeground>).",85,50,3,False,True,False,True,False,7
+553,"Summon your model suit minion. Comes complete with pocket-sized pilot.","This meticulously handcrafted toy is modeled on the vacuum suit developed for use in the Cosmic Exploration Initiative. Rumor has it the initiative was approached by a certain machina enthusiast from Garlond Ironworks, whose unbridled passion for the suit paved the way for the production of these miniaturized units.","These vacuum suits are a sight to behold...
+   - Cosmic Exploration Initiative Member","Remove All","Disarms deployed enemy traps.",45,65,2,False,False,True,True,False,6
+554,"Summon your wind-up Yok Huy minion. Gazes out into eternity with eyes unblinking.","With the cooperation of the Pelupelu, their business-minded neighbors, the Yok Huy produced a series of this mammet as a souvenir for visitors to Zirgorteh the Open-armed. Boasting nimble movement ordinarily unseen on their stout physique, it has also proven popular among the Yok Huy themselves.","We shall soon come face-to-face─
+or rather, face-to-knee─with those
+enormous Yok Huy.
+   - Alphinaud","Giant Stance","Reduces movement speed of all enemies within range by 50%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s",30,70,2,False,False,False,True,False,4
+555,"Summon your raven-red gobtank. Faster than the blue one.","An Ironworks machina enthusiast has replicated the Ravens-colored Astragalos gobtank in tiny, toylike form. Though originally meant to be marketed with the permission of the goblins, negotiations broke down over the profit margin, and it was ultimately repurposed as an allied training trophy.","Pshhh... Gobbies whack
+for Ravens muchly!
+   - Goblin Mercenary","Hit and Run","Delivers 5% damage to the nearest enemy Arcana Stone.",35,60,3,False,True,False,False,False,8
+556,"Summon your falcon-blue gobtank. Stronger than the red one.","An Ironworks machina enthusiast has replicated the Falcons-colored Astragalos gobtank in tiny, toylike form. Though originally meant to be marketed with the permission of the goblins, negotiations broke down over the profit margin, and it was ultimately repurposed as an allied training trophy.","Pshhh... Gobbies whack
+ for Falcons muchly!
+   - Goblin Mercenary","Bombardment","Delivers an attack with a potency of 230 to all enemies within range.",55,50,3,False,False,True,False,False,1
+557,"Summon your wind-up Eald'narche minion. After ten long millennia, the dreams of the Zilart will become reality!","A diminutive manifestation of Eald'narche, which arose from the core of his memories in the wake of battle. While the original Eald'narche was a cunning mastermind who threatened the world of Vana'diel with his brother, Archduke Kam'lanaut, this entity thankfully appears to pose no danger.","Have you the strength to
+find the answers you seek?
+   - Eald'narche","Vortex","Sets a trap that, when triggered, reduces the movement speed of all enemies within range by 70%.
+ <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s 
+ <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Activation Delay:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",45,60,2,False,False,False,True,False,2
+558,"Summon your rroneek calf minion. Has tusks and horns and isn't afraid to use them.","The young of a hulking herbivore native to the continent of Tural. The patterns upon the faces of juveniles are pale and uneven, but gain in boldness and definition as they age. Even if they are still small, the creatures leave their parents' side when both their tusks and horns have sufficiently developed, as is the case with this calf.","Look at you all, shaking
+like rroneek calves!
+   - Nitowikwe","Pride of Tural","Increases ATK of all allies within range by 25.
+ <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s",25,55,1,False,True,False,False,False,3
+559,"","","","","",0,0,0,False,False,False,False,False,0
+560,"","","","","",0,0,0,False,False,False,False,False,0
+561,"Summon your micro crow minion. Clever and loyal─what more could one ask for?","This crow found at a laboratory within the Meso Terminal was formerly an experimental subject. After researchers vanished from the facility, it managed to survive thanks to its cage's emergency power supply and automatic feeding system. Possessed of great intelligence and a strong sense of duty, it has decided to follow its liberator.","This would solve all our
+problems in one fell swoop!
+   - Benathaire","Swoop","Knocks back all enemies within range.",55,55,2,False,True,False,False,False,9
+562,"Summon your wind-up Feo Ul. As your lovely branch, it will lend you its strength!","This automaton designed in likeness of Feo Ul, a pixie of the First, was brought into being through the magicks of none other than the newly crowned Titania themself, who desired that you might always have your beautiful branch at your side. Its irrepressible cuteness and charm are true to life.","Come what may, your beautiful
+branch will ever be at your side.
+   - Feo Ul","Fae Mischief","Sets a trap that, when triggered, delivers an attack with a potency of 180 to all enemies within range.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Activation Delay:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",45,45,3,False,False,True,True,False,2
+563,"Summon your sunray ray minion. Its eyes are up here.","A variety of stingray native to Yok Tural, so named for the way it is believed to pierce the clouds like a ray of sunlight. On account of its majestic movement and its underside having the appearance of a friendly face, it has come to be worshipped as a guardian deity by the peoples who dwell by the waters of Zorgor.","This may sting a little.
+   - Honey B. Lovely","Tail Sting","Reduces movement speed of all enemies within range by 70%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s",45,45,1,False,True,False,False,False,4
+564,"Summon your mini yan minion. A sheep spirit whose child-pleasing form and diminutive size belie its might.","According to legends in the Ninth, this peculiar creature is a sheep spirit that, despite its adorable form, strikes fear into the hearts of all who encounter it. Though this particular entity appears to have taken a liking to you, you would do well to remember that it is possessed of unknowable power.","Yer sheep's got magical powers?
+   - Traveling Merchant","Diamond's Sparkle","Doubles the amount of HP restored to allies stationed in Gates.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s",35,50,2,False,False,False,True,False,9
+565,"Summon your gimme kitten minion. An ill-mannered winged feline fiend that wants everything.","This mischief-loving fiend said to mimic spirits in the Ninth is known to have a liking for precious stones, which it will brazenly demand from those it encounters. Though its mood will turn foul if refused, neither will satisfying its desire win you its gratitude, so there is little to be gained from knowing it...but here we are.","Gimme an elixir!
+No, that's not right...
+   - Magic Pot","Gimme","Removes all beneficial effects from all enemies within range.",30,45,3,False,True,True,True,False,6
+566,"Summon your sin beaver minion. Another mystery better left unsolved.","A mysterious being that appeared in Pilgrim's Traverse. When sin eater meets giant beaver, which one becomes the other? Whatever may be the truth of its existence, some mysteries only deepen the more one ponders them...","'Tis truly a mystery among mysteries.
+   - G'raha Tia","Sinful Squeal","Reduces DEF of all enemies within range by 50%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",45,40,3,False,False,True,False,False,4
+567,"Summon your little mermaid minion. Wishes to be a little part of your world.","Legends pertaining to mermaids are common in the Corvos region, foremost among them the tale of a mermaid princess who falls in love with a man. Perhaps influenced by said tale, this diminutive entity born of an arcane pattern in an illuminated manuscript has chosen to accompany you on your journeys.","Are you a mermaid!?
+   - Hokushin","Piercing Voice","Delivers an attack with a potency of 60 to all enemies within range while reducing movement speed by 70%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",60,50,2,False,False,True,False,False,1
+568,"Summon your magic lamp minion. Phenomenal cosmic powers in an itty-bitty living space.","Manifesting from an arcane pattern in an illuminated manuscript, this oil lamp appears to be home to a genie. Unlike the lamp-dwelling spirit of Corvosi legend that grants wishes, however, this one is hesitant to show itself, perhaps needing more time to decide whether you are a worthy master.","It's probably some source of phenomenal
+cosmic power that's key to his plans.
+   - Cid Garlond","Heart's Desire","Increases action party movement speed by 30%. 
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",25,45,1,False,False,False,False,True,3
+569,"Summon your Droningway minion. No Loporrit will go missing on its watch.","Modified to serve as an autonomous search and rescue unit, this transport drone is equipped with a reinforced robotic hand that takes hold of lost Loporrits for secure conveyance back to base. When no one is missing, it is programmed to pass the time by tracking random individuals.","The moon will be as safe as safe can
+be once the drones are refurbished.
+   - Brawny Loporrit","Autonomous Flight","Reduces movement speed of all enemies within range by 70%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s",25,45,3,False,False,True,False,False,4
+570,"Summon your G-Warrior MGSD minion. The “MGSD” part of its name supposedly stands for “Master Garlond Superior Design,” or something along those lines.","An Ironworks machina enthusiast has replicated the G-Warrior in tiny, toylike form. Boasting incredible detail despite their diminutive size, these units are being offered as an allied training trophy as part of a publicity campaign for the Garlond Ironworks.","I present Garlond Ironworks' adaptation
+of the Ultima Warrior, the G-Warrior!
+   - Cid Garlond","Guided Missile","Renders both ally and enemy Shields and Search Eyes inoperable. The action party is immediately withdrawn from the playing field after execution.",50,50,2,False,True,True,False,False,8
+571,"Summon your La Noscean shorthair minion. Will hunt rodents for board and lodging.","This variety of feline originating from Vylbrand is identifiable by its plush grey fur, and owing to their talent as rodent hunters, they have long been considered a sailor's best friend. Recently, they have been found inhabiting the Occult Crescent, perhaps the descendants of creatures that arrived aboard grounded vessels.","Heeere kitty, kitty, kitty, kitty, kitty!
+   - Bakool Ja Ja the Mystic","Sharp Claws","Delivers 10 points of damage every second to all enemies within range.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s",40,55,1,False,False,False,True,False,1
+572,"Summon your gallant shepherd minion. Courageous and loyal, it does credit to caninekind.","Since olden times, this robust breed of canine has served men as sheep and guard dogs both, and sailors are known to take them on voyages for protection at ports of call. Recently, they have been found inhabiting the Occult Crescent, perhaps the descendants of creatures that arrived aboard grounded vessels.","As a shepherd leads his flock, I shall
+guide you to my irrefutable conclusion!
+   - Hildibrand","Shepherd","Increases action party ATK by 40.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",45,70,2,False,True,True,False,False,3
+573,"","","","","",0,0,0,False,False,False,False,False,0
+574,"","","","","",0,0,0,False,False,False,False,False,0
+575,"Summon your wind-up Red XIII. He is that which you see before you. Nothing less.","Legends tell of a four-legged beast, one of the last of his long-lived kind, who was possessed of reason and capable of speech. After escaping his captivity at a research facility, he cast aside his specimen designation, and with his new comrades went on to fight for the fate of the very star.","I saw a flash of red in that instant.
+   - Lalah Jinjahl","Lunatic High","Delivers an attack with a potency of 80 to all enemies within range while reducing DEF by 13%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s",60,45,3,False,False,False,True,False,1
+576,"Summon your Grooving Green minion. Can you keep up with the rhythm?","An electrope doll designed in the likeness of Dancing Green, the grooviest fighter in the Arcadion's cruiserweight division. Harnessing the soul of a terrible toad, he possesses a supremely supple body and the stamina to dance the night away. Join in the excitement at the arena and obtain limited-edition merchandise!","On the dance floor, everyone's a star!
+   - Dancing Green","Grooving Night","Renders ally Gates, Shield, and Search Eye impervious to damage.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s",45,85,2,False,False,True,False,False,9
+577,"Summon your Mistic condor minion. Feed it only perfectly cooked flesh, lest you incur its displeasure.","A large bird native to the Mist Continent that feeds on the flesh of dead animals. Formerly devouring only raw meat, the environment of the Ninth led its kind to develop a taste for lightning-seared morsels, and it is known to patiently wait for its prey to be struck by a lightning bolt.","I had to dodge some lightning
+bolts, but I made it!
+   - Trainee Hunter","Sudden Swoop","Delivers 5% damage to the nearest enemy Arcana Stone.",20,70,3,False,True,False,False,False,8
+578,"Summon your soothing sea-beast minion. To simply behold its pleasing form is to be soothed to the soul.","Born of an arcane pattern in an illuminated manuscript, this entity assumes the likeness of the young of a sea creature native to the Corvosi coastline. The pastel hues of its iridescent skin allow it to blend in with the coral reefs it calls home, and it is believed to be kin to mermaids.","Pshhh... Your seabeast
+sssteed awaits!
+   - Novv","Soothing Strike","Reduces ATK of all enemies within range by 50%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",30,35,3,False,True,False,False,False,4
+579,"Summon your Senor Otter minion. An otter and a gentleman.","This automaton brings the odder otter to life in the gentlemanly attire of Senor Sabotender, one of the Gold Saucer's beloved mascots. Masterfully crafted by the inimitable Godbert Manderville for an event, it was distributed among select collaborators, with proceeds to go towards otter conservation efforts.","This is the legacy of the very
+first Senor Sabotender!
+   - Nanaphon","Aggressive Advertising","Increases action party ATK by 60.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",35,55,3,False,False,False,True,False,3
+580,"Summon your little blue viking minion. Formerly red and vicious.","This automaton was deployed in Astragalos campaigns until it was inevitably incapacitated by adventurers. While such units are often damaged beyond repair, this example proved salvageable, and it was repurposed as an escort. Formerly red and vicious, it is now possessed of a calm temperament.","I borrowed this arena viking for
+you to demonstrate a few spells.
+   - Martyn","Axe Swing","Delivers an attack with a potency of 30 and knocks back all enemies within range.",30,45,2,False,False,True,True,False,1
+581,"Summon your little red viking minion. Formerly blue and ruthless.","This automaton was deployed in Astragalos campaigns until it was inevitably incapacitated by adventurers. While such units are often damaged beyond repair, this example proved salvageable, and it was repurposed as an escort. Formerly blue and ruthless, it is now possessed of a gentle temperament.","The Goldsmiths' Guild provides many
+of the mechanical combatants.
+   - Royse","Axe Swipe","Delivers an attack with a potency of 230 to all enemies within range.",10,45,1,False,True,True,False,True,1
+582,"Summon your junior jinbei minion. A baby whale shark by any other name would be just as calm and carefree.","In the Far East, whale sharks are known as jinbei-zame on account of their markings, which resemble those typically seen on the jinbei, a traditional summer garment. This young creature is exceptionally placid by nature, and has taken to following you in hopes of being led to new waters.","The Navigator waits for
+no man─or shark!
+   - Foerzagyl","Deep Suction","Reduces HP of closest enemy Gate by 90%. No effect if Gate is already inoperable.",60,30,3,False,True,True,False,False,8
+583,"","","","","",0,0,0,False,False,False,False,False,0
+584,"Summon your caprino minion. So adorable you'll let it get away with anything.","Originating from the region of Corvos, this variety of goat spread north alongside Garlean migration, and products made with its milk were once common in the imperial capital. This young creature appears to have lost its master in the chaos of civil war, and it now looks to you to protect and pamper it.","The cranky old goat
+will have my hide.
+   - Theopauldin","Munch","Delivers an attack 5 times the potency of the caster's ATK.",35,35,4,True,False,False,False,False,1
+585,"","","","","",0,0,0,False,False,False,False,False,0
+586,"","","","","",0,0,0,False,False,False,False,False,0
+587,"","","","","",0,0,0,False,False,False,False,False,0
+588,"","","","","",0,0,0,False,False,False,False,False,0
+589,"Summon your wind-up Prishe minion. Ya ready for this?","This diminutive manifestation of Prishe arose from a fragment of electrope, which was left behind when her echo incarnation faded away. She had come to love this world as a second home, and this entity may well be the materialization of her desire to remain here.","Prishe has taken the lead, but
+we won't be outdone, surely?
+   - Alxaal","Dragon Kick","Increases action party movement speed by 30%. 
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",75,40,3,False,True,False,False,False,3
+590,"","","","","",0,0,0,False,False,False,False,False,0
+591,"","","","","",0,0,0,False,False,False,False,False,0
+592,"","","","","",0,0,0,False,False,False,False,False,0
+593,"","","","","",0,0,0,False,False,False,False,False,0
+594,"Summon your musical paca minion. Has an instrumental burden to carry so never skips leg day.","This alpaca cria is the offspring of creatures that were kept as pack animals by traveling musicians. The time it spent with the troupe gave it a taste for the itinerant lifestyle, and it was immediately drawn to you. Every day, it trains its legs in hopes of being able to carry heavy instruments like its parents.","Ugh, why did it have to be alpacas...
+   - Wuk Lamat","Inspiring Spit","Grants 10 action points to all allies within range who do not have similar actions.",65,55,4,False,True,True,False,False,3
+595,"Summon your sweetkit minion. Smells as sweet as it looks.","This stray kitten once prowled the Studium's grounds until an experimental sweetener, surreptitiously eaten, turned the markings on its coat a distinctive pink, and it began giving off a sweet scent. Feeling responsible for its state, the researcher put out a call for adoption in academic journals.","Nothing is sweeter than
+the fruits of one's labors.
+   - Fahrafahr","Feline Fragrance","Delivers an attack with a potency of 30 to all enemies within range while reducing DEF by 30%.
+ <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s",50,55,1,False,False,True,False,False,1
+596,"","","","","",0,0,0,False,False,False,False,False,0
+597,"","","","","",0,0,0,False,False,False,False,False,0
+598,"","","","","",0,0,0,False,False,False,False,False,0
+599,"","","","","",0,0,0,False,False,False,False,False,0

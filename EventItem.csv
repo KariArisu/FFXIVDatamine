@@ -3076,8 +3076,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003072,"automaton-filled sack",0,"automaton-filled sacks",0,1,1,0,0,False,"Automaton-filled Sack",25919,0,1,1,69588,0,0,0
 2003073,"freshly laid egg",0,"freshly laid eggs",0,0,1,0,0,False,"Freshly Laid Egg",25251,0,99,1,0,0,0,0
 2003074,"inspector's journal",0,"inspector's journals",0,1,1,0,0,False,"Inspector's Journal",26168,3140,1,1,69592,0,0,0
-2003075,"ostensibly special treasure map",0,"ostensibly special treasure maps",0,0,1,0,0,False,"Ostensibly Special Treasure Map",26151,1,1,2,0,0,0,0
-2003076,"ostensibly special thief's map",0,"ostensibly special thief's maps",0,0,1,0,0,False,"Ostensibly Special Thief's Map",26151,1,1,2,0,0,0,0
+2003075,"ostensibly special treasure map",0,"ostensibly special treasure maps",0,1,1,0,0,False,"Ostensibly Special Treasure Map",26151,1,1,2,0,0,0,0
+2003076,"ostensibly special thief's map",0,"ostensibly special thief's maps",0,1,1,0,0,False,"Ostensibly Special Thief's Map",26151,1,1,2,0,0,0,0
 2003077,"blood-scented candle",0,"blood-scented candles",0,0,1,0,0,False,"Blood-scented Candle",26102,1,3,1,69611,3,0,0
 2003078,"blood-soaked ring",0,"blood-soaked rings",0,0,1,0,0,False,"Blood-soaked Ring",54434,0,1,1,69611,0,0,0
 2003079,"sack of Nymeia potpourri",0,"sacks of Nymeia potpourri",0,0,1,0,0,False,"Nymeia Potpourri",26110,0,1,1,69627,0,0,0
@@ -3297,14 +3297,14 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003293,"unsigned letter",0,"unsigned letters",0,1,1,0,0,False,"Unsigned Letter",26151,3140,1,1,69853,0,0,1
 2003294,"gold key",0,"gold keys",0,0,1,0,0,False,"Gold Key",25902,0,3,1,69853,0,0,0
 2003295,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003296,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003296,"magical elixir",0,"magical elixirs",0,0,1,0,0,False,"Magical Elixir",20624,3140,1,1,0,0,0,0
 2003297,"Nymeia lily bulb",0,"Nymeia lily bulbs",0,0,1,0,0,False,"Nymeia Lily Bulb",27459,1,2,1,69854,3,0,0
 2003298,"salad sandwich",0,"salad sandwiches",0,0,1,0,0,False,"Salad Sandwich",24009,0,2,1,69855,0,0,0
 2003299,"bottle of Anagnorisis juice medley",0,"bottles of Anagnorisis juice medley",0,0,1,0,0,False,"Anagnorisis Juice Medley",24409,3140,1,1,70045,0,0,1
 2003300,"sprig of soma",0,"sprigs of soma",0,0,1,0,0,False,"Soma",25039,0,1,1,70030,0,0,0
 2003301,"lustering jewel",0,"lustering jewels",0,0,1,0,0,False,"Lustering Jewel",20267,0,1,1,70032,0,0,0
 2003302,"Archestratus flower",0,"Archestratus flowers",0,1,1,0,0,False,"Archestratus Flower",25580,0,3,1,70045,0,0,0
-2003303,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003303,"vicarious vacationer",0,"vicarious vacationers",0,0,1,0,0,False,"Vicarious Vacationer",59896,0,2,1,70986,0,0,0
 2003304,"dose of aetherial supplement",0,"doses of aetherial supplement",0,0,1,0,0,False,"Aetherial Supplement",20673,1,1,1,70049,3,0,0
 2003305,"soma fragment",0,"soma fragments",0,0,1,0,0,False,"Soma Fragment",20037,0,99,1,0,0,0,0
 2003306,"sheaf of confidential documents",0,"sheaves of confidential documents",0,0,1,0,0,False,"Confidential Documents",26603,0,99,1,0,0,0,0
@@ -3381,8 +3381,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003377,"Mrga flower",0,"Mrga flowers",0,0,1,0,0,False,"Mrga Flower",25564,0,1,1,69799,0,0,0
 2003378,"ceruleum engine carburetor",0,"ceruleum engine carburetors",0,0,1,0,0,False,"Carburetor",20916,0,1,1,70035,0,0,0
 2003379,"letter",0,"letters",0,0,1,0,0,False,"Letter",26181,0,1,1,70039,0,0,0
-2003380,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003381,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003380,"forgotten crew uniform",0,"forgotten crew uniforms",0,0,1,0,0,False,"Forgotten Crew Uniform",26111,0,3,1,70859,0,0,0
+2003381,"Mumukko's mystery box",0,"Mumukko's mystery boxes",0,0,0,0,1,False,"Mumukko's Mystery Box",26108,0,1,1,70860,0,0,0
 2003382,"agavoides young",0,"agavoides young",0,1,1,0,0,False,"Agavoides Young",59747,0,3,1,69816,0,0,0
 2003383,"container of curry",0,"containers of curry",0,0,1,0,0,False,"Curry",24453,0,2,1,69797,0,0,0
 2003384,"healing salve",0,"healing salves",0,0,1,0,0,False,"Healing Salve",20706,1,1,1,69798,3,0,0
@@ -3473,7 +3473,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003469,"southern sow bug",0,"southern sow bugs",0,0,1,0,0,False,"Southern Sow Bug",25919,0,1,1,0,0,0,0
 2003470,"southern worm",0,"southern worms",0,0,1,0,0,False,"Southern Worm",25919,0,1,1,0,0,0,0
 2003471,"curiously carrot-shaped amplifier",0,"curiously carrot-shaped amplifiers",0,0,1,0,0,False,"Curiously Carrot-shaped Amplifier",25207,1,1,1,70331,0,0,0
-2003472,"apocryphal horn",0,"apocryphal horns",0,1,1,0,0,False,"Apocryphal Horn",26038,1,1,1,70331,0,0,0
+2003472,"apocryphal horn",0,"apocryphal horns",0,1,1,0,0,False,"Apocryphal Horn",26038,1,1,1,70331,3,0,0
 2003473,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003474,"turtle statue",0,"turtle statues",0,0,1,0,0,False,"Turtle Statue",25919,0,1,1,0,0,0,0
 2003475,"whale statue",0,"whale statues",0,0,1,0,0,False,"Whale Statue",25919,0,1,1,0,0,0,0
@@ -3498,7 +3498,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003494,"lump of copal",0,"lumps of copal",0,0,1,0,0,False,"Copal",22638,0,1,1,70375,0,0,0
 2003495,"sturdy rope",0,"sturdy ropes",0,0,1,0,0,False,"Sturdy Rope",26103,1843,1,1,70380,3,0,0
 2003496,"captured morbol seedling",0,"captured morbol seedlings",0,0,1,0,0,False,"Captured Morbol Seedling",59412,0,1,1,70380,0,0,0
-2003497,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003497,"fetching fragment",0,"fetching fragments",0,0,1,0,0,False,"Fetching Fragment",26111,0,3,1,70948,0,0,0
 2003498,"blessed scale",0,"blessed scales",0,0,1,0,0,False,"Blessed Scale",25990,0,1,1,70442,0,0,0
 2003499,"hartebeest horn",0,"hartebeest horns",0,0,1,0,0,False,"Hartebeest Horn",22204,0,1,1,70392,0,0,0
 2003500,"Kupopo-sized sack",0,"Kupopo-sized sacks",0,0,1,0,0,False,"Kupopo-sized Sack",26648,1,1,1,70393,3,0,0
@@ -3720,7 +3720,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003716,"sack of souvenirs",0,"sacks of souvenirs",0,0,1,0,0,False,"Souvenir Sack",25979,0,1,1,70736,0,0,0
 2003717,"vial of insect repellent",0,"vials of insect repellent",0,0,1,0,0,False,"Insect Repellent",20602,1,3,1,70739,3,0,0
 2003718,"misplaced bag",0,"misplaced bags",0,0,1,0,0,False,"Misplaced Bag",25979,0,1,1,70742,0,0,0
-2003719,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003719,"notes on crescent Garula",0,"notes on crescent Garula",0,0,1,0,0,False,"Notes on Crescent Garula",26572,0,1,1,70850,0,0,0
 2003720,"survey response",0,"survey responses",0,0,1,0,0,False,"Survey Response",26572,0,3,1,70744,0,0,0
 2003721,"nectar extraction device",0,"nectar extraction devices",0,0,1,0,0,False,"Nectar Extraction Device",26108,1,2,1,70747,3,0,0
 2003722,"pot of fragrant nectar",0,"pots of fragrant nectar",0,0,1,0,0,False,"Fragrant Nectar",22670,0,2,1,70747,0,0,0
@@ -3734,17 +3734,17 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003730,"hearty packed lunch",0,"hearty packed lunches",0,0,1,0,0,False,"Hearty Packed Lunch",21005,0,1,1,70759,0,0,0
 2003731,"box of assorted timber",0,"boxes of assorted timber",0,0,1,0,0,False,"Assorted Timber",21003,0,1,1,70778,0,0,0
 2003732,"box of market decorations",0,"boxes of market decorations",0,0,1,0,0,False,"Market Decorations",52546,0,3,1,70503,0,0,0
-2003733,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003734,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003735,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003736,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003737,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003733,"starship illustration",0,"starship illustrations",0,0,1,0,0,False,"Starship Illustration",26151,3140,1,1,70831,0,0,0
+2003734,"chunk of aether-imbued stone",0,"chunks of aether-imbued stone",0,0,1,0,0,False,"Aether-imbued Stone ",21487,0,1,1,70851,0,0,0
+2003735,"chunk of aether-imbued stone",0,"chunks of aether-imbued stone",0,0,1,0,0,False,"Aether-imbued Stone ",21252,0,1,1,70852,0,0,0
+2003736,"chunk of aether-imbued stone",0,"chunks of aether-imbued stone",0,0,1,0,0,False,"Aether-imbued Stone ",21455,0,1,1,70852,0,0,0
+2003737,"chunk of aether-imbued stone",0,"chunks of aether-imbued stone",0,0,1,0,0,False,"Aether-imbued Stone ",21251,0,1,1,70852,0,0,0
 2003738,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003739,"wrapped keepsake",0,"wrapped keepsakes",0,0,1,0,0,False,"Wrapped Keepsake",26108,0,4,1,70837,0,0,0
-2003740,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003741,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003742,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003743,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003740,"piece of raw material",0,"pieces of raw material",0,0,1,0,0,False,"Raw Material",20802,0,1,1,0,0,0,0
+2003741,"piece of processed material",0,"pieces of processed material",0,0,1,0,0,False,"Processed Material",20952,0,1,1,0,0,0,0
+2003742,"battery pack",0,"battery packs",0,0,1,0,0,False,"Battery Pack",23553,0,1,1,0,0,0,0
+2003743,"battery pack",0,"battery packs",0,0,1,0,0,False,"Battery Pack",23553,0,1,1,0,0,0,0
 2003744,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003745,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003746,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
@@ -3752,15 +3752,96 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003748,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003749,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003750,"King Elmer III card",0,"King Elmer III cards",0,0,1,0,0,False,"King Elmer III Card",27672,0,1,1,70858,0,0,0
-2003751,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003752,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003753,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003754,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003755,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003756,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003757,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003758,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003759,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003760,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003761,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003762,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003751,"notes on crescent flying lizards",0,"notes on crescent flying lizards",0,0,1,0,0,False,"Notes on Crescent Flying Lizards",26572,0,1,1,70850,0,0,0
+2003752,"notes on crescent bandersnatches",0,"notes on crescent bandersnatches",0,0,1,0,0,False,"Notes on Crescent Bandersnatches",26572,0,1,1,70850,0,0,0
+2003753,"sack of wivre leavings",0,"sacks of wivre leavings",0,0,1,0,0,False,"Wivre Leavings",27501,0,3,1,70798,0,0,0
+2003754,"hefty sack of Gok Golma vegetables",0,"hefty sacks of Gok Golma vegetables",0,0,1,0,0,False,"Gok Golma Vegetables",26110,0,1,1,70821,0,0,0
+2003755,"generous sack of choice meats",0,"generous sacks of choice meats",0,0,1,0,0,False,"Choice Meats",26111,0,1,1,70821,0,0,0
+2003756,"sack of najool stems",0,"sacks of najool stems",0,0,1,0,0,False,"Najool Stems",26110,0,1,1,70801,0,0,0
+2003757,"herbal compress",0,"herbal compresses",0,0,1,0,0,False,"Herbal Compress",26127,0,3,1,70806,0,0,0
+2003758,"ripened branchberry",0,"ripened branchberries",0,0,1,0,0,False,"Ripened Branchberry",25331,0,1,1,70816,0,0,0
+2003759,"basket of fresh produce",0,"baskets of fresh produce",0,0,1,0,0,False,"Fresh Produce",27551,0,1,1,70823,0,0,0
+2003760,"sack of All Saints' cookies",0,"sacks of All Saints' cookies",0,0,1,0,0,False,"All Saints' Cookies",26111,0,1,1,70911,0,0,0
+2003761,"decorative pumpkin",0,"decorative pumpkins",0,0,1,0,0,False,"Decorative Pumpkin",24153,0,1,1,70911,0,0,0
+2003762,"liquor bottle",0,"liquor bottles",0,0,1,0,0,False,"Liquor Bottle",25057,0,1,1,70915,0,0,0
+2003763,"sack of produce",0,"sacks of produce",0,0,1,0,0,False,"Sack of Produce",25351,0,1,1,70915,0,0,0
+2003764,"piece of paper",0,"pieces of paper",0,0,1,0,0,False,"Piece of Paper",26151,0,1,1,70915,0,0,0
+2003765,"phantom glass",0,"phantom glasses",0,0,1,0,0,False,"Phantom Glass",25986,1,1,8,70991,0,0,0
+2003766,"aetherwell array",0,"aetherwell arrays",0,1,1,0,0,False,"Aetherwell Array",26083,1,1,8,70917,0,0,0
+2003767,"card-shaped object",0,"card-shaped objects",0,0,1,0,0,False,"Card-shaped Object",26078,1,1,1,70904,0,0,1
+2003768,"Level 2 security card",0,"Level 2 security cards",0,0,1,0,0,False,"Level 2 Security Card",26079,1,1,1,70904,0,0,1
+2003769,"Level 3 security card",0,"Level 3 security cards",0,0,1,0,0,False,"Level 3 Security Card",26080,1,1,1,70905,0,0,1
+2003770,"crumpled note",0,"crumpled notes",0,0,1,0,0,False,"Crumpled Note",26572,0,1,1,70905,0,0,0
+2003771,"large alexandrite",0,"large alexandrites",0,0,1,0,0,False,"Large Alexandrite",21290,0,1,1,70905,0,0,0
+2003772,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003773,"chilly cartridge",0,"chilly cartridges",0,0,1,0,0,False,"Chilly Cartridge",23569,0,3,1,0,0,0,0
+2003774,"chilly cartridge",0,"chilly cartridges",0,0,1,0,0,False,"Chilly Cartridge",23569,0,5,1,0,0,0,0
+2003775,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003776,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003777,"sack of melting salts",0,"sacks of melting salts",0,0,1,0,0,False,"Melting Salts",26111,1,3,1,70879,0,0,0
+2003778,"sack of polishing powder",0,"sacks of polishing powder",0,0,1,0,0,False,"Polishing Powder",25919,1,4,1,70894,0,0,0
+2003779,"crimson Karvarhur bloom",0,"crimson Karvarhur blooms",0,0,1,0,0,False,"Crimson Karvarhur Bloom",25687,0,3,1,70896,0,0,0
+2003780,"Chirwagur payment",0,"Chirwagur payments",0,0,1,0,0,False,"Chirwagur Payment",21205,0,1,1,70887,0,0,0
+2003781,"pinch of Chirwagur salt",0,"pinches of Chirwagur salt",0,0,1,0,0,False,"Chirwagur Salt",25104,0,1,1,70887,0,0,0
+2003782,"spring water icicle",0,"spring water icicles",0,0,1,0,0,False,"Spring Water Icicle",20015,0,1,1,70890,0,0,0
+2003783,"set of essential construction supplies",0,"sets of essential construction supplies",0,0,1,0,0,False,"Essential Construction Supplies",21003,0,1,1,70874,0,0,0
+2003784,"chunk of restoration glowstone",0,"chunks of restoration glowstone",0,0,1,0,0,False,"Restoration Glowstone",21477,0,1,1,70875,0,0,0
+2003785,"gargantuaskin treasure map",0,"gargantuaskin treasure maps",0,0,1,0,0,False,"Gargantuaskin Treasure Map",26151,1,1,2,0,0,0,0
+2003786,"high-rolling thief's map",0,"high-rolling thief's maps",0,0,1,0,0,False,"High-rolling Thief's Map",26151,1,1,2,0,0,0,0
+2003787,"jar of kirkahryar",0,"jars of kirkahryar",0,0,1,0,0,False,"Jar of Kirkahryar",22802,0,1,1,70870,0,0,0
+2003788,"piece of peculiar plant",0,"pieces of peculiar plant",0,0,1,0,0,False,"Peculiar Plant",25239,0,1,1,70961,0,0,0
+2003789,"Level 1 security card",0,"Level 1 security cards",0,0,1,0,0,False,"Level 1 Security Card",26078,1,1,1,70904,0,0,1
+2003790,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003791,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003792,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003793,"cup of Sleepless Rhapsody",0,"cups of Sleepless Rhapsody",0,0,1,0,0,False,"Sleepless Rhapsody",24413,3140,1,1,70964,0,0,1
+2003794,"portion of Sleepless Rhapsody",0,"portions of Sleepless Rhapsody",0,0,1,0,0,False,"Sleepless Rhapsody",24413,0,3,1,70965,0,0,0
+2003795,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003796,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003797,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003798,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003799,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003800,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003801,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003802,"cartridge of aetheric stimulant",0,"cartridges of aetheric stimulant",0,0,1,0,0,False,"Aetheric Stimulant",23569,0,3,1,0,0,0,0
+2003803,"cartridge of aetheric stimulant",0,"cartridges of aetheric stimulant",0,0,1,0,0,False,"Aetheric Stimulant",23569,0,5,1,0,0,0,0
+2003804,"pouch of synthetic desensitizer",0,"pouches of synthetic desensitizer",0,0,1,0,0,False,"Synthetic Desensitizer",26110,1276,1,1,70966,1,0,4
+2003805,"Oizys jasper",0,"Oizys jaspers",0,1,1,0,0,False,"Oizys Jasper",0,0,1,1,0,0,0,0
+2003806,"Oizys jasper",0,"Oizys jaspers",0,1,1,0,0,False,"Oizys Jasper",0,0,1,1,0,0,0,0
+2003807,"distress beacon",0,"distress beacons",0,0,1,0,0,False,"Distress Beacon",25994,1,1,1,70982,0,0,1
+2003808,"superconductor coil",0,"superconductor coils",0,0,1,0,0,False,"Superconductor Coil",20916,0,1,1,70982,0,0,0
+2003809,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003810,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003811,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003812,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003813,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003814,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003815,"温かいキンダープンシュ",0,"",0,0,1,0,0,False,"",53492,0,3,1,71001,0,0,0
+2003816,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003817,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003818,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003819,"見破りカボチャ玉",0,"",0,0,1,0,0,False,"",24153,1276,1,1,71004,1,0,4
+2003820,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003821,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003822,"package of dumplings",0,"packages of dumplings",0,0,1,0,0,False,"Package of Dumplings",53302,0,1,1,71008,0,0,0
+2003823,"aether transmitter",0,"aether transmitters",0,1,1,0,0,False,"Aether Transmitter",26086,1,1,1,71009,0,0,1
+2003824,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003825,"flute of wings",0,"flutes of wings",0,0,1,0,0,False,"Flute of Wings",26039,1,1,1,71005,3,0,1
+2003826,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003827,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003828,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003829,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003830,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003831,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003832,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003833,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003834,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003835,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003836,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003837,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003838,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003839,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003840,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003841,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003842,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003843,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0

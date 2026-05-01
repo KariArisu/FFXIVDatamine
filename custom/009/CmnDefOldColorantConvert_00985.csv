@@ -1,0 +1,9 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNDEFOLDCOLORANTCONVERT_00985_NO_TARGET_COLORANT","No applicable dye items to exchange."
+1,"TEXT_CMNDEFOLDCOLORANTCONVERT_00985_CONFIRM_DIALOG_1","You will receive:<Highlight>StringParameter(1)</Highlight>
+
+Trade in single-color dye items?"
+2,"TEXT_CMNDEFOLDCOLORANTCONVERT_00985_CONFIRM_DIALOG_2","
+<Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))><SheetEn(Item,3,IntegerParameter(1),1,1)/><Else/><SheetEn(Item,3,IntegerParameter(1),2,1)/></If>"

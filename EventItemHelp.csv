@@ -1167,8 +1167,8 @@ int32,str,bit&01
 2001153,"Crafted from butterfly scales and imbued with magic, this projectile will reveal the true form of that which it strikes.",True
 2001154,"Crafted from butterfly scales and imbued with magic, this projectile will reveal any traps or threats posed by treasure caskets.",True
 2001155,"Crafted from butterfly scales and imbued with magic, this projectile will dispel even the most advanced skin-changing incantations.",True
-2001156,"白百合の扉を解除する為の鍵",True
-2001157,"紅薔薇の扉を解除する為の鍵",True
+2001156,"白百合の扉を解錠する為の鍵",True
+2001157,"紅薔薇の扉を解錠する為の鍵",True
 2001158,"Delicate blossoms of a peach tree, a deciduous tree whose flowers are cherished in remembrance of Princess Edvya.",True
 2001159,"Festive holiday confetti fashioned from peach blossom petals.",True
 2001160,"Petals tenderly picked from the peach trees of Ul'dah.",True
@@ -3399,14 +3399,14 @@ Another day older and deeper in debt...♪",True
 2003293,"The riddles in this letter lead to the keys needed to open the locked box.",True
 2003294,"It is quite possible the key itself is more valuable than the contents of the box it opens.",True
 2003295,"",False
-2003296,"",False
+2003296,"A strange concoction beloved by persistent pots. Mortal consumption is ill-advised.",True
 2003297,"A healthy bulb certain to grow into a gorgeous flower.",True
 2003298,"Lovingly made at the Last Stand, this sandwich is fairly bursting with the freshest seasonal vegetables.",True
 2003299,"Made from Elpis-grown fruit and flowers, the aroma of this aether-rich concoction promises a uniquely complex flavor.",True
 2003300,"A pale red herb which is said to have powerful medicinal properties.",True
 2003301,"A jewel with subtle gold decorations. It appears it was once set in something.",True
 2003302,"This bloom appears to be edible despite not being a lifelike sugar-laden confectionery.",True
-2003303,"",False
+2003303,"Designed at the Studium, this mammet specializes in all forms of rest and recreation.",True
 2003304,"A healthy dose of aether-rich energy. Not to be administered orally.",True
 2003305,"This shard of elemental moisture is surprisingly solid to the touch.",True
 2003306,"These documents contain sensitive information pertaining to development schedules and implementation particulars.",True
@@ -3468,7 +3468,7 @@ Another day older and deeper in debt...♪",True
 2003362,"A chunk of ore from Kallimelios Zephyros that is particularly useful in measuring environmental aether.",True
 2003363,"This model of a two-legged shark species looks terribly familiar...",True
 2003364,"A root vegetable with such an uncommon luster that one might think, “Oh, that's not edible.” Not only is it safe for consumption, but it imparts joy to those who have partaken of it.",True
-2003365,"Watching it rest its eyes, you might be convinced that this creature is placid and well behaved. You would be wrong. And frankly, you should know better.",True
+2003365,"Watching it rest its eyes, you might be convinced that this creature is placid and well-behaved. You would be wrong. And frankly, you should know better.",True
 2003366,"A sampling of filament taken from sentient fungi found on the moon.",True
 2003367,"A crystal infused with lightning-aspected aether, courtesy of the Carrotorium.",True
 2003368,"A crystal infused with wind-aspected aether, courtesy of the Carrotorium.",True
@@ -3483,8 +3483,8 @@ Another day older and deeper in debt...♪",True
 2003377,"A flower with orange petals, said to be favored by the divine Mrga.",True
 2003378,"A key component in any ceruleum engine that works properly.",True
 2003379,"A message addressed to Volusus.",True
-2003380,"",False
-2003381,"",False
+2003380,"For one reason or another, this set of unworn Cosmic Exploration Initiative attire has been left to gather dust.",True
+2003381,"Mumukko didn't specify what this box contains─only that it must be given to Packingway at all costs.",True
 2003382,"Securely bound, this agavoides young isn't going anywhere you're not.",True
 2003383,"A metal container containing a hearty serving of curry. Still warm to the touch.",True
 2003384,"A potent healing salve made by the alchemists of the Great Work.",True
@@ -3567,7 +3567,7 @@ Another day older and deeper in debt...♪",True
 2003457,"A grade-15 map revealing the location of an unknown treasure.
 
 ※Level 90 recommended.",True
-2003458,"A faded map revealing the location of an unknown treasure.
+2003458,"A faded map revealing the location of a teleportation portal leading to a hidden stage filled with untold riches.
 
 ※Level 90 full party (8 players) recommended.",True
 2003459,"The glistening liver of a Saltwind's Welcome kacchapa.",True
@@ -3612,7 +3612,7 @@ Another day older and deeper in debt...♪",True
 2003494,"This is what it smells like when trees cry.",True
 2003495,"While ropes aren't often used to capture plant life, sometimes there's only one tool available.",True
 2003496,"Not even an aurochs could break free from the knots binding this morbol seedling. ",True
-2003497,"",False
+2003497,"An exquisitely pigmented shard of natural glass found on Phaenna.",True
 2003498,"A symbol of trust bestowed upon you by Bakool Ja Ja. Its blend of Hoobigo and Boonewa coloring makes its origin indisputable.",True
 2003499,"A rare horn possessing potent antidotal properties.",True
 2003500,"Kupopo slumbers inside this hempen sack, snug as a grub in the soil.",True
@@ -3713,7 +3713,7 @@ Another day older and deeper in debt...♪",True
 2003589,"Even an untrained eye could tell that these remains once belonged to an enormous specimen.",True
 2003590,"One of an enchanted pair, this ring glows when near to its counterpart.",True
 2003591,"This piece of jewelry is so precious that a certain impetuous youth took it on a fishing trip and dropped it into the water. Perhaps it would be safer sitting in your inventory?",True
-2003592,"This horn ornament has been polished within an inch of its life, yet remains perilously pointy.",True
+2003592,"This horn ornament has been polished within an ilm of its life, yet remains perilously pointy.",True
 2003593,"Nurtured in accordance with Hhetsarro agricultural know-how, these fresh, juicy vegetables are ripe and ready to bequeath to a stern sibling.",True
 2003594,"This industrial-grade repelling insecticide has been proven to work on every six-legged abomination under the sun.",True
 2003595,"Your selected vegetable has been lovingly swaddled in this burlap sack for ease of carrying. ",True
@@ -3840,7 +3840,7 @@ Another day older and deeper in debt...♪",True
 2003716,"This sack bulges with souvenirs crafted by a hardworking local artisan.",True
 2003717,"A purgative liquid concocted by Hanu herbalists. Useful for keeping alpacas and their fuzzy coats free from infestation.",True
 2003718,"A canvas bag left behind by a careless tourist.",True
-2003719,"",False
+2003719,"Notes gleaned from your encounter with the Garula prevalent on the Occult Crescent.",True
 2003720,"A brief summary of visitor opinions from a survey conducted in Ok'hanu.",True
 2003721,"A contraption to help harvest the nectar required to craft fiend repellent.",True
 2003722,"A viscous nectar with a heady, fragrant scent. Used in a special Hanu recipe for repellent incense.",True
@@ -3854,17 +3854,17 @@ Another day older and deeper in debt...♪",True
 2003730,"A delicious and filling packed lunch prepared by Wawkesa.",True
 2003731,"Various lengths of timber ready to be sawn and lathed into parasol parts.",True
 2003732,"The promotional balloons contained herein were wrought especially for the Wachumeqimeqi Appreciation Sale.",True
-2003733,"",False
-2003734,"",False
-2003735,"",False
-2003736,"",False
-2003737,"",False
+2003733,"An illustration of a starship, clipped from <Emphasis>The Thavnairian Truth</Emphasis>. The picture has been “enhanced” with a hand-drawn portrait of Inspector Hildibrand.",True
+2003734,"A magicked piece of masonry found in the lost citadel.",True
+2003735,"A hunk of magicked stone uncovered in the Wanderer's Haven. ",True
+2003736,"A sample of aether-imbued masonry discovered in the crystallized caverns.",True
+2003737,"A sizable stone chunk retrieved from the shadowed city. Exudes faint traces of aether.",True
 2003738,"",False
 2003739,"Entrusted to you by Malachite, this keepsake has been carefully wrapped for delivery.",True
-2003740,"",False
-2003741,"",False
-2003742,"",False
-2003743,"",False
+2003740,"Raw and unrefined, this material must be processed at a work station prior to assembly.",True
+2003741,"Masterfully processed by your hands, this building material is ready for assembly.",True
+2003742,"A mini rover's power source, despairingly depleted.",True
+2003743,"A mini rover's power source, newly replenished.",True
 2003744,"",False
 2003745,"",False
 2003746,"",False
@@ -3872,15 +3872,100 @@ Another day older and deeper in debt...♪",True
 2003748,"",False
 2003749,"",False
 2003750,"Stored within a transparent case, this Triple Triad card is emblazoned with an illustration of Card Square's most seasoned contender.",True
-2003751,"",False
-2003752,"",False
-2003753,"",False
-2003754,"",False
-2003755,"",False
-2003756,"",False
-2003757,"",False
-2003758,"",False
-2003759,"",False
-2003760,"",False
-2003761,"",False
-2003762,"",False
+2003751,"Notes gleaned from your encounter with the flying lizards that inhabit the Occult Crescent.",True
+2003752,"Notes gleaned from your encounter with the bandersnatches found roaming the Occult Crescent.",True
+2003753,"Dried wivre excrement needed to create manure for farming.",True
+2003754,"A small sack filled to bursting with Gok Golma-grown vegetables.",True
+2003755,"A small sack filled with choice meats, the hunks carved by the Brethren of Br'aax from their beastly quarry. ",True
+2003756,"A sack stuffed with the fragrant, fibrous stems of Ja Tiika bananas.",True
+2003757,"A compress infused with medicinal herbs to soothe pain, created by Anggir for the people of Mamook.",True
+2003758,"A heavy fruit harvested from a Gok Golma branchbearer.",True
+2003759,"An order of freshly harvested vegetables to be delivered to a waiting resident of Mamook.",True
+2003760,"A small sack nearly full to bursting with delectably sweet pumpkin cookies.",True
+2003761,"Lovingly raised and hand-carved by Greatloam Growery's botanists, this plump, smiling gourd is a staple of the All Saints' Wake season.",True
+2003762,"An empty liquor bottle of a kind commonly seen throughout Shaaloani.",True
+2003763,"A sack of produce likely to be that which the fugitive stole from Luwateninyawawsa.",True
+2003764,"A piece of paper bearing what appears to be diary entries written by the fugitive.",True
+2003765,"A bespoke looking glass crafted by master artisan Gerolt. Used to monitor the quantity of crystal paste required to rebuild a voidsent vessel.",True
+2003766,"A circular board inlaid with four vessels capable of absorbing aetheric energy.",True
+2003767,"A card-shaped object fashioned from electrope.",True
+2003768,"A card-shaped key for opening restricted doors. This one is marked with a “Level 2” security clearance.",True
+2003769,"A card-shaped key for opening restricted doors. This one is marked with a “Level 3” security clearance.",True
+2003770,"A hastily scribbled reminder found in the director's office shelving.",True
+2003771,"A sizable green gem of scintillating beauty.",True
+2003772,"",False
+2003773,"Packed with cooling agents and ready to chill.",True
+2003774,"Packed with cooling agents and ready to chill.",True
+2003775,"",False
+2003776,"",False
+2003777,"A mix of rock salt and other local ingredients used to prevent the accumulation of ice and snow on Yok Huy stonework.",True
+2003778,"Finely ground minerals used to buff scratches from crystalline surfaces.",True
+2003779,"A vibrant flower used by brewers at Zirgorteh the Open-armed in the production of a corn-based beverage.",True
+2003780,"A stone found at high altitudes inscribed with glyphs. The Chirwagur seem to consider it a protective talisman.",True
+2003781,"High-quality salt from Chirwagur Saltern.",True
+2003782,"An icicle of frozen spring water, freshly harvested from the high larder.",True
+2003783,"A set of construction supplies required for the restoration of Zirgorteh the Open-armed.",True
+2003784,"An exceptionally pure glowstone required for the restoration of Zirgorteh the Open-armed.",True
+2003785,"A grade-18 map revealing the location of an unknown treasure.
+
+※Level 100 full party (8 players) recommended.",True
+2003786,"A faded map revealing the location of a teleportation portal leading to a hidden stage filled with untold riches.
+
+※Level 100 full party (8 players) recommended.",True
+2003787,"An alcoholic drink made with fermented corn. Said to be a favorite of Urqopacha's snow spirits, a few tipples of this will quell the rage which burgeons in their hearts.",True
+2003788,"Perplexingly persistent plant life populating the park prepared for participants.",True
+2003789,"A card-shaped key for opening restricted doors. This one is marked with a “Level 1” security clearance.",True
+2003790,"",False
+2003791,"",False
+2003792,"",False
+2003793,"How bad could it be?",True
+2003794,"A grounding herbal remedy formulated to ameliorate the effects of lightning exposure. Guaranteed to free weary townsfolk of their torpor!",True
+2003795,"",False
+2003796,"",False
+2003797,"",False
+2003798,"",False
+2003799,"",False
+2003800,"",False
+2003801,"",False
+2003802,"Filled to the brim with a substance sure to make even the dullest crystal shine.",True
+2003803,"Filled to the brim with a substance sure to make even the dullest crystal shine.",True
+2003804,"A pinch of this powder is to a lightning sprite as a swift kick in the head is to...anyone with a head, generally speaking.",True
+2003805,"Found during excavations of Shadefleet, this gemstone possesses a unique aetherial wavelength.",True
+2003806,"Found during excavations of Shadefleet, this gemstone possesses a unique aetherial wavelength.",True
+2003807,"Originally employed to request reinforcements, this modified beacon emits a distress signal coded to attract the attention of defective sentries.",True
+2003808,"An essential air-wheeler part salvaged from a military-grade vehicle.",True
+2003809,"",False
+2003810,"",False
+2003811,"",False
+2003812,"",False
+2003813,"",False
+2003814,"",False
+2003815,"果物のジュースにスパイスを加えたホットドリンク。ノンアルコールで子どもたちに大人気",True
+2003816,"",False
+2003817,"",False
+2003818,"",False
+2003819,"飾り用の小さなパンプキンに幻術をかけて作った煙玉。対象に投げつけると、幻影を見破る効果がある",True
+2003820,"",False
+2003821,"",False
+2003822,"A paper parcel full of still-warm dumplings, packed with care by Jullus.",True
+2003823,"This compact contraption facilitates the flow of aether when used in conjunction with other identical devices.",True
+2003824,"",False
+2003825,"An enchanted flute said to be a relic of the legendary wing spirit. Should a hero true blow upon it, they would be bestowed wings divine─or so it is claimed.",True
+2003826,"",False
+2003827,"",False
+2003828,"",False
+2003829,"",False
+2003830,"",False
+2003831,"",False
+2003832,"",False
+2003833,"",False
+2003834,"",False
+2003835,"",False
+2003836,"",False
+2003837,"",False
+2003838,"",False
+2003839,"",False
+2003840,"",False
+2003841,"",False
+2003842,"",False
+2003843,"",False
