@@ -27,7 +27,7 @@ int32,byte,Quest,str,str,str,bit&01,DescriptionSection
 3604503,0,0,"Small Talk","Blunderville","",True,31
 3604504,0,0,"Hall of the Novice","Combat Guide","",True,33
 3604505,2,0,"Deep Dungeons","Deep Dungeons","",True,37
-3604506,0,0,"","COSMO EXPLORER","惑星探索のすすめ",True,36
+3604506,0,0,"","Cosmic Exploration","",True,36
 3604507,0,0,"The Occult Crescent","The Occult Crescent","",True,35
 3604508,0,0,"Sprig Cleaning","Sprig Cleaning","",True,39
 3604509,0,0,"Custom Deliveries","Custom Deliveries","",True,41

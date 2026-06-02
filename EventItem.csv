@@ -3822,19 +3822,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2003818,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003819,"見破りカボチャ玉",0,"",0,0,1,0,0,False,"",24153,1276,1,1,71004,1,0,4
 2003820,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003821,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003821,"taco delivery",0,"taco deliveries",0,0,1,0,0,False,"Taco Delivery",26130,0,3,1,70997,0,0,0
 2003822,"package of dumplings",0,"packages of dumplings",0,0,1,0,0,False,"Package of Dumplings",53302,0,1,1,71008,0,0,0
 2003823,"aether transmitter",0,"aether transmitters",0,1,1,0,0,False,"Aether Transmitter",26086,1,1,1,71009,0,0,1
 2003824,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003825,"flute of wings",0,"flutes of wings",0,0,1,0,0,False,"Flute of Wings",26039,1,1,1,71005,3,0,1
 2003826,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003827,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003828,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003829,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003827,"growth formula cartridge",0,"growth formula cartridges",0,0,1,0,0,False,"Growth Formula Cartridge",23569,0,3,1,0,0,0,0
+2003828,"growth formula cartridge",0,"growth formula cartridges",0,0,1,0,0,False,"Growth Formula Cartridge",23569,0,3,1,0,0,0,0
+2003829,"set of drone parts",0,"sets of drone parts",0,0,1,0,0,False,"Drone Parts",23553,0,3,1,0,0,0,0
 2003830,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003831,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003832,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
-2003833,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
+2003831,"set of prototype attire",0,"sets of prototype attire",0,0,0,0,0,False,"Prototype Attire",23541,0,1,1,71023,0,0,0
+2003832,"stealthy Loporrit's photograph",0,"stealthy Loporrit's photographs",0,0,0,0,0,False,"Stealthy Loporrit's Photograph",25999,3140,1,1,71024,0,0,0
+2003833,"sneaky Loporrit's photograph",0,"sneaky Loporrit's photographs",0,0,0,0,0,False,"Sneaky Loporrit's Photograph",25999,3140,1,1,71024,0,0,0
 2003834,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003835,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0
 2003836,"",0,"",0,0,0,0,0,False,"",0,0,0,0,0,0,0,0

@@ -3,7 +3,7 @@
 int32,str,byte,uint32,uint32,uint16,uint16
 0,"Complete a stellar mission.",1,1,0,50,0
 1,"Complete three types of stellar missions.",1,3,0,75,1
-2,"Achieve a gold star rank on a stellar mission.",1,1,0,75,2
+2,"Achieve a Gold Star rating on a stellar mission.",1,1,0,75,2
 3,"Complete a critical mission.",1,1,0,50,3
 4,"Complete a mech op.",1,1,0,100,4
 5,"Draw a cosmic fortune.",1,1,0,50,5
@@ -28,37 +28,37 @@ int32,str,byte,uint32,uint32,uint16,uint16
 24,"Complete 50 mech ops as a ground supporter on the moon.",2,50,1,2100,27
 25,"Complete three unique class D missions for carpenter on the moon.",2,3,3,50,28
 26,"Complete four unique class C missions for carpenter on the moon.",2,4,3,100,29
-27,"Achieve a gold star rank on three unique class B missions for carpenter on the moon.",2,3,3,200,30
+27,"Achieve a Gold Star rating on three unique class B missions for carpenter on the moon.",2,3,3,200,30
 28,"Complete three unique class D missions for blacksmith on the moon.",2,3,7,50,31
 29,"Complete four unique class C missions for blacksmith on the moon.",2,4,7,100,32
-30,"Achieve a gold star rank on three unique class B missions for blacksmith on the moon.",2,3,7,200,33
+30,"Achieve a Gold Star rating on three unique class B missions for blacksmith on the moon.",2,3,7,200,33
 31,"Complete three unique class D missions for armorer on the moon.",2,3,11,50,34
 32,"Complete four unique class C missions for armorer on the moon.",2,4,11,100,35
-33,"Achieve a gold star rank on three unique class B missions for armorer on the moon.",2,3,11,200,36
+33,"Achieve a Gold Star rating on three unique class B missions for armorer on the moon.",2,3,11,200,36
 34,"Complete three unique class D missions for goldsmith on the moon.",2,3,15,50,37
 35,"Complete four unique class C missions for goldsmith on the moon.",2,4,15,100,38
-36,"Achieve a gold star rank on three unique class B missions for goldsmith on the moon.",2,3,15,200,39
+36,"Achieve a Gold Star rating on three unique class B missions for goldsmith on the moon.",2,3,15,200,39
 37,"Complete three unique class D missions for leatherworker on the moon.",2,3,19,50,40
 38,"Complete four unique class C missions for leatherworker on the moon.",2,4,19,100,41
-39,"Achieve a gold star rank on three unique class B missions for leatherworker on the moon.",2,3,19,200,42
+39,"Achieve a Gold Star rating on three unique class B missions for leatherworker on the moon.",2,3,19,200,42
 40,"Complete three unique class D missions for weaver on the moon.",2,3,23,50,43
 41,"Complete four unique class C missions for weaver on the moon.",2,4,23,100,44
-42,"Achieve a gold star rank on three unique class B missions for weaver on the moon.",2,3,23,200,45
+42,"Achieve a Gold Star rating on three unique class B missions for weaver on the moon.",2,3,23,200,45
 43,"Complete three unique class D missions for alchemist on the moon.",2,3,27,50,46
 44,"Complete four unique class C missions for alchemist on the moon.",2,4,27,100,47
-45,"Achieve a gold star rank on three unique class B missions for alchemist on the moon.",2,3,27,200,48
+45,"Achieve a Gold Star rating on three unique class B missions for alchemist on the moon.",2,3,27,200,48
 46,"Complete three unique class D missions for culinarian on the moon.",2,3,31,50,49
 47,"Complete four unique class C missions for culinarian on the moon.",2,4,31,100,50
-48,"Achieve a gold star rank on three unique class B missions for culinarian on the moon.",2,3,31,200,51
+48,"Achieve a Gold Star rating on three unique class B missions for culinarian on the moon.",2,3,31,200,51
 49,"Complete three unique class D missions for botanist on the moon.",2,3,39,50,55
 50,"Complete four unique class C missions for botanist on the moon.",2,4,39,100,56
-51,"Achieve a gold star rank on three unique class B missions for botanist on the moon.",2,3,39,200,57
+51,"Achieve a Gold Star rating on three unique class B missions for botanist on the moon.",2,3,39,200,57
 52,"Complete three unique class D missions for miner on the moon.",2,3,35,50,52
 53,"Complete four unique class C missions for miner on the moon.",2,4,35,100,53
-54,"Achieve a gold star rank on three unique class B missions for miner on the moon.",2,3,35,200,54
+54,"Achieve a Gold Star rating on three unique class B missions for miner on the moon.",2,3,35,200,54
 55,"Complete three unique class D missions for fisher on the moon.",2,3,43,50,58
 56,"Complete four unique class C missions for fisher on the moon.",2,4,43,100,59
-57,"Achieve a gold star rank on three unique class B missions for fisher on the moon.",2,3,43,200,60
+57,"Achieve a Gold Star rating on three unique class B missions for fisher on the moon.",2,3,43,200,60
 58,"Draw 5 cosmic fortunes on the moon.",2,5,1,300,61
 59,"Draw 30 cosmic fortunes on the moon.",2,30,1,600,62
 60,"Draw 100 cosmic fortunes on the moon.",2,100,1,900,63
@@ -184,64 +184,64 @@ int32,str,byte,uint32,uint32,uint16,uint16
 180,"Complete 10 artifact searches on Oizys.",2,10,48,1000,64
 181,"Complete 30 artifact searches on Oizys.",2,30,48,3000,65
 182,"Complete 100 artifact searches on Oizys.",2,100,48,5000,66
-183,"",0,0,0,0,0
-184,"",0,0,0,0,0
-185,"",0,0,0,0,0
-186,"",0,0,0,0,0
-187,"",0,0,0,0,0
-188,"",0,0,0,0,0
-189,"",0,0,0,0,0
-190,"",0,0,0,0,0
-191,"",0,0,0,0,0
-192,"",0,0,0,0,0
-193,"",0,0,0,0,0
-194,"",0,0,0,0,0
-195,"",0,0,0,0,0
-196,"",0,0,0,0,0
-197,"",0,0,0,0,0
-198,"",0,0,0,0,0
-199,"",0,0,0,0,0
-200,"",0,0,0,0,0
-201,"",0,0,0,0,0
-202,"",0,0,0,0,0
-203,"",0,0,0,0,0
-204,"",0,0,0,0,0
-205,"",0,0,0,0,0
-206,"",0,0,0,0,0
-207,"",0,0,0,0,0
-208,"",0,0,0,0,0
-209,"",0,0,0,0,0
-210,"",0,0,0,0,0
-211,"",0,0,0,0,0
-212,"",0,0,0,0,0
-213,"",0,0,0,0,0
-214,"",0,0,0,0,0
-215,"",0,0,0,0,0
-216,"",0,0,0,0,0
-217,"",0,0,0,0,0
-218,"",0,0,0,0,0
-219,"",0,0,0,0,0
-220,"",0,0,0,0,0
-221,"",0,0,0,0,0
-222,"",0,0,0,0,0
-223,"",0,0,0,0,0
-224,"",0,0,0,0,0
-225,"",0,0,0,0,0
-226,"",0,0,0,0,0
-227,"",0,0,0,0,0
-228,"",0,0,0,0,0
-229,"",0,0,0,0,0
-230,"",0,0,0,0,0
-231,"",0,0,0,0,0
-232,"",0,0,0,0,0
-233,"",0,0,0,0,0
-234,"",0,0,0,0,0
-235,"",0,0,0,0,0
-236,"",0,0,0,0,0
-237,"",0,0,0,0,0
-238,"",0,0,0,0,0
-239,"",0,0,0,0,0
-240,"",0,0,0,0,0
-241,"",0,0,0,0,0
-242,"",0,0,0,0,0
-243,"",0,0,0,0,0
+183,"Complete 10 stellar missions on Auxesia.",2,10,1,500,6
+184,"Complete 50 stellar missions on Auxesia.",2,50,1,800,7
+185,"Complete 100 stellar missions on Auxesia.",2,100,1,1600,8
+186,"Complete 500 stellar missions on Auxesia.",2,500,1,2500,9
+187,"Complete 10 unique stellar missions on Auxesia.",2,10,1,500,10
+188,"Complete 50 unique stellar missions on Auxesia.",2,50,1,1500,11
+189,"Complete 100 unique stellar missions on Auxesia.",2,100,1,4000,12
+190,"Complete 10 unique stellar missions on Auxesia with a Gold Star rating.",2,10,1,500,13
+191,"Complete 50 unique stellar missions on Auxesia with a Gold Star rating.",2,50,1,1500,14
+192,"Complete 100 unique stellar missions on Auxesia with a Gold Star rating.",2,100,1,4000,15
+193,"Complete 1 critical mission on Auxesia.",2,1,49,500,16
+194,"Complete 10 critical missions on Auxesia.",2,10,49,1000,17
+195,"Complete 30 critical missions on Auxesia.",2,30,49,3000,18
+196,"Complete 1 mech op as a pilot on Auxesia.",2,1,1,1500,22
+197,"Complete 5 mech ops as a pilot on Auxesia.",2,5,1,3000,23
+198,"Complete 10 mech ops as a pilot on Auxesia.",2,10,1,4500,24
+199,"Complete 5 mech ops as a ground supporter on Auxesia.",2,5,1,300,25
+200,"Complete 20 mech ops as a ground supporter on Auxesia.",2,20,1,900,26
+201,"Complete 50 mech ops as a ground supporter on Auxesia.",2,50,1,2100,27
+202,"Complete 5 unique carpenter missions on Auxesia.",2,5,3,75,28
+203,"Complete 10 unique carpenter missions on Auxesia.",2,10,3,150,29
+204,"Complete 15 unique carpenter missions on Auxesia.",2,15,3,300,30
+205,"Complete 5 unique blacksmith missions on Auxesia.",2,5,7,75,31
+206,"Complete 10 unique blacksmith missions on Auxesia.",2,10,7,150,32
+207,"Complete 15 unique blacksmith missions on Auxesia.",2,15,7,300,33
+208,"Complete 5 unique armorer missions on Auxesia.",2,5,11,75,34
+209,"Complete 10 unique armorer missions on Auxesia.",2,10,11,150,35
+210,"Complete 15 unique armorer missions on Auxesia.",2,15,11,300,36
+211,"Complete 5 unique goldsmith missions on Auxesia.",2,5,15,75,37
+212,"Complete 10 unique goldsmith missions on Auxesia.",2,10,15,150,38
+213,"Complete 15 unique goldsmith missions on Auxesia.",2,15,15,300,39
+214,"Complete 5 unique leatherworker missions on Auxesia.",2,5,19,75,40
+215,"Complete 10 unique leatherworker missions on Auxesia.",2,10,19,150,41
+216,"Complete 15 unique leatherworker missions on Auxesia.",2,15,19,300,42
+217,"Complete 5 unique weaver missions on Auxesia.",2,5,23,75,43
+218,"Complete 10 unique weaver missions on Auxesia.",2,10,23,150,44
+219,"Complete 15 unique weaver missions on Auxesia.",2,15,23,300,45
+220,"Complete 5 unique alchemist missions on Auxesia.",2,5,27,75,46
+221,"Complete 10 unique alchemist missions on Auxesia.",2,10,27,150,47
+222,"Complete 15 unique alchemist missions on Auxesia.",2,15,27,300,48
+223,"Complete 5 unique culinarian missions on Auxesia.",2,5,31,75,49
+224,"Complete 10 unique culinarian missions on Auxesia.",2,10,31,150,50
+225,"Complete 15 unique culinarian missions on Auxesia.",2,15,31,300,51
+226,"Complete 5 unique botanist missions on Auxesia.",2,5,39,75,55
+227,"Complete 10 unique botanist missions on Auxesia.",2,10,39,150,56
+228,"Complete 15 unique botanist missions on Auxesia.",2,15,39,300,57
+229,"Complete 5 unique miner missions on Auxesia.",2,5,35,75,52
+230,"Complete 10 unique miner missions on Auxesia.",2,10,35,150,53
+231,"Complete 15 unique miner missions on Auxesia.",2,15,35,300,54
+232,"Complete 5 unique fisher missions on Auxesia.",2,5,43,75,58
+233,"Complete 10 unique fisher missions on Auxesia.",2,10,43,150,59
+234,"Complete 15 unique fisher missions on Auxesia.",2,15,43,300,60
+235,"Draw 5 cosmic fortunes on Auxesia.",2,5,1,500,61
+236,"Draw 30 cosmic fortunes on Auxesia.",2,30,1,1000,62
+237,"Draw 100 cosmic fortunes on Auxesia.",2,100,1,1500,63
+238,"Complete 5 unique critical missions on Auxesia.",2,5,49,1000,19
+239,"Complete 12 unique critical missions on Auxesia.",2,12,49,2000,20
+240,"Complete 22 unique critical missions on Auxesia.",2,22,49,3000,21
+241,"Complete 10 artifact searches on Auxesia.",2,10,49,1000,64
+242,"Complete 30 artifact searches on Auxesia.",2,30,49,3000,65
+243,"Complete 100 artifact searches on Auxesia.",2,100,49,5000,66

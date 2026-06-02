@@ -3482,7 +3482,7 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 3463,"Paralysis","Deadened nerves are sometimes preventing the execution of actions.",215006,0,0,1,2,5,0,False,False,False,False,False,False,True,False,False,False,100,0,False,False,20,0,False,0,False,0,False,0,0,0,False,False,False,0
 3464,"Slow","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased.",215009,5,0,1,2,13,0,False,False,False,False,False,False,True,False,False,False,50,0,False,False,15,0,False,0,False,0,False,0,0,0,False,False,False,0
 3465,"Stun","Unable to execute actions.",215004,0,0,1,2,3,2,True,False,True,False,False,False,True,False,False,False,100,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-3466,"Sleep","Overwhelming drowsiness is preventing the execution of actions",215013,1,0,1,2,2,3,True,False,True,False,False,False,True,False,False,False,100,0,False,False,0,0,False,0,False,0,False,0,3,0,False,False,False,0
+3466,"Sleep","Overwhelming drowsiness is preventing the execution of actions.",215013,1,0,1,2,2,3,True,False,True,False,False,False,True,False,False,False,100,0,False,False,0,0,False,0,False,0,False,0,3,0,False,False,False,0
 3467,"Vegetal Vapours","Overcome and quite unable to act.",215147,0,0,1,2,17,0,True,False,True,True,False,False,False,False,False,False,200,0,False,False,0,4,False,0,False,0,False,0,0,0,False,False,False,0
 3468,"Frontal Blaster Charge","Hybrid blaster is crackling with charged energy.",215148,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 3469,"Rear Blaster Charge","Hybrid blaster is crackling with charged energy.",215149,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
@@ -4892,25 +4892,25 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 4873,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4874,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4875,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-4876,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-4877,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-4878,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-4879,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+4876,"Tele-portent","A teleportation glyph will appear under your feet when this effect expires.",214401,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,200,0,False,True,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+4877,"Tele-portent","A teleportation glyph will appear under your feet when this effect expires.",214402,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,200,0,False,True,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+4878,"Tele-portent","A teleportation glyph will appear under your feet when this effect expires.",214403,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,200,0,False,True,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+4879,"Tele-portent","A teleportation glyph will appear under your feet when this effect expires.",214404,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,200,0,False,True,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4880,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4881,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4882,"Unbecoming","Being unmade, thus sustaining damage over time.",214386,0,0,1,2,17,0,False,False,False,False,False,False,False,False,True,False,0,0,False,False,10,0,False,0,False,0,False,0,0,0,False,False,False,0
 4883,"Quantum Nullification","Unraveling in concert with another, resulting in damage over time.",214397,0,0,1,2,17,0,False,False,False,False,False,False,False,False,True,False,0,0,False,False,10,0,False,0,False,0,False,0,0,0,False,False,False,0
 4884,"Quantum Entanglement","Unraveling in concert with another, resulting in damage over time.",214398,0,0,1,2,17,0,False,False,False,False,False,False,False,False,True,False,0,0,False,False,10,0,False,0,False,0,False,0,0,0,False,False,False,0
-4885,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-4886,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-4887,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-4888,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+4885,"●ターゲット","●攻撃のターゲットとして、狙いをつけられている状態。ほかのプレイヤーに近づくと、ターゲットの対象が移る。",215026,0,0,1,2,17,0,False,False,False,False,False,False,False,False,True,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+4886,"●ターゲット対象外","●ターゲットの対象にならない。",215027,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,True,0,False,0,False,0,0,0,False,False,False,0
+4887,"_rsv_4887_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_4887_-1_1_1_0_S74CFC3B0_E74CFC3B0",215782,89,0,1,2,17,0,False,False,False,False,False,False,False,False,True,True,201,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+4888,"_rsv_4888_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_4888_-1_1_1_0_S74CFC3B0_E74CFC3B0",215783,89,0,1,2,17,0,False,False,False,False,False,False,False,False,True,True,201,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4889,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4890,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4891,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4892,"Variant Eagle Eye Shot Set","Possessed of the ability to use Variant Eagle Eye Shot for the duration of the duty.",216765,0,0,1,1,16,0,False,False,False,False,False,False,False,False,True,True,6,0,False,False,0,0,True,0,False,0,False,0,0,0,False,False,False,0
 4893,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-4894,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+4894,"Sleep","Overwhelming drowsiness is preventing the execution of actions.",215013,1,0,1,2,2,3,True,False,True,False,False,False,False,False,False,False,100,0,False,False,0,0,False,0,False,0,False,0,3,0,False,False,False,0
 4895,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4896,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 4897,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
@@ -5094,15 +5094,15 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 5075,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5076,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5077,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5078,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5079,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5080,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5081,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5082,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5083,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5084,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5085,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5086,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5078,"_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5078_-1_1_1_0_S74CFC3B0_E74CFC3B0",214406,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,201,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5079,"Tele-portent","A teleportation glyph will appear under your feet when this effect expires.",214401,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,199,0,False,True,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5080,"Tele-portent","A teleportation glyph will appear under your feet when this effect expires.",214402,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,199,0,False,True,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5081,"Tele-portent","A teleportation glyph will appear under your feet when this effect expires.",214403,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,199,0,False,True,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5082,"Tele-portent","A teleportation glyph will appear under your feet when this effect expires.",214404,0,0,0,2,17,0,False,False,False,False,False,False,False,False,False,False,199,0,False,True,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5083,"_rsv_5083_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5083_-1_1_1_0_S74CFC3B0_E74CFC3B0",218951,0,5,0,2,17,0,False,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5084,"","",0,89,0,0,2,0,0,False,False,False,False,False,False,False,False,True,True,200,0,True,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5085,"","",0,89,0,0,2,0,0,False,False,False,False,False,False,False,False,True,True,200,0,True,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5086,"","",0,89,0,0,2,0,0,False,False,False,False,False,False,False,False,True,True,200,0,True,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5087,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5088,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5089,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
@@ -5160,7 +5160,7 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 5141,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5142,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5143,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5144,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5144,"_rsv_5144_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5144_-1_1_1_0_S74CFC3B0_E74CFC3B0",214407,0,0,1,2,17,0,False,False,False,True,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5145,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5146,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5147,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
@@ -5366,8 +5366,8 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 5347,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5348,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5349,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5350,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5351,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5350,"_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5350_-1_1_1_0_S74CFC3B0_E74CFC3B0",214408,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5351,"_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5351_-1_1_1_0_S74CFC3B0_E74CFC3B0",214409,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5352,"Cloak of Waning Light","Shrouded in astral aether. Damage taken from umbral attacks is increased.",214392,89,0,1,2,17,1106,False,False,False,False,False,False,False,False,False,False,255,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5353,"Cloak of Waxing Dark","Shrouded in umbral aether. Damage taken from astral attacks is increased.",214393,89,0,1,2,17,1107,False,False,False,False,False,False,False,False,False,False,255,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5354,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
@@ -5428,8 +5428,8 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 5409,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5410,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5411,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5412,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5413,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5412,"Supplementary Formula","Secondary canisters filled at a formula tank, allowing execution of a special action.",217690,0,10,1,1,0,0,False,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,True,0,False,0,False,0,0,0,False,False,False,0
+5413,"Formula Case","Secondary canisters filled by a supply drop of formula, allowing execution of a special action.",216256,0,0,1,1,0,0,False,False,False,False,False,False,False,False,True,True,0,2,False,False,0,0,True,0,False,0,False,0,0,0,False,False,False,0
 5414,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5415,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5416,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
@@ -5468,9 +5468,9 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 5449,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5450,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5451,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5452,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5453,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5454,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5452,"_rsv_5452_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5452_-1_1_1_0_S74CFC3B0_E74CFC3B0",217398,0,2,1,2,17,0,False,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5453,"_rsv_5453_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5453_-1_1_1_0_S74CFC3B0_E74CFC3B0",214413,0,0,1,2,17,0,False,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5454,"_rsv_5454_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5454_-1_1_1_0_S74CFC3B0_E74CFC3B0",215907,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,True,0,False,0,False,0,0,31,False,False,False,0
 5455,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5456,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5457,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
@@ -5480,7 +5480,7 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 5461,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5462,"","",0,0,0,1,0,0,0,False,False,False,False,False,False,False,False,True,True,0,0,True,False,0,0,False,0,False,0,False,0,23,0,False,False,False,0
 5463,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5464,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5464,"_rsv_5464_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_5464_-1_1_1_0_S74CFC3B0_E74CFC3B0",215780,0,0,1,2,17,20,False,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5465,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5466,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5467,"Vulnerability Down","Damage taken is reduced.",215021,0,0,1,1,16,0,False,False,False,False,False,False,False,False,True,True,200,0,False,False,-10,0,False,0,False,0,False,0,0,0,False,False,False,0
@@ -5557,14 +5557,14 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 5538,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5539,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5540,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5541,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5542,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5543,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5544,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5545,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5546,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5547,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
-5548,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5541,"White Wound","Physically wounded and taking extra damage from <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>White Antilight<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",215782,89,0,1,2,17,0,False,False,False,False,False,False,False,False,True,True,201,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5542,"Black Wound","Spiritually wounded and taking extra damage from <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Black Antilight<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",215783,89,0,1,2,17,0,False,False,False,False,False,False,False,False,True,True,201,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5543,"Cursed Shriek","Body is being taken over, and will soon be used to unleash a petrifying attack throughout the battlefield.",215588,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5544,"Forked Lightning","Storing an electric charge which, when released, will deal lightning damage to those nearby.",215623,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,198,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5545,"Compressed Water","Highly compressed aetherial energy covers the body. Water-aspected damage dealt when effect ends.",215696,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,198,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5546,"Acceleration Bomb","An acceleration-trigger explosive is affixed to the body. Any movement when effect wears off will result in detonation.",215727,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,197,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
+5547,"Entropy","Plagued by chaotic flames that will deal damage to nearby party members when the effect ends.",215902,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,196,0,False,False,0,0,True,0,False,0,False,0,0,0,False,False,False,0
+5548,"Dynamic Fluid","Plagued by a chaotic body of water that will deal damage when the effect ends.",215903,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,False,196,0,False,False,0,0,True,0,False,0,False,0,0,0,False,False,False,0
 5549,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5550,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
 5551,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False,False,False,0
