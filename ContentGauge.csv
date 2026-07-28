@@ -93,9 +93,9 @@ int32,byte,str,ContentGaugeColor,bit&01,str,int16,sbyte,byte,int16,sbyte,byte,in
 89,0,"Doom-engine Power",3,True,"ContentGaugeMax_negative",100,1,2,-1,1,0,0
 90,0,"Channeled Aether",1,True,"ContentGaugeMax_positive",-1,1,0,-1,1,0,0
 91,0,"Cleaning Spirit",1,True,"",50,1,3,100,1,2,0
-92,0,"",0,False,"",0,0,0,0,0,0,0
+92,0,"Stone Sword Strength",3,True,"ContentGaugeMax_negative",100,1,2,-1,1,0,0
 93,0,"Massive Gravity Sphere Integrity",2,False,"",-1,1,0,-1,1,0,0
-94,0,"",0,False,"",0,0,0,0,0,0,0
+94,0,"Claret Dragon's Power",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
 95,0,"",0,False,"",0,0,0,0,0,0,0
 96,0,"",0,False,"",0,0,0,0,0,0,0
 97,0,"Aetherial Conduit Reserves",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0

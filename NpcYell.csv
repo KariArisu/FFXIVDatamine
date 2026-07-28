@@ -8490,7 +8490,7 @@ for Ravens muchly!",0
 7100,0,False,False,False,5,0,0,0,1,False,False,4,25,"It looks ready to explode. Stand back!",0
 7101,0,False,False,False,5,0,0,0,1,False,False,4,25,"An explosive!? It must be stopped.",0
 7102,0,False,False,False,5,0,0,0,1,False,False,4,25,"It's going to blow!",0
-7103,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+7103,0,False,False,False,3,0,0,0,4,False,False,1,25,"My b-b-bones are t-t-tingling!",0
 7104,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 7105,0,False,False,False,5,0,0,0,1,False,False,3,25,"Such sweet blood, so very fresh. But...oh! Yours is fresher still...",0
 7106,0,False,False,False,5,0,0,0,1,False,False,3,25,"I shall sup gently on your veins. So very gently...",0
@@ -11312,10 +11312,10 @@ shall prevail this day!",0
 9594,0,False,False,False,2,0,0,0,3,False,False,1,25,"The Dheema demands your head!",0
 9595,0,False,False,False,2,0,0,0,5,False,False,1,25,"I regret to disappoint, but I'm more than comfortable with heights!",0
 9596,0,False,False,False,2,0,0,0,5,False,False,1,25,"Ugh, the stench is unbearable!",0
-9597,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-9598,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-9599,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-9600,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+9597,0,False,False,True,3,0,0,0,3,False,False,1,25,"Well, that's a wash...",0
+9598,0,False,False,False,3,0,0,0,4,False,False,1,25,"I say, that rather stings!",0
+9599,0,False,False,False,3,0,0,0,4,False,False,1,25,"My, what a robust fragrance...",0
+9600,0,False,False,False,3,0,0,0,4,False,False,1,25,"AaAaAagh!",0
 9601,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 9602,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 9603,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
@@ -13112,7 +13112,7 @@ Enhancing left arm.",0
 Are you not our enemy?",0
 11292,0,False,False,False,2,0,0,0,4,False,False,1,25,"Basch... I have failed you...",0
 11293,0,False,False,False,2,0,0,0,4,False,False,1,25,"Let's keep moving!",0
-11294,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+11294,0,False,False,False,3,0,0,0,4,False,False,1,25,"Graceful even in flight!",0
 11295,0,False,False,False,2,0,0,0,4,False,False,1,25,"Terrified, frightened, scared!",0
 11296,0,False,False,False,2,0,0,0,4,False,False,1,25,"Thank you, overdweller!
 Let me show you the way!",0
@@ -13141,7 +13141,7 @@ You are needed elsewhere!",0
 11317,0,False,False,False,2,0,0,0,4,False,False,1,25,"That should give us a moment's rest.",0
 11318,0,False,False,False,2,0,0,0,4,False,False,1,25,"Help is on the way.
 Please, hold on a little longer...",0
-11319,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+11319,0,False,False,False,3,0,0,0,4,False,False,1,25,"Oof, feeling a touch dizzy...",0
 11320,0,False,False,False,2,0,0,0,4,False,False,1,25,"Stand firm!
 We cannot afford to lose!",0
 11321,0,False,False,False,2,0,0,0,4,False,False,1,25,"We bow down to none!",0
@@ -13206,13 +13206,13 @@ We must retreat!",0
 11372,10079,False,False,False,4,0,0,0,1,False,False,10,25,"Upon delivering two presents, the mascot issuing the instructions will change, so be sure to pay attention. Let the gifting begin!",0
 11373,10079,False,False,False,4,0,0,0,1,False,False,10,25,"It's farewell for now, but we look forward to seeing you again! Till next time!",0
 11374,0,False,False,False,2,0,0,0,4,False,False,1,25,"Nothing up my sleeves─save my muscular arms─and presto! We have materials!",0
-11375,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-11376,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+11375,0,False,False,False,3,0,0,0,4,False,False,1,25,"I'll feel that in the morning...",0
+11376,0,False,False,False,3,0,0,0,4,False,False,1,25,"Was that...? What was that!?",0
 11377,0,False,False,False,2,0,0,0,4,False,False,1,25,"Thanks for taking part, kupo!",0
 11378,0,False,False,False,2,0,0,0,4,False,False,1,25,"Just a moment while we prepare.",0
 11379,0,False,False,False,2,0,0,0,4,False,False,1,25,"Hm, perhaps I need a speech quirk like “kupo” as well...",0
-11380,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-11381,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+11380,0,False,False,False,3,0,0,0,4,False,False,1,25,"Violence...is not the answer...",0
+11381,0,False,False,False,3,0,0,0,4,False,False,1,25,"That all ya got?",0
 11382,0,False,False,False,2,0,0,0,4,False,False,1,25,"Wind direction─check. Wind speed─check. Everything is in order!",0
 11383,10081,False,False,False,4,0,0,0,1,False,False,3,25,"Thank you for your patience! The fête will now begin!",0
 11384,0,False,False,False,2,0,0,0,4,False,False,1,25,"Heh heh, our wooly friend looks like a new yak!",0
@@ -13238,7 +13238,7 @@ We must retreat!",0
 11404,0,False,False,False,2,0,0,0,4,False,False,1,25,"Please play with us again!",0
 11405,0,False,False,False,3,0,0,0,5,True,False,1,25,"Brace yourself.",0
 11406,0,False,False,False,3,0,0,0,5,True,False,1,25,"One to go!",0
-11407,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+11407,0,False,False,False,3,0,0,0,4,False,False,1,25,"Nuts. That's a lotta metal mooks.",0
 11408,0,False,False,False,3,0,0,0,5,True,False,1,25,"This one's going to hurt.",0
 11409,0,False,False,False,3,0,0,0,5,True,False,1,25,"Hm.",0
 11410,0,False,False,False,3,0,0,0,5,True,False,1,25,"Looks like this goes all the way up.",0
@@ -13247,7 +13247,8 @@ We must retreat!",0
 11413,0,False,False,False,2,0,0,0,3,False,False,1,25,"Miserable curs!",0
 11414,10079,False,False,False,4,0,0,0,1,False,False,10,25,"Hear ye, hear ye! Fêtes are about to commence!",0
 11415,10079,False,False,False,4,0,0,0,1,False,False,10,25,"Greetings, friends, and thank you for joining in the Skyrise Celebration!",0
-11416,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+11416,0,False,False,False,3,0,0,0,4,False,False,1,25,"Of course, Detective!
+Our moment is come!",0
 11417,0,False,False,False,3,0,0,0,3,False,False,1,25,"Hmph...",0
 11418,10079,False,False,False,4,0,0,0,1,False,False,10,25,"Today, we will be hosting a variety of fêtes─the first of which serves as an introduction to our friendly team of mascots.",0
 11419,10080,False,False,False,4,0,0,0,1,False,False,10,25,"Mighty Moogle, at your service, kupo. Made of sterner stuff though I am, I'm in charge of the fête “Made of Softer Stuff”!",0
@@ -13468,7 +13469,7 @@ We must retreat!",0
 11633,0,False,False,False,2,0,0,0,4,False,False,1,25,"Screeeeeech!",0
 11634,0,False,False,False,5,0,0,0,1,False,False,4,25,"Gahaha! I can see Lyon's face. The self-styled Beast King is but a weanling compared to the power of Pagaga!",0
 11635,0,False,False,False,3,0,0,0,4,False,False,1,25,"Another nuisance... Well, go on. Kill each other.",0
-11636,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+11636,0,False,False,False,3,0,0,0,6,False,False,1,25,"Unleash the power!",0
 11637,0,False,False,False,5,0,0,0,1,False,False,4,25,"Our foe is too stubborn today. Let us retreat and regroup while we have the chance...",0
 11638,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 11639,0,False,False,False,2,0,0,0,5,False,False,1,25,"I won't fall so easily!",0
@@ -20924,7 +20925,7 @@ We bear it together!",0
 18850,0,False,False,False,2,0,0,0,3,False,False,1,25,"<clang> <whizz>",0
 18851,0,False,False,False,2,0,0,0,3,False,False,1,25,"Your time ends now!",0
 18852,0,False,False,False,2,0,0,0,3,False,False,1,25,"Barooom!",0
-18853,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+18853,0,False,False,False,2,0,0,0,3,False,False,1,25,"<skitter> <flitter>",0
 18854,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 18855,0,False,False,False,2,0,0,0,3,False,False,1,25,"Caw! Caw!",0
 18856,0,False,False,False,2,0,0,0,3,False,False,1,25,"I shall remain at your side!",0
@@ -21390,7 +21391,7 @@ Be ready!",0
 19300,0,False,False,False,2,0,0,0,3,False,False,1,25,"Woof, woof!",0
 19301,0,False,False,False,2,0,0,0,3,False,False,1,25,"Wutai's white rose─
 the one and only Yuffie!",0
-19302,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19302,0,False,False,False,2,0,0,0,3,False,False,1,25,"Rest in peace.",0
 19303,0,False,False,False,2,0,0,0,3,False,False,1,25,"I am Nanaki, Watcher of Cosmo Canyon!",0
 19304,0,False,False,False,2,0,0,0,3,False,False,1,25,"Yeah, baby!",0
 19305,0,False,False,False,2,0,0,0,3,False,False,1,25,"Caw! Caw!",0
@@ -21511,8 +21512,8 @@ the one and only Yuffie!",0
 19420,0,False,False,False,3,0,0,0,4,False,False,1,25,"We should get to a safe distance before they explode.",0
 19421,0,False,False,False,3,0,0,0,4,False,False,1,25,"May priceless riches await!",0
 19422,0,False,False,False,3,0,0,0,4,False,False,1,25,"And the story unfurls further!",0
-19423,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19424,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19423,0,False,False,False,3,0,0,0,4,False,False,1,25,"Damn, he's gettin' fried!",0
+19424,0,False,False,False,3,0,0,0,4,False,False,1,25,"Hah hah hah, I am untouchable!",0
 19425,0,False,False,False,2,0,0,0,3,False,False,1,25,"Pip pip! Prrr!",0
 19426,0,False,False,False,3,0,0,0,4,False,False,1,25,"The tunnel looks to have been maintained to some degree.",0
 19427,0,False,False,False,3,0,0,0,4,False,False,1,25,"The path is certainly too smooth to be natural.",0
@@ -21548,13 +21549,13 @@ the one and only Yuffie!",0
 19457,0,False,False,False,3,0,0,0,4,False,False,1,25,"The people who ran this way for shelter are in grave danger!",0
 19458,0,False,False,False,3,0,0,0,4,False,False,1,25,"If we are to fight it, this is the best place to do so.",0
 19459,0,False,False,False,3,0,0,0,4,False,False,1,25,"Now I must look twice at every rock I see...",0
-19460,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19461,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19462,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19463,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19464,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19465,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19466,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19460,0,False,False,False,3,0,0,0,4,False,False,1,25,"Our strength is not yet spent!",0
+19461,0,False,False,False,3,0,0,0,4,False,False,1,25,"I sense the coming peril!",0
+19462,0,False,False,False,3,0,0,0,4,False,False,1,25,"I shan't be caught off guard this time!",0
+19463,0,False,False,False,3,0,0,0,4,False,False,1,25,"Let us settle this like gentlemen!",0
+19464,0,False,False,False,3,0,0,0,4,False,False,1,25,"Violence is not the answer!",0
+19465,0,False,False,False,3,0,0,0,4,False,False,1,25,"Gentle is as gentle does!",0
+19466,0,False,False,False,3,0,0,0,4,False,False,1,25,"Surrender yourself into our custody!",0
 19467,0,False,False,False,3,0,0,0,4,False,False,1,25,"Watch where it's concentrating the levin.",0
 19468,0,False,False,False,3,0,0,0,4,False,False,1,25,"Note where the aether flows, everyone!",0
 19469,0,False,False,False,3,0,0,0,4,False,False,1,25,"It's condensing lightning aether...",0
@@ -21598,41 +21599,47 @@ the one and only Yuffie!",0
 19507,13859,False,False,False,4,0,73282,0,1,False,False,6,25,"Next, we plan to build a hydrofication station right next to this! Work will begin immediately after this project is finished, so keep your tools at the handy!",0
 19508,13859,False,False,False,4,0,73282,0,1,False,False,6,25,"Take everything you need and assemble them on-site! You'll be handling delicate parts with high aetheric conductivity, so take the utmost care with them!",0
 19509,13859,False,False,False,4,0,73282,0,1,False,False,6,25,"It's time to pave the ground beneath our feet, and in the meantime make a much more comfortable base of operations!",0
-19510,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19511,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19512,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19513,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19514,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19515,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19516,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19517,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19518,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19519,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19520,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19521,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19522,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19523,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19524,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19525,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19526,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19527,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19528,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19529,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19530,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19531,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19532,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19533,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19534,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19535,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19536,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19537,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19538,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19539,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19540,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19541,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19542,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19543,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19544,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19510,0,False,False,False,2,0,0,0,3,False,False,1,25,"I aM sUmMoNeD?",0
+19511,0,False,False,False,2,0,0,0,3,False,False,1,25,"TiMe FoR aCtIoN!",0
+19512,0,False,False,False,2,0,0,0,3,False,False,1,25,"OrDeRs ReCeIvEd!",0
+19513,0,False,False,False,2,0,0,0,3,False,False,1,25,"At YoUr SeRvIcE!",0
+19514,0,False,False,False,2,0,0,0,3,False,False,1,25,"My TuRn!",0
+19515,0,False,False,False,2,0,0,0,3,False,False,1,25,"It ShAlL bE sO!",0
+19516,0,False,False,False,2,0,0,0,3,False,False,1,25,"GlAd To SeRvE!",0
+19517,0,False,False,False,2,0,0,0,3,False,False,1,25,"HmM? a BrAwL?",0
+19518,0,False,False,False,2,0,0,0,3,False,False,1,25,"EnErGy LeVeLs LoW...",0
+19519,0,False,False,False,2,0,0,0,3,False,False,1,25,"MiSsIoN cOmPlEtE!
+...oH, pErHaPs NoT?",0
+19520,0,False,False,False,2,0,0,0,3,False,False,1,25,"EnErGy DePlEtEd!",0
+19521,0,False,False,False,2,0,0,0,3,False,False,1,25,"ReTrEaT, rEtReAt!",0
+19522,0,False,False,False,2,0,0,0,3,False,False,1,25,"GoOd-ByE...",0
+19523,0,False,False,False,2,0,0,0,3,False,False,1,25,"I tAkE mY lEaVe!",0
+19524,0,False,False,False,2,0,0,0,3,False,False,1,25,"LiGhTs OuT!",0
+19525,0,False,False,False,2,0,0,0,3,False,False,1,25,"FaReWeLl...",0
+19526,0,False,False,False,2,0,0,0,3,False,False,1,25,"YoU cAlLeD mE?
+i Am CaLlEd!",0
+19527,0,False,False,False,2,0,0,0,3,False,False,1,25,"AsSiStAnCe PrOtOcOlS aCtIvE!",0
+19528,0,False,False,False,2,0,0,0,3,False,False,1,25,"MoTiVaTiOn LeVeLs RiSiNg!",0
+19529,0,False,False,False,2,0,0,0,3,False,False,1,25,"MoTiVaTiOn DwInDlInG...",0
+19530,0,False,False,False,2,0,0,0,3,False,False,1,25,"Is ThAt EnOuGh?",0
+19531,0,False,False,False,2,0,0,0,3,False,False,1,25,"UnDeRsToOd!",0
+19532,0,False,False,False,2,0,0,0,3,False,False,1,25,"SaY nO mOrE!",0
+19533,0,False,False,False,2,0,0,0,3,False,False,1,25,"If YoU iNsIsT...",0
+19534,0,False,False,False,2,0,0,0,3,False,False,1,25,"VeRy WeLl!",0
+19535,0,False,False,False,3,0,0,0,3,False,False,1,25,"WaAaH! hOw CoUlD yOu!?",0
+19536,0,False,False,False,3,0,0,0,11,False,False,1,27,"Selecting target...
+Knowledge level: 5... Death.",0
+19537,0,False,False,False,3,0,0,0,11,False,False,1,27,"Selecting target...
+Knowledge level: 3... Flare.",0
+19538,0,False,False,False,3,0,0,0,11,False,False,1,27,"Selecting target...
+Knowledge level: 4... Holy.",0
+19539,0,False,False,False,3,0,0,0,11,False,False,1,27,"Selecting target...
+Knowledge level: Prime... Death.",0
+19540,0,False,False,False,3,0,0,0,3,False,False,1,25,"◎▼×□△...!",0
+19541,0,False,False,False,3,0,0,0,3,False,False,1,25,"＄◎×■△!",0
+19542,0,False,False,False,3,0,0,0,3,False,False,1,25,"◎▼×◎◎～!",0
+19543,0,False,False,False,3,0,0,0,3,False,False,1,25,"￥▽▲○...!",0
+19544,0,False,False,False,3,0,0,0,3,False,False,1,25,"◎◎×△□!",0
 19545,0,False,False,False,2,0,0,0,2,False,False,1,25,"We'll not lose anyone else!",0
 19546,0,False,False,False,2,0,0,0,2,False,False,1,25,"Hold them off!",0
 19547,0,False,False,False,2,0,0,0,2,False,False,1,25,"We must protect the people!",0
@@ -21667,29 +21674,29 @@ the one and only Yuffie!",0
 19576,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 19577,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 19578,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19579,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19580,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19581,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19582,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19583,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19584,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19585,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19586,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19579,0,False,False,False,2,0,0,0,3,False,False,1,25,"Return my elixir at once!",0
+19580,0,False,False,False,2,0,0,0,3,False,False,1,25,"What have you done with my sweet ambrosia?",0
+19581,0,False,False,False,2,0,0,0,3,False,False,1,25,"Where have you put it!?",0
+19582,0,False,False,False,2,0,0,0,3,False,False,1,25,"So thirsty...",0
+19583,0,False,False,False,2,0,0,0,3,False,False,1,25,"Hahaha!",0
+19584,0,False,False,False,2,0,0,0,3,False,False,1,25,"Hehe... No use looking over here!",0
+19585,0,False,False,False,2,0,0,0,3,False,False,1,25,"Fooled you! Fooled you!",0
+19586,0,False,False,False,2,0,0,0,3,False,False,1,25,"Hohoho!",0
 19587,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19588,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19589,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19590,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19591,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19592,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19593,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19594,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19595,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19596,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19588,0,False,False,False,2,0,0,0,3,False,False,1,25,"Life without elixir... So bleak...",0
+19589,0,False,False,False,2,0,0,0,3,False,False,1,25,"Idiot! Imbecile!",0
+19590,0,False,False,False,2,0,0,0,3,False,False,1,25,"Eat dirt!",0
+19591,0,False,False,False,2,0,0,0,3,False,False,1,25,"You embarrass yourself!",0
+19592,0,False,False,False,2,0,0,0,3,False,False,1,25,"The elixir is mine!",0
+19593,0,False,False,False,2,0,0,0,3,False,False,1,25,"Be gone!",0
+19594,0,False,False,False,2,0,0,0,3,False,False,1,25,"Burn, burn, burn!",0
+19595,0,False,False,False,2,0,0,0,3,False,False,1,25,"Hand over the elixir!",0
+19596,0,False,False,False,2,0,0,0,3,False,False,1,25,"Are you even listening!?",0
 19597,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 19598,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19599,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19600,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19601,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19599,0,False,False,False,2,0,0,0,3,False,False,1,25,"Woosh!",0
+19600,0,False,False,False,2,0,0,0,3,False,False,1,25,"Bwaaah!",0
+19601,0,False,False,False,2,0,0,0,3,False,False,1,25,"Vrooom!",0
 19602,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 19603,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 19604,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
@@ -21731,21 +21738,21 @@ the one and only Yuffie!",0
 19640,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 19641,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 19642,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19643,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19644,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19645,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19646,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19647,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19648,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19649,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19650,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19651,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19652,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19653,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19654,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19655,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19656,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19657,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19643,0,False,False,False,3,0,0,0,4,False,False,1,25,"Speeding spear, pierce the high heavens!",0
+19644,0,False,False,False,3,0,0,0,4,False,False,1,25,"My foresight is infallible!",0
+19645,0,False,False,False,3,0,0,0,4,False,False,1,25,"Come forth and do my bidding...",0
+19646,0,False,False,False,3,0,0,0,4,False,False,1,25,"Taste wisdom's true power.",0
+19647,0,False,False,False,3,0,0,0,4,False,False,1,25,"You shall know no respite!",0
+19648,0,False,False,False,3,0,0,0,4,False,False,1,25,"Petrifying aether, infuse my blade...",0
+19649,0,False,False,False,3,0,0,0,4,False,False,1,25,"Through omniscience, strength unparalleled!",0
+19650,0,False,False,False,2,0,0,0,3,False,False,1,25,"Tweeeh!",0
+19651,0,False,False,False,2,0,0,0,3,False,False,1,25,"Graaawk!",0
+19652,0,False,False,False,2,0,0,0,3,False,False,1,25,"Coo, coo!",0
+19653,0,False,False,False,2,0,0,0,3,False,False,1,25,"Squawk!",0
+19654,0,False,False,False,2,0,0,0,3,False,False,1,25,"Squaaawk!",0
+19655,0,False,False,False,2,0,0,0,3,False,False,1,25,"Cheeep!",0
+19656,0,False,False,False,2,0,0,0,3,False,False,1,25,"Twoooh!",0
+19657,0,False,False,False,2,0,0,0,3,False,False,1,25,"Krrrawk!",0
 19658,13859,False,False,False,4,0,73282,0,1,False,False,6,25,"There's nothing better than the sight of so many eager workers! With your help, we'll build a base on this star every bit as cosmotastic as the others!",19659
 19659,13859,False,False,False,4,0,73282,0,1,False,False,6,25,"Habitation modules will ensure that every new recruit can live upon this star in comfort!",19660
 19660,13859,False,False,False,4,0,73282,0,1,False,False,6,25,"Take what components you need and assemble them on-site. It goes without saying that we expect your best work!",0
@@ -21873,8 +21880,8 @@ the one and only Yuffie!",0
 19782,0,False,False,False,3,0,0,0,4,False,False,1,25,"Tentacles...?",0
 19783,0,False,False,False,3,0,0,0,4,False,False,1,25,"An unsightly thing.",0
 19784,0,False,False,False,3,0,0,0,2,False,False,1,25,"Take that!",0
-19785,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19786,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19785,0,False,False,False,2,0,0,0,3,False,False,1,25,"Swish-swish-swish!",0
+19786,0,False,False,False,2,0,0,0,3,False,False,1,25,"Swish-swish-aroo!",0
 19787,0,False,False,False,3,0,0,0,3,False,False,1,25,"More of them!?",0
 19788,0,False,False,False,3,0,0,0,3,False,True,1,25,"I mislike this quiet...",0
 19789,0,False,False,False,3,0,0,0,3,False,True,1,25,"Under attack!?",0
@@ -21913,15 +21920,15 @@ the one and only Yuffie!",0
 19822,0,False,False,False,2,0,0,0,1,False,False,1,25,"Glub...glub...",0
 19823,0,False,False,False,2,0,0,0,1,False,False,1,25,"<whirr>",0
 19824,0,False,False,False,2,0,0,0,1,False,False,1,25,"Meeeeeeh!",0
-19825,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19826,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19827,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19825,0,False,False,False,2,0,0,0,1,False,False,1,25,"Witness wisdom's true potential!",0
+19826,0,False,False,False,2,0,0,0,1,False,False,1,25,"PeW-pEw!",0
+19827,0,False,False,False,2,0,0,0,1,False,False,1,25,"I'll surpass you one day!",0
 19828,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
 19829,0,False,False,False,2,0,0,0,1,False,False,1,25,"Time to break out the grub!",0
-19830,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19830,0,False,False,False,2,0,0,0,1,False,False,1,25,"Mjahaha!",0
 19831,0,False,False,False,2,0,0,0,1,False,False,1,25,"Connecting to trunk network...",0
-19832,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
-19833,0,False,False,False,0,0,0,0,0,False,False,0,0,"",0
+19832,0,False,False,False,2,0,0,0,1,False,False,1,25,"Bringin' the heat!",0
+19833,0,False,False,False,2,0,0,0,1,False,False,1,25,"Chirrup!",0
 19834,0,False,False,False,3,0,0,0,4,False,False,1,25,"Watch out for falling debris!",0
 19835,0,False,False,False,3,0,0,0,4,False,False,1,25,"A magitek bombardment!?",0
 19836,0,False,False,False,3,0,0,0,4,False,False,1,25,"Onward!",0

@@ -79,7 +79,7 @@ int32,Image,JournalCategory,bit&01,str
 75,61411,53,True,"Heavensward Allied Society Quests"
 76,61411,53,True,"Stormblood Allied Society Quests"
 77,61411,53,True,"Endwalker Allied Society Quests"
-78,0,0,False,""
+78,61411,35,True,"Dawntrail Allied Society Quests"
 79,61411,54,True,"Tales of the Dragonsong War"
 80,61411,54,True,"Tales from the Shadows"
 81,61411,54,True,"Tales of Newfound Adventure"

@@ -109,7 +109,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 105,"set of runaway barding",0,"sets of runaway barding",0,0,1,0,0,"Runaway Barding",65636,65636,65636,0,58816,58818,58817,166
 106,"set of cosmic barding",0,"sets of cosmic barding",0,0,1,0,0,"Cosmic Barding",65637,65637,65637,0,58819,58821,58820,85
 107,"set of barding of naught",0,"sets of barding of naught",0,0,1,0,0,"Barding of Naught",65638,65638,65638,0,58822,58824,58823,167
-108,"",0,"",0,0,0,0,0,"",0,0,0,0,0,0,0,0
+108,"set of picnicker's barding",0,"sets of picnicker's barding",0,0,1,0,0,"Picnicker's Barding",65639,65639,65639,0,58825,58827,58826,86
 109,"",0,"",0,0,0,0,0,"",0,0,0,0,0,0,0,0
 110,"",0,"",0,0,0,0,0,"",0,0,0,0,0,0,0,0
 111,"",0,"",0,0,0,0,0,"",0,0,0,0,0,0,0,0

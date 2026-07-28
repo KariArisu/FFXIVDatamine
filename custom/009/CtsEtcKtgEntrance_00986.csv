@@ -1,4 +1,4 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"",""
+0,"TEXT_CTSETCKTGENTRANCE_00986_KTGGUIDE00986_000_000","A warm Keybound welcome to you, <If(PlayerParameter(4))>madam<Else/>sir</If>! Before you register for a game, might I suggest a few words with our magitype master?"

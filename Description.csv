@@ -31,5 +31,5 @@ int32,byte,Quest,str,str,str,bit&01,DescriptionSection
 3604507,0,0,"The Occult Crescent","The Occult Crescent","",True,35
 3604508,0,0,"Sprig Cleaning","Sprig Cleaning","",True,39
 3604509,0,0,"Custom Deliveries","Custom Deliveries","",True,41
-3604510,0,0,"","","",False,0
+3604510,0,0,"Keybound Brawler","Keybound Brawler","",True,42
 3604511,0,0,"","","",False,0

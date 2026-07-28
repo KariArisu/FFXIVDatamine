@@ -11663,7 +11663,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 11659,"gaelikitten",0,"gaelikittens",0,0,1,0,0
 11660,"clockwork barrow",0,"clockwork barrows",0,0,1,1,0
 11661,"lesser panda",0,"lesser pandas",0,0,1,0,0
-11662,"page 63",0,"page 63s",0,0,1,0,0
+11662,"page 63",0,"page 63s",0,0,1,0,1
 11663,"iron dwarf",0,"iron dwarves",0,1,1,0,0
 11664,"griffin hatchling",0,"griffin hatchlings",0,0,1,1,0
 11665,"wind-up Iceheart",0,"wind-up Icehearts",0,0,1,1,0
@@ -14309,7 +14309,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 14305,"the Tyrant",0,"the Tyrant",0,0,1,0,1
 14306,"comet",0,"comets",0,0,1,0,0
 14307,"maelstrom",0,"maelstroms",0,0,1,0,0
-14308,"",0,"",0,0,0,0,0
+14308,"Hardiboiled",0,"Hardiboiled",0,0,1,0,1
 14309,"Mistwake crawler",0,"Mistwake crawlers",0,0,1,0,0
 14310,"Mistwake petromole",0,"Mistwake petromoles",0,0,1,0,0
 14311,"Mistwake bat",0,"Mistwake bats",0,0,1,0,0
@@ -14465,7 +14465,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 14461,"La Noscean shorthair",0,"La Noscean shorthairs",0,0,1,0,0
 14462,"gallant shepherd",0,"gallant shepherds",0,0,1,0,0
 14463,"wind-up Yuffie",0,"wind-up Yuffies",0,0,1,0,0
-14464,"",0,"",0,0,0,0,0
+14464,"wind-up Vincent",0,"wind-up Vincents",0,0,1,0,0
 14465,"wind-up Red XIII",0,"wind-up Red XIIIs",0,0,1,0,0
 14466,"Grooving Green",0,"Grooving Greens",0,0,1,0,1
 14467,"Mistic condor",0,"Mistic condors",0,0,1,0,0
@@ -14479,57 +14479,57 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 14475,"Deadly Dandan",0,"Deadly Dandans",0,0,1,0,0
 14476,"airy bubble",0,"airy bubbles",0,1,1,0,0
 14477,"defective sentry R9",0,"defective sentries R9",0,0,1,0,0
-14478,"",0,"",0,0,0,0,0
-14479,"",0,"",0,0,0,0,0
-14480,"",0,"",0,0,0,0,0
-14481,"",0,"",0,0,0,0,0
-14482,"",0,"",0,0,0,0,0
+14478,"Carnelian",0,"Carnelian",0,0,1,0,1
+14479,"rotten walker",0,"rotten walkers",0,0,1,0,0
+14480,"illicit aerostat",0,"illicit aerostats",0,1,1,0,0
+14481,"illicit turret",0,"illicit turrets",0,1,1,0,0
+14482,"Hildibrand",0,"Hildibrand",0,0,1,0,1
 14483,"soothing sea-beast",0,"soothing sea-beasts",0,0,1,0,0
 14484,"troublesome trap",0,"troublesome traps",0,0,1,0,0
 14485,"transcendental trap",0,"transcendental traps",0,0,1,0,0
 14486,"Senor Otter",0,"Senor Otters",0,0,1,0,1
 14487,"falling rock",0,"falling rocks",0,0,1,0,0
 14488,"thief",0,"thieves",0,0,1,0,0
-14489,"",0,"",0,0,0,0,0
-14490,"",0,"",0,0,0,0,0
-14491,"",0,"",0,0,0,0,0
-14492,"",0,"",0,0,0,0,0
-14493,"",0,"",0,0,0,0,0
-14494,"",0,"",0,0,0,0,0
-14495,"",0,"",0,0,0,0,0
-14496,"",0,"",0,0,0,0,0
-14497,"",0,"",0,0,0,0,0
-14498,"",0,"",0,0,0,0,0
+14489,"two-headed aevis",0,"two-headed aevis",0,0,1,0,0
+14490,"green head",0,"green heads",0,0,1,0,0
+14491,"blue head",0,"blue heads",0,0,1,0,0
+14492,"ball lightning",0,"ball lightnings",0,0,1,0,0
+14493,"swirling orb",0,"swirling orbs",0,0,1,0,0
+14494,"charmed lightning",0,"charmed lightning",0,0,1,0,0
+14495,"charmed ice",0,"charmed ice",0,0,1,0,0
+14496,"【未使用】",0,"",0,0,1,0,0
+14497,"arcane font",0,"arcane fonts",0,1,1,0,0
+14498,"arcane font",0,"arcane fonts",0,1,1,0,0
 14499,"coffinmaker",0,"coffinmakers",0,0,1,0,0
 14500,"neckbiter",0,"neckbiters",0,0,1,0,0
 14501,"vampette fatale",0,"vampettes fatale",0,0,1,1,0
 14502,"thunderhead",0,"thunderheads",0,0,1,0,0
-14503,"",0,"",0,0,0,0,0
-14504,"",0,"",0,0,0,0,0
-14505,"",0,"",0,0,0,0,0
-14506,"",0,"",0,0,0,0,0
-14507,"",0,"",0,0,0,0,0
-14508,"",0,"",0,0,0,0,0
-14509,"",0,"",0,0,0,0,0
-14510,"",0,"",0,0,0,0,0
-14511,"",0,"",0,0,0,0,0
-14512,"",0,"",0,0,0,0,0
-14513,"",0,"",0,0,0,0,0
-14514,"",0,"",0,0,0,0,0
-14515,"",0,"",0,0,0,0,0
+14503,"Necrophobia",0,"Necrophobia",0,0,1,0,1
+14504,"severing head",0,"severing heads",0,0,1,0,0
+14505,"Abductor",0,"Abductors",0,1,1,0,0
+14506,"biting wind",0,"biting winds",0,0,1,0,0
+14507,"Abductor's plume",0,"Abductor's plumes",0,1,1,0,0
+14508,"elm gigas",0,"elm gigas",0,1,1,0,0
+14509,"Alabaster Blade",0,"Alabaster Blade",0,1,1,0,0
+14510,"alabaster golem",0,"alabaster golems",0,1,1,0,0
+14511,"light aether",0,"light aether",0,0,1,0,0
+14512,"phantom necromancer",0,"phantom necromancers",0,0,1,0,0
+14513,"long-dead seafarer",0,"long-dead seafarers",0,0,1,0,0
+14514,"long-dead pirate",0,"long-dead pirates",0,0,1,0,0
+14515,"long-dead explorer",0,"long-dead explorers",0,0,1,0,0
 14516,"seaborn speaker",0,"seaborn speakers",0,0,1,0,0
-14517,"",0,"",0,0,0,0,0
-14518,"",0,"",0,0,0,0,0
-14519,"",0,"",0,0,0,0,0
-14520,"",0,"",0,0,0,0,0
-14521,"",0,"",0,0,0,0,0
-14522,"",0,"",0,0,0,0,0
-14523,"",0,"",0,0,0,0,0
-14524,"",0,"",0,0,0,0,0
-14525,"",0,"",0,0,0,0,0
-14526,"",0,"",0,0,0,0,0
-14527,"",0,"",0,0,0,0,0
-14528,"",0,"",0,0,0,0,0
+14517,"conjured Calofisteri",0,"conjured Calofisteri",0,0,1,1,1
+14518,"entanglement",0,"entanglements",0,1,1,0,0
+14519,"lithe lock",0,"lithe locks",0,0,1,0,0
+14520,"Arbatel",0,"Arbatel",0,1,1,0,1
+14521,"page 16",0,"page 16s",0,0,1,0,1
+14522,"page 8",0,"page 8s",0,0,1,0,1
+14523,"phantom hydra",0,"phantom hydras",0,0,1,0,0
+14524,"holy sphere",0,"holy spheres",0,0,1,0,0
+14525,"ball of fire",0,"balls of fire",0,0,1,0,0
+14526,"swirling orb",0,"swirling orbs",0,0,1,0,0
+14527,"ball of levin",0,"balls of levin",0,0,1,0,0
+14528,"page 512",0,"page 512s",0,0,1,0,1
 14529,"Alexander Resurrected",0,"Alexander Resurrected",0,1,1,0,1
 14530,"Gordius System",0,"Gordius Systems",0,0,1,0,0
 14531,"",0,"",0,0,0,0,0
@@ -14715,32 +14715,32 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 14711,"visitant hellhound",0,"visitant hellhounds",0,0,1,0,0
 14712,"visitant troubadour",0,"visitant troubadours",0,0,1,0,0
 14713,"visitant succubus",0,"visitant succubi",0,0,1,1,0
-14714,"",0,"",0,0,0,0,0
-14715,"",0,"",0,0,0,0,0
+14714,"Pallmagia",0,"Pallmagia",0,0,1,0,0
+14715,"pallkeeper",0,"pallkeepers",0,0,1,0,0
 14716,"eye of the scorpion",0,"eyes of the scorpion",0,1,1,0,0
-14717,"",0,"",0,0,0,0,0
-14718,"",0,"",0,0,0,0,0
-14719,"",0,"",0,0,0,0,0
-14720,"",0,"",0,0,0,0,0
-14721,"",0,"",0,0,0,0,0
-14722,"",0,"",0,0,0,0,0
-14723,"",0,"",0,0,0,0,0
-14724,"",0,"",0,0,0,0,0
-14725,"",0,"",0,0,0,0,0
-14726,"",0,"",0,0,0,0,0
-14727,"",0,"",0,0,0,0,0
-14728,"",0,"",0,0,0,0,0
+14717,"Index",0,"Index",0,1,1,0,0
+14718,"transcribed Index",0,"transcribed Indexes",0,0,1,0,0
+14719,"summoned bomb",0,"summoned bombs",0,0,1,0,0
+14720,"summoned bird",0,"summoned birds",0,0,1,0,0
+14721,"holy lance",0,"holy lances",0,0,1,0,0
+14722,"foretold phenomenon",0,"foretold phenomena",0,0,1,0,0
+14723,"swirling orb",0,"swirling orbs",0,0,1,0,0
+14724,"ball of fire",0,"balls of fire",0,0,1,0,0
+14725,"ball of levin",0,"balls of levin",0,0,1,0,0
+14726,"evil-seer",0,"evil-seers",0,1,1,0,0
+14727,"accursed orb",0,"accursed orbs",0,1,1,0,0
+14728,"arch kelpie",0,"arch kelpies",0,1,1,0,0
 14729,"Shinryu Paradox",0,"Shinryu Paradox",0,0,1,0,1
 14730,"Hollow King",0,"Hollow King",0,0,1,0,0
 14731,"hollow crystal",0,"hollow crystals",0,0,1,0,0
 14732,"arcane sphere",0,"arcane spheres",0,1,1,0,0
 14733,"Prishe",0,"Prishe",0,0,1,1,1
 14734,"chort",0,"chorts",0,0,1,0,0
-14735,"",0,"",0,0,0,0,0
-14736,"",0,"",0,0,0,0,0
-14737,"",0,"",0,0,0,0,0
-14738,"",0,"",0,0,0,0,0
-14739,"",0,"",0,0,0,0,0
+14735,"machetaur",0,"machetaurs",0,0,1,0,0
+14736,"Demi-Medusa",0,"Demi-Medusa",0,0,1,1,1
+14737,"defective lamia",0,"defective lamiae",0,0,1,0,0
+14738,"Sensual Sandy",0,"Sensual Sandy",0,0,1,1,1
+14739,"poison cloud",0,"poison clouds",0,0,1,0,0
 14740,"",0,"",0,0,0,0,0
 14741,"",0,"",0,0,0,0,0
 14742,"",0,"",0,0,0,0,0
@@ -14748,7 +14748,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 14744,"",0,"",0,0,0,0,0
 14745,"",0,"",0,0,0,0,0
 14746,"",0,"",0,0,0,0,0
-14747,"",0,"",0,0,0,0,0
+14747,"pelekys",0,"pelekyses",0,0,1,0,0
 14748,"",0,"",0,0,0,0,0
 14749,"Enuo",0,"Enuo",0,1,1,0,1
 14750,"yawning void",0,"yawning voids",0,0,1,0,0
@@ -14763,22 +14763,22 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 14759,"scrap gargoyle",0,"scrap gargoyles",0,0,1,0,0
 14760,"scrap Byblos",0,"scrap Byblos",0,0,1,0,0
 14761,"scrap heap",0,"scrap heaps",0,0,1,0,0
-14762,"",0,"",0,0,0,0,0
-14763,"",0,"",0,0,0,0,0
-14764,"",0,"",0,0,0,0,0
-14765,"",0,"",0,0,0,0,0
-14766,"",0,"",0,0,0,0,0
-14767,"",0,"",0,0,0,0,0
-14768,"",0,"",0,0,0,0,0
-14769,"",0,"",0,0,0,0,0
-14770,"",0,"",0,0,0,0,0
-14771,"",0,"",0,0,0,0,0
-14772,"",0,"",0,0,0,0,0
-14773,"",0,"",0,0,0,0,0
-14774,"",0,"",0,0,0,0,0
-14775,"",0,"",0,0,0,0,0
-14776,"",0,"",0,0,0,0,0
-14777,"",0,"",0,0,0,0,0
+14762,"ruin hound",0,"ruin hounds",0,0,1,0,0
+14763,"ice pillar",0,"ice pillars",0,1,1,0,0
+14764,"patient Kuribu",0,"patient Kuribu",0,0,1,0,0
+14765,"Iambe",0,"Iambe",0,1,1,0,0
+14766,"winsome seed",0,"winsome seeds",0,0,1,0,0
+14767,"regnant chimera",0,"regnant chimeras",0,0,1,0,0
+14768,"fulmipotent orb",0,"fulmipotent orbs",0,0,1,0,0
+14769,"glacipotent orb",0,"glacipotent orbs",0,0,1,0,0
+14770,"persistent pot",0,"persistent pots",0,0,1,0,0
+14771,"crescent gremlin",0,"crescent gremlin",0,0,1,0,0
+14772,"crimson gremlin",0,"crimson gremlins",0,0,1,0,0
+14773,"persistent pot",0,"persistent pots",0,0,1,0,0
+14774,"crescent fan",0,"crescent fans",0,0,1,0,0
+14775,"greater fan",0,"greater fans",0,0,1,0,0
+14776,"stormcaller",0,"stormcallers",0,0,1,0,0
+14777,"biting wind",0,"biting winds",0,0,1,0,0
 14778,"Shantotto the Demon",0,"Shantotto the Demon",0,0,1,1,1
 14779,"Promathia",0,"Promathia",0,0,1,0,1
 14780,"link of Promathia",0,"links of Promathia",0,0,1,0,0
@@ -14786,47 +14786,47 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 14782,"Empty wanderer",0,"Empty wanderers",0,1,1,0,0
 14783,"Empty weeper",0,"Empty weepers",0,1,1,0,0
 14784,"Empty thinker",0,"Empty thinkers",0,1,1,0,0
-14785,"",0,"",0,0,0,0,0
-14786,"",0,"",0,0,0,0,0
-14787,"",0,"",0,0,0,0,0
-14788,"",0,"",0,0,0,0,0
-14789,"",0,"",0,0,0,0,0
-14790,"",0,"",0,0,0,0,0
-14791,"",0,"",0,0,0,0,0
-14792,"",0,"",0,0,0,0,0
-14793,"",0,"",0,0,0,0,0
+14785,"Cresceregina",0,"Cresceregina",0,0,1,1,1
+14786,"ball of levin",0,"balls of levin",0,0,1,0,0
+14787,"claret dragon",0,"claret dragons",0,0,1,0,0
+14788,"necrohaze",0,"necrohaze",0,0,1,0,0
+14789,"aetherial ward",0,"aetherial wards",0,1,1,0,0
+14790,"Algol",0,"Algol",0,1,1,0,1
+14791,"Atlas Carbuncle",0,"Atlas Carbuncle",0,1,1,0,1
+14792,"topaz stone",0,"topaz stones",0,0,1,0,0
+14793,"●イミテーション",0,"",0,0,1,0,0
 14794,"",0,"",0,0,0,0,0
-14795,"",0,"",0,0,0,0,0
-14796,"",0,"",0,0,0,0,0
-14797,"",0,"",0,0,0,0,0
-14798,"",0,"",0,0,0,0,0
-14799,"",0,"",0,0,0,0,0
-14800,"",0,"",0,0,0,0,0
-14801,"",0,"",0,0,0,0,0
-14802,"",0,"",0,0,0,0,0
-14803,"",0,"",0,0,0,0,0
-14804,"",0,"",0,0,0,0,0
-14805,"",0,"",0,0,0,0,0
-14806,"",0,"",0,0,0,0,0
-14807,"",0,"",0,0,0,0,0
-14808,"",0,"",0,0,0,0,0
-14809,"",0,"",0,0,0,0,0
-14810,"",0,"",0,0,0,0,0
-14811,"",0,"",0,0,0,0,0
-14812,"",0,"",0,0,0,0,0
-14813,"",0,"",0,0,0,0,0
-14814,"",0,"",0,0,0,0,0
-14815,"",0,"",0,0,0,0,0
-14816,"",0,"",0,0,0,0,0
-14817,"",0,"",0,0,0,0,0
-14818,"",0,"",0,0,0,0,0
-14819,"",0,"",0,0,0,0,0
-14820,"",0,"",0,0,0,0,0
-14821,"",0,"",0,0,0,0,0
-14822,"",0,"",0,0,0,0,0
-14823,"",0,"",0,0,0,0,0
-14824,"",0,"",0,0,0,0,0
-14825,"",0,"",0,0,0,0,0
+14795,"tiny mage",0,"tiny mages",0,0,1,0,0
+14796,"tiny apprentice",0,"tiny apprentices",0,0,1,0,0
+14797,"flare sphere",0,"flare spheres",0,0,1,0,0
+14798,"holy sphere",0,"holy spheres",0,0,1,0,0
+14799,"arcane sphere",0,"arcane spheres",0,1,1,0,0
+14800,"arcane sphere",0,"arcane spheres",0,1,1,0,0
+14801,"metamorph",0,"metamorphs",0,0,1,0,0
+14802,"tower armor",0,"tower armors",0,0,1,0,0
+14803,"tower crusader",0,"tower crusaders",0,0,1,0,0
+14804,"tower barmuu",0,"tower barmuus",0,0,1,0,0
+14805,"tower mantis",0,"tower mantises",0,0,1,0,0
+14806,"tower idol",0,"tower idols",0,0,1,0,0
+14807,"tower yarzon",0,"tower yarzons",0,0,1,0,0
+14808,"tower ochu",0,"tower ochus",0,0,1,0,0
+14809,"tower pot",0,"tower pots",0,0,1,0,0
+14810,"tower purbol",0,"tower purbols",0,0,1,0,0
+14811,"tower purbol hip",0,"tower purbol hips",0,0,1,0,0
+14812,"tower plasma",0,"tower plasma",0,0,1,0,0
+14813,"tower wood golem",0,"tower wood golems",0,0,1,0,0
+14814,"storm generator",0,"storm generators",0,0,1,0,0
+14815,"scale-smasher",0,"scale-smashers",0,0,1,0,0
+14816,"tower slime",0,"tower slimes",0,0,1,0,0
+14817,"tower curseclock",0,"tower curseclocks",0,0,1,0,0
+14818,"crescent tomato",0,"crescent tomatoes",0,0,1,0,0
+14819,"crescent onion",0,"crescent onions",0,0,1,0,0
+14820,"sword dancer",0,"sword dancers",0,0,1,0,0
+14821,"dancing sword",0,"dancing swords",0,0,1,0,0
+14822,"dancing sword",0,"dancing swords",0,0,1,0,0
+14823,"dancing sword",0,"dancing swords",0,0,1,0,0
+14824,"dancing sword",0,"dancing swords",0,0,1,0,0
+14825,"dancing sword",0,"dancing swords",0,0,1,0,0
 14826,"Jullus pyr Norbanus",0,"Jullus pyr Norbanus",0,0,1,0,1
 14827,"1st Legion laquearius",0,"1st Legion laquearii",0,0,1,0,0
 14828,"Medusa Swarmsinger",0,"Medusa Swarmsinger",0,0,1,0,1
@@ -14841,107 +14841,107 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
 14837,"Salaheem's sentinel",0,"Salaheem's sentinels",0,0,1,0,1
 14838,"aw'aern",0,"aw'aerns",0,1,1,0,0
 14839,"aw'zdei",0,"aw'zdeis",0,1,1,0,0
-14840,"",0,"",0,0,0,0,0
-14841,"",0,"",0,0,0,0,0
+14840,"crescent arachne",0,"crescent arachnes",0,0,1,0,0
+14841,"arachne daughter",0,"arachne daughters",0,0,1,0,0
 14842,"visitant jester",0,"visitant jesters",0,0,1,0,0
 14843,"little blue viking",0,"little blue vikings",0,0,1,0,0
 14844,"little red viking",0,"little red vikings",0,0,1,0,0
 14845,"junior jinbei",0,"junior jinbei",0,0,1,0,0
 14846,"lite-loader",0,"lite-loaders",0,0,1,0,0
 14847,"caprino",0,"caprinos",0,0,1,0,0
-14848,"",0,"",0,0,0,0,0
-14849,"",0,"",0,0,0,0,0
-14850,"",0,"",0,0,0,0,0
+14848,"tiny omniscient",0,"tiny omniscients",0,0,1,0,0
+14849,"puny mage",0,"puny mages",0,0,1,0,0
+14850,"wind-up Wuk Lamat",0,"wind-up Wuk Lamats",0,0,1,0,0
 14851,"",0,"",0,0,0,0,0
 14852,"wind-up Prishe",0,"wind-up Prishes",0,0,1,0,0
-14853,"",0,"",0,0,0,0,0
+14853,"wind-up köttr",0,"wind-up kettir",0,0,1,0,0
 14854,"budvi",0,"budvis",0,0,1,0,0
-14855,"",0,"",0,0,0,0,0
-14856,"",0,"",0,0,0,0,0
-14857,"",0,"",0,0,0,0,0
-14858,"",0,"",0,0,0,0,0
-14859,"",0,"",0,0,0,0,0
-14860,"",0,"",0,0,0,0,0
-14861,"",0,"",0,0,0,0,0
-14862,"",0,"",0,0,0,0,0
-14863,"",0,"",0,0,0,0,0
-14864,"",0,"",0,0,0,0,0
-14865,"",0,"",0,0,0,0,0
-14866,"",0,"",0,0,0,0,0
-14867,"",0,"",0,0,0,0,0
-14868,"",0,"",0,0,0,0,0
-14869,"",0,"",0,0,0,0,0
-14870,"",0,"",0,0,0,0,0
-14871,"",0,"",0,0,0,0,0
-14872,"",0,"",0,0,0,0,0
-14873,"",0,"",0,0,0,0,0
-14874,"",0,"",0,0,0,0,0
-14875,"",0,"",0,0,0,0,0
-14876,"",0,"",0,0,0,0,0
-14877,"",0,"",0,0,0,0,0
-14878,"",0,"",0,0,0,0,0
-14879,"",0,"",0,0,0,0,0
-14880,"",0,"",0,0,0,0,0
-14881,"",0,"",0,0,0,0,0
-14882,"",0,"",0,0,0,0,0
-14883,"",0,"",0,0,0,0,0
-14884,"",0,"",0,0,0,0,0
-14885,"",0,"",0,0,0,0,0
-14886,"",0,"",0,0,0,0,0
-14887,"",0,"",0,0,0,0,0
-14888,"",0,"",0,0,0,0,0
-14889,"",0,"",0,0,0,0,0
-14890,"",0,"",0,0,0,0,0
-14891,"",0,"",0,0,0,0,0
-14892,"",0,"",0,0,0,0,0
-14893,"",0,"",0,0,0,0,0
-14894,"",0,"",0,0,0,0,0
-14895,"",0,"",0,0,0,0,0
-14896,"",0,"",0,0,0,0,0
-14897,"",0,"",0,0,0,0,0
-14898,"",0,"",0,0,0,0,0
-14899,"",0,"",0,0,0,0,0
-14900,"",0,"",0,0,0,0,0
-14901,"",0,"",0,0,0,0,0
-14902,"",0,"",0,0,0,0,0
-14903,"",0,"",0,0,0,0,0
-14904,"",0,"",0,0,0,0,0
-14905,"",0,"",0,0,0,0,0
-14906,"",0,"",0,0,0,0,0
-14907,"",0,"",0,0,0,0,0
-14908,"",0,"",0,0,0,0,0
-14909,"",0,"",0,0,0,0,0
-14910,"",0,"",0,0,0,0,0
-14911,"",0,"",0,0,0,0,0
-14912,"",0,"",0,0,0,0,0
-14913,"",0,"",0,0,0,0,0
-14914,"",0,"",0,0,0,0,0
-14915,"",0,"",0,0,0,0,0
-14916,"",0,"",0,0,0,0,0
-14917,"",0,"",0,0,0,0,0
-14918,"",0,"",0,0,0,0,0
-14919,"",0,"",0,0,0,0,0
-14920,"",0,"",0,0,0,0,0
-14921,"",0,"",0,0,0,0,0
-14922,"",0,"",0,0,0,0,0
-14923,"",0,"",0,0,0,0,0
+14855,"wind-up Barret",0,"wind-up Barrets",0,0,1,0,0
+14856,"Nymian uolosapa",0,"Nymian uolosapas",0,0,1,0,0
+14857,"crescent cliffkite",0,"crescent cliffkites",0,0,1,0,0
+14858,"crescent urolith",0,"crescent uroliths",0,0,1,0,0
+14859,"crescent dhara",0,"crescent dharas",0,0,1,0,0
+14860,"crescent bibliotaph",0,"crescent bibliotaphs",0,0,1,0,0
+14861,"crescent weapon",0,"crescent weapons",0,0,1,0,0
+14862,"crescent cingulata",0,"crescent cingulatas",0,0,1,0,0
+14863,"crescent worm",0,"crescent worms",0,0,1,0,0
+14864,"crescent zu",0,"crescent zu",0,0,1,0,0
+14865,"crescent tomato",0,"crescent tomatoes",0,0,1,0,0
+14866,"crescent onion",0,"crescent onions",0,0,1,0,0
+14867,"crescent vinegaroon",0,"crescent vinegaroons",0,0,1,0,0
+14868,"crescent opken",0,"crescent opkens",0,0,1,0,0
+14869,"crescent belladonna",0,"crescent belladonnas",0,0,1,0,0
+14870,"crescent sapria",0,"crescent saprias",0,0,1,0,0
+14871,"crescent melia",0,"crescent meliae",0,0,1,0,0
+14872,"crescent lorelei",0,"crescent lorelei",0,0,1,0,0
+14873,"crescent wraith",0,"crescent wraiths",0,0,1,0,0
+14874,"crescent salt swallow",0,"crescent salt swallows",0,0,1,0,0
+14875,"crescent soblyn",0,"crescent soblyns",0,0,1,0,0
+14876,"crescent huwasi",0,"crescent huwasis",0,0,1,0,0
+14877,"crescent bile",0,"crescent bile",0,0,1,0,0
+14878,"crescent medusa",0,"crescent medusae",0,0,1,1,0
+14879,"crescent elftoad",0,"crescent elftoads",0,0,1,0,0
+14880,"crescent kargas",0,"crescent kargases",0,0,1,0,0
+14881,"crescent sand serpent",0,"crescent sand serpents",0,0,1,0,0
+14882,"crescent coeurl",0,"crescent coeurls",0,0,1,0,0
+14883,"crescent gazellehawk",0,"crescent gazellehawks",0,0,1,0,0
+14884,"crescent harpeia",0,"crescent harpeias",0,0,1,0,0
+14885,"crescent kaluk",0,"crescent kaluks",0,0,1,0,0
+14886,"crescent woolback",0,"crescent woolbacks",0,0,1,0,0
+14887,"crescent big horn",0,"crescent big horns",0,0,1,0,0
+14888,"crescent ratel",0,"crescent ratels",0,0,1,0,0
+14889,"crescent adamantoise",0,"crescent adamantoises",0,0,1,0,0
+14890,"crescent regolith",0,"crescent regoliths",0,0,1,0,0
+14891,"crescent rock",0,"crescent rocks",0,0,1,0,0
+14892,"crescent gremlin",0,"crescent gremlins",0,0,1,0,0
+14893,"crescent rot-eyes",0,"crescent rot-eyes",0,0,1,0,0
+14894,"crescent moss fungus",0,"crescent moss fungi",0,0,1,0,0
+14895,"crescent banemite",0,"crescent banemites",0,0,1,0,0
+14896,"crescent blackguard",0,"crescent blackguards",0,0,1,0,0
+14897,"crescent hellhound",0,"crescent hellhounds",0,0,1,0,0
+14898,"crescent parthenope",0,"crescent parthenopes",0,0,1,0,0
+14899,"crescent gargoyle",0,"crescent gargoyles",0,0,1,0,0
+14900,"crescent craklaw",0,"crescent craklaws",0,0,1,0,0
+14901,"crescent haunt",0,"crescent haunts",0,0,1,0,0
+14902,"crescent nanka",0,"crescent nankas",0,0,1,0,0
+14903,"crescent accursed",0,"crescent accursed",0,0,1,0,0
+14904,"bird of the crescent",0,"birds of the crescent",0,0,1,0,0
+14905,"crescent anila",0,"crescent anilas",0,0,1,0,0
+14906,"crescent zirnitra",0,"crescent zirnitras",0,0,1,0,0
+14907,"crescent Arioch",0,"crescent Arioch",0,0,1,0,0
+14908,"crescent wamoura",0,"crescent wamourae",0,0,1,0,0
+14909,"crescent carrier",0,"crescent carriers",0,0,1,0,0
+14910,"crescent oiseau rare",0,"crescent oiseaux rare",0,0,1,0,0
+14911,"crescent jester",0,"crescent jesters",0,0,1,0,0
+14912,"crescent succubus",0,"crescent succubi",0,0,1,0,0
+14913,"crescent Gusion",0,"crescent Gusion",0,0,1,0,0
+14914,"crescent Bombadeel",0,"crescent Bombadeel",0,0,1,0,0
+14915,"crescent rothound",0,"crescent rothounds",0,0,1,0,0
+14916,"crescent skatene",0,"crescent skatenes",0,0,1,0,0
+14917,"crescent geshunpest",0,"crescent geshunpests",0,0,1,0,0
+14918,"crescent necrodium",0,"crescent necrodiums",0,0,1,0,0
+14919,"crescent bicephalus",0,"crescent bicephali",0,0,1,0,0
+14920,"crescent ankou",0,"crescent ankous",0,0,1,0,0
+14921,"crescent glutton",0,"crescent gluttons",0,0,1,0,0
+14922,"crescent stoneshell",0,"crescent stoneshells",0,0,1,0,0
+14923,"crescent flame",0,"crescent flames",0,0,1,0,0
 14924,"visitant bomb",0,"visitant bombs",0,0,1,0,0
 14925,"visitant evil eye",0,"visitant evil eyes",0,0,1,0,0
 14926,"visitant imp",0,"visitant imps",0,0,1,0,0
 14927,"",0,"",0,0,0,0,0
 14928,"",0,"",0,0,0,0,0
-14929,"",0,"",0,0,0,0,0
-14930,"",0,"",0,0,0,0,0
-14931,"",0,"",0,0,0,0,0
-14932,"",0,"",0,0,0,0,0
-14933,"",0,"",0,0,0,0,0
+14929,"tower catoblepas",0,"tower catoblepas",0,0,1,0,0
+14930,"towerhander",0,"towerhander",0,0,1,0,0
+14931,"tower skatene",0,"tower skatenes",0,0,1,0,0
+14932,"tower Humbaba",0,"tower Humbaba",0,0,1,0,0
+14933,"airbuster",0,"airbusters",0,1,1,0,0
 14934,"Aht Urhgan guard",0,"Aht Urhgan guards",0,1,1,0,0
 14935,"Sareel Ja",0,"Sareel Ja",0,0,1,0,1
 14936,"",0,"",0,0,0,0,0
 14937,"",0,"",0,0,0,0,0
-14938,"",0,"",0,0,0,0,0
+14938,"hermetic recluse",0,"hermetic recluses",0,0,1,0,0
 14939,"musical paca",0,"musical pacas",0,0,1,0,0
-14940,"sweetkit",0,"sweetkits",0,0,1,0,0
+14940,"lolly cat",0,"lolly cats",0,0,1,0,0
 14941,"geshunpest",0,"geshunpests",0,0,1,0,0
 14942,"",0,"",0,0,0,0,0
 14943,"",0,"",0,0,0,0,0

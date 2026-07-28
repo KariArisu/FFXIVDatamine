@@ -2069,7 +2069,7 @@ Once everyone in your party has made their selections, the loot will be distribu
 2131,0,0,0,0,"","",""
 2132,0,0,0,0,"","",""
 2140,1,0,152321,0,"You have learned<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow> Collect<UIGlow>01</UIGlow><UIForeground>01</UIForeground>─a special Disciple of the Land action that is used to gather an item as a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>collectable<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.","",""
-2141,1,0,152322,0,"While fishing under the effect of the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Collector's Glove<UIGlow>01</UIGlow><UIForeground>01</UIForeground> status, fish landed will be gathered as collectables, their size directly affecting <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>collectability<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.","",""
+2141,1,0,152322,0,"While fishing under the effect of the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Collect<UIGlow>01</UIGlow><UIForeground>01</UIForeground> status, fish landed will be gathered as collectables, their size directly affecting <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>collectability<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.","",""
 2150,0,0,0,0,"","",""
 2160,0,0,0,0,"","",""
 2161,0,0,0,0,"","",""

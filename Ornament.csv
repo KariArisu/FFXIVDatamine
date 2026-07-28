@@ -56,7 +56,7 @@ int32,uint16,byte,byte,byte,uint16,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,
 52,4735,9,0,2,0,55,8051,302,"Senor Otter Pack",0,"Senor Otter Pack",0,0,1,0,0
 53,4816,1,1,1,2,50,8052,36,"Corvosi Parasol",0,"Corvosi Parasol",0,0,1,0,0
 54,4817,1,1,1,2,51,8053,37,"Spriggan Parasol",0,"Spriggan Parasols",0,0,1,0,0
-55,0,0,0,0,0,0,0,0,"",0,"",0,0,0,0,0
+55,4919,11,2,3,4,52,8054,700,"Avalanche Gatling Gun",0,"Avalanche Gatling Guns",0,1,1,0,0
 56,0,0,0,0,0,0,0,0,"",0,"",0,0,0,0,0
 57,4936,14,2,1,6,54,8056,601,"Shovel",0,"",0,0,1,0,0
-58,0,0,0,0,0,0,0,0,"",0,"",0,0,0,0,0
+58,4937,12,2,0,7,56,8057,401,"Antique Lantern",0,"Antique Lanterns",0,1,1,0,0
