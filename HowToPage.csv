@@ -2382,11 +2382,13 @@ Should party members with the ability to resurrect be downed, a tuft may be used
 
 These duties can be identified by the text <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phoenix Down Not Allowed<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the information section of the duty finder.","",""
 2592,1,0,150914,0,"Tufts of phoenix down may be obtained by completing quests, or by purchasing them directly from apothecaries and junkmongers.","",""
-2593,0,0,0,0,"","",""
-2594,0,0,0,0,"","",""
-2595,0,0,0,0,"","",""
-2596,0,0,0,0,"","",""
-2597,0,0,0,0,"","",""
-2598,0,0,0,0,"","",""
+2593,1,0,150781,0,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beastmasters<UIGlow>01</UIGlow><UIForeground>01</UIForeground> fight alongside their familiars. To gain familiars, you must <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>befriend beasts<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by using the action <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Capture<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Using this action upon a weakened target may increase its success rate. Furthermore, the action <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will assess your chances of befriending a targeted beast.","",""
+2594,1,0,150782,0,"Befriended beasts will be added to the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Master's Bestiary<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which may be accessed from the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>main menu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> via <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Character<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.","",""
+2595,1,0,150784,0,"To summon familiars, you must first assign them to a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>battlehorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. You may do this via the subcommand when viewing the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Master's Bestiary<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Please note that you cannot assign battlehorns during combat.
+
+By performing the requisite <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battlehorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground> action, the assigned familiar will fly to your side.","",""
+2596,1,0,150785,0,"As your beastmaster level increases, familiars will become able to execute special <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>weaponskills<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>abilities<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Strategically use their unique skills to emerge from battle victorious.","",""
+2597,1,0,150786,0,"Search for potential familiars in their <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>natural habitats<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Travel the world, befriend new allies, and cultivate the companionship essential to any beastmaster!","",""
+2598,1,0,150783,0,"Befriended beasts will be added to the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Master's Bestiary<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which may be accessed from the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>main menu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> via <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Character<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.","",""
 2599,0,0,0,0,"","",""
 2600,0,0,0,0,"","",""

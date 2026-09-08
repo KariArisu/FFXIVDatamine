@@ -50651,7 +50651,9 @@ This action's effects extend through obstructions.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10,000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP of party members near target
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10,000
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Prefulgence<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Prefulgence Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※This action cannot be assigned to a hotbar."
 41496,"Creates a barrier around self that reduces damage taken by 50% and absorbs damage equivalent to a heal of 4,000 potency.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
 Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Thorned Flourish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when barrier is completely absorbed.
@@ -54325,33 +54327,178 @@ Can only be used in Frontlines and Rival Wings."
 44876,""
 44877,""
 44878,""
-44879,""
-44880,""
-44881,""
-44882,""
-44883,""
-44884,""
-44885,""
-44886,""
-44887,""
-44888,""
-44889,""
-44890,""
-44891,""
-44892,""
-44893,""
-44894,""
-44895,""
-44896,""
-44897,""
-44898,""
-44899,""
-44900,""
-44901,""
-44902,""
-44903,""
-44904,""
-44905,""
+44879,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),38))>160<Else/>100</If><Else/>100</If>."
+44880,"Delivers an attack with a potency of 100.
+Target cannot be incapacitated by this attack.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Marks target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Interest Captured<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 120s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Interest Captured Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Forges a pact with the targeted beast should you succeed in their subdual
+Success is determined upon defeating targets under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Interest Captured<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+An entry in the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Master's Bestiary<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be added upon successful subdual, allowing the beast to be summoned as a familiar.
+Success rate is inversely proportional to the target's HP at the time of execution. Furthermore, success rate increases if the target is a lower level than you.
+Ineffective against targets whose level is higher than your own."
+44881,"Summons <If(GreaterThan(PlayerParameter(110),0))>your <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Sheet(Pet,<Sheet(XBMPet,PlayerParameter(110),0)/>,0)/><UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/>a familiar</If> to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),18))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If><If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Resets <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tempered Release<UIGlow>01</UIGlow><UIForeground>01</UIForeground> recast timer<Else/></If><Else/></If><If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),34))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Resets <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Borrow<UIGlow>01</UIGlow><UIForeground>01</UIForeground> recast timer<Else/></If><Else/></If>"
+44882,"Investigates a targeted beast's probability of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Capture<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can be executed while mounted, but only when grounded."
+44883,"Delivers an attack with a potency of 260.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Smash Axe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 500<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),4))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 13<Else/></If><Else/></If>"
+44884,"Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground> skill while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will complete a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground> intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions."
+44885,"Delivers an attack with a potency of 280.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Axeblade Bite<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 600
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 15"
+44886,"Upon using <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Borrow<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, changes to an action dependent on <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Beast Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Action reduces physical vulnerability
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Vile Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Action increases block rate
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cloud Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Action bolsters movement
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Seed Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Action inflicts poison and weakening effects
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Wave Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Action deals ranged magic damage to a single target
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Scale Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Action absorbs magic damage
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Soul Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Action delivers an attack that interrupts a single target
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Ash Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Action removes a detrimental effect"
+44887,"Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground> skill while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will complete a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground> intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions."
+44888,"Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing an <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground> skill while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will complete a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground> intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions."
+44889,"Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground> skill while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will complete a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground> intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions."
+44890,"Orders your familiar to execute a controlled ability.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44891,"Orders your familiar to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aetheric Burst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Aetheric Burst Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Deals unaspected damage to target and all enemies nearby it with a potency of 1,000
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Lingering Vantage Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1,500
+<Else/></If><Else/></If>Familiar retreats from combat upon execution.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),8))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Familiar TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 24
+<Else/></If><Else/></If>Can only be executed while in combat."
+44892,"Summons <If(GreaterThan(PlayerParameter(111),0))>your <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Sheet(Pet,<Sheet(XBMPet,PlayerParameter(111),0)/>,0)/><UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/>a familiar</If> to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),18))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If><If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Resets <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tempered Release<UIGlow>01</UIGlow><UIForeground>01</UIForeground> recast timer<Else/></If><Else/></If><If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),34))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Resets <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Borrow<UIGlow>01</UIGlow><UIForeground>01</UIForeground> recast timer<Else/></If><Else/></If>"
+44893,"Rushes forward and delivers an attack to target and all enemies nearby it with a potency of <If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),38))>300<Else/>220</If><Else/>220</If>
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),36))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3
+<Else/></If><Else/></If>Cannot be executed while bound."
+44894,"Summons <If(GreaterThan(PlayerParameter(112),0))>your <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Sheet(Pet,<Sheet(XBMPet,PlayerParameter(112),0)/>,0)/><UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/>a familiar</If> to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),18))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If><If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Resets <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tempered Release<UIGlow>01</UIGlow><UIForeground>01</UIForeground> recast timer<Else/></If><Else/></If><If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),34))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Resets <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Borrow<UIGlow>01</UIGlow><UIForeground>01</UIForeground> recast timer<Else/></If><Else/></If>"
+44895,"Borrows aether from your summoned familiar to gain <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground> according to its classification.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Beastkin Familiar Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beast Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Vilekin Familiar Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vile Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cloudkin Familiar Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cloud Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Seedkin Familiar Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seed Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Wavekin Familiar Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wave Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Scalekin Familiar Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scale Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Soulkin Familiar Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Soul Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Ashkin Familiar Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ash Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Changes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> into an action according to your familiar's classification.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44896,"Reduces physical damage taken by 25% and increases critical hit rate by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beast Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beastskin<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44897,"Nullifies most knockback and draw-in effects and increases block rate to 100%.
+Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 12 for each block.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vile Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vileskin<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44898,"Move quickly in the selected direction.
+Increases evasion by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cloud Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cloud Skim<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44899,"Afflicts nearby enemies with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seeds Sown<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Seeds Sown Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces damage dealt by 10% and inflicts toxins that cause damage over time
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 25
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seed Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Seedsower<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44900,"Deals water damage with a potency of 350.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Removes one beneficial status from target, thereby increasing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 50
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wave Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Quelling Wave<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44901,"Creates a barrier around self that absorbs magic damage totaling 8% of maximum HP.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 85 when barrier is completely absorbed.
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scale Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Scaleskin<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44902,"Delivers a close-quarter attack with a potency of 300.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Interrupts the use of a target's action
+Potency increases to 1,000 and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> increases by 100 upon interruption.
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Soul Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Crush<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44903,"Removes a single detrimental effect from self or targeted party member.
+Recovers 10% of maximum HP and increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 100 upon removal.
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ash Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Mode<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Scouring Ash<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44904,"Spends all stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Natural Instinct<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to increase <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Familiar TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Standard Familiar TP Gauge Increase:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30
+Each stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Natural Instinct<UIGlow>01</UIGlow><UIForeground>01</UIForeground> increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Familiar TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 70.
+Can only be executed while in combat."
+44905,"Spends all stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mastered Instinct<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to increase <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Standard TP Gauge Increase:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 40
+Each stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mastered Instinct<UIGlow>01</UIGlow><UIForeground>01</UIForeground> increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 70.
+Can only be executed while in combat."
 44906,""
 44907,""
 44908,""
@@ -54380,111 +54527,628 @@ Can only be used in Frontlines and Rival Wings."
 44927,""
 44928,""
 44929,""
-44930,""
-44931,""
-44932,""
-44933,""
+44930,"Rushes forward and delivers an attack with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 250
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground> skill while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will complete the infinitive combo <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Universality<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing greater additional damage.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Avalanche Axe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Brutal Rage<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44931,"Rushes forward and delivers an attack with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 250
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground> skill while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will complete the infinitive combo <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Universality<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing greater additional damage.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mistral Axe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Hawkish Talons<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44932,"Deals unaspected damage with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 250
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground> skill while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will complete the infinitive combo <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Universality<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing greater additional damage.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Spinning Axe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Risen Fall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+44933,"Deals unaspected damage with a potency of 1,200 to all enemies in a straight line.
+All TP will be expended upon execution.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 250
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground> skill while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will complete the infinitive combo <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Universality<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing greater additional damage.
+
+※This action cannot be assigned to a hotbar.
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gale Axe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Calamity<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 44934,""
-44935,""
-44936,""
-44937,""
-44938,""
-44939,""
-44940,""
-44941,""
-44942,""
-44943,""
-44944,""
-44945,""
-44946,""
-44947,""
-44948,""
-44949,""
-44950,""
-44951,""
-44952,""
-44953,""
-44954,""
-44955,""
-44956,""
-44957,""
-44958,""
-44959,""
-44960,""
-44961,""
-44962,""
-44963,""
-44964,""
-44965,""
-44966,""
-44967,""
-44968,""
-44969,""
-44970,""
-44971,""
-44972,""
-44973,""
-44974,""
-44975,""
-44976,""
-44977,""
-44978,""
-44979,""
-44980,""
-44981,""
-44982,""
-44983,""
-44984,""
-44985,""
-44986,""
-44987,""
-44988,""
-44989,""
-44990,""
-44991,""
-44992,""
-44993,""
-44994,""
-44995,""
-44996,""
-44997,""
-44998,""
-44999,""
-45000,""
-45001,""
-45002,""
-45003,""
-45004,""
-45005,""
-45006,""
-45007,""
-45008,""
-45009,""
-45010,""
-45011,""
-45012,""
-45013,""
-45014,""
-45015,""
-45016,""
-45017,""
-45018,""
-45019,""
-45020,""
-45021,""
-45022,""
-45023,""
-45024,""
-45025,""
-45026,""
-45027,""
-45028,""
-45029,""
-45030,""
-45031,""
-45032,""
-45033,""
-45034,""
+44935,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rake<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a slashing physical attack with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44936,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Relentless Rake<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a sixfold slashing physical attack with a potency of 150.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44937,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Somersault Slash<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing fire damage with a potency of 500 to all enemies in a straight line before and behind it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44938,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Scamper<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, reducing weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 15% for nearby party members.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44939,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fleece Butt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a blunt physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44940,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Lullaby<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, afflicting all nearby enemies with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases sleep resistance of all nearby party members, and reduces the duration of sleep-related status afflictions by 80%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44941,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Screwdriver<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing water damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44942,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Water Wall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, reducing nearby party members' magic vulnerability by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 48s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases paralysis resistance of all nearby party members, and reduces the duration of paralysis-related status afflictions by 80%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44943,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Stone Throw<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a blunt physical attack with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44944,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Pins and Nails<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 750.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Paralysis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 45s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44945,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fowl Stench<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blind<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44946,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Strut<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, reducing earth damage taken by 15% for nearby party members, and occasionally nullifying it entirely.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases blind resistance of all nearby party members, and reduces the duration of blind-related status afflictions by 80%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44947,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bestial Thunder<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing ranged lightning damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44948,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vulcanize<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, reducing nearby party members' physical vulnerability by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 48s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases poison resistance of all nearby party members, and reduces the duration of poison-related status afflictions by 80%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44949,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Deadly Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Poison<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 75
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44950,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Silkscreen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all enemies in a straight line before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15-yalm knockback and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bind+<UIGlow>01</UIGlow><UIForeground>01</UIForeground> that cannot be nullified by suffering damage
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44951,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Drenching Blow<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing water damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44952,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bubble Shower<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing water damage with a potency of 450 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces targets' water resistance by 20%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44953,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sharp Sting<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Poison<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 75
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44954,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Final Sting<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 2,000.
+Potency increases up to 3,000 as the target's HP decreases.
+Familiar retreats from combat upon execution.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44955,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wing Cutter<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44956,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bloodcurdling Caw<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing wind damage with a potency of 450 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Removes one beneficial status from targets and increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Familiar TP Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 100 per status removed
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44957,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Budbutt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a blunt physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44958,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Heirloom Scream<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44959,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dark Thunder<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing lightning damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44960,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Odium<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, granting <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Life Siphon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to nearby party members.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Life Siphon Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Converts a portion of damage dealt into HP
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 21s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44961,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fireball<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing fire damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44962,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tail Chase<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a slashing physical attack with a potency of 750 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15-yalm knockback
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44963,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bubble Shower<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing water damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44964,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Hundred Fists<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, reducing its auto-attack delay by 75%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44965,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standing Chine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a slashing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44966,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eerie Soundwave<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases targets' physical vulnerability by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44967,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Digest<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Damage dealt is partially absorbed as beastmaster HP
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44968,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Syrup<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 550 to target and all enemies nearby it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bind+<UIGlow>01</UIGlow><UIForeground>01</UIForeground> that cannot be nullified by suffering damage
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44969,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Iron Justice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a slashing physical attack with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44970,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>King's Will<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, increasing nearby party members' physical damage dealt by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44971,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blood Drain<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Damage dealt is partially absorbed as beastmaster HP
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44972,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ultrasonics<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces targets' accuracy by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 21s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Removes a single detrimental effect from all nearby party members
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44973,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sour Sough<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15-yalm knockback and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Poison<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 75
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44974,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Necrotic Nectar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 550 to target and all enemies nearby it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases targets' magic vulnerability by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44975,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ice Breath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44976,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Petribreath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Petrification<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 21s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44977,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Natural Needles<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44978,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Hypodermic Hustle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, granting <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Keen Edge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to nearby party members, excluding familiars.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Keen Edge Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases damage dealt by 20% but inflicts damage over time
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 21s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44979,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Boulder Clap<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44980,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rockslide<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing earth damage with a potency of 450 to all enemies in a straight line before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces targets' earth resistance by 20%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44981,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Flying Sardine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing water damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44982,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Regurgitate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing water damage with a potency of 750.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Slow<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 45s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44983,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bestial Thunder II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing lightning damage with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44984,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Harden Shell<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, reducing nearby party members' physical vulnerability by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 48s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases petrification resistance of all nearby party members, and reduces the duration of petrification-related status afflictions by 80%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44985,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Heave<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a blunt physical attack with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44986,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>War Cry<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 750 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stun<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44987,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Frost Breath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44988,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gas Shell<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 300 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Poison<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 150
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44989,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sand Breath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blind<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44990,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bottomless Desert<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing earth damage with a potency of 800 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44991,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Romp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing fire damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44992,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Frenetic Flurry<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a sevenfold blunt physical attack with a potency of 125.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44993,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beatdown<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a blunt physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44994,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Moldy Sneeze<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Disease<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Disease Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces movement speed by 80% and HP recovered via healing magic by 95%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44995,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bestial Blizzard II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing ice damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44996,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sticky Tongue<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a ranged blunt physical attack with a potency of 750.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Draws target to familiar
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces target's accuracy by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 21s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44997,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Loop<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44998,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Pecking Flurry<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a fivefold piercing physical attack with a potency of 200.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+44999,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing lightning damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45000,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Charged Whisker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing lightning damage with a potency of 450 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Paralysis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces targets' lightning resistance by 20%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45001,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Frost Breath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45002,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Foul Breath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing fire damage with a potency of 1,000 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces targets' fire resistance by 20%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45003,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Burning Cyclone<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing fire damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45004,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Smoldering Scales<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, reducing nearby party members' magic vulnerability by 20% and fire damage taken by 15%, occasionally nullifying it entirely.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 48s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45005,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Acorn Bomb<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing earth damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nightmare<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45006,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Arboreal Storm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing wind damage with a potency of 450 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15-yalm knockback
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45007,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mandible Bite<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45008,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Formic Pheromones<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, afflicting all nearby enemies with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Slow<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces water, earth, and ice damage taken by 15% for nearby party members, and occasionally nullifies it entirely
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45009,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>The Lion's Breath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing fire damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Deals additional damage with a potency of 1,000 to targets suffering from <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Deep Freeze<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45010,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>The Ram's Voice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing ice damage with a potency of 450 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Deep Freeze<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces targets' ice resistance by 20%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45011,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vine Probe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 450 to all enemies in a straight line before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45012,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bad Breath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Slow<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blind<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Paralysis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45013,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fell Gale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Small chance to afflict targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Doom<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Doom Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45014,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Curse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 300 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Deals additional damage with a potency of 1,500 to targets suffering from <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Disease<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Small chance to afflict targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Doom<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Doom Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45015,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Brackish Rain<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing water damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45016,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Peculiar Light<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases targets' magic vulnerability by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45017,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dripping Fang<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Poison<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 75
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45018,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Stone Gaze<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 750.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Petrification<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 42s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45019,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Main Trap<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45020,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>White Breath<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Disease<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Disease Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces movement speed by 80% and HP recovered via healing magic by 95%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45021,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cursed Sphere<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing wind damage with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45022,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Venom<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 300 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Afflicts targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Poison<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 150
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45023,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dirty Sneeze<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing ranged earth damage with a potency of 450.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45024,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Inhale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Draws targets to familiar
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45025,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Flying Frenzy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, rushing target and delivering a blunt physical attack with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45026,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Breath Wing<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing wind damage with a potency of 800 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reduces targets' wind resistance by 20%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45027,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ice Guillotine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing ice damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45028,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Frozen Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, increasing nearby party members' magic damage dealt by 25%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45029,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Impale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45030,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tail Screw<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing water damage with a potency of 800 to target and all enemies nearby it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Small chance to reduce enemy HP to a single digit. Has no effect on enemies whose level is higher than your own.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45031,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bloody Caress<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing wind damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45032,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blighted Bouquet<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing unaspected damage with a potency of 800 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Small chance to afflict targets with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Doom<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Doom Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+45033,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Thunderbolt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing lightning damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum Familiar TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Instinctual Affinity:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45034,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Meteor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing fire damage with a potency of 1,000 to target and all enemies nearby it.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 45035,""
 45036,""
 45037,""
@@ -56301,8 +56965,12 @@ Effect cannot be stacked with Phantom Cannoneer's <UIForeground>F201FA</UIForegr
 46747,""
 46748,""
 46749,""
-46750,""
-46751,""
+46750,"Gesture threateningly, placing yourself at the top of a target's enmity list and increasing enmity generation.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Nullifies familiar's <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cover<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+46751,"Orders your familiar to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Threaten<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, placing it at the top of a target's enmity list and increasing its enmity generation.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Takes all damage intended for the beastmaster
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 45s "
 46752,""
 46753,""
 46754,""
@@ -56661,8 +57329,15 @@ Potency scales with item level."
 47089,""
 47090,""
 47091,""
-47092,""
-47093,""
+47092,"Orders your familiar to execute a controlled technique.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),44))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while in combat and under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+47093,"Orders your familiar to execute an instinctual skill.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Minimum TP Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, or <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7s
+Effects granted by this action may be paired with beastmaster instinctual skills to create combos."
 47094,""
 47095,""
 47096,""
@@ -56807,14 +57482,62 @@ Potency scales with item level."
 47235,""
 47236,""
 47237,""
-47238,""
-47239,""
-47240,""
-47241,""
-47242,""
-47243,""
-47244,""
-47245,""
+47238,"Borrows aether from your familiar to grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beast Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Beast Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Enables execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beastskin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+47239,"Borrows aether from your familiar to grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vile Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Vile Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Enables execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vileskin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+47240,"Borrows aether from your familiar to grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cloud Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cloud Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Enables execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cloud Skim<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+47241,"Borrows aether from your familiar to grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seed Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Seed Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Enables execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Seedsower<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+47242,"Borrows aether from your familiar to grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wave Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Wave Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Enables execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Quelling Wave<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+47243,"Borrows aether from your familiar to grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scale Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Scale Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Enables execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Scaleskin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+47244,"Borrows aether from your familiar to grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Soul Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Soul Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Enables execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Crush<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+47245,"Borrows aether from your familiar to grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ash Kinship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Ash Kinship Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Enables execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Scouring Ash<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+Expiration timer is halted while your familiar is summoned.
+<If(Equal(PlayerParameter(68),43))><If(GreaterThanOrEqualTo(PlayerParameter(72),46))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lingering Vantage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>One with Nature<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 47246,"Crush your competitors with a king-sized hop.
 ※Has no effect in battle."
 47247,""
@@ -60417,7 +61140,8 @@ Effect is dispelled when HP is restored to full."
 50728,""
 50729,""
 50730,""
-50731,""
+50731,"Rake the ground with your pitchfork.
+※Has no effect in battle."
 50732,"Drive your shovel into the ground.
 ※Has no effect in battle."
 50733,""

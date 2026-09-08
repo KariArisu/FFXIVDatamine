@@ -530,7 +530,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,ModelChara,byte,byte,byte,byte
 526,"wind-up Zero",0,"wind-up Zeros",0,0,1,1,0,4124,100,10,10,0,0,1,0,0,0,8,523,False,True,False,True,False,0,False,True,4926,9052,True,0,25,600,20,120,20,2,605,3
 527,"wind-up Erenville",0,"wind-up Erenvilles",0,0,1,0,0,4125,100,10,0,0,0,1,0,0,0,8,524,False,True,False,True,False,0,False,True,4927,9053,True,0,15,500,11,360,20,1,617,3
 528,"Nano Lord",0,"Nano Lords",0,0,1,0,0,4385,100,10,0,0,0,1,0,0,0,8,525,False,True,False,True,False,0,False,True,4928,2111,True,0,30,620,10,0,20,1,620,2
-529,"uma-no-unicolt",0,"uma-no-unicolts",0,0,1,0,0,4386,100,10,0,0,0,2,0,0,0,8,526,True,False,True,False,True,0,False,True,4929,3006,False,0,20,480,8,30,20,1,621,1
+529,"uma-no-unicolt",0,"uma-no-unicolts",0,0,1,0,0,4386,100,10,0,0,0,2,0,0,0,8,526,True,False,True,False,True,0,False,True,4929,3006,True,0,20,480,8,30,20,1,621,1
 530,"Adamant Weapon",0,"Adamant Weapons",0,1,1,0,0,4387,100,10,0,0,0,1,0,0,0,8,497,False,True,False,True,False,0,False,True,4930,8303,True,0,20,500,31,0,40,1,620,3
 531,"toco toquito",0,"toco toquitos",0,0,1,0,0,4388,100,10,0,0,0,2,2,0,0,8,527,True,False,True,False,True,0,False,True,4931,5014,True,0,25,500,43,0,20,1,620,1
 532,"shshuye",0,"shshuyes",0,0,1,0,0,4389,100,10,0,0,0,2,0,0,0,8,528,True,False,True,False,True,0,False,True,4932,3042,True,0,15,510,1,30,30,1,606,1
@@ -568,18 +568,18 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,ModelChara,byte,byte,byte,byte
 564,"mini yan",0,"mini yan",0,0,1,0,0,4489,100,10,0,0,0,2,0,0,0,8,550,True,False,True,False,True,0,False,True,4946,1118,True,0,10,360,42,0,20,1,620,2
 565,"gimme kitten",0,"gimme kittens",0,0,1,0,0,4490,100,10,0,0,0,2,0,0,0,8,551,True,False,True,False,True,0,False,True,4947,1119,True,0,20,550,28,120,20,1,605,2
 566,"sin beaver",0,"sin beavers",0,0,1,0,0,4708,100,10,5,0,0,2,0,0,0,8,391,True,False,True,False,True,0,False,True,4967,6004,True,0,15,440,14,30,20,1,621,1
-567,"little mermaid",0,"little mermaids",0,0,1,0,0,4805,100,10,0,0,0,2,5,0,0,8,552,False,True,False,True,False,0,False,True,4968,1120,False,0,15,350,6,360,30,1,600,2
-568,"magic lamp",0,"magic lamps",0,0,1,0,0,4806,100,10,0,0,0,1,0,0,0,8,553,False,True,False,True,False,0,False,True,4969,11521,False,0,15,500,17,0,30,1,620,4
-569,"Droningway",0,"Droningways",0,0,1,0,1,4807,100,10,0,0,0,1,0,0,0,8,540,False,True,False,True,False,0,False,True,4970,11039,False,0,10,400,19,120,30,1,608,4
-570,"G-Warrior MGSD",0,"G-Warriors MGSD",0,0,1,0,0,4808,100,10,0,0,0,1,0,0,0,8,554,False,True,False,True,False,0,False,True,4971,8304,False,0,15,400,45,0,60,1,620,3
-571,"La Noscean shorthair",0,"La Noscean shorthairs",0,0,1,0,0,4809,100,10,0,0,0,2,0,0,0,8,555,True,False,True,False,True,0,False,True,4972,3046,False,0,20,540,20,120,20,1,605,1
-572,"gallant shepherd",0,"gallant shepherds",0,0,1,0,0,4810,100,10,0,0,0,2,0,0,0,8,556,True,False,True,False,True,0,False,True,4973,3047,False,0,25,520,9,0,20,1,620,1
+567,"little mermaid",0,"little mermaids",0,0,1,0,0,4805,100,10,0,0,0,2,5,0,0,8,552,False,True,False,True,False,0,False,True,4968,1120,True,0,15,350,6,360,30,1,600,2
+568,"magic lamp",0,"magic lamps",0,0,1,0,0,4806,100,10,0,0,0,1,0,0,0,8,553,False,True,False,True,False,0,False,True,4969,11521,True,0,15,500,17,0,30,1,620,4
+569,"Droningway",0,"Droningways",0,0,1,0,1,4807,100,10,0,0,0,1,0,0,0,8,540,False,True,False,True,False,0,False,True,4970,11039,True,0,10,400,19,120,30,1,608,4
+570,"G-Warrior MGSD",0,"G-Warriors MGSD",0,0,1,0,0,4808,100,10,0,0,0,1,0,0,0,8,554,False,True,False,True,False,0,False,True,4971,8304,True,0,15,400,45,0,60,1,620,3
+571,"La Noscean shorthair",0,"La Noscean shorthairs",0,0,1,0,0,4809,100,10,0,0,0,2,0,0,0,8,555,True,False,True,False,True,0,False,True,4972,3046,True,0,20,540,20,120,20,1,605,1
+572,"gallant shepherd",0,"gallant shepherds",0,0,1,0,0,4810,100,10,0,0,0,2,0,0,0,8,556,True,False,True,False,True,0,False,True,4973,3047,True,0,25,520,9,0,20,1,620,1
 573,"wind-up Yuffie",0,"wind-up Yuffies",0,0,1,0,0,4811,100,10,0,0,0,1,0,0,0,8,371,False,True,False,True,False,0,False,True,4974,12074,False,0,20,500,49,0,30,1,620,3
 574,"wind-up Vincent",0,"wind-up Vincents",0,0,1,0,0,4812,100,10,0,0,0,1,0,0,0,8,371,False,True,False,True,False,0,False,True,4975,12075,False,0,30,700,2,30,20,1,603,3
-575,"wind-up Red XIII",0,"wind-up Red XIIIs",0,0,1,0,0,4813,100,10,0,0,0,1,0,0,0,8,371,False,True,False,True,False,0,False,True,4976,12076,False,0,25,550,4,120,20,1,605,3
-576,"Grooving Green",0,"Grooving Greens",0,0,1,0,1,4814,100,10,10,0,0,1,0,0,0,8,557,False,True,False,True,False,0,False,True,4977,2013,False,0,30,580,46,0,20,2,620,3
-577,"Mistic condor",0,"Mistic condors",0,0,1,0,0,4815,100,10,0,0,0,2,2,0,0,8,558,True,False,True,False,True,0,False,True,4978,5016,False,0,10,320,31,0,30,1,620,1
-578,"soothing sea-beast",0,"soothing sea-beasts",0,0,1,0,0,4828,120,10,0,0,0,2,5,0,0,8,506,True,False,True,False,True,0,False,True,4980,4016,False,0,10,420,13,30,20,1,604,1
+575,"wind-up Red XIII",0,"wind-up Red XIIIs",0,0,1,0,0,4813,100,10,0,0,0,1,0,0,0,8,371,False,True,False,True,False,0,False,True,4976,12076,True,0,25,550,4,120,20,1,605,3
+576,"Grooving Green",0,"Grooving Greens",0,0,1,0,1,4814,100,10,10,0,0,1,0,0,0,8,557,False,True,False,True,False,0,False,True,4977,2013,True,0,30,580,46,0,20,2,620,3
+577,"Mistic condor",0,"Mistic condors",0,0,1,0,0,4815,100,10,0,0,0,2,2,0,0,8,558,True,False,True,False,True,0,False,True,4978,5016,True,0,10,320,31,0,30,1,620,1
+578,"soothing sea-beast",0,"soothing sea-beasts",0,0,1,0,0,4828,120,10,0,0,0,2,5,0,0,8,506,True,False,True,False,True,0,False,True,4980,4016,True,0,10,420,13,30,20,1,604,1
 579,"Senor Otter",0,"Senor Otters",0,0,1,0,1,4783,100,0,10,0,0,2,0,0,0,8,280,True,False,True,False,True,0,False,True,4979,4003,False,0,20,520,9,0,20,2,620,1
 580,"little blue viking",0,"little blue vikings",0,0,1,0,0,4949,100,10,0,0,0,1,0,0,0,8,559,False,True,False,True,False,0,False,True,4981,10030,False,0,10,395,38,120,30,1,609,3
 581,"little red viking",0,"little red vikings",0,0,1,0,0,4950,100,10,0,0,0,1,0,0,0,8,559,False,True,False,True,False,0,False,True,4982,10031,False,0,10,450,1,30,20,1,604,3
@@ -589,7 +589,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,ModelChara,byte,byte,byte,byte
 585,"tiny omniscient",0,"tiny omniscients",0,0,1,0,0,4954,100,10,0,0,0,1,0,0,0,8,562,False,True,False,True,False,0,False,True,4986,1121,False,0,25,540,35,360,30,1,634,2
 586,"puny mage",0,"puny mages",0,0,1,0,0,4955,100,10,0,0,0,1,0,0,0,8,563,False,True,False,True,False,0,False,True,4987,10032,False,0,10,280,29,360,20,1,623,3
 587,"wind-up Wuk Lamat",0,"wind-up Wuk Lamats",0,0,1,0,0,4956,100,10,0,0,0,1,0,0,0,8,524,False,True,False,True,False,0,False,True,4988,9053,False,0,10,430,42,0,20,1,620,3
-588,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+588,"Laudouble",0,"Laudoubles",0,0,1,0,1,4957,100,10,0,0,0,2,0,0,0,8,564,True,False,True,False,True,0,False,True,4989,1122,False,0,20,450,43,0,20,1,620,2
 589,"wind-up Prishe",0,"wind-up Prishes",0,0,1,0,0,4958,100,10,0,0,0,1,0,0,0,8,358,False,True,False,True,False,0,False,True,4990,12112,False,0,25,520,17,0,30,1,620,3
 590,"wind-up köttr",0,"wind-up kettir",0,0,1,0,0,4959,100,10,0,0,0,1,0,0,0,8,565,False,True,False,True,False,0,False,True,4991,7018,False,0,10,320,35,360,30,1,634,3
 591,"budvi",0,"budvis",0,0,1,0,0,4960,100,10,0,0,0,2,0,0,0,8,566,True,False,True,False,True,0,False,True,4992,9512,False,0,30,600,41,0,20,1,620,1

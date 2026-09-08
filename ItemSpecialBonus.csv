@@ -12,4 +12,4 @@ int32,str,str
 8,"Save the Queen Area Effect:",""
 9,"Occult Crescent Effect:",""
 10,"Occult Crescent Set Bonus: ","Requires <Value>IntegerParameter(1)</Value> Set <If(Equal(IntegerParameter(1),1))>Piece<Else/>Pieces</If> Equipped"
-11,"",""
+11,"Crucible Effect:",""

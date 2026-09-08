@@ -691,11 +691,11 @@ int32,str,Image,ClassJob,byte,byte,Quest,uint32,ClassJobCategory,byte,byte
 687,"",0,False,0,0,0,0,0,0,0
 688,"",0,False,0,0,0,0,0,0,0
 689,"",0,False,0,0,0,0,0,0,0
-690,"",0,False,0,0,0,0,0,0,0
-691,"",0,False,0,0,0,0,0,0,0
-692,"",0,False,0,0,0,0,0,0,0
-693,"",0,False,0,0,0,0,0,0,0
-694,"",0,False,0,0,0,0,0,0,0
+690,"Wild Heart",6601,False,43,203,4,0,0,203,0
+691,"Wild Heart II",6602,False,43,203,8,0,0,203,0
+692,"Battlehorn Mastery",6603,False,43,203,18,0,0,203,0
+693,"Wild Heart IV",6608,False,43,203,40,0,0,203,0
+694,"Wild Heart III",6604,False,43,203,28,0,0,203,0
 695,"",0,False,0,0,0,0,0,0,0
 696,"",0,False,0,0,0,0,0,0,0
 697,"",0,False,0,0,0,0,0,0,0
@@ -750,16 +750,16 @@ int32,str,Image,ClassJob,byte,byte,Quest,uint32,ClassJobCategory,byte,byte
 746,"",0,False,0,0,0,0,0,0,0
 747,"",0,False,0,0,0,0,0,0,0
 748,"",0,False,0,0,0,0,0,0,0
-749,"",0,False,0,0,0,0,0,0,0
-750,"",0,False,0,0,0,0,0,0,0
-751,"",0,False,0,0,0,0,0,0,0
-752,"",0,False,0,0,0,0,0,0,0
+749,"Tempered Release Mastery",6610,False,43,203,44,0,0,203,0
+750,"Enhanced Borrow",6611,False,43,203,46,0,0,203,0
+751,"Enhanced Shield Charge",6607,False,43,203,36,0,3,203,0
+752,"Beastmastery",6806,False,43,203,38,0,0,203,0
 753,"",0,False,0,0,0,0,0,0,0
-754,"",0,False,0,0,0,0,0,0,0
-755,"",0,False,0,0,0,0,0,0,0
-756,"",0,False,0,0,0,0,0,0,0
-757,"",0,False,0,0,0,0,0,0,0
-758,"",0,False,0,0,0,0,0,0,0
+754,"Battlehorn Mastery II",6605,False,43,203,30,0,0,203,0
+755,"Battlehorn Mastery III",6606,False,43,203,34,0,0,203,0
+756,"Enhanced Rally",6609,False,43,203,42,0,-300,203,0
+757,"Enhanced Rallying Cheer",6612,False,43,203,48,0,-300,203,0
+758,"Instinctual Mastery",6613,False,43,203,50,0,0,203,0
 759,"",0,False,0,0,0,0,0,0,0
 760,"",0,False,0,0,0,0,0,0,0
 761,"",0,False,0,0,0,0,0,0,0

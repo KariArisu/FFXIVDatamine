@@ -179,15 +179,22 @@ Following these indicators will help ensure the use of combos that finish with a
 155,""
 156,""
 157,"Execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bloodfest<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will grant an affect that increases the maximum number of cartridges to 4. Upon learning the trait <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cartridge Charge II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (acquired at level 88), <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bloodfest<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will increase the maximum number of cartridges to 6."
-158,""
-159,""
-160,""
-161,""
-162,""
-163,""
-164,""
-165,""
-166,""
+158,"TP Gauge"
+159,"Inner Compass"
+160,"Upon learning the trait <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wild Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you may now accumulate TP by completing combos. After accumulating at least 100 TP, you may expend it all to perform weaponskills with power proportionate to the amount of TP used. Weaponskills that require TP to execute are known as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>instinctual skills<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+161,"The Inner Compass reflects cooperation between you and your familiars. Four instinctual affinities exist for both beastmaster and familiar weaponskills: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Volant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eldritch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. When an instinctual skill with one such affinity is executed, its corresponding symbol will light up. If either the beastmaster or familiar executes another instinctual skill within seven seconds of the previous one, an <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>instinctual combo<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be completed, dealing extra damage."
+162,"Furthermore, if the second instinctual skill performed runs clockwise on the Inner Compass, an <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>intentional combo<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be completed. Examples of intentional combo affinities are as follows:
+　・Volant → Rampant
+　・Rampant → Durant
+　・Durant → Eldritch
+　・Eldritch → Volant
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Intentional combos<UIGlow>01</UIGlow><UIForeground>01</UIForeground> are additionally categorized by two instinctual affinities: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sunstrider<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Moonstalker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Upon completion of these combos, the corresponding side of the Inner Compass will light up. Illuminating the entire Compass may trigger an incredibly powerful attack, so keep honing your skills as a beastmaster until you can accomplish such a feat.
+
+Note that the number of chained instinctual skills is recorded beneath the compass. A higher number increases the potency of extra damage dealt by combos."
+163,"Upon learning the trait <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wild Heart II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, your familiar may now accumulate TP via its auto-attacks or by executing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Parting Blow<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. After accumulating at least 100 TP, you may order your familiar to perform its <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Trick<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, thereby expending TP to execute an instinctual skill."
+164,"Upon learning the trait <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wild Heart III<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you may now accumulate stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mastered Instinct<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by completing combos with beastmaster instinctual skills. All accumulated stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mastered Instinct<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be spent upon executing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rally<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which instantly increases your TP Gauge proportionate to the number of stacks spent."
+165,"Upon learning the trait <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wild Heart IV<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, your familiar may now accumulate stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Natural Instinct<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by completing combos with familiar instinctual skills. All accumulated stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Natural Instinct<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be spent upon executing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rallying Cheer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which instantly increases the Familiar TP Gauge proportionate to the number of stacks spent."
+166,"TP Gauge/Wild Heart"
 167,""
 168,""
 169,""
